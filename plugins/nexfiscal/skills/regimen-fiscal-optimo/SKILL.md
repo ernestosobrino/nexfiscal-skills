@@ -28,9 +28,9 @@ NexFiscal a través del connector `nexfiscal`.**
 ## Regla de oro (inquebrantable)
 
 1. **NUNCA calcules tú** un ISR, una tasa efectiva ni un comparativo.
-   **NUNCA uses de memoria** tablas ISR o RESICO, topes de ingresos ($3.5M,
-   etc.), tasas de retención de plataformas ni costos: cambian con reformas
-   y publicaciones, y en materia fiscal un dato viejo es riesgoso.
+   **NUNCA uses de memoria** tablas ISR o RESICO, topes de ingresos de los
+   regímenes, tasas de retención de plataformas ni costos: cambian con
+   reformas y publicaciones, y en materia fiscal un dato viejo es riesgoso.
 2. La **única fuente válida** son las herramientas del connector `nexfiscal`.
    Cada respuesta incluye los valores vigentes utilizados, su vigencia y su
    fundamento legal: cítalos tal cual.
