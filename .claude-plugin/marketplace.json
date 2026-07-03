@@ -11,8 +11,8 @@
     {
       "name": "nexfiscal",
       "source": "./plugins/nexfiscal",
-      "description": "Suite NexFiscal: skills fiscales, laborales y legales para contadores en México. Los valores vigentes y los cálculos se obtienen del backend NexFiscal vía connector (requiere suscripción activa).",
-      "version": "0.1.0",
+      "description": "Suite NexFiscal: skills fiscales, laborales y legales para contadores en México. Los valores vigentes y los cálculos se obtienen del backend NexFiscal vía connector (requiere suscripción activa). Incluye: Calculadora de Nómina MX (nómina, finiquito, costo del trabajador, consultas de valores).",
+      "version": "0.2.0",
       "author": { "name": "NexFiscal.app" },
       "tags": ["fiscal", "nomina", "mexico", "contadores", "sat", "imss"]
     }

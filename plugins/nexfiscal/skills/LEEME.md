@@ -12,4 +12,4 @@ Reglas de toda skill de esta carpeta (ver CLAUDE.md del repo):
 - La skill instruye de forma tajante usar el connector y **nunca** valores de memoria ni tablas locales.
 - Sin suscripción activa la skill no entrega números: advierte que la suscripción venció y que los valores pueden estar desactualizados.
 
-La primera en llegar será `calculadora-nomina-mx/` (nómina regular + finiquito), refactor de la skill original una vez que el backend piloto esté en línea (Fase 3).
+**Ya disponible:** `calculadora-nomina-mx/` (nómina regular, finiquito, costo del trabajador y consultas de valores) — refactor a cascarón de la skill original, conectada al backend de producción `mcp.nexfiscal.app`. Las 7 restantes se suman con este mismo patrón (Grupo A primero).
