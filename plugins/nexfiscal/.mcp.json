@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "nexfiscal": {
+      "type": "http",
+      "url": "https://PENDIENTE-FASE-3.nexfiscal.app/mcp"
+    }
+  }
+}

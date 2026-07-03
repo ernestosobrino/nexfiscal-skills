@@ -1,0 +1,9 @@
+{
+  "name": "nexfiscal",
+  "description": "Suite NexFiscal — skills fiscales, laborales y legales para contadores en México. Los valores fiscales vigentes y todos los cálculos se obtienen del backend NexFiscal a través del connector incluido; requiere suscripción activa.",
+  "version": "0.1.0",
+  "author": {
+    "name": "NexFiscal.app"
+  },
+  "homepage": "https://skills.nexfiscal.mx"
+}
