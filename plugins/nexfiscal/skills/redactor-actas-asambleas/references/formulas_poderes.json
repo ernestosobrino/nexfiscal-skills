@@ -1,0 +1,72 @@
+{
+  "version": "1.0",
+  "ultima_actualizacion": "2026-03-28",
+  "fuente": "Art. 2554-2596 Código Civil Federal",
+
+  "poderes": {
+    "general_actos_dominio": {
+      "nombre": "Poder General para Actos de Dominio",
+      "fundamento": "Art. 2554 párrafo tercero CC",
+      "formula": "Se confiere PODER GENERAL PARA ACTOS DE DOMINIO en los términos del párrafo tercero del artículo 2554 del Código Civil Federal y sus correlativos de los Códigos Civiles de las Entidades Federativas de los Estados Unidos Mexicanos, sin limitación alguna de conformidad con lo dispuesto por el primer párrafo del artículo 2555 del Código Civil Federal, para que lo ejerza en nombre y representación del poderdante, incluyendo enunciativamente y no limitativamente, las facultades para vender, comprar, donar, hipotecar, dar en garantía, permutar, gravar, arrendar y, en general, para realizar cualquier acto de dominio, ya sea respecto de bienes muebles o inmuebles, derechos reales o personales.",
+      "incluye": "Todos los actos de administración y pleitos y cobranzas",
+      "protocolizacion": true,
+      "rppc": true,
+      "advertencia": "Es el poder más amplio. Permite al apoderado disponer de todos los bienes."
+    },
+
+    "general_actos_administracion": {
+      "nombre": "Poder General para Actos de Administración",
+      "fundamento": "Art. 2554 párrafo segundo CC",
+      "formula": "Se confiere PODER GENERAL PARA ACTOS DE ADMINISTRACIÓN en los términos del párrafo segundo del artículo 2554 del Código Civil Federal y sus correlativos de los Códigos Civiles de las Entidades Federativas de los Estados Unidos Mexicanos, sin limitación alguna de conformidad con lo dispuesto por el primer párrafo del artículo 2555 del Código Civil Federal, para que lo ejerza en nombre y representación del poderdante, incluyendo de manera enunciativa y no limitativa las siguientes facultades: administrar bienes, celebrar contratos, abrir y cancelar cuentas bancarias, suscribir títulos de crédito, cobrar y otorgar recibos, realizar operaciones bancarias, comparecer ante autoridades administrativas y fiscales, y en general, realizar cualquier acto de administración sin limitación alguna.",
+      "no_incluye": "Actos de disposición (venta, donación, gravamen de bienes)",
+      "protocolizacion": true,
+      "rppc": true
+    },
+
+    "general_pleitos_cobranzas": {
+      "nombre": "Poder General para Pleitos y Cobranzas",
+      "fundamento": "Art. 2554 párrafo primero CC",
+      "formula": "Se confiere PODER GENERAL PARA PLEITOS Y COBRANZAS en los términos del párrafo primero del artículo 2554 del Código Civil Federal y sus correlativos de los Códigos Civiles de las Entidades Federativas de los Estados Unidos Mexicanos, con todas las facultades generales y las especiales que requieran cláusula especial conforme a la ley, en los términos del artículo 2587 del Código Civil Federal, incluyendo de manera enunciativa y no limitativa: presentar y contestar demandas, reconvenir, desistir, transigir, comprometer en árbitros, absolver y articular posiciones, recusar, hacer cesión de bienes, recibir pagos, presentar y objetar pruebas, interponer toda clase de recursos e incidentes, y realizar todos los actos procesales que sean necesarios para la defensa de los intereses del poderdante.",
+      "clausula_especial": {
+        "con_facultades_especiales": "...con todas las facultades generales y las especiales que requieran cláusula especial conforme a la ley, en los términos de los artículos 2587 y 2582 del Código Civil Federal...",
+        "sin_facultades_especiales": "...con todas las facultades generales para pleitos y cobranzas...",
+        "fundamento": "Art. 2587 CC"
+      },
+      "protocolizacion": true,
+      "rppc": true
+    },
+
+    "especial": {
+      "nombre": "Poder Especial",
+      "fundamento": "Art. 2554 CC",
+      "nota": "Se redacta específicamente para el acto requerido",
+      "ejemplos": [
+        "Poder especial para vender el inmueble ubicado en [dirección]",
+        "Poder especial para representar ante el SAT en el procedimiento [X]",
+        "Poder especial para suscribir el contrato de [tipo] con [empresa]",
+        "Poder especial para cobrar la cantidad de $[monto] derivada de [concepto]"
+      ],
+      "protocolizacion": "Depende del acto (generalmente sí si involucra bienes inmuebles)",
+      "rppc": "Generalmente no"
+    },
+
+    "representacion_sat": {
+      "nombre": "Poder para Actos de Administración ante SAT",
+      "fundamento": "Art. 19 CFF",
+      "formula": "Se confiere PODER GENERAL PARA ACTOS DE ADMINISTRACIÓN en los términos del artículo 2554 del Código Civil Federal, con las facultades suficientes para representar al poderdante ante el Servicio de Administración Tributaria y cualquier autoridad fiscal federal, estatal o municipal, incluyendo la facultad de presentar declaraciones, solicitudes, avisos, recursos administrativos, consultas, y realizar cualquier trámite o gestión ante dichas autoridades.",
+      "nota": "Para trámites ante SAT, la representación puede acreditarse con carta poder firmada ante dos testigos conforme al Art. 19 CFF, sin necesidad de poder notarial para ciertos trámites."
+    }
+  },
+
+  "revocacion": {
+    "formula": "Se REVOCA en todas y cada una de sus partes el poder [tipo de poder] otorgado a favor de [nombre del apoderado], mediante [escritura pública número X / acta de asamblea de fecha X], dejando sin efecto alguno todas las facultades conferidas en dicho instrumento.",
+    "fundamento": "Art. 2595-2596 CC",
+    "nota": "La revocación debe inscribirse en RPPC para que surta efectos frente a terceros. Se recomienda notificar al apoderado por escrito."
+  },
+
+  "reglas_generales": {
+    "quien_otorga_en_sociedad": "Los poderes de una sociedad pueden ser otorgados por: la asamblea de socios/accionistas, el administrador único (si tiene facultades), o el consejo de administración (Art. 10 LGSM).",
+    "sustitucion": "Los apoderados pueden sustituir el poder solo si expresamente se les faculta para ello.",
+    "vigencia": "Los poderes no tienen fecha de vencimiento salvo que expresamente se establezca. Se extinguen por revocación, muerte del poderdante (PF), o disolución (PM)."
+  }
+}

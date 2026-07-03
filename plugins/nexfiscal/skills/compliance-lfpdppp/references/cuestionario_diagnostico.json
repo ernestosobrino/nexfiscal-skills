@@ -1,0 +1,352 @@
+{
+  "metadata": {
+    "fuente": "Elaboración propia con base en LFPDPPP, Reglamento, Lineamientos y mejores prácticas INAI",
+    "ultima_actualizacion": "2026-04",
+    "uso": "Banco de preguntas para el módulo de diagnóstico. Cada pregunta vale 0-2 puntos."
+  },
+  "escala_calificacion": {
+    "0": "No cumple",
+    "1": "Cumple parcialmente",
+    "2": "Cumple plenamente",
+    "NA": "No aplica al sector/tamaño del responsable"
+  },
+  "dimensiones": {
+    "1_aviso_de_privacidad": {
+      "peso_relativo": 20,
+      "preguntas": [
+        {
+          "id": "AP-01",
+          "pregunta": "¿La organización cuenta con aviso de privacidad integral?",
+          "obligatorio": true,
+          "fundamento": "Art. 16 LFPDPPP"
+        },
+        {
+          "id": "AP-02",
+          "pregunta": "¿El aviso integral incluye los 11 elementos del Art. 16 LFPDPPP?",
+          "obligatorio": true,
+          "fundamento": "Art. 16 LFPDPPP, Lineamientos del Aviso"
+        },
+        {
+          "id": "AP-03",
+          "pregunta": "¿El aviso identifica claramente cuáles datos son sensibles, cuando los hay?",
+          "obligatorio_si": "Recaba datos sensibles",
+          "fundamento": "Art. 9 LFPDPPP"
+        },
+        {
+          "id": "AP-04",
+          "pregunta": "¿Las finalidades primarias están separadas de las secundarias?",
+          "obligatorio": true,
+          "fundamento": "Lineamientos del Aviso de Privacidad"
+        },
+        {
+          "id": "AP-05",
+          "pregunta": "¿Existe mecanismo claro y accesible para que el titular se oponga a finalidades secundarias?",
+          "obligatorio_si": "Tiene finalidades secundarias",
+          "fundamento": "Art. 12 LFPDPPP"
+        },
+        {
+          "id": "AP-06",
+          "pregunta": "¿Existe aviso de privacidad simplificado para puntos de contacto con espacio limitado (formularios, tickets, etc.)?",
+          "obligatorio_si": "Tiene formularios o puntos físicos breves"
+        },
+        {
+          "id": "AP-07",
+          "pregunta": "¿Existe aviso de privacidad para empleados, distinto del aviso a clientes?",
+          "obligatorio_si": "Tiene empleados",
+          "fundamento": "Practica recomendada por INAI"
+        },
+        {
+          "id": "AP-08",
+          "pregunta": "¿El aviso se proporciona ANTES del tratamiento de los datos?",
+          "obligatorio": true,
+          "fundamento": "Art. 17 LFPDPPP"
+        },
+        {
+          "id": "AP-09",
+          "pregunta": "¿Está fácilmente accesible en sitio web, oficinas y puntos de contacto?",
+          "obligatorio": true
+        },
+        {
+          "id": "AP-10",
+          "pregunta": "¿Se ha actualizado el aviso en los últimos 24 meses (o cuando hubo cambios sustantivos)?",
+          "obligatorio": false
+        }
+      ]
+    },
+    "2_consentimiento": {
+      "peso_relativo": 15,
+      "preguntas": [
+        {
+          "id": "CO-01",
+          "pregunta": "¿Existe mecanismo para acreditar que el titular conoció el aviso de privacidad?",
+          "obligatorio": true,
+          "fundamento": "Art. 8 LFPDPPP"
+        },
+        {
+          "id": "CO-02",
+          "pregunta": "¿Para datos sensibles se recaba consentimiento expreso y por escrito?",
+          "obligatorio_si": "Recaba datos sensibles",
+          "fundamento": "Art. 9 LFPDPPP"
+        },
+        {
+          "id": "CO-03",
+          "pregunta": "¿Para transferencias que requieren consentimiento, se obtiene de forma expresa?",
+          "obligatorio_si": "Hay transferencias que requieren consentimiento",
+          "fundamento": "Art. 36 LFPDPPP"
+        },
+        {
+          "id": "CO-04",
+          "pregunta": "¿Existe mecanismo claro para que el titular revoque su consentimiento?",
+          "obligatorio": true,
+          "fundamento": "Art. 8 último párrafo LFPDPPP"
+        },
+        {
+          "id": "CO-05",
+          "pregunta": "¿Se conserva evidencia documental del consentimiento (firmas, registros electrónicos, grabaciones)?",
+          "obligatorio": true
+        },
+        {
+          "id": "CO-06",
+          "pregunta": "¿Si trata datos de menores, recaba consentimiento de quien ejerce patria potestad o tutela?",
+          "obligatorio_si": "Trata datos de menores"
+        }
+      ]
+    },
+    "3_encargado_de_datos": {
+      "peso_relativo": 10,
+      "preguntas": [
+        {
+          "id": "ED-01",
+          "pregunta": "¿Se ha designado formalmente una persona o departamento responsable de la protección de datos?",
+          "obligatorio": true,
+          "fundamento": "Art. 30 LFPDPPP"
+        },
+        {
+          "id": "ED-02",
+          "pregunta": "¿Las funciones del Encargado/Departamento están documentadas y formalizadas?",
+          "obligatorio": true
+        },
+        {
+          "id": "ED-03",
+          "pregunta": "¿Los datos de contacto del Encargado están incluidos en el aviso de privacidad?",
+          "obligatorio": true
+        },
+        {
+          "id": "ED-04",
+          "pregunta": "¿El Encargado tiene capacitación específica en LFPDPPP?",
+          "obligatorio": false
+        },
+        {
+          "id": "ED-05",
+          "pregunta": "¿Existe presupuesto o recursos asignados para la función de protección de datos?",
+          "obligatorio": false
+        }
+      ]
+    },
+    "4_derechos_arco": {
+      "peso_relativo": 15,
+      "preguntas": [
+        {
+          "id": "AR-01",
+          "pregunta": "¿Existe procedimiento documentado para recibir y atender solicitudes ARCO?",
+          "obligatorio": true,
+          "fundamento": "Art. 28 LFPDPPP"
+        },
+        {
+          "id": "AR-02",
+          "pregunta": "¿Existe formato/plantilla para solicitudes ARCO?",
+          "obligatorio": false
+        },
+        {
+          "id": "AR-03",
+          "pregunta": "¿El personal capacitado sabe identificar y derivar una solicitud ARCO?",
+          "obligatorio": true
+        },
+        {
+          "id": "AR-04",
+          "pregunta": "¿Se cumplen los plazos legales (20 días respuesta + 15 días materialización)?",
+          "obligatorio": true,
+          "fundamento": "Art. 32 LFPDPPP"
+        },
+        {
+          "id": "AR-05",
+          "pregunta": "¿Se lleva bitácora de solicitudes ARCO recibidas, su tratamiento y resultado?",
+          "obligatorio": true
+        },
+        {
+          "id": "AR-06",
+          "pregunta": "¿Las respuestas a ARCO son gratuitas (salvo gastos justificados de envío)?",
+          "obligatorio": true,
+          "fundamento": "Art. 35 LFPDPPP"
+        }
+      ]
+    },
+    "5_documento_de_seguridad": {
+      "peso_relativo": 15,
+      "preguntas": [
+        {
+          "id": "DS-01",
+          "pregunta": "¿Existe Documento de Seguridad formalmente elaborado y aprobado?",
+          "obligatorio": true,
+          "fundamento": "Art. 60 Reglamento LFPDPPP"
+        },
+        {
+          "id": "DS-02",
+          "pregunta": "¿Incluye inventario de datos personales y sistemas?",
+          "obligatorio": true,
+          "fundamento": "Art. 60 Fracc. I Reglamento"
+        },
+        {
+          "id": "DS-03",
+          "pregunta": "¿Incluye funciones y obligaciones del personal que trata datos?",
+          "obligatorio": true,
+          "fundamento": "Art. 60 Fracc. II Reglamento"
+        },
+        {
+          "id": "DS-04",
+          "pregunta": "¿Incluye análisis de riesgos y de brecha?",
+          "obligatorio": true,
+          "fundamento": "Art. 60 Fracc. III y IV Reglamento"
+        },
+        {
+          "id": "DS-05",
+          "pregunta": "¿Incluye plan de trabajo y mecanismos de monitoreo?",
+          "obligatorio": true,
+          "fundamento": "Art. 60 Fracc. V y VI Reglamento"
+        },
+        {
+          "id": "DS-06",
+          "pregunta": "¿Incluye programa de capacitación al personal?",
+          "obligatorio": true,
+          "fundamento": "Art. 60 Fracc. VII Reglamento"
+        },
+        {
+          "id": "DS-07",
+          "pregunta": "¿Se ha implementado capacitación efectiva (con registros) en los últimos 12 meses?",
+          "obligatorio": false
+        },
+        {
+          "id": "DS-08",
+          "pregunta": "¿Las medidas técnicas incluyen cifrado de datos sensibles?",
+          "obligatorio_si": "Maneja datos sensibles"
+        },
+        {
+          "id": "DS-09",
+          "pregunta": "¿Existen controles de acceso lógico (usuarios, contraseñas, MFA)?",
+          "obligatorio": true
+        },
+        {
+          "id": "DS-10",
+          "pregunta": "¿Existen respaldos periódicos verificados?",
+          "obligatorio": true
+        },
+        {
+          "id": "DS-11",
+          "pregunta": "¿Hay control de acceso físico a áreas con datos personales?",
+          "obligatorio": true
+        }
+      ]
+    },
+    "6_transferencias": {
+      "peso_relativo": 10,
+      "preguntas": [
+        {
+          "id": "TR-01",
+          "pregunta": "¿Están identificadas todas las transferencias de datos a terceros?",
+          "obligatorio": true
+        },
+        {
+          "id": "TR-02",
+          "pregunta": "¿Para cada transferencia se ha analizado si requiere consentimiento del titular?",
+          "obligatorio": true,
+          "fundamento": "Art. 36 y 37 LFPDPPP"
+        },
+        {
+          "id": "TR-03",
+          "pregunta": "¿Los proveedores que tratan datos por cuenta del responsable están vinculados por contrato con cláusulas de protección de datos?",
+          "obligatorio": true,
+          "fundamento": "Arts. 50-56 Reglamento LFPDPPP"
+        },
+        {
+          "id": "TR-04",
+          "pregunta": "¿Las transferencias internacionales cumplen Art. 36 LFPDPPP?",
+          "obligatorio_si": "Hay transferencias internacionales"
+        },
+        {
+          "id": "TR-05",
+          "pregunta": "¿Se notifica al receptor el aviso de privacidad correspondiente?",
+          "obligatorio": true,
+          "fundamento": "Art. 36 LFPDPPP"
+        }
+      ]
+    },
+    "7_vulneraciones": {
+      "peso_relativo": 15,
+      "preguntas": [
+        {
+          "id": "VU-01",
+          "pregunta": "¿Existe protocolo de respuesta a vulneraciones de seguridad?",
+          "obligatorio": true,
+          "fundamento": "Art. 20 LFPDPPP, Arts. 63-66 Reglamento"
+        },
+        {
+          "id": "VU-02",
+          "pregunta": "¿El personal sabe identificar y reportar una vulneración?",
+          "obligatorio": true
+        },
+        {
+          "id": "VU-03",
+          "pregunta": "¿Existe un procedimiento para notificar al titular sin dilación cuando hay afectación significativa?",
+          "obligatorio": true,
+          "fundamento": "Art. 20 LFPDPPP"
+        },
+        {
+          "id": "VU-04",
+          "pregunta": "¿Se ha realizado simulacro o ejercicio de respuesta a vulneraciones?",
+          "obligatorio": false
+        },
+        {
+          "id": "VU-05",
+          "pregunta": "¿Se documentan las vulneraciones, su análisis de causa raíz y medidas correctivas?",
+          "obligatorio": true,
+          "fundamento": "Arts. 64 y 65 Reglamento LFPDPPP"
+        }
+      ]
+    }
+  },
+  "calculo_global": {
+    "metodologia": "Suma ponderada por dimensión, expresada en porcentaje",
+    "niveles_resultantes": {
+      "alto_cumplimiento": {
+        "rango_pct": "85-100",
+        "interpretacion": "Cumplimiento robusto. Solo ajustes finos y monitoreo continuo.",
+        "riesgo_regulatorio": "Bajo"
+      },
+      "cumplimiento_medio": {
+        "rango_pct": "60-84",
+        "interpretacion": "Hay brechas relevantes que atender en plazo razonable.",
+        "riesgo_regulatorio": "Medio"
+      },
+      "cumplimiento_bajo": {
+        "rango_pct": "30-59",
+        "interpretacion": "Brechas significativas. Riesgo de sanción ante revisión o queja.",
+        "riesgo_regulatorio": "Alto"
+      },
+      "cumplimiento_critico": {
+        "rango_pct": "0-29",
+        "interpretacion": "Estado de cumplimiento crítico. Atención inmediata requerida.",
+        "riesgo_regulatorio": "Muy alto"
+      }
+    }
+  },
+  "preguntas_sectoriales_adicionales": {
+    "comentario": "Cuando aplique normativa sectorial, agregar preguntas específicas según normas_sectoriales.json",
+    "sectores_con_preguntas_especificas": [
+      "servicios_financieros",
+      "salud",
+      "telecomunicaciones",
+      "credito",
+      "comercio_electronico"
+    ]
+  }
+}

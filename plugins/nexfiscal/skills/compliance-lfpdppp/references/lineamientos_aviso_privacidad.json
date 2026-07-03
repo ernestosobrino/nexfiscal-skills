@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "fuente": "Lineamientos del Aviso de Privacidad (DOF 17/01/2013)",
+    "emisor": "Secretaría de Economía con opinión del IFAI (hoy INAI)",
+    "ultima_revision_doctrinaria": "2026-04",
+    "complementan": "Art. 16 LFPDPPP"
+  },
+  "modalidades_aviso": {
+    "integral": {
+      "definicion": "Aviso completo que se proporciona cuando el primer contacto físico o directo con el titular ocurre en un espacio que permita su lectura completa.",
+      "casos_uso": [
+        "Sitio web (página de privacidad accesible)",
+        "Contrato suscrito con titular",
+        "Aplicaciones móviles (sección dentro del menú)",
+        "Carteles en oficinas con espacio suficiente"
+      ]
+    },
+    "simplificado": {
+      "definicion": "Aviso que se proporciona cuando el espacio sea limitado pero permita el desarrollo de un texto reducido y dirija al titular al aviso integral.",
+      "casos_uso": [
+        "Formularios físicos breves",
+        "Tickets, recibos, comprobantes",
+        "Pantallas pequeñas de aplicación móvil al recabar",
+        "Llamadas telefónicas (versión hablada)"
+      ]
+    },
+    "corto": {
+      "definicion": "Aviso que se proporciona cuando el espacio sea tan reducido que no permita el aviso simplificado. Solo identificación del responsable, finalidades, y mecanismo para acceder al integral.",
+      "casos_uso": [
+        "Cookies en sitios web (banner)",
+        "Captura de imagen en CCTV (aviso de videovigilancia)",
+        "Encuesta por SMS",
+        "Etiquetas o anuncios pequeños"
+      ]
+    }
+  },
+  "elementos_detallados_integral": {
+    "1_identidad_y_domicilio": {
+      "obligatorio": true,
+      "contenido": "Denominación o razón social completa, RFC si es persona moral, domicilio físico completo (calle, número, colonia, código postal, municipio, estado, país)",
+      "ejemplo": "EJEMPLO S.A. de C.V., con RFC EJE123456ABC, con domicilio en Av. Ejemplo No. 123, Col. Centro, C.P. 77500, Cancún, Quintana Roo, México."
+    },
+    "2_datos_personales_que_se_recaban": {
+      "obligatorio": true,
+      "contenido": "Lista clara y específica. Separar visiblemente datos sensibles si los hay.",
+      "categorias_tipicas": [
+        "Datos de identificación (nombre, fecha de nacimiento, RFC, CURP, identificación oficial)",
+        "Datos de contacto (correo, teléfono, domicilio)",
+        "Datos laborales (puesto, empresa, antigüedad)",
+        "Datos académicos (escolaridad, certificaciones)",
+        "Datos patrimoniales o financieros (cuentas bancarias, ingresos)",
+        "Datos migratorios (cuando aplique)"
+      ],
+      "advertencia_sensibles": "Si se recaban datos sensibles, indicarlo expresamente con la leyenda: 'Para el tratamiento de estos datos sensibles requerimos su consentimiento expreso y por escrito.'"
+    },
+    "3_finalidades_primarias": {
+      "obligatorio": true,
+      "definicion": "Aquellas que dan origen y son necesarias para la existencia, mantenimiento y cumplimiento de la relación jurídica entre titular y responsable.",
+      "ejemplos": [
+        "Identificación del cliente",
+        "Cumplimiento del contrato",
+        "Facturación y cobranza",
+        "Cumplimiento de obligaciones legales (fiscales, laborales)",
+        "Atención al cliente y soporte"
+      ]
+    },
+    "4_finalidades_secundarias": {
+      "obligatorio_si_aplica": true,
+      "definicion": "Aquellas que no son necesarias para la relación jurídica, pero que el responsable desea realizar.",
+      "ejemplos": [
+        "Mercadotecnia y publicidad",
+        "Prospección comercial",
+        "Encuestas de satisfacción",
+        "Estudios de mercado",
+        "Elaboración de perfiles de cliente",
+        "Compartir información con socios comerciales"
+      ],
+      "requisito": "Debe ofrecerse mecanismo de oposición claro y accesible (casilla de verificación, formulario, correo)."
+    },
+    "5_mecanismos_para_manifestar_negativa": {
+      "obligatorio_si_finalidades_secundarias": true,
+      "ejemplos_mecanismos": [
+        "Casilla en formulario digital o físico",
+        "Correo electrónico para enviar negativa",
+        "URL específica para gestionar preferencias",
+        "Botón de baja en cada comunicación"
+      ]
+    },
+    "6_transferencias": {
+      "obligatorio_si_aplica": true,
+      "contenido": "Para cada transferencia: nombre/categoría del receptor, finalidad de la transferencia, indicar si requiere consentimiento del titular.",
+      "formato_tabla_recomendado": {
+        "destinatario": "Nombre o categoría",
+        "finalidad": "Para qué",
+        "consentimiento_requerido": "Sí / No / Por ser obligación legal"
+      },
+      "transferencias_que_no_requieren_consentimiento": "Listar conforme Art. 37 LFPDPPP cuando aplique."
+    },
+    "7_mecanismos_arco": {
+      "obligatorio": true,
+      "contenido": "Procedimiento completo para que el titular ejerza derechos de Acceso, Rectificación, Cancelación y Oposición.",
+      "elementos_minimos": [
+        "Datos de contacto del encargado/área de datos personales",
+        "Requisitos de la solicitud (datos del titular, identificación, descripción)",
+        "Plazos de respuesta (20 días hábiles + 15 para materialización)",
+        "Medios disponibles (correo, presencial, formulario)",
+        "Costos (debe ser gratuito, salvo gastos justificados de envío)"
+      ]
+    },
+    "8_revocacion_consentimiento": {
+      "obligatorio": true,
+      "contenido": "Procedimiento para que el titular pueda revocar su consentimiento al tratamiento.",
+      "nota": "Generalmente se sigue el mismo procedimiento que los derechos ARCO."
+    },
+    "9_limitar_uso_o_divulgacion": {
+      "obligatorio": true,
+      "contenido": "Opciones distintas a ARCO que el responsable ofrece para limitar el uso o divulgación de los datos.",
+      "ejemplos": [
+        "Inscripción en listas de exclusión",
+        "Inscripción en el Registro Público para Evitar Publicidad (REPEP) de la PROFECO"
+      ]
+    },
+    "10_cambios_al_aviso": {
+      "obligatorio": true,
+      "contenido": "Medio por el cual se comunicarán al titular los cambios al aviso.",
+      "medios_aceptados": [
+        "Anuncio visible en establecimiento o sitio web",
+        "Carteles informativos",
+        "Correo electrónico",
+        "Mensaje en aplicación móvil",
+        "Mensaje SMS o WhatsApp",
+        "Cualquier medio idóneo según el sector"
+      ]
+    },
+    "11_fecha_de_ultima_actualizacion": {
+      "obligatorio": true,
+      "contenido": "Fecha en formato día/mes/año en que se actualizó el aviso por última vez."
+    }
+  },
+  "elementos_aviso_simplificado": [
+    "Identidad y domicilio del responsable",
+    "Finalidades del tratamiento (al menos las primarias)",
+    "Mecanismo para manifestar negativa a finalidades secundarias",
+    "Medios para acceder al aviso integral"
+  ],
+  "elementos_aviso_corto": [
+    "Identidad del responsable",
+    "Finalidades del tratamiento",
+    "Mecanismo para acceder al aviso integral (URL, código QR, dirección física)"
+  ],
+  "reglas_de_redaccion": {
+    "claridad": "El aviso debe ser comprensible y con lenguaje sencillo, evitando tecnicismos excesivos.",
+    "veracidad": "La información debe ser exacta y no engañosa.",
+    "estructura": "Debe seguir un orden lógico que facilite la lectura.",
+    "accesibilidad": "Debe estar disponible en formatos accesibles cuando sea posible.",
+    "idioma": "En español. Si el público es multilingüe, también en los idiomas correspondientes.",
+    "tamaño_de_letra": "Legible. Para aviso simplificado en formato físico, evitar tamaños menores a 8 puntos.",
+    "no_oculto": "No puede estar dentro de términos y condiciones generales de difícil acceso; debe ser un documento identificable como aviso de privacidad."
+  },
+  "momento_de_proporcionar": {
+    "regla_general": "Antes del tratamiento de los datos personales (Art. 17 LFPDPPP).",
+    "casos_especiales": {
+      "datos_obtenidos_directamente": "Al momento de recabar los datos.",
+      "datos_obtenidos_indirectamente": "Antes del primer uso o aprovechamiento, salvo excepciones del Art. 18 LFPDPPP.",
+      "redes_sociales_publicas": "El responsable está exceptuado de proporcionar el aviso cuando los datos figuren en fuentes de acceso público, pero conserva los demás deberes (calidad, seguridad, ARCO)."
+    }
+  }
+}

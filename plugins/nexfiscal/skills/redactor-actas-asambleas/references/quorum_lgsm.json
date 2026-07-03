@@ -1,0 +1,126 @@
+{
+  "version": "1.0",
+  "ultima_actualizacion": "2026-03-28",
+  "fuente": "LGSM Arts. 20, 77, 182, 189-191",
+
+  "sa_de_cv": {
+    "nombre": "Sociedad Anónima de Capital Variable",
+    "asamblea_ordinaria": {
+      "primera_convocatoria": {
+        "quorum": "50% + 1 del capital social",
+        "mayoria": "Mayoría simple de los presentes",
+        "fundamento": "Art. 189 y 190 LGSM"
+      },
+      "segunda_convocatoria": {
+        "quorum": "Cualquier porcentaje del capital representado",
+        "mayoria": "Mayoría simple de los presentes",
+        "fundamento": "Art. 191 LGSM"
+      },
+      "periodicidad": "Al menos una vez al año, dentro de los 4 meses siguientes al cierre del ejercicio",
+      "fundamento_periodicidad": "Art. 181 LGSM"
+    },
+    "asamblea_extraordinaria": {
+      "primera_convocatoria": {
+        "quorum": "75% del capital social",
+        "mayoria": "50% + 1 del capital social total",
+        "fundamento": "Art. 190 LGSM"
+      },
+      "segunda_convocatoria": {
+        "quorum": "50% + 1 del capital social",
+        "mayoria": "50% + 1 del capital social total",
+        "fundamento": "Art. 191 LGSM"
+      }
+    },
+    "convocatoria": {
+      "quien_convoca": "Administrador único, Consejo de Administración, o Comisario",
+      "forma": "Publicación en el periódico oficial del domicilio o en Diario Oficial",
+      "anticipacion": "Al menos 15 días antes de la fecha de la asamblea",
+      "contenido": "Orden del día completo",
+      "fundamento": "Art. 186-188 LGSM",
+      "asamblea_totalitaria": "Si está representado el 100% del capital, puede celebrarse sin convocatoria previa (Art. 188 LGSM)"
+    },
+    "capital_variable": {
+      "aumento_variable": {
+        "tipo_asamblea": "Ordinaria (salvo pacto en estatutos)",
+        "quorum": "50% + 1 del capital (primera) / cualquier porcentaje (segunda)",
+        "formalizacion": "Solo anotación en libro de variaciones de capital",
+        "protocolizacion": false,
+        "rppc": false,
+        "fundamento": "Art. 213-215 LGSM"
+      },
+      "disminucion_variable": {
+        "tipo_asamblea": "Ordinaria",
+        "quorum": "50% + 1 del capital (primera)",
+        "formalizacion": "Solo anotación en libro de variaciones de capital",
+        "protocolizacion": false,
+        "rppc": false,
+        "derecho_retiro": "Socios tienen derecho de retiro (Art. 213 LGSM)",
+        "limite": "No puede reducirse a menos del capital fijo mínimo",
+        "fundamento": "Art. 213-215 LGSM"
+      },
+      "aumento_fijo": {
+        "tipo_asamblea": "Extraordinaria",
+        "quorum": "75% (primera) / 50%+1 (segunda)",
+        "formalizacion": "Protocolización + inscripción RPPC",
+        "protocolizacion": true,
+        "rppc": true,
+        "fundamento": "Art. 182 Fracc. III, 194 LGSM"
+      },
+      "disminucion_fijo": {
+        "tipo_asamblea": "Extraordinaria",
+        "quorum": "75% (primera) / 50%+1 (segunda)",
+        "formalizacion": "Protocolización + inscripción RPPC + publicación para acreedores",
+        "protocolizacion": true,
+        "rppc": true,
+        "publicacion": true,
+        "fundamento": "Art. 182 Fracc. III, 9 LGSM"
+      }
+    }
+  },
+
+  "srl_de_cv": {
+    "nombre": "Sociedad de Responsabilidad Limitada de Capital Variable",
+    "asamblea_socios": {
+      "quorum": "Mayoría del capital social, salvo pacto en estatutos",
+      "mayoria": "Mayoría de votos de los socios presentes (ordinaria) / Mayoría del capital total (extraordinaria)",
+      "fundamento": "Art. 77-78 LGSM",
+      "nota": "Cada parte social da derecho a un voto. Pueden celebrarse sin reunión física si estatutos lo permiten."
+    },
+    "cesion_partes_sociales": {
+      "requiere_asamblea": true,
+      "requiere_modificacion_estatutos": true,
+      "derecho_preferencia": "Socios tienen derecho de preferencia por 15 días (Art. 66 LGSM)",
+      "protocolizacion": true,
+      "rppc": true,
+      "fundamento": "Art. 65-66 LGSM"
+    },
+    "admision_nuevo_socio": {
+      "requiere_asamblea": "Extraordinaria (modifica estatutos)",
+      "consentimiento": "Mayoría del capital social",
+      "protocolizacion": true,
+      "rppc": true,
+      "fundamento": "Art. 65 LGSM"
+    },
+    "limite_socios": 50,
+    "limite_socios_fundamento": "Art. 61 LGSM"
+  },
+
+  "sc": {
+    "nombre": "Sociedad Civil",
+    "quorum": "Unanimidad salvo pacto en contrato social",
+    "cesion": {
+      "requiere": "Consentimiento de TODOS los socios (salvo pacto contrario)",
+      "fundamento": "Art. 2705 Código Civil Federal"
+    },
+    "fundamento_general": "Art. 2688-2735 Código Civil Federal"
+  },
+
+  "sas": {
+    "nombre": "Sociedad por Acciones Simplificada",
+    "constitucion": "Por medios electrónicos en portal de Secretaría de Economía",
+    "socios": "1 a más accionistas (PF únicamente)",
+    "tope_ingresos": 5000000,
+    "administracion": "El accionista o accionistas designan representante legal",
+    "fundamento": "Art. 260-273 LGSM"
+  }
+}

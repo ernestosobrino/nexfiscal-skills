@@ -1,0 +1,274 @@
+{
+  "version": "1.0",
+  "ultima_actualizacion": "2026-03-28",
+  "fuente": "LGSM, Código de Comercio, Código Civil Federal",
+
+  "actos_corporativos": {
+    "constitucion_sociedad": {
+      "acto": "Constitución de sociedad mercantil",
+      "libro_actas": false,
+      "protocolizacion": true,
+      "rppc": true,
+      "publicacion": false,
+      "aviso_sat": true,
+      "aviso_sat_detalle": "Inscripción en RFC, obtención de e.firma y CSD",
+      "fundamento": "Art. 5 LGSM, Art. 21 Fracc. V Código de Comercio",
+      "plazo": "Inscripción RPPC dentro de 15 días hábiles",
+      "consecuencias_incumplimiento": "Sin inscripción, la sociedad es irregular (Art. 2 LGSM). Los socios responden solidaria e ilimitadamente."
+    },
+
+    "aprobacion_estados_financieros": {
+      "acto": "Aprobación de estados financieros e informe del administrador",
+      "libro_actas": true,
+      "protocolizacion": false,
+      "rppc": false,
+      "publicacion": false,
+      "aviso_sat": false,
+      "fundamento": "Art. 181 Fracc. I LGSM"
+    },
+
+    "distribucion_dividendos": {
+      "acto": "Decreto de distribución de dividendos/utilidades",
+      "libro_actas": true,
+      "protocolizacion": false,
+      "rppc": false,
+      "publicacion": false,
+      "aviso_sat": false,
+      "nota": "Retención ISR 10% sobre dividendos distribuidos a PF (Art. 140 LISR). Actualizar CUFIN.",
+      "fundamento": "Art. 181, 19 LGSM"
+    },
+
+    "nombramiento_administrador": {
+      "acto": "Nombramiento o cambio de administrador único o consejo de administración",
+      "libro_actas": true,
+      "protocolizacion": true,
+      "rppc": true,
+      "publicacion": false,
+      "aviso_sat": true,
+      "aviso_sat_detalle": "Actualizar representante legal ante SAT",
+      "fundamento": "Art. 21 Fracc. VII Código de Comercio, Art. 142 LGSM",
+      "nota": "Es de los pocos actos de asamblea ORDINARIA que SÍ requieren inscripción RPPC"
+    },
+
+    "nombramiento_comisario": {
+      "acto": "Nombramiento o cambio de comisario",
+      "libro_actas": true,
+      "protocolizacion": false,
+      "rppc": false,
+      "publicacion": false,
+      "aviso_sat": false,
+      "fundamento": "Art. 181 Fracc. II LGSM"
+    },
+
+    "otorgamiento_poderes": {
+      "acto": "Otorgamiento de poderes",
+      "libro_actas": true,
+      "protocolizacion": true,
+      "rppc": "Generales SÍ, especiales según criterio",
+      "publicacion": false,
+      "aviso_sat": false,
+      "fundamento": "Art. 10 LGSM, Art. 2554 CC",
+      "nota": "Los poderes generales (dominio, administración, pleitos) se inscriben. Los especiales no siempre."
+    },
+
+    "revocacion_poderes": {
+      "acto": "Revocación de poderes",
+      "libro_actas": true,
+      "protocolizacion": true,
+      "rppc": true,
+      "publicacion": false,
+      "aviso_sat": false,
+      "fundamento": "Art. 2596 CC",
+      "nota": "La revocación debe inscribirse para que surta efectos frente a terceros"
+    },
+
+    "aumento_capital_fijo": {
+      "acto": "Aumento de capital social FIJO",
+      "libro_actas": true,
+      "protocolizacion": true,
+      "rppc": true,
+      "publicacion": false,
+      "aviso_sat": true,
+      "aviso_sat_detalle": "Avisar cambio de capital en situación fiscal",
+      "fundamento": "Art. 182 Fracc. III, 194 LGSM",
+      "tipo_asamblea": "Extraordinaria"
+    },
+
+    "disminucion_capital_fijo": {
+      "acto": "Disminución de capital social FIJO",
+      "libro_actas": true,
+      "protocolizacion": true,
+      "rppc": true,
+      "publicacion": true,
+      "publicacion_detalle": "Publicar acuerdo en periódico oficial del domicilio. Acreedores tienen derecho de oposición por 5 días (Art. 9 LGSM)",
+      "aviso_sat": true,
+      "fundamento": "Art. 182 Fracc. III, 9 LGSM",
+      "tipo_asamblea": "Extraordinaria"
+    },
+
+    "aumento_capital_variable": {
+      "acto": "Aumento de capital social VARIABLE",
+      "libro_actas": true,
+      "libro_variaciones": true,
+      "protocolizacion": false,
+      "rppc": false,
+      "publicacion": false,
+      "aviso_sat": false,
+      "fundamento": "Art. 213-215 LGSM",
+      "tipo_asamblea": "Ordinaria (salvo pacto contrario en estatutos)",
+      "nota": "Solo se anota en el libro de registro de variaciones de capital. Es el procedimiento más sencillo."
+    },
+
+    "disminucion_capital_variable": {
+      "acto": "Disminución de capital social VARIABLE",
+      "libro_actas": true,
+      "libro_variaciones": true,
+      "protocolizacion": false,
+      "rppc": false,
+      "publicacion": false,
+      "aviso_sat": false,
+      "fundamento": "Art. 213-215 LGSM",
+      "tipo_asamblea": "Ordinaria",
+      "nota": "Solo se anota en libro de variaciones. No puede reducirse a menos del capital fijo mínimo. Socios tienen derecho de retiro."
+    },
+
+    "modificacion_estatutos": {
+      "acto": "Cualquier modificación a escritura/estatutos sociales",
+      "libro_actas": true,
+      "protocolizacion": true,
+      "rppc": true,
+      "publicacion": false,
+      "aviso_sat": "Depende del cambio (domicilio, denominación, objeto → sí)",
+      "fundamento": "Art. 194 LGSM",
+      "tipo_asamblea": "Extraordinaria"
+    },
+
+    "cambio_domicilio": {
+      "acto": "Cambio de domicilio social",
+      "libro_actas": true,
+      "protocolizacion": true,
+      "rppc": true,
+      "publicacion": false,
+      "aviso_sat": true,
+      "aviso_sat_detalle": "Actualizar domicilio fiscal ante SAT",
+      "fundamento": "Art. 182, 194 LGSM",
+      "tipo_asamblea": "Extraordinaria"
+    },
+
+    "cambio_denominacion": {
+      "acto": "Cambio de denominación o razón social",
+      "libro_actas": true,
+      "protocolizacion": true,
+      "rppc": true,
+      "publicacion": false,
+      "aviso_sat": true,
+      "fundamento": "Art. 182, 194 LGSM",
+      "tipo_asamblea": "Extraordinaria"
+    },
+
+    "transmision_acciones_sa": {
+      "acto": "Compraventa/cesión de acciones (SA)",
+      "libro_actas": false,
+      "libro_registro_acciones": true,
+      "protocolizacion": false,
+      "rppc": false,
+      "publicacion": false,
+      "aviso_sat": false,
+      "fundamento": "Art. 111, 128, 130 LGSM",
+      "nota": "Se realiza por endoso del título accionario y anotación en libro de registro. Si hay cláusula de preferencia en estatutos, se debe respetar."
+    },
+
+    "cesion_partes_sociales_srl": {
+      "acto": "Cesión de partes sociales (SRL)",
+      "libro_actas": true,
+      "protocolizacion": true,
+      "rppc": true,
+      "publicacion": false,
+      "aviso_sat": false,
+      "fundamento": "Art. 65-66 LGSM",
+      "tipo_asamblea": "Extraordinaria (modifica estatutos)",
+      "nota": "Socios tienen derecho de preferencia por 15 días. Requiere aprobación de asamblea."
+    },
+
+    "admision_socio_srl": {
+      "acto": "Admisión de nuevo socio (SRL)",
+      "libro_actas": true,
+      "protocolizacion": true,
+      "rppc": true,
+      "publicacion": false,
+      "aviso_sat": false,
+      "fundamento": "Art. 65 LGSM",
+      "tipo_asamblea": "Extraordinaria"
+    },
+
+    "exclusion_socio": {
+      "acto": "Exclusión de socio",
+      "libro_actas": true,
+      "protocolizacion": true,
+      "rppc": true,
+      "publicacion": false,
+      "aviso_sat": false,
+      "fundamento": "Art. 50 LGSM",
+      "nota": "El socio excluido tiene derecho a su cuota de liquidación"
+    },
+
+    "fusion": {
+      "acto": "Fusión de sociedades",
+      "libro_actas": true,
+      "protocolizacion": true,
+      "rppc": true,
+      "publicacion": true,
+      "publicacion_detalle": "Publicar acuerdos de fusión en Diario Oficial y periódico del domicilio. 3 meses para oposición de acreedores.",
+      "aviso_sat": true,
+      "fundamento": "Art. 222-226 LGSM",
+      "tipo_asamblea": "Extraordinaria de cada sociedad"
+    },
+
+    "escision": {
+      "acto": "Escisión de sociedad",
+      "libro_actas": true,
+      "protocolizacion": true,
+      "rppc": true,
+      "publicacion": true,
+      "publicacion_detalle": "Publicar extracto de resolución, estados financieros y proyecto de escisión. 45 días naturales para oposición.",
+      "aviso_sat": true,
+      "fundamento": "Art. 228 Bis LGSM",
+      "tipo_asamblea": "Extraordinaria"
+    },
+
+    "transformacion": {
+      "acto": "Transformación de tipo societario",
+      "libro_actas": true,
+      "protocolizacion": true,
+      "rppc": true,
+      "publicacion": false,
+      "aviso_sat": true,
+      "fundamento": "Art. 227-228 LGSM",
+      "tipo_asamblea": "Extraordinaria"
+    },
+
+    "disolucion": {
+      "acto": "Disolución de la sociedad",
+      "libro_actas": true,
+      "protocolizacion": true,
+      "rppc": true,
+      "publicacion": false,
+      "aviso_sat": true,
+      "aviso_sat_detalle": "Presentar aviso de inicio de liquidación ante SAT",
+      "fundamento": "Art. 229, 232 LGSM",
+      "tipo_asamblea": "Extraordinaria"
+    },
+
+    "liquidacion_final": {
+      "acto": "Liquidación final y cancelación",
+      "libro_actas": true,
+      "protocolizacion": true,
+      "rppc": true,
+      "publicacion": true,
+      "publicacion_detalle": "Publicar balance final de liquidación",
+      "aviso_sat": true,
+      "aviso_sat_detalle": "Cancelación de RFC, declaración final de liquidación",
+      "fundamento": "Art. 242-249 LGSM"
+    }
+  }
+}

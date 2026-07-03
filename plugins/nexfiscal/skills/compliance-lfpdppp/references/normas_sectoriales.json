@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "fuente": "Normativa sectorial mexicana aplicable a protección de datos personales",
+    "ultima_actualizacion": "2026-04",
+    "alcance": "Sectores con normativa adicional o concurrente a la LFPDPPP",
+    "advertencia": "La normativa sectorial es complementaria, no excluyente. Aplica adicionalmente a LFPDPPP."
+  },
+  "servicios_financieros": {
+    "subsector_bancario": {
+      "normativa_principal": [
+        "Ley de Instituciones de Crédito (LIC)",
+        "Disposiciones de Carácter General Aplicables a las Instituciones de Crédito (CUB)",
+        "Circulares CNBV específicas"
+      ],
+      "obligaciones_clave": {
+        "secreto_bancario": {
+          "fundamento": "Art. 142 LIC",
+          "contenido": "Las instituciones de crédito en ningún caso podrán dar noticias o información de los depósitos, operaciones o servicios, incluyendo los previstos en la fracción XV del artículo 46 de esta Ley, sino al depositante, deudor, titular, beneficiario, fideicomitente, fideicomisario, comitente o mandante, a sus representantes legales o a quienes tengan otorgado poder para disponer de la cuenta o para intervenir en la operación o servicio.",
+          "excepciones": [
+            "Autoridad judicial en virtud de providencia dictada en juicio en el que el titular sea parte o acusado",
+            "Autoridades hacendarias federales para fines fiscales",
+            "PGR (FGR) en investigación de delitos",
+            "Tesorería de la Federación para verificar el cumplimiento de obligaciones",
+            "CNBV en ejercicio de sus facultades de supervisión",
+            "Otras autoridades expresamente facultadas por ley"
+          ]
+        },
+        "datos_personales": "Adicionalmente al secreto bancario, LFPDPPP aplica para tratamiento de datos personales de clientes y prospectos.",
+        "comisariado_de_datos": "Algunas circulares CNBV requieren designación específica de oficial de datos personales."
+      }
+    },
+    "subsector_seguros_y_fianzas": {
+      "normativa_principal": [
+        "Ley de Instituciones de Seguros y de Fianzas (LISF)",
+        "Disposiciones de Carácter General Aplicables (CUSF)"
+      ],
+      "obligaciones_clave": {
+        "confidencialidad": "Art. 190 LISF establece confidencialidad similar a la bancaria.",
+        "datos_de_salud": "Información médica de asegurados es altamente sensible - requiere protección especial.",
+        "cesion_de_cartera": "Las cesiones requieren notificación a titulares y cumplimiento de transferencia conforme LFPDPPP."
+      }
+    },
+    "subsector_intermediacion_bursatil": {
+      "normativa_principal": [
+        "Ley del Mercado de Valores (LMV)",
+        "Disposiciones de Carácter General Aplicables a las Casas de Bolsa (CUB)"
+      ],
+      "obligaciones_clave": {
+        "secreto_bursatil": "Art. 192 LMV - confidencialidad de operaciones e información de clientes."
+      }
+    },
+    "subsector_aforesys_iconsar": {
+      "normativa_principal": [
+        "Ley de los Sistemas de Ahorro para el Retiro (LSAR)",
+        "Disposiciones de carácter general CONSAR"
+      ],
+      "obligaciones_clave": {
+        "datos_de_cuenta_individual": "Especial protección de datos de afiliación, aportaciones y saldos.",
+        "transferencias_entre_afores": "Procedimientos específicos que involucran datos personales."
+      }
+    }
+  },
+  "salud": {
+    "normativa_principal": [
+      "Ley General de Salud (LGS)",
+      "NOM-004-SSA3-2012: Del expediente clínico",
+      "NOM-024-SSA3-2012: Sistemas de información de registro electrónico para la salud",
+      "NOM-025-SSA3-2013: Para la organización y funcionamiento de las unidades de cuidados intensivos",
+      "Reglamento de la LGS en materia de prestación de servicios de atención médica"
+    ],
+    "obligaciones_clave": {
+      "secreto_medico": {
+        "fundamento": "Art. 36 LGS, Códigos Penales (en ciertos casos)",
+        "contenido": "Información del paciente es confidencial; solo se revela al paciente, sus representantes o autoridades expresamente facultadas."
+      },
+      "expediente_clinico": {
+        "fundamento": "NOM-004-SSA3-2012",
+        "propiedad": "El expediente es propiedad de la institución, pero la información es del paciente.",
+        "acceso": "Paciente o representante legal puede solicitar acceso (también via ARCO de LFPDPPP).",
+        "conservacion": "Mínimo 5 años desde último acto médico (puede ser mayor según patología o normativa)."
+      },
+      "expediente_clinico_electronico": {
+        "fundamento": "NOM-024-SSA3-2012",
+        "requisitos_tecnicos": [
+          "Interoperabilidad con catálogos oficiales (CIE-10, etc.)",
+          "Seguridad de la información",
+          "Firma electrónica",
+          "Bitácoras de acceso"
+        ]
+      },
+      "datos_geneticos_y_biometricos": "Categorización como datos sensibles bajo LFPDPPP; tratamiento muy restrictivo.",
+      "consentimiento_informado": "Distinto del consentimiento de tratamiento de datos. Ambos deben cumplirse."
+    },
+    "aplicaciones_practicas": [
+      "Clínicas y hospitales: aviso integral robusto + documento de seguridad nivel ALTO",
+      "Consultorios: aviso integral, manejo cuidadoso de expediente",
+      "Laboratorios: protección especial de datos genéticos y resultados",
+      "Aseguradoras de gastos médicos: convergencia LFPDPPP + LISF + LGS"
+    ]
+  },
+  "telecomunicaciones": {
+    "normativa_principal": [
+      "Ley Federal de Telecomunicaciones y Radiodifusión (LFTR)",
+      "Lineamientos para la portabilidad numérica",
+      "Disposiciones IFT sobre privacidad de usuarios",
+      "Lineamientos de colaboración con la justicia"
+    ],
+    "obligaciones_clave": {
+      "datos_de_trafico_y_localizacion": {
+        "regla": "Retención obligatoria por 24 meses para colaboración con autoridades de justicia.",
+        "fundamento": "Art. 190 LFTR",
+        "datos_retenidos": [
+          "Nombre, denominación o razón social y domicilio del suscriptor",
+          "Tipo de comunicación",
+          "Datos necesarios para rastrear e identificar el origen y destino",
+          "Datos necesarios para determinar la fecha, hora y duración",
+          "Identificación de la cuenta de Internet",
+          "Identificación, características técnicas y ubicación geográfica de la línea telefónica"
+        ]
+      },
+      "geolocalizacion_en_tiempo_real": "Permitida solo con orden judicial o de autoridad ministerial.",
+      "publicidad_no_solicitada": "Aplicación de REPEP de PROFECO para llamadas comerciales."
+    }
+  },
+  "credito_y_reporte_crediticio": {
+    "normativa_principal": [
+      "Ley para Regular las Sociedades de Información Crediticia (LRSIC)",
+      "Circulares de Banco de México sobre SIC"
+    ],
+    "obligaciones_clave": {
+      "consentimiento_consulta_sic": {
+        "regla": "Para consultar reporte crediticio, se requiere autorización expresa del cliente.",
+        "fundamento": "Art. 28 LRSIC",
+        "vigencia_autorizacion": "Hasta por 3 años o por todo el tiempo que dure la relación jurídica con el otorgante."
+      },
+      "reporte_a_sic": {
+        "regla": "Las entidades financieras y comerciales reportan información de cumplimiento e incumplimiento crediticio.",
+        "consentimiento": "Forma parte del contrato y debe estar claramente comunicado al titular."
+      },
+      "plazo_conservacion_informacion_negativa": {
+        "regla_general": "72 meses (Art. 23 LRSIC)",
+        "supuestos_eliminacion_anticipada": [
+          "Pago menor a UDIs 1,000: 12 meses",
+          "Pago entre UDIs 1,000 y 2,000: 24 meses",
+          "Pago entre UDIs 2,000 y 4,000: 48 meses",
+          "Operaciones fraudulentas: no se eliminan"
+        ]
+      },
+      "derecho_de_acceso_al_reporte": "Gratuito una vez al año (Art. 41 LRSIC) directamente con la SIC."
+    }
+  },
+  "comercio_electronico": {
+    "normativa_complementaria": [
+      "Ley Federal de Protección al Consumidor (LFPC)",
+      "Código de Comercio (Cap. VII - Comercio Electrónico)",
+      "NOM-151-SCFI-2016: Prácticas comerciales-Requisitos que deben observarse para la conservación de mensajes de datos y digitalización de documentos"
+    ],
+    "obligaciones_clave": {
+      "consentimiento_para_publicidad": "Marketing por correo electrónico requiere consentimiento previo y mecanismo de baja.",
+      "cookies": "Aviso de uso de cookies, idealmente con mecanismo de aceptación granular.",
+      "datos_de_pago": "Cumplir adicionalmente con PCI-DSS si se procesan tarjetas."
+    }
+  },
+  "rh_y_relaciones_laborales": {
+    "normativa_complementaria": [
+      "Ley Federal del Trabajo (LFT)",
+      "NOM-035-STPS-2018: Factores de riesgo psicosocial en el trabajo (datos sensibles)",
+      "NOM-037-STPS-2023: Teletrabajo (datos de localización, monitoreo)"
+    ],
+    "consideraciones_clave": {
+      "examenes_medicos_y_psicometricos": "Datos sensibles - requieren consentimiento expreso y por escrito.",
+      "videovigilancia_y_monitoreo": "Requiere aviso específico y proporcionalidad.",
+      "biometricos": "Reloj checador por huella o rostro - dato sensible, consentimiento expreso.",
+      "gps_en_vehiculos_laborales": "Información de localización - requiere transparencia y limitación a fines laborales."
+    }
+  },
+  "lgpdppso_breve_diferencia": {
+    "comentario": "Cuando el cliente sea sujeto obligado del sector público o asimilado, aplica LGPDPPSO y no LFPDPPP.",
+    "sujetos_obligados": [
+      "Cualquier autoridad, entidad, órgano y organismo de los Poderes Ejecutivo, Legislativo y Judicial",
+      "Órganos autónomos",
+      "Partidos políticos",
+      "Fideicomisos y fondos públicos",
+      "Cualquier persona física, moral o sindicato que reciba y ejerza recursos públicos o realice actos de autoridad"
+    ],
+    "diferencias_principales": [
+      "Sistema de gestión obligatorio",
+      "Evaluación de impacto en privacidad obligatoria en ciertos casos",
+      "Aviso de privacidad con lineamientos específicos del sector público",
+      "Sanciones y procedimientos administrativos distintos",
+      "Competencia compartida entre INAI y órganos garantes locales"
+    ]
+  }
+}

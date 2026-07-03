@@ -1,0 +1,96 @@
+{
+  "version": "1.0",
+  "ultima_actualizacion": "2026-03-28",
+
+  "estructura_general": {
+    "1_titulo": {
+      "descripcion": "Nombre descriptivo del tipo de contrato",
+      "ejemplo": "CONTRATO DE PRESTACIÓN DE SERVICIOS PROFESIONALES",
+      "verificar": "Que corresponda al contenido real del contrato"
+    },
+    "2_proemio": {
+      "descripcion": "Identificación de las partes contratantes",
+      "elementos_pf": ["Nombre completo", "Nacionalidad", "RFC", "CURP (opcional)", "Domicilio", "Identificación oficial (tipo y número)"],
+      "elementos_pm": ["Denominación o razón social completa", "RFC", "Domicilio social", "Representante legal (nombre completo)", "Instrumento notarial que acredita personalidad (número de escritura, notaría, fecha, datos de inscripción RPPC)", "Facultades del representante"],
+      "como_se_denominan": "Ej: 'en lo sucesivo EL PRESTADOR' y 'en lo sucesivo EL CONTRATANTE'",
+      "verificar": ["Que el RFC sea correcto en formato", "Que se acredite la personalidad del representante legal", "Que las facultades del representante sean suficientes para firmar el tipo de contrato"]
+    },
+    "3_declaraciones": {
+      "descripcion": "Hechos que las partes reconocen como ciertos",
+      "declaraciones_parte_a": [
+        "Que es una sociedad legalmente constituida (datos de escritura constitutiva)",
+        "Que su representante tiene facultades suficientes (datos del poder)",
+        "Que su objeto social incluye la actividad materia del contrato",
+        "Que su RFC es [RFC]",
+        "Que señala como domicilio para efectos del contrato [domicilio]",
+        "Que cuenta con los recursos y capacidad para cumplir el contrato"
+      ],
+      "declaraciones_parte_b": ["Mismos elementos adaptados a la otra parte"],
+      "declaraciones_conjuntas": [
+        "Que celebran el contrato por su libre y espontánea voluntad",
+        "Que se reconocen mutuamente la personalidad con la que comparecen",
+        "Que el contrato no contiene dolo, mala fe, lesión ni vicio alguno del consentimiento",
+        "Que conocen el alcance y contenido de todas las cláusulas"
+      ]
+    },
+    "4_clausulas": {
+      "descripcion": "Derechos y obligaciones de las partes",
+      "formato": "Numeradas (PRIMERA, SEGUNDA, etc.) con título descriptivo",
+      "orden_sugerido": [
+        "Objeto del contrato",
+        "Contraprestación y forma de pago",
+        "Vigencia",
+        "Obligaciones de la Parte A",
+        "Obligaciones de la Parte B",
+        "Facturación y aspectos fiscales",
+        "Confidencialidad",
+        "Propiedad intelectual (si aplica)",
+        "Penalización por incumplimiento",
+        "Causales de rescisión",
+        "Terminación anticipada",
+        "Caso fortuito y fuerza mayor",
+        "Protección de datos personales",
+        "Notificaciones",
+        "Cesión",
+        "Totalidad del acuerdo",
+        "Modificaciones",
+        "Jurisdicción y legislación aplicable"
+      ]
+    },
+    "5_firmas": {
+      "descripcion": "Espacio para firma de las partes",
+      "elementos": [
+        "Lugar y fecha de firma",
+        "Nombre y firma de cada parte (o representante)",
+        "Cargo del representante",
+        "Testigos (opcional pero recomendado: 2 testigos con nombre y firma)"
+      ],
+      "numero_ejemplares": "Se firma en [N] ejemplares, uno para cada parte"
+    },
+    "6_anexos": {
+      "descripcion": "Documentos complementarios que forman parte integral del contrato",
+      "ejemplos": ["Especificaciones técnicas", "Tabla de precios", "Calendario de entregas", "Tabla de amortización", "Planos o descripción de inmueble"],
+      "regla": "Mencionar en el cuerpo del contrato que los anexos forman parte integral"
+    }
+  },
+
+  "elementos_validez": {
+    "fundamento": "Art. 1794-1795 CC Federal",
+    "esenciales": [
+      {"elemento": "Consentimiento", "descripcion": "Voluntad libre de vicios (error, dolo, violencia, lesión)"},
+      {"elemento": "Objeto", "descripcion": "Que sea lícito, posible y determinado o determinable"}
+    ],
+    "existencia": [
+      {"elemento": "Capacidad", "descripcion": "Las partes deben tener capacidad legal para contratar"},
+      {"elemento": "Forma", "descripcion": "Cumplir la forma exigida por la ley (escrito, ante notario, etc.)"},
+      {"elemento": "Ausencia de vicios", "descripcion": "Sin dolo, mala fe, lesión, error o violencia"}
+    ]
+  },
+
+  "reglas_interpretacion": {
+    "mercantil": "Los contratos mercantiles se interpretan conforme al Código de Comercio y supletoriamente por el CC Federal (Art. 2 C.Com.)",
+    "buena_fe": "Los contratos deben cumplirse de buena fe (Art. 1796 CC)",
+    "clausulas_ambiguas": "Las cláusulas ambiguas se interpretan en contra de quien las redactó",
+    "uso_mercantil": "En lo no previsto por el contrato ni por la ley, se aplican los usos mercantiles del lugar"
+  }
+}

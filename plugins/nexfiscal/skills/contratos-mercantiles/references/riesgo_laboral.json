@@ -1,0 +1,103 @@
+{
+  "version": "1.0",
+  "ultima_actualizacion": "2026-03-28",
+  "fuente": "LFT Art. 20-21, 35, reforma subcontratación 2021",
+
+  "contexto": "La reforma de subcontratación de 2021 endureció las consecuencias de simular una relación de servicios independientes cuando en realidad existe subordinación laboral. Si un contrato de servicios tiene elementos de relación laboral, el contratante puede enfrentar: demanda laboral con reconocimiento de antigüedad y prestaciones, cuotas IMSS omitidas con recargos y actualización, multas STPS, responsabilidad solidaria fiscal.",
+
+  "señales_de_riesgo": [
+    {
+      "señal": "Horario fijo obligatorio",
+      "descripcion": "El contrato establece un horario que el prestador debe cumplir (ej: lunes a viernes de 9 a 18 hrs)",
+      "riesgo": "Alto",
+      "fundamento": "Art. 20 LFT — elemento de subordinación",
+      "recomendacion": "Establecer que el prestador organiza libremente su tiempo, se obliga a resultados no a horarios"
+    },
+    {
+      "señal": "Subordinación o dirección directa",
+      "descripcion": "El prestador debe reportar a un jefe, seguir instrucciones específicas sobre cómo realizar el trabajo, asistir a juntas obligatorias",
+      "riesgo": "Crítico",
+      "fundamento": "Art. 20 LFT — subordinación es EL elemento definitorio de relación laboral",
+      "recomendacion": "Establecer que el contratante solo define QUÉ resultado espera, no CÓMO debe lograrse"
+    },
+    {
+      "señal": "Exclusividad",
+      "descripcion": "El contrato prohíbe al prestador trabajar para otros clientes",
+      "riesgo": "Alto",
+      "fundamento": "Indica dependencia económica propia de relación laboral",
+      "recomendacion": "Permitir expresamente que el prestador atienda otros clientes"
+    },
+    {
+      "señal": "Herramientas del contratante",
+      "descripcion": "El contratante proporciona computadora, oficina, teléfono, vehículo u otros medios de trabajo",
+      "riesgo": "Medio-Alto",
+      "fundamento": "Art. 20 LFT — el patrón proporciona medios de trabajo",
+      "recomendacion": "El prestador debe usar sus propias herramientas, o cobrar por separado el uso de herramientas del contratante"
+    },
+    {
+      "señal": "Pago periódico fijo tipo nómina",
+      "descripcion": "El pago es quincenal o mensual por monto fijo independiente de resultados",
+      "riesgo": "Alto",
+      "fundamento": "Simula salario (Art. 82-84 LFT)",
+      "recomendacion": "Vincular el pago a entregables, proyectos o resultados medibles. Facturar por evento o proyecto."
+    },
+    {
+      "señal": "Integración a estructura organizacional",
+      "descripcion": "El prestador aparece en organigrama, tiene título de puesto, participa en evaluaciones de desempeño internas",
+      "riesgo": "Crítico",
+      "fundamento": "Indica relación laboral encubierta",
+      "recomendacion": "El prestador no debe tener puesto ni título dentro de la organización del contratante"
+    },
+    {
+      "señal": "Correo corporativo, credencial, uniforme",
+      "descripcion": "El contratante proporciona correo @empresa.com, credencial de empleado o uniforme",
+      "riesgo": "Medio",
+      "fundamento": "Indica integración como empleado",
+      "recomendacion": "El prestador usa su propio correo y no porta identificación del contratante"
+    },
+    {
+      "señal": "Duración indeterminada sin entregables",
+      "descripcion": "El contrato es por tiempo indefinido sin proyecto o resultado específico",
+      "riesgo": "Alto",
+      "fundamento": "Relaciones laborales por regla general son por tiempo indeterminado (Art. 35 LFT)",
+      "recomendacion": "Establecer proyecto específico con fecha de término, o renovaciones periódicas por proyecto"
+    },
+    {
+      "señal": "Vacaciones, aguinaldo o prestaciones",
+      "descripcion": "El contrato incluye prestaciones propias de relación laboral",
+      "riesgo": "Crítico",
+      "fundamento": "Prestaciones = relación laboral (Art. 76, 87 LFT)",
+      "recomendacion": "NUNCA incluir prestaciones laborales en contrato de servicios"
+    },
+    {
+      "señal": "Cláusula de no competencia excesiva",
+      "descripcion": "Prohibición amplia de trabajar en el mismo sector después de terminar el contrato",
+      "riesgo": "Medio",
+      "fundamento": "Restringe libertad de trabajo como si fuera relación laboral",
+      "recomendacion": "Si se incluye, limitar en tiempo (máximo 1-2 años), territorio y alcance. Incluir compensación económica."
+    }
+  ],
+
+  "evaluacion": {
+    "0_2_señales": "Riesgo bajo — contrato probablemente válido como servicios independientes",
+    "3_4_señales": "Riesgo medio — se recomienda revisar y ajustar el contrato",
+    "5_mas_señales": "Riesgo alto — el contrato probablemente encubre una relación laboral. Se recomienda restructurar como contrato laboral o eliminar los elementos de subordinación."
+  },
+
+  "consecuencias_reclasificacion": [
+    "Reconocimiento de relación laboral con antigüedad retroactiva",
+    "Pago de salarios caídos, aguinaldo, vacaciones, prima vacacional proporcionales",
+    "Inscripción retroactiva en IMSS con cuotas, recargos y actualización",
+    "Multas STPS por evasión de obligaciones laborales",
+    "Responsabilidad solidaria fiscal (ISR retenido, cuotas IMSS)",
+    "Posible denuncia penal por defraudación fiscal (Art. 108 CFF)"
+  ],
+
+  "subcontratacion_2021": {
+    "regla": "Está PROHIBIDA la subcontratación de personal (poner trabajadores a disposición de otro)",
+    "excepcion": "SOLO se permite subcontratación de SERVICIOS ESPECIALIZADOS con registro REPSE",
+    "requisito": "El contratista debe tener registro REPSE vigente",
+    "verificacion": "El contratante debe verificar cumplimiento de obligaciones laborales y de seguridad social del contratista",
+    "fundamento": "LFT Art. 12-15, reforma DOF 23-04-2021"
+  }
+}

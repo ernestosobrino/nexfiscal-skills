@@ -1,0 +1,81 @@
+{
+  "version": "1.0",
+  "ultima_actualizacion": "2026-03-28",
+  "fuente": "LISR, LIVA, CFF",
+
+  "regla_general": {
+    "facturacion": "Toda contraprestación debe ampararse con CFDI (Art. 29 CFF)",
+    "iva": "Tasa general 16%, tasa 0% en ciertos supuestos (Art. 2-A LIVA), exento (Art. 15 LIVA)",
+    "forma_pago": "Pagos > $2,000 deben ser bancarizados para deducibilidad (Art. 27 Fracc. III LISR)",
+    "clausula_modelo_facturacion": "Las partes se obligan a emitir CFDI por cada contraprestación recibida conforme a los artículos 29 y 29-A del CFF, cumpliendo con todos los requisitos fiscales vigentes. El incumplimiento de esta obligación facultará a la parte afectada a retener el pago hasta la emisión del comprobante fiscal correspondiente."
+  },
+
+  "retenciones_por_operacion": {
+    "servicios_profesionales_pf_a_pm": {
+      "operacion": "PF presta servicios profesionales a PM",
+      "retencion_isr": {
+        "tasa": 10,
+        "fundamento": "Art. 106 párrafo segundo LISR",
+        "base": "Monto del pago sin IVA"
+      },
+      "retencion_iva": {
+        "tasa": "2/3 del IVA trasladado (10.6667%)",
+        "fundamento": "Art. 1-A Fracc. II inciso a) LIVA",
+        "base": "IVA trasladado"
+      },
+      "clausula_modelo": "La parte contratante retendrá el 10% del monto de cada pago como ISR conforme al Art. 106 LISR, así como las dos terceras partes del IVA trasladado conforme al Art. 1-A Fracc. II LIVA, enterando dichas retenciones al SAT en los plazos de ley."
+    },
+    "arrendamiento_pf_a_pm": {
+      "operacion": "PM paga renta a PF arrendador",
+      "retencion_isr": {
+        "tasa": 10,
+        "fundamento": "Art. 116 último párrafo LISR",
+        "base": "Monto de la renta sin IVA"
+      },
+      "retencion_iva": {
+        "tasa": "2/3 del IVA trasladado (10.6667%)",
+        "fundamento": "Art. 1-A Fracc. II inciso c) LIVA"
+      },
+      "clausula_modelo": "El arrendatario retendrá el 10% del monto de cada renta como ISR conforme al Art. 116 LISR, así como las dos terceras partes del IVA trasladado conforme al Art. 1-A LIVA."
+    },
+    "autotransporte_pf": {
+      "operacion": "PF presta servicio de autotransporte terrestre de carga",
+      "retencion_isr": {
+        "tasa": 1.25,
+        "fundamento": "Regla RMF aplicable"
+      },
+      "retencion_iva": {
+        "tasa": 4,
+        "fundamento": "Art. 1-A Fracc. II inciso c) LIVA"
+      }
+    },
+    "comisiones_pf": {
+      "operacion": "PF recibe comisiones de PM",
+      "retencion_isr": {
+        "tasa": 10,
+        "fundamento": "Art. 106 LISR"
+      },
+      "retencion_iva": {
+        "tasa": "2/3 del IVA",
+        "fundamento": "Art. 1-A LIVA"
+      }
+    },
+    "pm_a_pm": {
+      "operacion": "PM paga a PM",
+      "retencion_isr": "No aplica retención (salvo casos especiales)",
+      "retencion_iva": "No aplica retención",
+      "nota": "Ambas partes son responsables de declarar y pagar sus propios impuestos"
+    },
+    "intereses": {
+      "operacion": "Pago de intereses",
+      "iva": "Los intereses derivados de operaciones mercantiles/financieras causan IVA 16%",
+      "retencion": "Si el acreedor es PF, retención ISR según tabla Art. 135 LISR",
+      "precios_transferencia": "Si es entre partes relacionadas, la tasa de interés debe ser de mercado (Art. 179 LISR)"
+    }
+  },
+
+  "clausula_indemnizacion_fiscal": {
+    "descripcion": "Cláusula para proteger a una parte si la otra incumple obligaciones fiscales",
+    "modelo": "Cada parte será responsable del cumplimiento de sus obligaciones fiscales derivadas del presente contrato. En caso de que alguna de las partes genere un perjuicio fiscal a la otra por incumplimiento de sus obligaciones tributarias (incluyendo pero no limitado a: no emitir CFDI, emitir CFDI con errores, aparecer en listas del Art. 69-B del CFF, no enterar retenciones), la parte incumplida indemnizará a la parte afectada por todos los daños y perjuicios causados, incluyendo impuestos, recargos, multas y actualizaciones que la autoridad fiscal determine."
+  }
+}

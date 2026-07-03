@@ -1,0 +1,96 @@
+{
+  "version": "1.0",
+  "ultima_actualizacion": "2026-03-28",
+  "fuente": "NOM-037-STPS-2023, NOM-035-STPS-2018, LFT",
+
+  "teletrabajo_nom037": {
+    "fundamento": "NOM-037-STPS-2023, Art. 330-A a 330-K LFT",
+    "aplica_cuando": "El trabajador realiza el 40% o más de su jornada fuera del centro de trabajo usando TICs",
+    "obligaciones_patron": [
+      "Proporcionar equipo de cómputo, silla ergonómica, impresora (si necesario)",
+      "Pagar proporcionalmente servicios de internet y electricidad",
+      "Implementar mecanismos de seguridad de la información",
+      "Respetar el derecho a la desconexión digital al término de la jornada",
+      "Inscribir a trabajadores en IMSS (mismas obligaciones que presencial)",
+      "Llevar registro de insumos entregados",
+      "Verificar condiciones de seguridad e higiene del lugar de teletrabajo (con consentimiento del trabajador)",
+      "Establecer política de teletrabajo por escrito",
+      "Proporcionar capacitación sobre uso de TICs y riesgos ergonómicos"
+    ],
+    "obligaciones_trabajador": [
+      "Cuidar el equipo proporcionado",
+      "Informar sobre costos de servicios (internet, electricidad)",
+      "Atender las políticas de seguridad de la información",
+      "Estar disponible durante la jornada acordada",
+      "Permitir verificación de condiciones de seguridad (con previo aviso)",
+      "Informar cambios de domicilio de teletrabajo"
+    ],
+    "reversibilidad": "Cualquiera de las partes puede solicitar el cambio a modalidad presencial, conforme a lo pactado en el contrato",
+    "no_aplica": [
+      "Trabajo ocasional o esporádico desde casa (menos del 40%)",
+      "Trabajadores que por naturaleza de su actividad no pueden teletrabajar"
+    ]
+  },
+
+  "nom035": {
+    "nombre": "NOM-035-STPS-2018 — Factores de Riesgo Psicosocial",
+    "obligatoria_desde": "23 de octubre de 2019 (fase 1), 23 de octubre de 2020 (fase 2)",
+    "aplica_a": "Todos los centros de trabajo en México",
+    "obligaciones_por_tamaño": {
+      "1_15_trabajadores": [
+        "Política de prevención de riesgos psicosociales",
+        "Medidas de prevención de violencia laboral",
+        "Identificar trabajadores expuestos a acontecimientos traumáticos severos",
+        "Difundir información sobre la política"
+      ],
+      "16_50_trabajadores": [
+        "Todo lo anterior más:",
+        "Identificar y analizar factores de riesgo psicosocial (cuestionario)",
+        "Adoptar medidas para prevenir factores de riesgo",
+        "Practicar exámenes médicos a trabajadores expuestos a violencia o acontecimientos traumáticos"
+      ],
+      "50_mas_trabajadores": [
+        "Todo lo anterior más:",
+        "Evaluar el entorno organizacional",
+        "Registros de evaluaciones y medidas adoptadas"
+      ]
+    },
+    "factores_riesgo": [
+      "Condiciones peligrosas e inseguras en el ambiente de trabajo",
+      "Cargas de trabajo excesivas",
+      "Falta de control sobre el trabajo",
+      "Jornadas superiores a las previstas en la ley",
+      "Interferencia en la relación trabajo-familia",
+      "Liderazgo negativo y relaciones negativas en el trabajo",
+      "Violencia laboral (hostigamiento, acoso, malos tratos)"
+    ]
+  },
+
+  "protocolo_violencia_acoso": {
+    "fundamento": "Art. 132 Fracc. XXXI LFT, NOM-035",
+    "contenido_minimo": [
+      "Definiciones claras de acoso, hostigamiento y violencia laboral",
+      "Mecanismo confidencial de denuncia (buzón, correo, comité)",
+      "Procedimiento de investigación (plazos, imparcialidad)",
+      "Medidas cautelares durante la investigación",
+      "Sanciones según gravedad",
+      "Protección al denunciante contra represalias",
+      "Comité de atención (integración, facultades)",
+      "Capacitación obligatoria periódica"
+    ],
+    "obligatorio": "Sí, para todos los centros de trabajo"
+  },
+
+  "protocolo_igualdad": {
+    "fundamento": "Ley Federal para Prevenir y Eliminar la Discriminación, NMX-R-025-SCFI-2015",
+    "contenido_sugerido": [
+      "Política de no discriminación",
+      "Igualdad salarial (a trabajo igual, salario igual — Art. 86 LFT)",
+      "Acciones afirmativas para grupos vulnerables",
+      "Accesibilidad para personas con discapacidad",
+      "Licencias de paternidad y maternidad equitativas",
+      "Proceso de selección sin discriminación"
+    ],
+    "obligatorio": "La NMX es voluntaria pero la no discriminación es obligatoria por ley"
+  }
+}

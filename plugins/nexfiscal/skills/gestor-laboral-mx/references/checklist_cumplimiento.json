@@ -1,0 +1,72 @@
+{
+  "version": "1.0",
+  "ultima_actualizacion": "2026-03-28",
+  "fuente": "LFT Art. 132, LSS Art. 15, LINFONAVIT",
+
+  "checklist": {
+    "documentacion_basica": {
+      "prioridad": "Alta",
+      "items": [
+        {"obligacion": "Contratos individuales escritos con todos los trabajadores", "fundamento": "Art. 24-26 LFT", "consecuencia_incumplimiento": "Se presume la relación en los términos más favorables al trabajador. Multa 50-5000 UMA."},
+        {"obligacion": "Alta en IMSS dentro de 5 días hábiles al ingreso", "fundamento": "Art. 15 Fracc. I LSS", "consecuencia_incumplimiento": "Capital constitutivo, multas, responsabilidad por atención médica."},
+        {"obligacion": "Modificaciones salariales ante IMSS dentro de 5 días hábiles", "fundamento": "Art. 15 Fracc. I LSS", "consecuencia_incumplimiento": "Diferencias en cuotas, capitales constitutivos."},
+        {"obligacion": "Baja en IMSS dentro de 5 días hábiles a la terminación", "fundamento": "Art. 15 Fracc. I LSS", "consecuencia_incumplimiento": "Pago de cuotas indebidas."}
+      ]
+    },
+    "prestaciones_obligatorias": {
+      "prioridad": "Alta",
+      "items": [
+        {"obligacion": "Pago de salario mínimo o superior en tiempo y forma", "fundamento": "Art. 82-89 LFT", "consecuencia_incumplimiento": "Rescisión imputable al patrón (Art. 51 Fracc. V LFT)."},
+        {"obligacion": "Vacaciones según tabla Art. 76 LFT (reforma 2023)", "fundamento": "Art. 76-81 LFT", "consecuencia_incumplimiento": "Multa 50-5000 UMA. El trabajador puede exigir judicialmente."},
+        {"obligacion": "Prima vacacional mínimo 25%", "fundamento": "Art. 80 LFT", "consecuencia_incumplimiento": "Multa 50-5000 UMA."},
+        {"obligacion": "Aguinaldo mínimo 15 días antes del 20 de diciembre", "fundamento": "Art. 87 LFT", "consecuencia_incumplimiento": "Multa 50-5000 UMA. Recargos."},
+        {"obligacion": "PTU en mayo (PM) o junio (PF)", "fundamento": "Art. 117-131 LFT", "consecuencia_incumplimiento": "Multa 250-5000 UMA."},
+        {"obligacion": "Días de descanso obligatorio con goce de salario", "fundamento": "Art. 74 LFT", "consecuencia_incumplimiento": "Pago triple si trabaja en día de descanso obligatorio."},
+        {"obligacion": "Prima dominical 25% si trabaja domingos", "fundamento": "Art. 71 LFT", "consecuencia_incumplimiento": "Multa y pago retroactivo."}
+      ]
+    },
+    "seguridad_higiene": {
+      "prioridad": "Alta",
+      "items": [
+        {"obligacion": "Comisión Mixta de Seguridad e Higiene", "fundamento": "Art. 509 LFT, NOM-019-STPS", "consecuencia_incumplimiento": "Multa STPS."},
+        {"obligacion": "Cumplimiento NOM-035 (riesgo psicosocial)", "fundamento": "NOM-035-STPS-2018", "consecuencia_incumplimiento": "Multa 250-5000 UMA por trabajador afectado."},
+        {"obligacion": "Cumplimiento NOM-037 (si hay teletrabajadores)", "fundamento": "NOM-037-STPS-2023", "consecuencia_incumplimiento": "Multa STPS."},
+        {"obligacion": "Protocolo contra violencia y acoso", "fundamento": "Art. 132 Fracc. XXXI LFT", "consecuencia_incumplimiento": "Multa y responsabilidad solidaria por daños."},
+        {"obligacion": "Condiciones de seguridad en el centro de trabajo", "fundamento": "Art. 132 Fracc. XVI-XVII LFT", "consecuencia_incumplimiento": "Multa, clausura temporal. Si hay accidente: responsabilidad penal."}
+      ]
+    },
+    "capacitacion": {
+      "prioridad": "Media",
+      "items": [
+        {"obligacion": "Comisión Mixta de Capacitación y Adiestramiento", "fundamento": "Art. 153-A LFT", "consecuencia_incumplimiento": "Multa 50-5000 UMA."},
+        {"obligacion": "Planes y programas de capacitación", "fundamento": "Art. 153-A, 153-B LFT", "consecuencia_incumplimiento": "Multa."},
+        {"obligacion": "Constancias de habilidades laborales (DC-3)", "fundamento": "Art. 153-T LFT", "consecuencia_incumplimiento": "Multa."},
+        {"obligacion": "Registro de planes ante STPS", "fundamento": "Art. 153-N LFT", "consecuencia_incumplimiento": "Multa."}
+      ]
+    },
+    "documentos_corporativos_laborales": {
+      "prioridad": "Media",
+      "items": [
+        {"obligacion": "Reglamento Interior de Trabajo registrado ante Centro de Conciliación", "fundamento": "Art. 422-425 LFT", "consecuencia_incumplimiento": "No puede invocarse para sancionar al trabajador."},
+        {"obligacion": "Tabla de antigüedades", "fundamento": "Art. 158 LFT", "consecuencia_incumplimiento": "Conflicto en preferencia de ascensos."},
+        {"obligacion": "Aviso de funcionamiento ante STPS (según actividad)", "fundamento": "Reglamento Federal de SST", "consecuencia_incumplimiento": "Multa."}
+      ]
+    },
+    "imss_infonavit": {
+      "prioridad": "Alta",
+      "items": [
+        {"obligacion": "Pago oportuno de cuotas IMSS (SUA)", "fundamento": "Art. 39 LSS", "consecuencia_incumplimiento": "Recargos, actualización, multas. Capital constitutivo si hay siniestro."},
+        {"obligacion": "Aportaciones INFONAVIT 5%", "fundamento": "Art. 29 LINFONAVIT", "consecuencia_incumplimiento": "Recargos y multas."},
+        {"obligacion": "Retención y entero de amortizaciones de crédito INFONAVIT", "fundamento": "Art. 29 Fracc. III LINFONAVIT", "consecuencia_incumplimiento": "Responsabilidad solidaria por el monto no retenido."},
+        {"obligacion": "Declaración anual de prima de riesgo (febrero)", "fundamento": "Art. 74 LSS", "consecuencia_incumplimiento": "Se aplica prima media de la clase. Multa."},
+        {"obligacion": "Informativa de outsourcing/subcontratación (si aplica)", "fundamento": "Art. 15-A LFT reforma 2021", "consecuencia_incumplimiento": "Responsabilidad solidaria."}
+      ]
+    }
+  },
+
+  "multas_referencia": {
+    "rango_multas_lft": "50 a 5,000 UMA por cada trabajador afectado",
+    "fundamento": "Art. 992-1010 LFT",
+    "nota_valores_vigentes": "Para convertir UMA a pesos, consultar el valor vigente de la UMA con el connector nexfiscal (consultar_valores_fiscales, familia 'uma'). Nunca usar valores de memoria."
+  }
+}

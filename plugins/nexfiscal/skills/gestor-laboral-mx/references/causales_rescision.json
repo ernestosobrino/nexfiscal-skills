@@ -1,0 +1,54 @@
+{
+  "version": "1.0",
+  "ultima_actualizacion": "2026-03-28",
+  "fuente": "LFT Art. 47 y 51",
+
+  "rescision_sin_responsabilidad_patron": {
+    "fundamento": "Art. 47 LFT",
+    "descripcion": "Causales por las que el patrón puede rescindir sin responsabilidad",
+    "causales": [
+      {"fraccion": "I", "causal": "Engaño del trabajador o sindicato con certificados falsos o referencias que atribuyan aptitudes o facultades que no tiene. Esta causa deja de tener efecto después de 30 días de prestar servicios."},
+      {"fraccion": "II", "causal": "Incurrir en faltas de probidad u honradez, en actos de violencia, amagos, injurias o malos tratamientos contra el patrón, sus familiares, personal directivo o administrativo, o contra clientes y proveedores, salvo que medie provocación o actúe en defensa propia."},
+      {"fraccion": "III", "causal": "Cometer los actos de la fracción II contra compañeros de trabajo si alteran la disciplina del lugar."},
+      {"fraccion": "IV", "causal": "Cometer los actos de la fracción II fuera del servicio contra el patrón, sus familiares o personal directivo/administrativo, si son de tal gravedad que hagan imposible el cumplimiento de la relación."},
+      {"fraccion": "V", "causal": "Ocasionar intencionalmente perjuicios materiales a edificios, obras, maquinaria, instrumentos, materias primas y demás objetos relacionados con el trabajo."},
+      {"fraccion": "VI", "causal": "Ocasionar perjuicios de la fracción V por negligencia tal que sea la causa única del daño."},
+      {"fraccion": "VII", "causal": "Comprometer la seguridad del establecimiento o de las personas por imprudencia o descuido inexcusable."},
+      {"fraccion": "VIII", "causal": "Cometer actos inmorales o de hostigamiento y/o acoso sexual contra cualquier persona en el establecimiento o lugar de trabajo."},
+      {"fraccion": "IX", "causal": "Revelar secretos de fabricación o dar a conocer asuntos de carácter reservado con perjuicio de la empresa."},
+      {"fraccion": "X", "causal": "Tener más de tres faltas de asistencia en un período de 30 días sin permiso del patrón o sin causa justificada."},
+      {"fraccion": "XI", "causal": "Desobedecer al patrón o sus representantes sin causa justificada, siempre que se trate del trabajo contratado."},
+      {"fraccion": "XII", "causal": "Negarse a adoptar las medidas preventivas o seguir los procedimientos para evitar accidentes o enfermedades."},
+      {"fraccion": "XIII", "causal": "Concurrir a las labores en estado de embriaguez o bajo la influencia de algún narcótico o droga enervante, salvo prescripción médica (debe avisar antes de iniciar labores)."},
+      {"fraccion": "XIV", "causal": "La sentencia ejecutoriada que imponga al trabajador una pena de prisión que le impida el cumplimiento de la relación de trabajo."},
+      {"fraccion": "XIV Bis", "causal": "La falta de documentos que exijan las leyes y reglamentos necesarios para la prestación del servicio, cuando sea imputable al trabajador."},
+      {"fraccion": "XV", "causal": "Las análogas a las anteriores, de igual manera graves y de consecuencias semejantes en lo que al trabajo se refiere."}
+    ],
+    "procedimiento_aviso": {
+      "obligacion": "El patrón DEBE dar aviso escrito al trabajador indicando la conducta que motiva la rescisión y la fecha en que ocurrió",
+      "negativa_recibir": "Si el trabajador se niega a recibir el aviso, el patrón debe hacerlo del conocimiento del Centro de Conciliación competente dentro de los 5 DÍAS HÁBILES siguientes, proporcionando domicilio del trabajador",
+      "consecuencia_falta_aviso": "LA FALTA DE AVISO AL TRABAJADOR O AL CENTRO DE CONCILIACIÓN, POR SÍ SOLA, BASTARÁ PARA CONSIDERAR QUE EL DESPIDO FUE INJUSTIFICADO",
+      "fundamento": "Art. 47 último párrafo LFT",
+      "prescripcion": "El patrón debe ejercer la rescisión dentro de un MES a partir de que tenga conocimiento de la causa (Art. 517 Fracc. I LFT)"
+    }
+  },
+
+  "rescision_sin_responsabilidad_trabajador": {
+    "fundamento": "Art. 51 LFT",
+    "descripcion": "Causales por las que el trabajador puede rescindir sin responsabilidad y tiene derecho a liquidación",
+    "causales": [
+      {"fraccion": "I", "causal": "Engaño del patrón o de la agrupación patronal sobre las condiciones de trabajo. Deja de tener efecto después de 30 días de prestar servicios."},
+      {"fraccion": "II", "causal": "Incurrir el patrón, sus familiares o cualquiera de sus representantes en faltas de probidad u honradez, actos de violencia, amenazas, injurias, hostigamiento y/o acoso sexual, malos tratamientos u otros análogos, contra el trabajador, cónyuge, padres, hijos o hermanos."},
+      {"fraccion": "III", "causal": "Incurrir el patrón, sus familiares o trabajadores en los actos de la fracción II fuera del servicio si son de tal manera graves que hagan imposible el cumplimiento de la relación."},
+      {"fraccion": "IV", "causal": "Reducir el patrón el salario del trabajador."},
+      {"fraccion": "V", "causal": "No recibir el salario correspondiente en la fecha o lugar convenidos."},
+      {"fraccion": "VI", "causal": "Sufrir perjuicios causados maliciosamente por el patrón en sus herramientas o útiles de trabajo."},
+      {"fraccion": "VII", "causal": "La existencia de un peligro grave para la seguridad o salud del trabajador o de su familia por carecer de condiciones higiénicas el establecimiento, o por incumplimiento del patrón de las medidas preventivas y de seguridad."},
+      {"fraccion": "VIII", "causal": "Comprometer el patrón con su imprudencia o descuido inexcusable la seguridad del establecimiento o de las personas."},
+      {"fraccion": "IX", "causal": "Exigir al trabajador actos, conductas o comportamientos que menoscaben o atenten contra su dignidad."},
+      {"fraccion": "X", "causal": "Las análogas a las anteriores de igual manera graves y de consecuencias semejantes."}
+    ],
+    "consecuencia": "El trabajador tiene derecho a indemnización constitucional (3 meses), 20 días por año, prima de antigüedad y demás prestaciones de finiquito",
+    "prescripcion": "El trabajador debe ejercer la rescisión dentro de un MES a partir de que tenga conocimiento de la causa"
+  }
+}

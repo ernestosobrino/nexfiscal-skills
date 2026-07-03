@@ -12,4 +12,9 @@ Reglas de toda skill de esta carpeta (ver CLAUDE.md del repo):
 - La skill instruye de forma tajante usar el connector y **nunca** valores de memoria ni tablas locales.
 - Sin suscripción activa la skill no entrega números: advierte que la suscripción venció y que los valores pueden estar desactualizados.
 
-**Ya disponible:** `calculadora-nomina-mx/` (nómina regular, finiquito, costo del trabajador y consultas de valores) — refactor a cascarón de la skill original, conectada al backend de producción `mcp.nexfiscal.app`. Las 7 restantes se suman con este mismo patrón (Grupo A primero).
+**Disponibles (5 de 8):**
+
+- `calculadora-nomina-mx/` — nómina, finiquito, costo del trabajador y consultas de valores (cálculo 100% en el backend)
+- `gestor-laboral-mx/`, `contratos-mercantiles/`, `redactor-actas-asambleas/`, `compliance-lfpdppp/` — generación de documentos sobre ley estable; los valores que caducan (UMA, multas en pesos) se consultan al connector
+
+**En camino (Grupo A, requieren backend):** `calculadora-actualizacion-recargos` (INPC/recargos/multas), `regimen-fiscal-optimo` y `dictaminador-cfdi` (listas 69/69-B en vivo).

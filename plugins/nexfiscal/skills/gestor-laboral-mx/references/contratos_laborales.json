@@ -1,0 +1,121 @@
+{
+  "version": "1.0",
+  "ultima_actualizacion": "2026-03-28",
+  "fuente": "LFT Arts. 24-28, 35-42, 39-A a 39-F, 330-A a 330-K",
+
+  "contenido_minimo_art25": {
+    "descripcion": "Todo contrato laboral DEBE contener al menos estos datos (Art. 25 LFT)",
+    "elementos": [
+      "I. Nombre, nacionalidad, edad, sexo, estado civil, CURP, RFC y domicilio del trabajador y del patrón",
+      "II. Si la relación es por obra o tiempo determinado, por temporada, de capacitación inicial o por tiempo indeterminado, y en su caso si está sujeta a un período de prueba",
+      "III. El servicio o servicios que deban prestarse, determinados con la mayor precisión posible",
+      "IV. El lugar o los lugares donde deba prestarse el trabajo",
+      "V. La duración de la jornada",
+      "VI. La forma y el monto del salario",
+      "VII. El día y el lugar de pago del salario",
+      "VIII. La indicación de que el trabajador será capacitado o adiestrado conforme a los planes y programas del patrón",
+      "IX. Otras condiciones de trabajo como días de descanso, vacaciones y demás que convengan al trabajador y al patrón",
+      "X. La designación de beneficiarios para efectos de pago de salarios y prestaciones devengadas (en caso de fallecimiento)"
+    ]
+  },
+
+  "tipos": {
+    "tiempo_indeterminado": {
+      "nombre": "Por tiempo indeterminado",
+      "fundamento": "Art. 35 LFT",
+      "regla": "Es la REGLA GENERAL. Si no se especifica el tipo, se presume indeterminado",
+      "clausulas_especificas": [
+        "Fecha de ingreso",
+        "Puesto y funciones detalladas",
+        "Salario y periodicidad de pago",
+        "Jornada y horario",
+        "Prestaciones (ley o superiores especificadas)",
+        "Confidencialidad (si aplica)",
+        "Cláusula de exclusividad (si aplica, con compensación)"
+      ]
+    },
+    "tiempo_determinado": {
+      "nombre": "Por tiempo determinado",
+      "fundamento": "Art. 37 LFT",
+      "causas_validas": [
+        "Cuando lo exija la naturaleza del trabajo que se va a prestar",
+        "Cuando tenga por objeto sustituir temporalmente a otro trabajador",
+        "En los demás casos previstos por la LFT (explotación de minas)"
+      ],
+      "clausulas_especificas": [
+        "Causa EXPRESA que justifica la temporalidad",
+        "Fecha de inicio y fecha de terminación",
+        "Evento que determina el fin (si es sustitución: nombre del sustituido)",
+        "Consecuencias si se prolonga más allá del plazo"
+      ],
+      "advertencia": "Si no se expresa causa válida, se considera por tiempo indeterminado con todas sus consecuencias"
+    },
+    "obra_determinada": {
+      "nombre": "Por obra determinada",
+      "fundamento": "Art. 36 LFT",
+      "clausulas_especificas": [
+        "Descripción PRECISA de la obra",
+        "Ubicación de la obra",
+        "Fecha estimada de conclusión",
+        "Criterio para determinar cuándo se considera concluida"
+      ]
+    },
+    "periodo_prueba": {
+      "nombre": "Período de prueba",
+      "fundamento": "Art. 39-A LFT",
+      "duracion_maxima": "30 días. 180 días para puestos de dirección, gerenciales o de administración",
+      "clausulas_especificas": [
+        "Que se trata de período de prueba (expresamente)",
+        "Duración del período",
+        "Criterios de evaluación de aptitud",
+        "Que el trabajador goza de salario y prestaciones completas",
+        "Procedimiento al término: acreditación o terminación"
+      ],
+      "restricciones": [
+        "No puede aplicarse simultáneamente con capacitación inicial",
+        "No puede usarse en períodos sucesivos",
+        "No puede aplicarse más de una vez al mismo trabajador para el mismo puesto",
+        "Al término, si no se acredita aptitud, termina SIN responsabilidad"
+      ]
+    },
+    "capacitacion_inicial": {
+      "nombre": "Capacitación inicial",
+      "fundamento": "Art. 39-B LFT",
+      "duracion_maxima": "3 meses. 6 meses para puestos de dirección, gerenciales o de administración",
+      "clausulas_especificas": [
+        "Que se trata de capacitación inicial (expresamente)",
+        "Habilidades o conocimientos a adquirir",
+        "Plan de capacitación",
+        "Duración del período",
+        "Criterios de evaluación de competencia",
+        "Que goza de salario y prestaciones completas"
+      ]
+    },
+    "temporada": {
+      "nombre": "Por temporada",
+      "fundamento": "Art. 39-F LFT",
+      "clausulas_especificas": [
+        "Temporada o período de actividad",
+        "Que las prestaciones son proporcionales al tiempo trabajado",
+        "Derecho de preferencia para temporadas subsecuentes"
+      ]
+    },
+    "teletrabajo": {
+      "nombre": "Teletrabajo",
+      "fundamento": "Art. 330-A a 330-K LFT, NOM-037-STPS-2023",
+      "condicion": "Cuando el 40% o más del tiempo se labore fuera del centro de trabajo usando TICs",
+      "clausulas_especificas": [
+        "Naturaleza del teletrabajo (100% remoto o híbrido)",
+        "Lugar(es) desde donde se realizará el trabajo",
+        "Equipo proporcionado por el patrón (computadora, silla, etc.)",
+        "Pago proporcional de internet y electricidad",
+        "Derecho a la desconexión digital",
+        "Horario y mecanismos de supervisión (respetando intimidad)",
+        "Mecanismos de contacto y supervisión",
+        "Política de seguridad de la información",
+        "Condiciones de reversibilidad (volver a presencial)",
+        "Obligaciones de seguridad e higiene en el lugar de teletrabajo"
+      ]
+    }
+  }
+}

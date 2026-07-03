@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "fuente": "LFPDPPP (DOF 05/07/2010), LGPDPPSO (DOF 26/01/2017)",
+    "ultima_actualizacion": "2026-04",
+    "uso": "Comparativo para casos en que el responsable sea o pudiera ser sujeto obligado del sector público."
+  },
+  "cuando_aplica_cada_una": {
+    "lfpdppp_aplica_a": [
+      "Personas físicas con actividad empresarial o profesional",
+      "Personas morales privadas (S.A. de C.V., S.A.P.I., S. de R.L., S.C., A.C., A. en P., etc.)",
+      "Fideicomisos privados",
+      "Asociaciones civiles y religiosas privadas",
+      "Sindicatos en su carácter privado (no cuando reciban recursos públicos)"
+    ],
+    "lgpdppso_aplica_a": [
+      "Cualquier autoridad, entidad, órgano y organismo de los Poderes Ejecutivo, Legislativo y Judicial",
+      "Órganos autónomos (CNDH, INE, INAI, etc.)",
+      "Partidos políticos",
+      "Fideicomisos y fondos públicos",
+      "Sindicatos y cualquier persona física o moral que reciba y ejerza recursos públicos o realice actos de autoridad federal, estatal o municipal"
+    ],
+    "casos_grises": {
+      "concesionarios_publicos": "Cuando reciben recursos públicos o realizan actos de autoridad pueden quedar bajo LGPDPPSO en lo que respecta a esa función",
+      "sindicatos": "LGPDPPSO si reciben cuotas obligatorias o recursos públicos; LFPDPPP en lo privado",
+      "universidades_privadas": "LFPDPPP generalmente; LGPDPPSO si reciben subsidios y en lo concerniente al uso de esos recursos",
+      "instituciones_de_asistencia_privada": "Depende de si reciben recursos públicos"
+    }
+  },
+  "diferencias_principales": [
+    {
+      "aspecto": "Autoridad sancionadora",
+      "lfpdppp": "INAI (federal)",
+      "lgpdppso": "INAI federal + Órganos garantes locales según ámbito de competencia"
+    },
+    {
+      "aspecto": "Sistema de gestión de seguridad",
+      "lfpdppp": "Documento de Seguridad (Art. 60 Reglamento)",
+      "lgpdppso": "Sistema de gestión obligatorio con metodología más exigente; análisis y evaluación de impacto cuando aplique"
+    },
+    {
+      "aspecto": "Evaluación de impacto en privacidad",
+      "lfpdppp": "Recomendada, no obligatoria",
+      "lgpdppso": "Obligatoria cuando el tratamiento conlleve riesgo elevado"
+    },
+    {
+      "aspecto": "Aviso de privacidad",
+      "lfpdppp": "Lineamientos del Aviso (DOF 17/01/2013) - 3 modalidades: integral, simplificado, corto",
+      "lgpdppso": "Lineamientos generales para la elaboración del aviso (sector público) - reglas adicionales sobre formalidades"
+    },
+    {
+      "aspecto": "Encargado/Responsable interno",
+      "lfpdppp": "Encargado o área de datos personales (Art. 30)",
+      "lgpdppso": "Unidad de Transparencia y Comité de Transparencia con funciones específicas"
+    },
+    {
+      "aspecto": "Plazos ARCO",
+      "lfpdppp": "20 días respuesta + 15 materialización",
+      "lgpdppso": "20 días respuesta + 15 materialización (igual)"
+    },
+    {
+      "aspecto": "Recurso de revisión",
+      "lfpdppp": "Protección de derechos ante INAI (Art. 45)",
+      "lgpdppso": "Recurso de revisión ante el órgano garante competente"
+    },
+    {
+      "aspecto": "Sanciones a particulares",
+      "lfpdppp": "Multas Arts. 63-66 (100 a 320,000 días UMA, agravante por datos sensibles); responsabilidad penal Arts. 67-69",
+      "lgpdppso": "Las sanciones operan a través de procedimiento administrativo y responsabilidades de servidores públicos; en el caso de personas físicas o morales que reciben recursos públicos, sanciones administrativas conforme la ley"
+    },
+    {
+      "aspecto": "Transferencias internacionales",
+      "lfpdppp": "Art. 36 - consentimiento expreso salvo excepciones",
+      "lgpdppso": "Cláusulas tipo, dictamen del INAI cuando aplique, mayores requisitos"
+    },
+    {
+      "aspecto": "Datos de seguridad nacional",
+      "lfpdppp": "No aplica este supuesto",
+      "lgpdppso": "Régimen específico de excepción para datos de seguridad nacional"
+    },
+    {
+      "aspecto": "Catálogo de bases de datos",
+      "lfpdppp": "No obligatorio",
+      "lgpdppso": "Obligación de mantener catálogo de bases (registro)"
+    }
+  ],
+  "elementos_comunes": [
+    "Derechos ARCO (idénticos)",
+    "Principios rectores (similares, con matices)",
+    "Definiciones de datos personales y sensibles",
+    "Deberes de seguridad y confidencialidad",
+    "Obligación de tener aviso de privacidad",
+    "INAI como autoridad de control"
+  ],
+  "recomendaciones_practicas": {
+    "para_consultas_dudosas": "Si hay duda sobre cuál ley aplica, analizar: (a) la naturaleza del responsable, (b) la fuente de sus recursos, (c) si realiza actos de autoridad. En caso de duda, consultar al INAI o asesor especialista.",
+    "convergencia_normativa": "Muchas organizaciones privadas adoptan prácticas de LGPDPPSO como buena gobernanza (evaluación de impacto, catálogo de bases), aunque no sean obligatorias bajo LFPDPPP.",
+    "documentar_la_aplicacion": "Documentar formalmente por escrito cuál régimen aplica al responsable, con fundamento, evita confusiones internas y ante autoridades."
+  }
+}
