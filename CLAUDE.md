@@ -29,4 +29,4 @@ plugins/nexfiscal/
 
 ## Estado
 
-Backend en producción (https://mcp.nexfiscal.app) y primera skill-cascarón publicada: `calculadora-nomina-mx` (v0.2.0). Siguiente: prueba de experiencia instalando el plugin en claude.ai y réplica del patrón al resto del Grupo A.
+Backend en producción (https://mcp.nexfiscal.app), prueba de experiencia real en claude.ai superada, y plugin v0.4.0 con 6 de 8 skills publicadas: `calculadora-nomina-mx`, `calculadora-actualizacion-recargos` (ambas 100% backend), `gestor-laboral-mx`, `contratos-mercantiles`, `redactor-actas-asambleas` y `compliance-lfpdppp`. Faltan: `regimen-fiscal-optimo` y `dictaminador-cfdi` (Grupo A, requieren backend).
