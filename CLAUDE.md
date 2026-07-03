@@ -24,9 +24,9 @@ Nota: el `CLAUDE.md` de este repo es para el DESARROLLO del repo (no se carga co
 plugins/nexfiscal/
 ├── .claude-plugin/plugin.json       # manifiesto del plugin
 ├── .mcp.json                        # connector remoto (URL placeholder hasta Fase 3)
-└── skills/                          # las 8 skills-cascarón (llegan en Fase 4)
+└── skills/calculadora-nomina-mx/    # 1.ª skill-cascarón (las 7 restantes, por fases)
 ```
 
 ## Estado
 
-Fase 2 (scaffold) completada. La URL del connector en `.mcp.json` es placeholder hasta que el backend piloto esté desplegado (Fase 3). Las skills-cascarón se agregan en Fase 4, empezando por `calculadora-nomina-mx`.
+Backend en producción (https://mcp.nexfiscal.app) y primera skill-cascarón publicada: `calculadora-nomina-mx` (v0.2.0). Siguiente: prueba de experiencia instalando el plugin en claude.ai y réplica del patrón al resto del Grupo A.
