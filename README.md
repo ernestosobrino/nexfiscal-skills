@@ -14,8 +14,17 @@ El contenido fiscal cambia todo el año (RMF, UMA, tablas ISR, INPC, listas SAT)
 
 Información y contratación: https://skills.nexfiscal.mx
 
----
+## Skills incluidas (6 de 8)
 
-⚠️ Producto en construcción (versión 0.1.0): el connector y las skills se publicarán en las siguientes fases.
+- **Calculadora de Nómina MX** — nómina, finiquito, costo del trabajador y consulta de valores vigentes e históricos.
+- **Actualización y Recargos** — actualización Art. 17-A CFF, recargos por mora (SAT/IMSS/INFONAVIT), parcialidades y pago diferido, saldos a favor, con INPC y tasas en vivo.
+- **Gestor Laboral MX** — documentos y procesos laborales conforme a la LFT.
+- **Contratos Mercantiles** — redacción de contratos mercantiles mexicanos.
+- **Redactor de Actas de Asambleas** — actas y resoluciones societarias.
+- **Compliance LFPDPPP** — avisos de privacidad y cumplimiento de datos personales.
+
+En camino: **Régimen Fiscal Óptimo** y **Dictaminador CFDI** (listas 69/69-B en vivo).
+
+---
 
 *Los cálculos son informativos y no sustituyen la opinión de un profesional fiscal o laboral.*
