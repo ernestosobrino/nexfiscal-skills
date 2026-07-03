@@ -145,6 +145,10 @@ del contrato se imputa al patrón (Art. 26 LFT).
 
 **Fundamento:** Art. 422-425 LFT
 
+Lee `references/reglamento_interior.json` para el contenido íntegro del
+Art. 423 (las 11 fracciones), las formalidades de depósito ante el CFCRL,
+los efectos prácticos y las cláusulas recomendadas adicionales.
+
 **Definición:** Conjunto de disposiciones obligatorias para trabajadores
 y patrón en el desarrollo de los trabajos de una empresa.
 
@@ -272,6 +276,11 @@ como evidencia para un eventual procedimiento de rescisión.
 
 ## MÓDULO 6: PROTOCOLOS Y POLÍTICAS OBLIGATORIAS
 
+Lee `references/protocolos_obligatorios.json` para el detalle por norma:
+obligaciones de la NOM-035 graduadas por tamaño de empresa, NOM-037,
+protocolo de violencia/acoso (Art. 132 fracc. XXXI LFT) y política de
+igualdad. Los montos de multas en pesos se consultan al connector.
+
 ### NOM-035-STPS-2018 — Factores de riesgo psicosocial
 **Obligatorio para TODOS los centros de trabajo**
 - Identificar y analizar factores de riesgo psicosocial
@@ -396,5 +405,7 @@ del Centro de Conciliación y Registro Laboral de su entidad."
 ## Archivos de referencia
 - `references/contratos_laborales.json` — Requisitos por tipo de contrato
 - `references/causales_rescision.json` — Causales Art. 47 y 51 LFT completas
+- `references/reglamento_interior.json` — Art. 423 íntegro, formalidades CFCRL y cláusulas recomendadas
+- `references/protocolos_obligatorios.json` — NOM-035 por tamaño, NOM-037, violencia/acoso e igualdad
 - `references/teletrabajo_nom037.json` — Obligaciones de teletrabajo
 - `references/checklist_cumplimiento.json` — Lista de verificación de obligaciones patronales

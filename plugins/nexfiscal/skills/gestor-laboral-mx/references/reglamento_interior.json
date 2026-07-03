@@ -1,0 +1,60 @@
+{
+  "version": "1.0",
+  "fuente": "Arts. 422 a 425 LFT",
+  "nota": "Contenido de ley estable. Los montos de multas en pesos se consultan al connector nexfiscal; aquí solo rangos y fundamentos.",
+
+  "definicion": {
+    "texto": "Conjunto de disposiciones obligatorias para trabajadores y patrones en el desarrollo de los trabajos en una empresa o establecimiento. No son materia del reglamento las normas de orden técnico y administrativo que formulen directamente las empresas.",
+    "fundamento": "Art. 422 LFT"
+  },
+
+  "contenido_obligatorio": {
+    "fundamento": "Art. 423 LFT",
+    "fracciones": [
+      { "num": "I", "tema": "Horas de entrada y salida de los trabajadores, tiempo destinado para las comidas y períodos de reposo durante la jornada" },
+      { "num": "II", "tema": "Lugar y momento en que deben comenzar y terminar las jornadas de trabajo" },
+      { "num": "III", "tema": "Días y horas fijados para hacer la limpieza de los establecimientos, maquinaria, aparatos y útiles de trabajo" },
+      { "num": "IV", "tema": "Días y lugares de pago" },
+      { "num": "V", "tema": "Normas para el uso de los asientos o sillas (en relación con el Art. 132 fracc. V LFT)" },
+      { "num": "VI", "tema": "Normas para prevenir los riesgos de trabajo e instrucciones para prestar los primeros auxilios" },
+      { "num": "VII", "tema": "Labores insalubres y peligrosas que no deben desempeñar los menores y la protección que deben tener las trabajadoras embarazadas" },
+      { "num": "VIII", "tema": "Tiempo y forma en que los trabajadores deben someterse a los exámenes médicos previos o periódicos, y a las medidas profilácticas que dicten las autoridades" },
+      { "num": "IX", "tema": "Permisos y licencias" },
+      { "num": "X", "tema": "Disposiciones disciplinarias y procedimientos para su aplicación. La suspensión como medida disciplinaria no podrá exceder de OCHO DÍAS y el trabajador tiene derecho a ser oído antes de aplicar la sanción" },
+      { "num": "XI", "tema": "Las demás normas necesarias y convenientes según la naturaleza de la empresa, para la mayor seguridad y regularidad del trabajo" }
+    ]
+  },
+
+  "formalidades": {
+    "formulacion": {
+      "texto": "Se formula por una comisión mixta de representantes de los trabajadores y del patrón.",
+      "fundamento": "Art. 424 fracc. I LFT"
+    },
+    "deposito": {
+      "texto": "Si las partes están de acuerdo, cualquiera de ellas lo deposita ante el Centro Federal de Conciliación y Registro Laboral (CFCRL); surte efectos a partir de la fecha de su depósito.",
+      "fundamento": "Art. 424 fracc. II LFT (reforma 2019)"
+    },
+    "objeciones": {
+      "texto": "Los trabajadores o el patrón pueden solicitar en cualquier tiempo que se subsanen las disposiciones contrarias a la ley.",
+      "fundamento": "Art. 424 fracc. IV LFT"
+    },
+    "difusion": {
+      "texto": "Debe imprimirse, repartirse entre los trabajadores y fijarse en los lugares más visibles del establecimiento.",
+      "fundamento": "Art. 425 LFT"
+    }
+  },
+
+  "efectos_practicos": [
+    "Sin RIT depositado, las sanciones disciplinarias (suspensiones, amonestaciones formales) son difícilmente defendibles ante un tribunal laboral.",
+    "El RIT es la base documental para actas administrativas y para acreditar la desobediencia como causal del Art. 47 fracc. XI LFT.",
+    "Las disposiciones del RIT contrarias a la LFT se tienen por no puestas; el reglamento no puede reducir derechos de ley."
+  ],
+
+  "clausulas_recomendadas": [
+    "Uso de herramientas de trabajo, equipo de cómputo, correo y sistemas (en congruencia con el aviso de privacidad de empleados)",
+    "Política de asistencia, retardos y su acumulación como falta",
+    "Procedimiento interno de quejas y canal de denuncia (enlaza con protocolos NOM-035 y de violencia laboral)",
+    "Reglas de imagen, seguridad e higiene específicas del giro",
+    "Uso de vehículos, viáticos y gastos, cuando aplique"
+  ]
+}

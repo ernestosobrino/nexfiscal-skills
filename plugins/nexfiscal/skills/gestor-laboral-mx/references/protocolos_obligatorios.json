@@ -1,0 +1,79 @@
+{
+  "version": "1.0",
+  "fuente": "LFT; NOM-035-STPS-2018; NOM-037-STPS-2023; NMX-R-025-SCFI-2015",
+  "nota": "Obligaciones de norma estable. Los montos de multas en pesos se consultan al connector nexfiscal (los rangos legales se expresan en UMA).",
+
+  "nom_035": {
+    "nombre": "NOM-035-STPS-2018, Factores de riesgo psicosocial en el trabajo — Identificación, análisis y prevención",
+    "publicacion": "DOF 23/10/2018; exigible en su totalidad desde el 23/10/2020",
+    "ambito": "Todos los centros de trabajo del territorio nacional; las obligaciones se gradúan por número de trabajadores",
+    "obligaciones_por_tamano": {
+      "hasta_15": [
+        "Política de prevención de riesgos psicosociales",
+        "Medidas de prevención y acciones de control",
+        "Identificar a trabajadores expuestos a acontecimientos traumáticos severos (ATS) y canalizarlos",
+        "Difundir información a los trabajadores"
+      ],
+      "de_16_a_50": [
+        "Todo lo anterior",
+        "Identificación y análisis de factores de riesgo psicosocial (cuestionario Guía de referencia II)"
+      ],
+      "mas_de_50": [
+        "Todo lo anterior",
+        "Evaluación del entorno organizacional (cuestionario Guía de referencia III)",
+        "Registros de resultados, medidas adoptadas y trabajadores canalizados"
+      ]
+    },
+    "periodicidad": "La identificación/análisis y la evaluación del entorno se realizan al menos cada dos años",
+    "elementos_del_protocolo": [
+      "Política por escrito y difundida",
+      "Mecanismo de quejas y denuncia confiable (buzón/canal)",
+      "Medidas contra prácticas opuestas al entorno organizacional favorable y actos de violencia laboral",
+      "Procedimiento de atención a trabajadores expuestos a ATS"
+    ],
+    "sanciones": "Multas conforme al Art. 994 fracc. V LFT, expresadas en UMA (250 a 5,000 UMA por incumplimientos de normas de seguridad y salud); el monto en pesos se calcula con la UMA vigente del connector"
+  },
+
+  "nom_037": {
+    "nombre": "NOM-037-STPS-2023, Teletrabajo — Condiciones de seguridad y salud en el trabajo",
+    "publicacion": "DOF 08/06/2023; vigente desde el 05/12/2023",
+    "ambito": "Trabajadores que desarrollan más del 40% de su tiempo en teletrabajo (Arts. 330-A a 330-K LFT)",
+    "obligaciones_patron": [
+      "Listado actualizado de teletrabajadores",
+      "Política de teletrabajo por escrito",
+      "Validar que el lugar de trabajo cumpla condiciones de seguridad y salud (lista de verificación)",
+      "Proporcionar silla ergonómica y los insumos/equipo necesarios",
+      "Asumir costos proporcionales (internet, electricidad) conforme al Art. 330-E LFT",
+      "Respetar el derecho a la desconexión",
+      "Garantizar la reversibilidad del esquema",
+      "Capacitación y mecanismos de comunicación/atención de riesgos"
+    ],
+    "referencia_detallada": "references/teletrabajo_nom037.json"
+  },
+
+  "protocolo_violencia_acoso": {
+    "nombre": "Protocolo para prevenir la discriminación por razones de género y atención de casos de violencia, acoso u hostigamiento sexual",
+    "obligatoriedad": "Obligatorio: el patrón debe implementarlo en acuerdo con los trabajadores",
+    "fundamento": "Art. 132 fracc. XXXI LFT (reforma 2019); Convenio 190 OIT ratificado por México",
+    "contenido_minimo": [
+      "Definiciones de violencia, acoso y hostigamiento (Art. 3o-Bis LFT)",
+      "Canal de denuncia confidencial y persona/comité responsable",
+      "Procedimiento de investigación con plazos y garantía de no represalias",
+      "Medidas de protección a la víctima durante la investigación",
+      "Catálogo de sanciones vinculado al RIT",
+      "Registro de casos y capacitación periódica"
+    ]
+  },
+
+  "protocolo_igualdad_no_discriminacion": {
+    "nombre": "Política de igualdad laboral y no discriminación",
+    "obligatoriedad": "La no discriminación es obligación de ley (Arts. 2o y 3o LFT; Art. 1o Constitucional); la certificación NMX-R-025-SCFI-2015 es VOLUNTARIA",
+    "contenido_sugerido": [
+      "Igualdad sustantiva y salarial (trabajo igual, salario igual — Art. 86 LFT)",
+      "Prohibición de solicitar certificados de ingravidez y de despedir por embarazo (Art. 133 LFT)",
+      "Accesibilidad y ajustes razonables",
+      "Lenguaje incluyente en documentos laborales",
+      "Comité o responsable de vigilancia"
+    ]
+  }
+}
