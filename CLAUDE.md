@@ -29,4 +29,4 @@ plugins/nexfiscal/
 
 ## Estado
 
-Backend en producción (https://mcp.nexfiscal.app), prueba de experiencia real en claude.ai superada, y plugin v0.4.0 con 6 de 8 skills publicadas: `calculadora-nomina-mx`, `calculadora-actualizacion-recargos` (ambas 100% backend), `gestor-laboral-mx`, `contratos-mercantiles`, `redactor-actas-asambleas` y `compliance-lfpdppp`. Faltan: `regimen-fiscal-optimo` y `dictaminador-cfdi` (Grupo A, requieren backend).
+**Producto completo: 8 de 8 skills publicadas (plugin v0.6.0)** sobre el backend en producción (https://mcp.nexfiscal.app) con 8 herramientas del contrato v1.3. Grupo A 100% backend: nómina, recargos, régimen fiscal y dictaminador CFDI (listas 69/69-B en vivo). Grupo B: gestor laboral, contratos, actas y compliance LFPDPPP (pendiente aplicar la actualización a la ley 2025 tras visto bueno jurídico).
