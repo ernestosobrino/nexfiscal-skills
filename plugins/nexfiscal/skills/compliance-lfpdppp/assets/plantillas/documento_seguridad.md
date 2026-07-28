@@ -18,7 +18,7 @@
 
 ## 1. Introducción y alcance
 
-El presente Documento de Seguridad establece las medidas administrativas, físicas y técnicas que [Responsable] implementa para proteger los Datos Personales que trata, conforme al Art. 19 LFPDPPP y al Art. 60 de su Reglamento.
+El presente Documento de Seguridad establece las medidas administrativas, físicas y técnicas que [Responsable] implementa para proteger los Datos Personales que trata, conforme al Art. 18 LFPDPPP y al Art. 60 de su Reglamento.
 
 **Aplicación:** Este documento es de observancia obligatoria para todo el personal de [Responsable], así como para los Encargados y terceros que tengan acceso a Datos Personales por cuenta del Responsable.
 
@@ -54,7 +54,7 @@ A continuación se presenta el inventario de las bases de datos personales que t
   - Atender solicitudes ARCO
   - Mantener actualizado este Documento de Seguridad
   - Coordinar la capacitación del personal
-  - Servir de enlace con el INAI
+  - Servir de enlace con la Secretaría Anticorrupción y Buen Gobierno
   - Coordinar la respuesta a vulneraciones de seguridad
 
 **Comité de Privacidad (opcional para organizaciones grandes):**

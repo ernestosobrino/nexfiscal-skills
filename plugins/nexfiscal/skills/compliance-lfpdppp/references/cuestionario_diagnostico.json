@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "fuente": "Elaboración propia con base en LFPDPPP, Reglamento, Lineamientos y mejores prácticas INAI",
+    "fuente": "Elaboración propia con base en LFPDPPP, Reglamento, Lineamientos y mejores prácticas de la Secretaría Anticorrupción y Buen Gobierno",
     "ultima_actualizacion": "2026-04",
     "uso": "Banco de preguntas para el módulo de diagnóstico. Cada pregunta vale 0-2 puntos."
   },
@@ -18,19 +18,19 @@
           "id": "AP-01",
           "pregunta": "¿La organización cuenta con aviso de privacidad integral?",
           "obligatorio": true,
-          "fundamento": "Art. 16 LFPDPPP"
+          "fundamento": "Art. 15 LFPDPPP"
         },
         {
           "id": "AP-02",
-          "pregunta": "¿El aviso integral incluye los 11 elementos del Art. 16 LFPDPPP?",
+          "pregunta": "¿El aviso integral incluye las 6 fracciones del Art. 15 LFPDPPP?",
           "obligatorio": true,
-          "fundamento": "Art. 16 LFPDPPP, Lineamientos del Aviso"
+          "fundamento": "Art. 15 LFPDPPP, Lineamientos del Aviso"
         },
         {
           "id": "AP-03",
           "pregunta": "¿El aviso identifica claramente cuáles datos son sensibles, cuando los hay?",
           "obligatorio_si": "Recaba datos sensibles",
-          "fundamento": "Art. 9 LFPDPPP"
+          "fundamento": "Art. 8 LFPDPPP"
         },
         {
           "id": "AP-04",
@@ -42,7 +42,7 @@
           "id": "AP-05",
           "pregunta": "¿Existe mecanismo claro y accesible para que el titular se oponga a finalidades secundarias?",
           "obligatorio_si": "Tiene finalidades secundarias",
-          "fundamento": "Art. 12 LFPDPPP"
+          "fundamento": "Art. 15 LFPDPPP"
         },
         {
           "id": "AP-06",
@@ -53,7 +53,7 @@
           "id": "AP-07",
           "pregunta": "¿Existe aviso de privacidad para empleados, distinto del aviso a clientes?",
           "obligatorio_si": "Tiene empleados",
-          "fundamento": "Practica recomendada por INAI"
+          "fundamento": "Practica recomendada por la Secretaría Anticorrupción y Buen Gobierno"
         },
         {
           "id": "AP-08",
@@ -80,13 +80,13 @@
           "id": "CO-01",
           "pregunta": "¿Existe mecanismo para acreditar que el titular conoció el aviso de privacidad?",
           "obligatorio": true,
-          "fundamento": "Art. 8 LFPDPPP"
+          "fundamento": "Art. 7 LFPDPPP"
         },
         {
           "id": "CO-02",
           "pregunta": "¿Para datos sensibles se recaba consentimiento expreso y por escrito?",
           "obligatorio_si": "Recaba datos sensibles",
-          "fundamento": "Art. 9 LFPDPPP"
+          "fundamento": "Art. 8 LFPDPPP"
         },
         {
           "id": "CO-03",
@@ -98,7 +98,7 @@
           "id": "CO-04",
           "pregunta": "¿Existe mecanismo claro para que el titular revoque su consentimiento?",
           "obligatorio": true,
-          "fundamento": "Art. 8 último párrafo LFPDPPP"
+          "fundamento": "Art. 7 último párrafo LFPDPPP"
         },
         {
           "id": "CO-05",
@@ -166,7 +166,7 @@
           "id": "AR-04",
           "pregunta": "¿Se cumplen los plazos legales (20 días respuesta + 15 días materialización)?",
           "obligatorio": true,
-          "fundamento": "Art. 32 LFPDPPP"
+          "fundamento": "Art. 31 LFPDPPP"
         },
         {
           "id": "AR-05",
@@ -287,7 +287,7 @@
           "id": "VU-01",
           "pregunta": "¿Existe protocolo de respuesta a vulneraciones de seguridad?",
           "obligatorio": true,
-          "fundamento": "Art. 20 LFPDPPP, Arts. 63-66 Reglamento"
+          "fundamento": "Art. 19 LFPDPPP, Arts. 63-66 Reglamento"
         },
         {
           "id": "VU-02",
@@ -298,7 +298,7 @@
           "id": "VU-03",
           "pregunta": "¿Existe un procedimiento para notificar al titular sin dilación cuando hay afectación significativa?",
           "obligatorio": true,
-          "fundamento": "Art. 20 LFPDPPP"
+          "fundamento": "Art. 19 LFPDPPP"
         },
         {
           "id": "VU-04",

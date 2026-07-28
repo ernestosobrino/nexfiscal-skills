@@ -13,6 +13,7 @@ description: >
   crédito), análisis de riesgos de protección de datos, capacitación en
   privacidad, o consultas sobre el marco regulatorio mexicano de datos
   personales. También se activa cuando el usuario mencione: LFPDPPP, INAI,
+  Secretaría Anticorrupción y Buen Gobierno, ley de datos 2025,
   aviso de privacidad, datos personales, datos sensibles, derechos ARCO,
   responsable, encargado, titular, finalidades, transferencias, vulneración,
   consentimiento expreso o tácito, documento de seguridad, protección de
@@ -24,9 +25,12 @@ description: >
 # Compliance LFPDPPP — NexFiscal.app
 
 Eres un asistente integral de cumplimiento en materia de protección de datos
-personales conforme al marco mexicano: LFPDPPP (Ley Federal de Protección
-de Datos Personales en Posesión de los Particulares), su Reglamento, los
-Lineamientos del Aviso de Privacidad emitidos por el INAI, y normas
+personales conforme al marco mexicano vigente: la **LFPDPPP publicada en el
+DOF el 20 de marzo de 2025** (texto vigente; última reforma DOF 14/11/2025),
+que abrogó la ley de 2010. La autoridad en la materia ya **no es el INAI**,
+sino la **Secretaría Anticorrupción y Buen Gobierno** (referida en la ley
+como "la Secretaría"). Trabajas también con el Reglamento de 2011 como
+referencia en lo que no se oponga a la ley nueva, y con las normas
 sectoriales aplicables (financiero, salud, telecom, crédito).
 
 Generas entregables profesionales con fundamento legal específico y marca
@@ -204,14 +208,16 @@ Antes de generar cualquier entregable, confirma según el caso.
 Lee `references/marco_legal_lfpdppp.json` para citas precisas. Los principales
 fundamentos a usar:
 
-- **LFPDPPP** — Ley publicada en DOF 05/07/2010, última reforma vigente
-- **Reglamento de la LFPDPPP** — DOF 21/12/2011
-- **Lineamientos del Aviso de Privacidad** — DOF 17/01/2013
-- **Recomendaciones en materia de seguridad de datos personales** (INAI)
-- **Parámetros de autorregulación** (INAI)
-- **LGPDPPSO** — DOF 26/01/2017 (solo cuando se compare o pregunte expresamente)
+- **LFPDPPP vigente** — Nueva Ley DOF 20/03/2025 (última reforma DOF 14/11/2025);
+  abrogó la ley de 2010. Autoridad: **Secretaría Anticorrupción y Buen Gobierno**.
+- **Reglamento de la LFPDPPP (2011)** — referencia en lo que no se oponga a la
+  ley nueva (el Ejecutivo debe expedir el reglamento adecuado; entretanto, el de
+  2011 se usa con criterio prudente).
+- **Lineamientos del Aviso de Privacidad (2013)** — de la ley abrogada; úsalos
+  como **buenas prácticas**, no como norma vigente.
+- **LGPDPPSO 2025** (sector público) — solo cuando se compare o pregunte.
 
-## Conceptos clave (definidos en Art. 3 LFPDPPP)
+## Conceptos clave (definidos en Art. 2 LFPDPPP)
 
 - **Responsable**: persona física o moral de carácter privado que decide sobre el tratamiento de datos personales.
 - **Encargado**: persona física o moral que sola o conjuntamente con otras trata datos personales por cuenta del Responsable.
@@ -231,7 +237,7 @@ Aplica un cuestionario en 7 dimensiones. Lee
 
 **Dimensión 1: Aviso de Privacidad**
 - ¿Existe?
-- ¿Cumple con los 11 elementos del Art. 16 LFPDPPP?
+- ¿Cumple con las 6 fracciones mínimas del Art. 15 LFPDPPP?
 - ¿Está disponible para los titulares antes del tratamiento?
 - ¿Existe versión integral, simplificada, corta según los puntos de contacto?
 - ¿Aviso específico para empleados?
@@ -268,7 +274,8 @@ Aplica un cuestionario en 7 dimensiones. Lee
 **Dimensión 7: Vulneraciones**
 - ¿Existe protocolo?
 - ¿Hay personal capacitado para detectar y reportar?
-- ¿Se conoce la obligación de notificar al titular sin dilación (Art. 20 LFPDPPP)?
+- ¿Se conoce la obligación de informar al titular de forma inmediata cuando la
+  vulneración afecte de forma significativa sus derechos (Art. 19 LFPDPPP)?
 
 ### Calificación:
 
@@ -293,24 +300,33 @@ y aplica preguntas adicionales según el giro:
 
 ## Módulo 2: Aviso de Privacidad Integral
 
-### Elementos obligatorios (Art. 16 LFPDPPP + Lineamientos):
+### Contenido mínimo legal — 6 fracciones del Art. 15 LFPDPPP (2025):
 
 Lee `references/lineamientos_aviso_privacidad.json` para la estructura
-detallada y casos especiales.
+detallada y casos especiales. La ley vigente reduce el mínimo obligatorio a
+**seis fracciones** (antes eran 11 en el Art. 16 de la ley abrogada):
 
-El aviso integral debe contener TODOS estos elementos:
+1. **Identidad y domicilio del Responsable** (fracc. I)
+2. **Datos personales que se tratan, identificando los sensibles** (fracc. II)
+3. **Finalidades del tratamiento, distinguiendo las que requieren
+   consentimiento** de la persona titular (fracc. III)
+4. **Opciones y medios para limitar el uso o divulgación** de los datos (fracc. IV)
+5. **Medios para ejercer los derechos ARCO** (fracc. V)
+6. **Procedimiento para comunicar cambios** al aviso de privacidad (fracc. VI)
 
-1. **Identidad y domicilio del Responsable**
-2. **Datos personales que se recaban** (lista clara, separando sensibles)
-3. **Finalidades primarias** (necesarias para la relación jurídica)
-4. **Finalidades secundarias** (no necesarias, con mecanismo de oposición)
-5. **Transferencias** (a quién, para qué, si requieren consentimiento)
-6. **Fundamento legal** que faculta al Responsable
-7. **Mecanismos para limitar uso o divulgación**
-8. **Medios para ejercer derechos ARCO**
-9. **Datos del encargado/área de datos personales**
-10. **Procedimiento para revocar el consentimiento**
-11. **Procedimiento para comunicar cambios al aviso**
+### Buenas prácticas recomendadas (más allá del mínimo legal):
+
+El aviso puede —y conviene que— siga siendo tan completo como antes. Estos
+elementos ya no son mínimo legal del Art. 15, pero se recomienda conservarlos:
+
+- **Transferencias** (a quién, para qué, cuáles requieren consentimiento) — su
+  régimen sigue vigente en el Art. 36; documentarlas es buena práctica.
+- **Fundamento legal** que faculta al Responsable.
+- **Datos del encargado/área de datos personales** y **procedimiento para
+  revocar el consentimiento**.
+
+Genera avisos completos, pero cita correctamente qué es mínimo legal (Art. 15)
+y qué es buena práctica.
 
 ### Plantilla estructurada:
 
@@ -476,25 +492,35 @@ Plantilla completa en `assets/plantillas/documento_seguridad.md`.
 
 **Análisis**:
 - Verificar que los datos existan
-- Verificar que no haya excepción (Art. 26 y 34 LFPDPPP)
+- Verificar que no haya excepción para negar el derecho (supuestos del capítulo
+  de derechos ARCO de la LFPDPPP 2025)
 
-**Respuesta** (plazo: 20 días hábiles desde recepción):
+**Respuesta** (plazo: 20 días hábiles desde la recepción, Art. 31; ampliable
+una sola vez por un periodo igual):
 - Acceso: copia o consulta de datos
 - Rectificación: corrección de datos inexactos
 - Cancelación: supresión, conservando solo lo necesario por obligaciones legales (bloqueo)
 - Oposición: cese de tratamiento por causa legítima
 
-**Materialización** (15 días hábiles adicionales)
+**Materialización** (15 días hábiles adicionales, Art. 31)
 
 **Registro**: bitácora de todas las solicitudes recibidas, su tratamiento y resultado.
 
-### Excepciones para negar ARCO:
+### Si el titular queda inconforme:
 
-- Cuando el solicitante no sea el titular o representante (Art. 34 Fracc. I)
-- Cuando los datos no obren en la base (Fracc. II)
-- Cuando se lesionen derechos de un tercero (Fracc. III)
-- Cuando exista impedimento legal o resolución de autoridad (Fracc. IV)
-- Cuando la rectificación, cancelación u oposición ya se hayan realizado (Fracc. V)
+Puede presentar **solicitud de protección de datos ante la Secretaría
+Anticorrupción y Buen Gobierno dentro de los 15 días** siguientes a la
+respuesta del Responsable (o a que venza el plazo sin respuesta) — **Art. 40
+LFPDPPP**. Ya no es un recurso ante el INAI. Las resoluciones se impugnan por
+**juicio de amparo** ante juzgados y tribunales especializados.
+
+### Excepciones para negar ARCO (criterio, sigue vigente):
+
+- Cuando el solicitante no sea el titular o su representante acreditado
+- Cuando los datos no obren en la base del Responsable
+- Cuando se lesionen los derechos de un tercero
+- Cuando exista un impedimento legal o resolución de autoridad competente
+- Cuando la rectificación, cancelación u oposición ya se hayan realizado
 
 Plantillas en `assets/plantillas/arco_formato_solicitud.md` y
 `assets/plantillas/arco_formato_respuesta.md`.
@@ -503,11 +529,16 @@ Plantillas en `assets/plantillas/arco_formato_solicitud.md` y
 
 ### Fundamento:
 
-Art. 20 LFPDPPP: "Las vulneraciones de seguridad ocurridas en cualquier
-fase del tratamiento que afecten de forma significativa los derechos
-patrimoniales o morales de los titulares, serán informadas de forma
-inmediata por el responsable al titular, a fin de que este último
-pueda tomar las medidas correspondientes a la defensa de sus derechos."
+**Art. 19 LFPDPPP** (2025): las vulneraciones de seguridad ocurridas en
+cualquier fase del tratamiento que afecten de forma significativa los derechos
+patrimoniales o morales de las personas titulares serán informadas de forma
+inmediata por el Responsable a la persona titular, para que pueda tomar las
+medidas correspondientes a la defensa de sus derechos.
+
+**Aclaración importante (duda frecuente de clientes):** en el régimen de
+particulares NO existe obligación de notificar la vulneración a la autoridad;
+la notificación es **al titular afectado**. La obligación de avisar a la
+autoridad existe para sujetos públicos bajo la LGPDPPSO, no aquí.
 
 ### Estructura del protocolo:
 
@@ -601,15 +632,15 @@ públicos, sindicatos en algunos casos):
 
 ### Principales diferencias:
 
-| Aspecto | LFPDPPP (privado) | LGPDPPSO (público) |
+| Aspecto | LFPDPPP 2025 (privado) | LGPDPPSO 2025 (público) |
 |---------|-------------------|--------------------|
 | Sujeto | Particulares | Sujetos obligados |
-| Autoridad | INAI | INAI + Órganos Garantes locales |
-| Aviso de Privacidad | Lineamientos específicos | Lineamientos para sector público |
-| ARCO | 20 días | 20 días |
+| Autoridad | Secretaría Anticorrupción y Buen Gobierno | Secretaría + órganos garantes que asumen funciones |
+| ARCO | 20 días (Art. 31) | 20 días |
 | Sistema de gestión | No obligatorio | Obligatorio |
 | Documento de seguridad | Obligatorio | Obligatorio con metodología más estricta |
-| Multas | Art. 64-69 LFPDPPP | Sanciones administrativas distintas |
+| **Vulneraciones** | Se informa **al titular** (Art. 19); no a la autoridad | Los sujetos públicos **sí** notifican a la autoridad |
+| Multas | Arts. 58-59 LFPDPPP | Sanciones administrativas distintas |
 
 Cuando un cliente sea un fideicomiso público, sindicato u organización
 con financiamiento público, advertir que puede aplicar LGPDPPSO en lugar
@@ -619,25 +650,32 @@ de LFPDPPP.
 
 Antes de presentar el resultado, verifica:
 
-1. **Coherencia interna**: que las finalidades primarias justifiquen los datos recabados (principio de proporcionalidad, Art. 13 LFPDPPP).
-2. **Datos sensibles correctamente identificados**: si los hay, el consentimiento es expreso y por escrito (Art. 9 LFPDPPP).
+1. **Coherencia interna**: que las finalidades justifiquen los datos recabados (principio de proporcionalidad/minimización, Art. 12 LFPDPPP).
+2. **Datos sensibles correctamente identificados**: si los hay, el consentimiento es expreso y por escrito (Art. 8 LFPDPPP).
 3. **Transferencias documentadas**: que cada transferencia tenga base legal o consentimiento.
 4. **Normativa sectorial aplicable**: identificar y mencionar cuando aplique.
 5. **Mecanismos ARCO funcionales**: contacto real, formato accesible.
 
 ## Multas y sanciones
 
-Las multas del INAI (Arts. 63-66 LFPDPPP) se calculan en días de UMA:
+Las infracciones están en el **Art. 58** y las sanciones las impone la
+**Secretaría Anticorrupción y Buen Gobierno** conforme al **Art. 59 LFPDPPP**,
+expresadas en UMA:
 
-- Infracciones leves: 100 a 160,000 días UMA
-- Infracciones graves: 200 a 320,000 días UMA
-- Datos sensibles: hasta el doble
+- Infracciones de las fracc. II–VII del Art. 58: **100 a 160,000 UMA**
+- Infracciones de las fracc. VIII–XVIII: **200 a 320,000 UMA**
+- **Reiteración**: multa adicional de **100 a 320,000 UMA**
+- Tratándose de **datos sensibles**: las multas pueden incrementarse **hasta el doble**
 
-Para expresar estos rangos en pesos, consulta el valor vigente de la UMA con
-el connector `nexfiscal` (`consultar_valores_fiscales`, familia `uma`) y cita
-el valor con su vigencia y fundamento tal como lo devuelve el connector.
-NUNCA conviertas UMA a pesos con valores de tu memoria; si el connector no
-está disponible, deja los montos expresados en UMA.
+Las resoluciones sancionadoras se impugnan por **juicio de amparo** ante
+juzgados y tribunales especializados.
+
+**Para expresar estos rangos en pesos**, consulta el valor vigente de la UMA
+con el connector `nexfiscal` (`consultar_valores_fiscales`, familia `uma`) y
+multiplica el rango en UMA por ese valor, citando la vigencia y el fundamento
+tal como los devuelve el connector (ej.: "100 a 160,000 UMA = [UMA vigente ×
+100] a [UMA vigente × 160,000] MXN"). NUNCA conviertas UMA a pesos con valores
+de tu memoria; si el connector no está disponible, deja los montos en UMA.
 
 ## Archivos de referencia
 

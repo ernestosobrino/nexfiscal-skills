@@ -1,11 +1,13 @@
 {
   "metadata": {
-    "fuente": "Lineamientos del Aviso de Privacidad (DOF 17/01/2013)",
-    "emisor": "Secretaría de Economía con opinión del IFAI (hoy INAI)",
+    "fuente_minimo_legal": "Art. 15 de la LFPDPPP (DOF 20/03/2025, texto vigente; última reforma DOF 14/11/2025), que abrogó la ley de 2010",
+    "fuente_buenas_practicas": "Lineamientos del Aviso de Privacidad (DOF 17/01/2013): hoy son buenas prácticas orientadoras, no norma vigente",
+    "emisor_lineamientos": "Secretaría de Economía con opinión del entonces IFAI (funciones que hoy corresponden a la Secretaría Anticorrupción y Buen Gobierno)",
     "ultima_revision_doctrinaria": "2026-04",
-    "complementan": "Art. 16 LFPDPPP"
+    "nota_criterio": "El contenido MÍNIMO obligatorio del aviso de privacidad lo fija el artículo 15 de la LFPDPPP vigente en SEIS fracciones (antes eran los elementos del artículo 16 de la ley abrogada). Los demás elementos (transferencias, revocación del consentimiento, fundamento legal, datos del encargado, fecha de actualización) se conservan como buenas prácticas recomendadas más allá del mínimo legal."
   },
   "modalidades_aviso": {
+    "nota_origen": "La clasificación en tres modalidades (integral, simplificado y corto) proviene de los Lineamientos del Aviso (DOF 17/01/2013), hoy buenas prácticas; sigue siendo útil para modular el aviso según el espacio disponible.",
     "integral": {
       "definicion": "Aviso completo que se proporciona cuando el primer contacto físico o directo con el titular ocurre en un espacio que permita su lectura completa.",
       "casos_uso": [
@@ -34,15 +36,16 @@
       ]
     }
   },
-  "elementos_detallados_integral": {
-    "1_identidad_y_domicilio": {
-      "obligatorio": true,
+  "minimo_legal_art15": {
+    "nota": "Contenido mínimo obligatorio del aviso de privacidad conforme al artículo 15 de la LFPDPPP vigente: seis fracciones (I a VI).",
+    "fraccion_I_identidad_y_domicilio_del_responsable": {
+      "minimo_legal": true,
       "contenido": "Denominación o razón social completa, RFC si es persona moral, domicilio físico completo (calle, número, colonia, código postal, municipio, estado, país)",
       "ejemplo": "EJEMPLO S.A. de C.V., con RFC EJE123456ABC, con domicilio en Av. Ejemplo No. 123, Col. Centro, C.P. 77500, Cancún, Quintana Roo, México."
     },
-    "2_datos_personales_que_se_recaban": {
-      "obligatorio": true,
-      "contenido": "Lista clara y específica. Separar visiblemente datos sensibles si los hay.",
+    "fraccion_II_datos_tratados_identificando_sensibles": {
+      "minimo_legal": true,
+      "contenido": "Lista clara y específica de los datos personales que serán sometidos a tratamiento. Separar visiblemente e identificar los datos sensibles si los hay.",
       "categorias_tipicas": [
         "Datos de identificación (nombre, fecha de nacimiento, RFC, CURP, identificación oficial)",
         "Datos de contacto (correo, teléfono, domicilio)",
@@ -51,78 +54,62 @@
         "Datos patrimoniales o financieros (cuentas bancarias, ingresos)",
         "Datos migratorios (cuando aplique)"
       ],
-      "advertencia_sensibles": "Si se recaban datos sensibles, indicarlo expresamente con la leyenda: 'Para el tratamiento de estos datos sensibles requerimos su consentimiento expreso y por escrito.'"
+      "advertencia_sensibles": "Si se recaban datos sensibles, indicarlo expresamente con la leyenda: 'Para el tratamiento de estos datos sensibles requerimos su consentimiento expreso y por escrito.' Este consentimiento reforzado se fundamenta en el Art. 8 de la LFPDPPP vigente."
     },
-    "3_finalidades_primarias": {
-      "obligatorio": true,
-      "definicion": "Aquellas que dan origen y son necesarias para la existencia, mantenimiento y cumplimiento de la relación jurídica entre titular y responsable.",
-      "ejemplos": [
-        "Identificación del cliente",
-        "Cumplimiento del contrato",
-        "Facturación y cobranza",
-        "Cumplimiento de obligaciones legales (fiscales, laborales)",
-        "Atención al cliente y soporte"
-      ]
+    "fraccion_III_finalidades_distinguiendo_las_que_requieren_consentimiento": {
+      "minimo_legal": true,
+      "definicion": "Las finalidades del tratamiento, distinguiendo expresamente aquellas que requieren el consentimiento del titular (típicamente las secundarias).",
+      "finalidades_primarias": {
+        "definicion": "Aquellas que dan origen y son necesarias para la existencia, mantenimiento y cumplimiento de la relación jurídica entre titular y responsable.",
+        "ejemplos": [
+          "Identificación del cliente",
+          "Cumplimiento del contrato",
+          "Facturación y cobranza",
+          "Cumplimiento de obligaciones legales (fiscales, laborales)",
+          "Atención al cliente y soporte"
+        ]
+      },
+      "finalidades_secundarias": {
+        "definicion": "Aquellas que no son necesarias para la relación jurídica, pero que el responsable desea realizar.",
+        "ejemplos": [
+          "Mercadotecnia y publicidad",
+          "Prospección comercial",
+          "Encuestas de satisfacción",
+          "Estudios de mercado",
+          "Elaboración de perfiles de cliente",
+          "Compartir información con socios comerciales"
+        ],
+        "requisito": "Debe ofrecerse mecanismo de oposición claro y accesible (casilla de verificación, formulario, correo). Estas son las finalidades que deben distinguirse por requerir el consentimiento del titular."
+      }
     },
-    "4_finalidades_secundarias": {
-      "obligatorio_si_aplica": true,
-      "definicion": "Aquellas que no son necesarias para la relación jurídica, pero que el responsable desea realizar.",
-      "ejemplos": [
-        "Mercadotecnia y publicidad",
-        "Prospección comercial",
-        "Encuestas de satisfacción",
-        "Estudios de mercado",
-        "Elaboración de perfiles de cliente",
-        "Compartir información con socios comerciales"
-      ],
-      "requisito": "Debe ofrecerse mecanismo de oposición claro y accesible (casilla de verificación, formulario, correo)."
-    },
-    "5_mecanismos_para_manifestar_negativa": {
-      "obligatorio_si_finalidades_secundarias": true,
+    "fraccion_IV_opciones_y_medios_para_limitar_uso_o_divulgacion": {
+      "minimo_legal": true,
+      "contenido": "Las opciones y medios que el responsable ofrece al titular para limitar el uso o divulgación de sus datos, incluido el mecanismo para manifestar la negativa al tratamiento para finalidades secundarias.",
       "ejemplos_mecanismos": [
         "Casilla en formulario digital o físico",
         "Correo electrónico para enviar negativa",
         "URL específica para gestionar preferencias",
         "Botón de baja en cada comunicación"
-      ]
-    },
-    "6_transferencias": {
-      "obligatorio_si_aplica": true,
-      "contenido": "Para cada transferencia: nombre/categoría del receptor, finalidad de la transferencia, indicar si requiere consentimiento del titular.",
-      "formato_tabla_recomendado": {
-        "destinatario": "Nombre o categoría",
-        "finalidad": "Para qué",
-        "consentimiento_requerido": "Sí / No / Por ser obligación legal"
-      },
-      "transferencias_que_no_requieren_consentimiento": "Listar conforme Art. 37 LFPDPPP cuando aplique."
-    },
-    "7_mecanismos_arco": {
-      "obligatorio": true,
-      "contenido": "Procedimiento completo para que el titular ejerza derechos de Acceso, Rectificación, Cancelación y Oposición.",
-      "elementos_minimos": [
-        "Datos de contacto del encargado/área de datos personales",
-        "Requisitos de la solicitud (datos del titular, identificación, descripción)",
-        "Plazos de respuesta (20 días hábiles + 15 para materialización)",
-        "Medios disponibles (correo, presencial, formulario)",
-        "Costos (debe ser gratuito, salvo gastos justificados de envío)"
-      ]
-    },
-    "8_revocacion_consentimiento": {
-      "obligatorio": true,
-      "contenido": "Procedimiento para que el titular pueda revocar su consentimiento al tratamiento.",
-      "nota": "Generalmente se sigue el mismo procedimiento que los derechos ARCO."
-    },
-    "9_limitar_uso_o_divulgacion": {
-      "obligatorio": true,
-      "contenido": "Opciones distintas a ARCO que el responsable ofrece para limitar el uso o divulgación de los datos.",
-      "ejemplos": [
+      ],
+      "opciones_adicionales": [
         "Inscripción en listas de exclusión",
         "Inscripción en el Registro Público para Evitar Publicidad (REPEP) de la PROFECO"
       ]
     },
-    "10_cambios_al_aviso": {
-      "obligatorio": true,
-      "contenido": "Medio por el cual se comunicarán al titular los cambios al aviso.",
+    "fraccion_V_medios_para_ejercer_ARCO": {
+      "minimo_legal": true,
+      "contenido": "Los medios y el procedimiento para que el titular ejerza sus derechos de Acceso, Rectificación, Cancelación y Oposición (ejercicio conforme al Art. 21 de la LFPDPPP vigente).",
+      "elementos_minimos": [
+        "Datos de contacto de la persona o departamento de datos personales (Art. 29)",
+        "Requisitos de la solicitud conforme al Art. 28 (nombre del titular y medio para comunicarle la respuesta, documentos que acrediten identidad o representación, descripción clara de los datos o del derecho que se ejerce)",
+        "Plazos de respuesta: 20 días hábiles, ampliable una sola vez por un periodo igual, más 15 días para materializar (Art. 31)",
+        "Medios disponibles (correo, presencial, formulario)",
+        "Costos (debe ser gratuito, salvo gastos justificados de envío)"
+      ]
+    },
+    "fraccion_VI_procedimiento_para_comunicar_cambios": {
+      "minimo_legal": true,
+      "contenido": "El procedimiento y el medio por el cual el responsable comunicará a los titulares los cambios al aviso de privacidad.",
       "medios_aceptados": [
         "Anuncio visible en establecimiento o sitio web",
         "Carteles informativos",
@@ -131,9 +118,35 @@
         "Mensaje SMS o WhatsApp",
         "Cualquier medio idóneo según el sector"
       ]
+    }
+  },
+  "buenas_practicas_recomendadas": {
+    "nota": "Elementos NO exigidos por el mínimo legal del artículo 15 vigente, pero recomendados como buena práctica (varios eran obligatorios bajo el artículo 16 de la ley abrogada). Incluirlos fortalece la transparencia y el cumplimiento.",
+    "transferencias": {
+      "recomendado": true,
+      "contenido": "Para cada transferencia: nombre/categoría del receptor, finalidad de la transferencia, indicar si requiere consentimiento del titular.",
+      "formato_tabla_recomendado": {
+        "destinatario": "Nombre o categoría",
+        "finalidad": "Para qué",
+        "consentimiento_requerido": "Sí / No / Por ser obligación legal"
+      },
+      "transferencias_que_no_requieren_consentimiento": "Listar conforme Art. 37 LFPDPPP cuando aplique."
     },
-    "11_fecha_de_ultima_actualizacion": {
-      "obligatorio": true,
+    "revocacion_del_consentimiento": {
+      "recomendado": true,
+      "contenido": "Procedimiento para que el titular pueda revocar su consentimiento al tratamiento.",
+      "nota": "Generalmente se sigue el mismo procedimiento que los derechos ARCO."
+    },
+    "fundamento_legal_del_tratamiento": {
+      "recomendado": true,
+      "contenido": "Señalar, cuando aplique, el fundamento legal que obliga o faculta el tratamiento (por ejemplo, obligaciones fiscales, laborales o de identificación de clientes)."
+    },
+    "designacion_departamento_de_datos_personales": {
+      "recomendado": true,
+      "contenido": "Indicar la persona o departamento de datos personales que el responsable designa para atender las solicitudes ARCO y fomentar la protección de datos (Art. 29 de la LFPDPPP vigente)."
+    },
+    "fecha_de_ultima_actualizacion": {
+      "recomendado": true,
       "contenido": "Fecha en formato día/mes/año en que se actualizó el aviso por última vez."
     }
   },
@@ -158,10 +171,10 @@
     "no_oculto": "No puede estar dentro de términos y condiciones generales de difícil acceso; debe ser un documento identificable como aviso de privacidad."
   },
   "momento_de_proporcionar": {
-    "regla_general": "Antes del tratamiento de los datos personales (Art. 17 LFPDPPP).",
+    "regla_general": "Antes del tratamiento de los datos personales. El responsable debe poner el aviso a disposición del titular conforme al artículo 16 de la LFPDPPP vigente (deber de poner a disposición; antes artículo 17 de la ley abrogada).",
     "casos_especiales": {
       "datos_obtenidos_directamente": "Al momento de recabar los datos.",
-      "datos_obtenidos_indirectamente": "Antes del primer uso o aprovechamiento, salvo excepciones del Art. 18 LFPDPPP.",
+      "datos_obtenidos_indirectamente": "Antes del primer uso o aprovechamiento, salvo las excepciones que prevé la ley.",
       "redes_sociales_publicas": "El responsable está exceptuado de proporcionar el aviso cuando los datos figuren en fuentes de acceso público, pero conserva los demás deberes (calidad, seguridad, ARCO)."
     }
   }

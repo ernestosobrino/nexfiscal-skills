@@ -1,6 +1,6 @@
 # Plantilla — Aviso de Privacidad Integral
 
-> Esta plantilla cumple con el Art. 16 de la LFPDPPP y los Lineamientos del
+> Esta plantilla cumple con el Art. 15 de la LFPDPPP y los Lineamientos del
 > Aviso de Privacidad. Los **[corchetes]** indican campos a completar
 > según los datos del Responsable. Las **secciones opcionales** deben
 > incluirse solo si aplican al caso concreto.
@@ -9,7 +9,7 @@
 
 # AVISO DE PRIVACIDAD INTEGRAL
 
-**[DENOMINACIÓN O RAZÓN SOCIAL COMPLETA DEL RESPONSABLE]**, [si es persona moral: con RFC [RFC del Responsable] e ]inscrita en el Registro Público de Comercio bajo el folio [folio] [si aplica], con domicilio en **[calle y número, colonia, código postal, municipio o alcaldía, entidad federativa, país]**, en lo sucesivo "el Responsable", de conformidad con lo dispuesto por la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP), su Reglamento y los Lineamientos del Aviso de Privacidad, hace de su conocimiento el presente Aviso de Privacidad Integral.
+**[DENOMINACIÓN O RAZÓN SOCIAL COMPLETA DEL RESPONSABLE]**, [si es persona moral: con RFC [RFC del Responsable] e ]inscrita en el Registro Público de Comercio bajo el folio [folio] [si aplica], con domicilio en **[calle y número, colonia, código postal, municipio o alcaldía, entidad federativa, país]**, en lo sucesivo "el Responsable", de conformidad con lo dispuesto por la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP, DOF 20/03/2025; texto vigente, última reforma DOF 14/11/2025), su Reglamento y los Lineamientos del Aviso de Privacidad, hace de su conocimiento el presente Aviso de Privacidad Integral.
 
 ## 1. Datos personales que recabamos
 

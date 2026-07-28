@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "fuente": "LFPDPPP (DOF 05/07/2010), LGPDPPSO (DOF 26/01/2017)",
+    "fuente": "LFPDPPP (DOF 20/03/2025, texto vigente; última reforma DOF 14/11/2025, que abrogó la ley de 2010), LGPDPPSO 2025",
     "ultima_actualizacion": "2026-04",
     "uso": "Comparativo para casos en que el responsable sea o pudiera ser sujeto obligado del sector público."
   },
@@ -14,7 +14,7 @@
     ],
     "lgpdppso_aplica_a": [
       "Cualquier autoridad, entidad, órgano y organismo de los Poderes Ejecutivo, Legislativo y Judicial",
-      "Órganos autónomos (CNDH, INE, INAI, etc.)",
+      "Órganos autónomos (CNDH, INE, etc.)",
       "Partidos políticos",
       "Fideicomisos y fondos públicos",
       "Sindicatos y cualquier persona física o moral que reciba y ejerza recursos públicos o realice actos de autoridad federal, estatal o municipal"
@@ -29,8 +29,8 @@
   "diferencias_principales": [
     {
       "aspecto": "Autoridad sancionadora",
-      "lfpdppp": "INAI (federal)",
-      "lgpdppso": "INAI federal + Órganos garantes locales según ámbito de competencia"
+      "lfpdppp": "Secretaría Anticorrupción y Buen Gobierno (federal)",
+      "lgpdppso": "Secretaría Anticorrupción y Buen Gobierno (federal) + Órganos garantes locales según ámbito de competencia"
     },
     {
       "aspecto": "Sistema de gestión de seguridad",
@@ -43,34 +43,39 @@
       "lgpdppso": "Obligatoria cuando el tratamiento conlleve riesgo elevado"
     },
     {
+      "aspecto": "Notificación de vulneraciones de seguridad",
+      "lfpdppp": "Se informa al titular cuando la vulneración afecte significativamente sus derechos patrimoniales o morales (Art. 19); en particulares NO existe obligación de notificar a la autoridad",
+      "lgpdppso": "Además de informar al titular, existe obligación de notificar la vulneración al órgano garante o autoridad conforme a la LGPDPPSO"
+    },
+    {
       "aspecto": "Aviso de privacidad",
-      "lfpdppp": "Lineamientos del Aviso (DOF 17/01/2013) - 3 modalidades: integral, simplificado, corto",
+      "lfpdppp": "Contenido mínimo en el Art. 15 de la LFPDPPP vigente (seis fracciones). Los Lineamientos del Aviso (DOF 17/01/2013) son hoy buenas prácticas, no norma vigente - 3 modalidades: integral, simplificado, corto",
       "lgpdppso": "Lineamientos generales para la elaboración del aviso (sector público) - reglas adicionales sobre formalidades"
     },
     {
       "aspecto": "Encargado/Responsable interno",
-      "lfpdppp": "Encargado o área de datos personales (Art. 30)",
+      "lfpdppp": "Encargado o área de datos personales (Art. 29)",
       "lgpdppso": "Unidad de Transparencia y Comité de Transparencia con funciones específicas"
     },
     {
       "aspecto": "Plazos ARCO",
-      "lfpdppp": "20 días respuesta + 15 materialización",
+      "lfpdppp": "20 días respuesta (ampliable una sola vez por un periodo igual) + 15 materialización (Art. 31)",
       "lgpdppso": "20 días respuesta + 15 materialización (igual)"
     },
     {
-      "aspecto": "Recurso de revisión",
-      "lfpdppp": "Protección de derechos ante INAI (Art. 45)",
+      "aspecto": "Medio de defensa del titular inconforme",
+      "lfpdppp": "Procedimiento de protección de derechos ante la Secretaría Anticorrupción y Buen Gobierno, 15 días para promover (Art. 40); impugnación mediante juicio de amparo especializado",
       "lgpdppso": "Recurso de revisión ante el órgano garante competente"
     },
     {
       "aspecto": "Sanciones a particulares",
-      "lfpdppp": "Multas Arts. 63-66 (100 a 320,000 días UMA, agravante por datos sensibles); responsabilidad penal Arts. 67-69",
+      "lfpdppp": "Multas en UMA (infracciones en Art. 58; multas en Art. 59): de 100 a 160,000 UMA y de 200 a 320,000 UMA según la conducta; de 100 a 320,000 UMA adicionales en caso de reincidencia; hasta el doble cuando se trate de datos sensibles. Además, delitos en materia de tratamiento indebido de datos personales previstos en la ley",
       "lgpdppso": "Las sanciones operan a través de procedimiento administrativo y responsabilidades de servidores públicos; en el caso de personas físicas o morales que reciben recursos públicos, sanciones administrativas conforme la ley"
     },
     {
       "aspecto": "Transferencias internacionales",
       "lfpdppp": "Art. 36 - consentimiento expreso salvo excepciones",
-      "lgpdppso": "Cláusulas tipo, dictamen del INAI cuando aplique, mayores requisitos"
+      "lgpdppso": "Cláusulas tipo, dictamen de la Secretaría Anticorrupción y Buen Gobierno cuando aplique, mayores requisitos"
     },
     {
       "aspecto": "Datos de seguridad nacional",
@@ -89,10 +94,10 @@
     "Definiciones de datos personales y sensibles",
     "Deberes de seguridad y confidencialidad",
     "Obligación de tener aviso de privacidad",
-    "INAI como autoridad de control"
+    "La Secretaría Anticorrupción y Buen Gobierno como autoridad de control federal"
   ],
   "recomendaciones_practicas": {
-    "para_consultas_dudosas": "Si hay duda sobre cuál ley aplica, analizar: (a) la naturaleza del responsable, (b) la fuente de sus recursos, (c) si realiza actos de autoridad. En caso de duda, consultar al INAI o asesor especialista.",
+    "para_consultas_dudosas": "Si hay duda sobre cuál ley aplica, analizar: (a) la naturaleza del responsable, (b) la fuente de sus recursos, (c) si realiza actos de autoridad. En caso de duda, consultar a la Secretaría Anticorrupción y Buen Gobierno o a un asesor especialista.",
     "convergencia_normativa": "Muchas organizaciones privadas adoptan prácticas de LGPDPPSO como buena gobernanza (evaluación de impacto, catálogo de bases), aunque no sean obligatorias bajo LFPDPPP.",
     "documentar_la_aplicacion": "Documentar formalmente por escrito cuál régimen aplica al responsable, con fundamento, evita confusiones internas y ante autoridades."
   }

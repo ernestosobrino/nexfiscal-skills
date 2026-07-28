@@ -1,112 +1,128 @@
 {
   "metadata": {
-    "fuente": "LFPDPPP, Reglamento LFPDPPP, Lineamientos del Aviso de Privacidad",
-    "publicacion_ley": "DOF 05/07/2010",
-    "publicacion_reglamento": "DOF 21/12/2011",
-    "publicacion_lineamientos": "DOF 17/01/2013",
-    "ultima_actualizacion": "2026-04-15",
-    "fuentes_consultadas": [
-      "Ley Federal de Protección de Datos Personales en Posesión de los Particulares",
-      "Reglamento de la LFPDPPP",
-      "Lineamientos del Aviso de Privacidad",
-      "Criterios y resoluciones del INAI"
-    ]
+    "fuente": "LFPDPPP vigente (Nueva Ley DOF 20/03/2025), Reglamento LFPDPPP 2011 (referencia)",
+    "publicacion_ley": "DOF 20/03/2025",
+    "ultima_reforma_ley": "DOF 14/11/2025",
+    "abrogacion": "El Transitorio Segundo del decreto abrogó la LFPDPPP de 2010 (DOF 05/07/2010)",
+    "publicacion_reglamento": "DOF 21/12/2011 (se usa como referencia en lo que no se oponga a la ley nueva; el Ejecutivo debe expedir el reglamento adecuado)",
+    "publicacion_lineamientos": "Lineamientos del Aviso de Privacidad DOF 17/01/2013 (de la ley abrogada; tratar como buenas prácticas)",
+    "autoridad": "Secretaría Anticorrupción y Buen Gobierno (la ley la refiere como 'la Secretaría'; antes INAI). Transitorio Cuarto: las menciones al INAI en cualquier norma se entienden hechas a los entes que asumen sus funciones",
+    "ultima_actualizacion": "2026-07-20",
+    "nota": "Renumeración verificada contra el texto vigente publicado por la Cámara de Diputados (LeyesBiblio)."
   },
   "definiciones": {
-    "art_3_lfpdppp": {
+    "art_2_lfpdppp": {
       "aviso_de_privacidad": "Documento físico, electrónico o en cualquier otro formato generado por el responsable que es puesto a disposición del titular, previo al tratamiento de sus datos personales.",
       "bases_de_datos": "Conjunto ordenado de datos personales referentes a una persona identificada o identificable.",
       "consentimiento": "Manifestación de la voluntad del titular de los datos mediante la cual se efectúa el tratamiento de los mismos.",
       "datos_personales": "Cualquier información concerniente a una persona física identificada o identificable.",
       "datos_personales_sensibles": "Aquellos datos personales que afecten a la esfera más íntima de su titular, o cuya utilización indebida pueda dar origen a discriminación o conlleve un riesgo grave para éste. En particular, se consideran sensibles aquellos que puedan revelar aspectos como origen racial o étnico, estado de salud presente y futuro, información genética, creencias religiosas, filosóficas y morales, afiliación sindical, opiniones políticas, preferencia sexual.",
-      "disociación": "Procedimiento mediante el cual los datos personales no pueden asociarse al titular ni permitir, por su estructura, contenido o grado de desagregación, la identificación del mismo.",
       "encargado": "La persona física o jurídica que sola o conjuntamente con otras trate datos personales por cuenta del responsable.",
-      "fuente_de_acceso_publico": "Aquellas bases de datos cuya consulta puede ser realizada por cualquier persona, sin más requisito que, en su caso, el pago de una contraprestación.",
       "responsable": "Persona física o moral de carácter privado que decide sobre el tratamiento de datos personales.",
+      "secretaria": "Secretaría Anticorrupción y Buen Gobierno, autoridad competente en la materia (Art. 2 fracc. XV).",
       "tercero": "La persona física o moral, nacional o extranjera, distinta del titular o del responsable de los datos.",
       "titular": "La persona física a quien corresponden los datos personales.",
-      "tratamiento": "La obtención, uso, divulgación o almacenamiento de datos personales, por cualquier medio. El uso abarca cualquier acción de acceso, manejo, aprovechamiento, transferencia o disposición de datos personales.",
+      "tratamiento": "La obtención, uso, divulgación o almacenamiento de datos personales, por cualquier medio.",
       "transferencia": "Toda comunicación de datos realizada a persona distinta del responsable o encargado del tratamiento."
     }
   },
-  "principios_articulo_6": {
+  "principios_articulo_5": {
+    "fundamento": "Art. 5 LFPDPPP (principios de licitud, finalidad, lealtad, consentimiento, información, calidad, proporcionalidad y responsabilidad)",
     "licitud": "Tratamiento conforme a las disposiciones legales aplicables.",
-    "consentimiento": "Se requiere consentimiento del titular salvo excepciones del Art. 10.",
-    "informacion": "Poner a disposición del titular el aviso de privacidad antes del tratamiento.",
+    "consentimiento": "Se requiere consentimiento del titular salvo las excepciones del Art. 9.",
+    "informacion": "Poner a disposición del titular el aviso de privacidad antes del tratamiento (Art. 14).",
     "calidad": "Datos exactos, completos, pertinentes, correctos y actualizados.",
     "finalidad": "Tratamiento limitado al cumplimiento de las finalidades previstas en el aviso.",
     "lealtad": "Privilegiar la protección de los intereses del titular y la expectativa razonable de privacidad.",
-    "proporcionalidad": "Tratamiento de datos pertinentes, adecuados y no excesivos en relación con las finalidades.",
-    "responsabilidad": "El responsable velará por el cumplimiento de los principios y deberá adoptar las medidas necesarias para su aplicación."
+    "proporcionalidad": "Tratamiento necesario, adecuado y relevante, no excesivo en relación con las finalidades (Art. 12).",
+    "responsabilidad": "El responsable velará por el cumplimiento de los principios y adoptará las medidas necesarias para su aplicación."
   },
   "derechos_arco": {
-    "fundamento": "Arts. 22 al 35 LFPDPPP",
+    "fundamento": "Arts. 21 a 31 LFPDPPP (2025)",
+    "ejercicio_general": "Cualquier persona titular o su representante legal podrá ejercer los derechos ARCO (Art. 21).",
     "acceso": {
-      "definicion": "Derecho del titular a conocer qué datos personales tiene el responsable, así como el aviso de privacidad al que está sujeto el tratamiento.",
-      "fundamento": "Art. 23 LFPDPPP"
+      "definicion": "Derecho del titular a acceder a sus datos personales que obren en poder del responsable, así como a conocer el aviso de privacidad al que está sujeto el tratamiento.",
+      "fundamento": "Art. 22 LFPDPPP"
     },
     "rectificacion": {
-      "definicion": "Derecho del titular a solicitar la corrección de sus datos cuando sean inexactos o incompletos.",
-      "fundamento": "Art. 24 LFPDPPP"
+      "definicion": "Derecho del titular a solicitar la rectificación o corrección de sus datos cuando sean inexactos o incompletos.",
+      "fundamento": "Art. 23 LFPDPPP"
     },
     "cancelacion": {
-      "definicion": "Derecho del titular a solicitar la supresión de sus datos cuando considere que no se requieren para alguna de las finalidades. La cancelación implica un periodo de bloqueo antes de la supresión.",
-      "fundamento": "Art. 25 LFPDPPP"
+      "definicion": "Derecho del titular a solicitar la cancelación (supresión) de sus datos. Implica un periodo de bloqueo previo. El responsable no está obligado a cancelar en los supuestos del Art. 25.",
+      "fundamento": "Art. 24 LFPDPPP"
     },
     "oposicion": {
-      "definicion": "Derecho del titular a oponerse al tratamiento de sus datos cuando tenga causa legítima, o cuando no quiera que se utilicen para fines específicos.",
-      "fundamento": "Art. 27 LFPDPPP"
+      "definicion": "Derecho del titular a oponerse, en todo momento y por causa legítima, al tratamiento de sus datos, o a que se usen para fines específicos.",
+      "fundamento": "Art. 26 LFPDPPP"
+    },
+    "contenido_solicitud": {
+      "fundamento": "Art. 28 LFPDPPP",
+      "requisitos": [
+        "Nombre de la persona titular y domicilio o medio para recibir la respuesta",
+        "Documentos que acrediten su identidad o la personalidad de su representante",
+        "Descripción clara y precisa de los datos respecto de los que ejerce el derecho",
+        "Cualquier otro elemento que facilite la localización de los datos"
+      ]
     },
     "plazos": {
-      "respuesta_solicitud": "20 días hábiles desde recepción (Art. 32 LFPDPPP)",
-      "materializacion": "15 días hábiles adicionales (Art. 32 párrafo 2)",
-      "prorroga_excepcional": "Cuando las circunstancias lo ameriten, podrá ampliarse por una sola vez por un período igual"
+      "respuesta_solicitud": "20 días hábiles desde la recepción (Art. 31 LFPDPPP)",
+      "materializacion": "15 días hábiles adicionales para hacer efectiva la determinación (Art. 31)",
+      "prorroga_excepcional": "Los plazos pueden ampliarse una sola vez por un periodo igual cuando las circunstancias lo justifiquen (Art. 31)"
     },
-    "excepciones_negativa_art_34": [
-      "Cuando el solicitante no sea el titular o el representante legal no esté debidamente acreditado",
-      "Cuando en su base de datos no se encuentren los datos personales del solicitante",
-      "Cuando se lesionen los derechos de un tercero",
-      "Cuando exista impedimento legal o resolución de autoridad competente",
-      "Cuando la rectificación, cancelación u oposición haya sido previamente realizada"
-    ]
+    "si_el_titular_queda_inconforme": {
+      "mecanismo": "Solicitud de protección de datos ante la Secretaría Anticorrupción y Buen Gobierno, dentro de los 15 días siguientes a la respuesta del responsable o a que venza el plazo sin respuesta.",
+      "fundamento": "Art. 40 LFPDPPP",
+      "impugnacion": "Las resoluciones se impugnan por juicio de amparo ante juzgados y tribunales especializados."
+    },
+    "excepciones_negativa": {
+      "fundamento": "Art. 33 LFPDPPP (el responsable podrá negar el ejercicio ARCO en estos supuestos)",
+      "causales": [
+        "Cuando el solicitante no sea el titular o el representante legal no esté debidamente acreditado",
+        "Cuando en la base de datos no se encuentren los datos del solicitante",
+        "Cuando se lesionen los derechos de un tercero",
+        "Cuando exista impedimento legal o resolución de autoridad competente",
+        "Cuando la rectificación, cancelación u oposición haya sido previamente realizada"
+      ]
+    }
   },
   "consentimiento": {
     "tipos": {
       "tacito": {
-        "definicion": "Cuando habiéndose puesto a disposición del titular el aviso de privacidad, éste no manifieste oposición.",
+        "definicion": "Cuando, habiéndose puesto a disposición del titular el aviso de privacidad, éste no manifieste oposición.",
         "casos_aplicables": "Regla general para datos personales no sensibles",
-        "fundamento": "Art. 8 LFPDPPP"
+        "fundamento": "Art. 7 LFPDPPP"
       },
       "expreso": {
         "definicion": "Cuando la voluntad se manifieste verbalmente, por escrito, por medios electrónicos, ópticos o por cualquier otra tecnología, o por signos inequívocos.",
-        "casos_aplicables": "Cuando lo exija la ley o lo acuerden las partes; transferencias del Art. 36",
-        "fundamento": "Art. 8 párrafo 3 LFPDPPP"
+        "casos_aplicables": "Cuando lo exija la ley o lo acuerden las partes; transferencias que lo requieran (Art. 36)",
+        "fundamento": "Art. 7 LFPDPPP"
       },
       "expreso_por_escrito": {
         "definicion": "Consentimiento expreso constando la firma autógrafa, firma electrónica o cualquier mecanismo de autenticación.",
-        "casos_aplicables": "Tratamiento de datos personales sensibles, datos financieros o patrimoniales",
-        "fundamento": "Art. 9 LFPDPPP"
+        "casos_aplicables": "Tratamiento de datos personales sensibles",
+        "fundamento": "Art. 8 LFPDPPP"
       }
     },
-    "excepciones_art_10": [
+    "excepciones_art_9": [
       "Cuando esté previsto en una Ley",
       "Cuando los datos figuren en fuentes de acceso público",
-      "Cuando los datos personales se sometan a un procedimiento previo de disociación",
+      "Cuando los datos se sometan a un procedimiento previo de disociación",
       "Cuando tenga el propósito de cumplir obligaciones derivadas de una relación jurídica entre titular y responsable",
       "Cuando exista una situación de emergencia que potencialmente pueda dañar a un individuo en su persona o en sus bienes",
-      "Cuando sean indispensables para la atención médica del titular, durante una emergencia y no esté en condiciones de otorgar el consentimiento",
+      "Cuando sean indispensables para la atención médica y el titular no esté en condiciones de otorgar el consentimiento",
       "Cuando se dicte resolución de autoridad competente"
     ]
   },
   "transferencias": {
-    "fundamento": "Arts. 36 y 37 LFPDPPP",
-    "regla_general": "Toda transferencia requiere consentimiento expreso del titular, salvo excepciones.",
-    "excepciones_art_37": [
+    "fundamento": "Art. 36 LFPDPPP (nacionales e internacionales)",
+    "regla_general": "Las transferencias nacionales o internacionales de datos podrán llevarse a cabo con el consentimiento del titular, salvo las excepciones previstas en la ley.",
+    "excepciones": [
       "Cuando la transferencia esté prevista en una Ley o Tratado en los que México sea parte",
-      "Cuando sea necesaria para prevención o diagnóstico médico, prestación de asistencia sanitaria, tratamiento médico o gestión de servicios sanitarios",
-      "Cuando sea efectuada a sociedades controladoras, subsidiarias o afiliadas bajo el control común del responsable, o a una sociedad matriz o a cualquier sociedad del mismo grupo del responsable, que opere bajo los mismos procesos y políticas internas",
-      "Cuando sea necesaria por virtud de un contrato celebrado o por celebrar en interés del titular, por el responsable y un tercero",
-      "Cuando sea necesaria o legalmente exigida para la salvaguarda de un interés público, o para la procuración o administración de justicia",
+      "Cuando sea necesaria para prevención o diagnóstico médico, prestación de asistencia sanitaria o gestión de servicios sanitarios",
+      "Cuando sea efectuada a sociedades del mismo grupo del responsable que operen bajo los mismos procesos y políticas internas",
+      "Cuando sea necesaria por virtud de un contrato celebrado o por celebrar en interés del titular",
+      "Cuando sea necesaria o legalmente exigida para la salvaguarda de un interés público o la administración de justicia",
       "Cuando sea precisa para el reconocimiento, ejercicio o defensa de un derecho en un proceso judicial",
       "Cuando sea precisa para el mantenimiento o cumplimiento de una relación jurídica entre el responsable y el titular"
     ],
@@ -116,14 +132,15 @@
     }
   },
   "vulneraciones": {
-    "fundamento": "Art. 20 LFPDPPP y Arts. 63-66 Reglamento",
+    "fundamento": "Art. 19 LFPDPPP",
     "tipos": [
       "Pérdida o destrucción no autorizada",
       "Robo, extravío o copia no autorizada",
       "Uso, acceso o tratamiento no autorizado",
       "Daño, alteración o modificación no autorizada"
     ],
-    "obligacion_notificar": "El responsable deberá informar al titular las vulneraciones que afecten de forma significativa sus derechos patrimoniales o morales, sin dilación, a fin de que el titular pueda tomar las medidas para defender sus derechos.",
+    "obligacion_notificar": "El responsable informará de forma inmediata a la persona titular las vulneraciones que afecten de forma significativa sus derechos patrimoniales o morales, a fin de que pueda tomar las medidas para defender sus derechos.",
+    "aclaracion_particulares": "En el régimen de particulares NO existe obligación de notificar la vulneración a la autoridad; la notificación es al titular afectado. La notificación a la autoridad corresponde a sujetos públicos bajo la LGPDPPSO.",
     "contenido_notificacion_titular": [
       "Naturaleza del incidente",
       "Datos personales comprometidos",
@@ -132,30 +149,30 @@
       "Medios donde puede obtener más información"
     ]
   },
-  "encargado_de_datos_personales": {
-    "obligatoriedad": "Designar a una persona o departamento que de trámite a las solicitudes de los titulares para el ejercicio de los derechos ARCO y que fomente la protección de datos personales al interior de la organización.",
-    "fundamento": "Art. 30 LFPDPPP",
+  "departamento_de_datos_personales": {
+    "obligatoriedad": "El responsable fomentará la protección de datos personales al interior de la organización y designará a una persona o departamento que dé trámite a las solicitudes ARCO.",
+    "fundamento": "Art. 29 LFPDPPP",
     "funciones": [
-      "Atender solicitudes ARCO",
+      "Atender las solicitudes ARCO",
       "Promover la cultura de protección de datos personales",
-      "Capacitar al personal",
-      "Servir de enlace con el INAI"
+      "Capacitar al personal"
     ]
   },
-  "aviso_de_privacidad_elementos_obligatorios": {
-    "fundamento": "Art. 16 LFPDPPP y Lineamientos del Aviso de Privacidad",
-    "para_aviso_integral": [
-      "Identidad y domicilio del responsable",
-      "Datos personales que serán sometidos a tratamiento, identificando los que se consideren sensibles",
-      "Finalidades del tratamiento (separando primarias de secundarias)",
-      "Mecanismos para manifestar negativa al tratamiento para finalidades secundarias",
-      "Opciones y medios que el responsable ofrezca para limitar el uso o divulgación",
-      "Medios para ejercer derechos ARCO",
-      "Transferencias de datos que se efectúen",
-      "Procedimiento y medio por el cual se comunicarán cambios al aviso",
-      "Datos del encargado/área de protección de datos para contacto",
-      "En su caso, mención de que los datos personales serán transferidos",
-      "Mecanismo y procedimiento para que el titular pueda revocar su consentimiento"
+  "aviso_de_privacidad": {
+    "fundamento": "Art. 15 LFPDPPP (contenido mínimo); Art. 16 (puesta a disposición)",
+    "minimo_legal_seis_fracciones_art_15": [
+      "I. Identidad y domicilio del responsable",
+      "II. Los datos personales que serán sometidos a tratamiento, identificando los sensibles",
+      "III. Las finalidades del tratamiento, distinguiendo las que requieren el consentimiento de la persona titular",
+      "IV. Las opciones y medios que el responsable ofrezca para limitar el uso o divulgación de los datos",
+      "V. Los medios para ejercer los derechos ARCO",
+      "VI. El procedimiento y medio por el cual se comunicarán los cambios al aviso de privacidad"
+    ],
+    "buenas_practicas_recomendadas": [
+      "Transferencias de datos que se efectúen (régimen vigente en el Art. 36; documentarlas es buena práctica)",
+      "Fundamento legal que faculta al responsable",
+      "Datos del departamento/persona de datos personales para contacto",
+      "Mecanismo y procedimiento para revocar el consentimiento"
     ],
     "para_aviso_simplificado": [
       "Identidad y domicilio del responsable",
@@ -170,8 +187,8 @@
     ]
   },
   "deber_de_seguridad": {
-    "fundamento": "Art. 19 LFPDPPP, Art. 60 al 66 Reglamento",
-    "obligacion": "Establecer y mantener las medidas de seguridad administrativas, físicas y técnicas para la protección de los datos personales, que permitan protegerlos contra daño, pérdida, alteración, destrucción o uso, acceso o tratamiento no autorizado.",
+    "fundamento": "Art. 18 LFPDPPP; Arts. 60 y siguientes del Reglamento 2011 (referencia)",
+    "obligacion": "Establecer y mantener medidas de seguridad administrativas, físicas y técnicas para proteger los datos personales contra daño, pérdida, alteración, destrucción o uso, acceso o tratamiento no autorizado.",
     "elementos_documento_seguridad": [
       "Inventario de datos personales y de los sistemas de tratamiento",
       "Funciones y obligaciones de las personas que traten datos personales",
@@ -183,13 +200,13 @@
     ]
   },
   "deber_de_confidencialidad": {
-    "fundamento": "Art. 21 LFPDPPP",
-    "obligacion": "El responsable o terceros que intervengan en cualquier fase del tratamiento de datos personales deberán guardar confidencialidad respecto de éstos, obligación que subsistirá aun después de finalizar sus relaciones con el titular o con el responsable."
+    "fundamento": "LFPDPPP (deber de confidencialidad de responsable y encargados)",
+    "obligacion": "El responsable o terceros que intervengan en cualquier fase del tratamiento deberán guardar confidencialidad respecto de los datos, obligación que subsiste aun después de finalizar sus relaciones con el titular o el responsable."
   },
   "datos_sensibles_reglas_especiales": {
-    "fundamento": "Art. 9 LFPDPPP",
-    "consentimiento": "Expreso y por escrito a través de firma autógrafa, firma electrónica o mecanismo de autenticación equivalente.",
-    "prohibicion": "No se podrán crear bases de datos que contengan datos sensibles sin que se justifique su creación para finalidades legítimas, concretas y acordes con las actividades o fines explícitos del responsable.",
+    "fundamento": "Art. 8 LFPDPPP",
+    "consentimiento": "Expreso y por escrito mediante firma autógrafa, firma electrónica o mecanismo de autenticación equivalente.",
+    "prohibicion": "No se podrán crear bases de datos con datos sensibles sin que se justifique su creación para finalidades legítimas, concretas y acordes con las actividades o fines explícitos del responsable.",
     "ejemplos": [
       "Origen racial o étnico",
       "Estado de salud presente y futuro",
@@ -199,5 +216,17 @@
       "Opiniones políticas",
       "Preferencia sexual"
     ]
+  },
+  "sanciones": {
+    "fundamento": "Arts. 58 (infracciones) y 59 (sanciones) LFPDPPP",
+    "autoridad_sancionadora": "Secretaría Anticorrupción y Buen Gobierno",
+    "multas_en_uma": {
+      "nota": "Los rangos están en UMA (ley estable). El valor de la UMA en pesos se obtiene del connector nexfiscal (familia uma); nunca de memoria.",
+      "infracciones_fracc_II_a_VII": "100 a 160,000 UMA",
+      "infracciones_fracc_VIII_a_XVIII": "200 a 320,000 UMA",
+      "reiteracion": "Multa adicional de 100 a 320,000 UMA",
+      "datos_sensibles": "Las multas pueden incrementarse hasta por dos veces"
+    },
+    "impugnacion": "Juicio de amparo ante juzgados y tribunales especializados en la materia."
   }
 }

@@ -123,9 +123,9 @@ Indique cómo desea recibir la respuesta del Responsable:
 ## 8. Declaraciones
 
 - Declaro bajo protesta de decir verdad que la información proporcionada en esta solicitud es veraz y exacta.
-- Manifiesto que conozco el plazo de respuesta de 20 días hábiles contados a partir del día siguiente a la recepción de esta solicitud (Art. 32 LFPDPPP), así como el plazo adicional de 15 días hábiles para hacer efectivo el derecho una vez que se haya notificado la respuesta positiva.
+- Manifiesto que conozco el plazo de respuesta de 20 días hábiles contados a partir del día siguiente a la recepción de esta solicitud (Art. 31 LFPDPPP), así como el plazo adicional de 15 días hábiles para hacer efectivo el derecho una vez que se haya notificado la respuesta positiva.
 - Conozco que el ejercicio de derechos ARCO es gratuito, salvo gastos justificados de envío o reproducción.
-- En caso de no recibir respuesta dentro del plazo legal o si la respuesta es insatisfactoria, puedo iniciar el Procedimiento de Protección de Derechos ante el INAI dentro de los 15 días hábiles siguientes (Art. 45 LFPDPPP).
+- En caso de no recibir respuesta dentro del plazo legal o si la respuesta es insatisfactoria, puedo presentar una Solicitud de Protección de Datos ante la Secretaría Anticorrupción y Buen Gobierno dentro de los 15 días hábiles siguientes (Art. 40 LFPDPPP), cuya resolución podrá impugnarse mediante juicio de amparo especializado.
 
 ---
 

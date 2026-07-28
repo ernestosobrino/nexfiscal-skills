@@ -1,6 +1,6 @@
 # Plantilla — Protocolo de Atención a Vulneraciones de Seguridad de Datos Personales
 
-> Cumple con el Art. 20 LFPDPPP y los Arts. 63-66 del Reglamento.
+> Cumple con el Art. 19 LFPDPPP y los Arts. 63-66 del Reglamento.
 
 ---
 
@@ -115,7 +115,7 @@ Se considerará afectación significativa cuando concurra al menos uno de los si
 
 ### Fase 4 — Notificación al titular (sin dilación, ideal 72 horas tras confirmación)
 
-**Si hay afectación significativa**, el Responsable notificará a los titulares afectados, conforme al Art. 20 LFPDPPP, mediante un medio idóneo (correo electrónico, comunicación postal, llamada, etc.).
+**Si hay afectación significativa**, el Responsable notificará a los titulares afectados, conforme al Art. 19 LFPDPPP, mediante un medio idóneo (correo electrónico, comunicación postal, llamada, etc.).
 
 La notificación contendrá:
 
@@ -164,7 +164,7 @@ Ver formato en la sección 6 de este protocolo.
 
 Estimado(a) [Nombre]:
 
-En cumplimiento al Art. 20 de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, le informamos lo siguiente:
+En cumplimiento al Art. 19 de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, le informamos lo siguiente:
 
 ### Naturaleza del incidente
 

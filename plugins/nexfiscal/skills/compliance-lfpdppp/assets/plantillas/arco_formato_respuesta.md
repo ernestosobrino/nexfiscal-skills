@@ -1,6 +1,6 @@
 # Plantilla — Formato de Respuesta a Solicitud ARCO
 
-> Modelos de oficio que emite el Responsable para responder a las solicitudes ARCO conforme al Art. 32 LFPDPPP.
+> Modelos de oficio que emite el Responsable para responder a las solicitudes ARCO conforme al Art. 31 LFPDPPP.
 
 ---
 
@@ -43,7 +43,7 @@ Se ha procedido al cese del tratamiento de sus datos personales para la(s) sigui
 
 ### Materialización del derecho
 
-El derecho ejercido se hará efectivo en un plazo no mayor a **15 días hábiles** contados a partir de la notificación de la presente respuesta, conforme al Art. 32 párrafo segundo de la LFPDPPP.
+El derecho ejercido se hará efectivo en un plazo no mayor a **15 días hábiles** contados a partir de la notificación de la presente respuesta, conforme al Art. 31 párrafo segundo de la LFPDPPP.
 
 ### Costos
 
@@ -53,7 +53,7 @@ El ejercicio de este derecho es gratuito. *(Si hay gastos de envío/reproducció
 
 Si tiene alguna duda o aclaración sobre esta respuesta, puede contactarnos al correo **[correo del Encargado]** o al teléfono **[teléfono]**.
 
-Le recordamos que, si considera que su solicitud no fue atendida correctamente, puede interponer el Procedimiento de Protección de Derechos ante el Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI), dentro de los 15 días hábiles siguientes a esta notificación, conforme al Art. 45 LFPDPPP.
+Le recordamos que, si considera que su solicitud no fue atendida correctamente, puede presentar una Solicitud de Protección de Datos ante la Secretaría Anticorrupción y Buen Gobierno dentro de los 15 días hábiles siguientes a esta notificación, conforme al Art. 40 de la LFPDPPP. La resolución de la Secretaría podrá impugnarse mediante juicio de amparo especializado.
 
 Atentamente,
 
@@ -83,7 +83,7 @@ En atención a su solicitud para el ejercicio de derechos ARCO recibida el día 
 
 ### Resolución
 
-**Su solicitud se ha calificado como IMPROCEDENTE** por la(s) siguiente(s) causa(s), conforme al Art. 34 de la LFPDPPP:
+**Su solicitud se ha calificado como IMPROCEDENTE** por la(s) siguiente(s) causa(s), conforme al Art. 33 de la LFPDPPP:
 
 *[Seleccionar la causa aplicable:]*
 
@@ -110,7 +110,7 @@ En atención a su solicitud para el ejercicio de derechos ARCO recibida el día 
 
 ---
 
-Le recordamos que, si no está conforme con esta respuesta, puede interponer el Procedimiento de Protección de Derechos ante el Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI), dentro de los 15 días hábiles siguientes a esta notificación, conforme al Art. 45 LFPDPPP.
+Le recordamos que, si no está conforme con esta respuesta, puede presentar una Solicitud de Protección de Datos ante la Secretaría Anticorrupción y Buen Gobierno dentro de los 15 días hábiles siguientes a esta notificación, conforme al Art. 40 de la LFPDPPP. La resolución de la Secretaría podrá impugnarse mediante juicio de amparo especializado.
 
 Para cualquier aclaración, puede contactarnos al correo **[correo del Encargado]** o al teléfono **[teléfono]**.
 

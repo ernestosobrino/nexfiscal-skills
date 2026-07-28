@@ -16,7 +16,7 @@
 
 Para efectos del presente Anexo, los términos siguientes tendrán el significado que se les atribuye:
 
-- **LFPDPPP:** Ley Federal de Protección de Datos Personales en Posesión de los Particulares y su Reglamento.
+- **LFPDPPP:** Ley Federal de Protección de Datos Personales en Posesión de los Particulares (DOF 20/03/2025; texto vigente, última reforma DOF 14/11/2025) y su Reglamento.
 - **Responsable:** [DENOMINACIÓN del Responsable], que decide sobre el tratamiento de los datos personales.
 - **Encargado:** [DENOMINACIÓN del Encargado], que trata los datos personales por cuenta del Responsable.
 - **Datos Personales:** Cualquier información concerniente a personas físicas identificadas o identificables, incluyendo en su caso datos personales sensibles.
@@ -52,7 +52,7 @@ El Encargado se obliga a:
 
 **II. Abstenerse de tratar los Datos Personales para finalidades distintas a las instruidas** por el Responsable.
 
-**III. Implementar las medidas de seguridad administrativas, físicas y técnicas** necesarias para proteger los Datos Personales contra daño, pérdida, alteración, destrucción, uso, acceso o tratamiento no autorizado, conforme al Art. 19 LFPDPPP.
+**III. Implementar las medidas de seguridad administrativas, físicas y técnicas** necesarias para proteger los Datos Personales contra daño, pérdida, alteración, destrucción, uso, acceso o tratamiento no autorizado, conforme al Art. 18 LFPDPPP.
 
 A. Las medidas mínimas incluirán:
 - Control de acceso lógico (usuarios, contraseñas, autenticación multifactor cuando aplique)
@@ -122,7 +122,7 @@ c) Que notificará al Responsable de cualquier cambio en la ubicación del trata
 
 El Encargado responderá por los daños y perjuicios que cause al Responsable por el incumplimiento de las obligaciones establecidas en este Anexo, incluidos:
 
-- Multas impuestas al Responsable por el INAI derivadas del incumplimiento del Encargado
+- Multas impuestas al Responsable por la Secretaría Anticorrupción y Buen Gobierno derivadas del incumplimiento del Encargado
 - Indemnizaciones que el Responsable deba pagar a los titulares afectados
 - Costos de notificación a titulares ante vulneraciones de seguridad imputables al Encargado
 - Gastos legales y de defensa razonables
@@ -159,7 +159,7 @@ Las obligaciones de este Anexo permanecerán vigentes durante la vigencia del co
 
 ### DÉCIMA PRIMERA. FUNDAMENTO LEGAL
 
-El presente Anexo se rige por la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, su Reglamento, los Lineamientos del Aviso de Privacidad y demás normatividad aplicable.
+El presente Anexo se rige por la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (DOF 20/03/2025; texto vigente, última reforma DOF 14/11/2025), su Reglamento, los Lineamientos del Aviso de Privacidad y demás normatividad aplicable.
 
 ---
 
