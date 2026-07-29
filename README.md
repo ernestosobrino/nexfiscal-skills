@@ -8,6 +8,38 @@ Skills fiscales, laborales y legales para contadores en México, para usar dentr
 2. Pega la URL de este repositorio.
 3. Instala el plugin **nexfiscal** y autoriza el connector con tu cuenta de suscriptor NexFiscal.
 
+> **Al instalar, Claude te mostrará un aviso de seguridad** indicando que el
+> plugin incluye un connector (servidor MCP) externo. Es normal y esperado: ese
+> servidor es justamente el que entrega los valores fiscales vigentes. Abajo
+> está el detalle exacto de qué hace y qué no hace el plugin.
+
+## Qué hace (y qué NO hace) este plugin — transparencia
+
+Este repositorio contiene **únicamente archivos de texto y datos** (`.md`, `.json`,
+`.csv`): las instrucciones de las skills, plantillas de documentos y catálogos.
+Puedes revisarlo completo — es público.
+
+**Lo que el plugin NO hace:**
+
+- ❌ **No ejecuta código** en tu equipo: no incluye scripts, binarios ni programas.
+- ❌ **No declara hooks ni permisos especiales** (nada corre por su cuenta).
+- ❌ **No accede a tus archivos**, tu terminal ni tu sistema.
+- ❌ **No instala nada** fuera de Claude.
+
+**Lo que sí hace:**
+
+- ✅ Incluye un **connector (servidor MCP)** que apunta a `https://mcp.nexfiscal.app`,
+  operado por NexFiscal, siempre sobre HTTPS.
+- ✅ Cuando pides un cálculo, envía a ese servidor **solo los parámetros necesarios**
+  (montos, fechas, régimen, RFC a verificar en las listas del SAT) y recibe el
+  resultado con su fundamento legal. **No envía tus conversaciones completas.**
+- ✅ Requiere tu **clave de suscriptor** para responder; sin suscripción activa las
+  skills lo advierten y no entregan cifras.
+
+**Sobre tus datos:** el servidor procesa los parámetros para resolver el cálculo y
+registra el uso por herramienta (para soporte y métricas). No vendemos ni
+compartimos datos. Dudas: hola@nexfiscal.mx
+
 ## Suscripción
 
 El contenido fiscal cambia todo el año (RMF, UMA, tablas ISR, INPC, listas SAT). La suscripción garantiza que cada cálculo use los valores vigentes con su fundamento legal. Sin suscripción activa, las skills lo advierten y no entregan cifras como válidas.
