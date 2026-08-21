@@ -1,3 +1,5 @@
+<img src="assets/nexfiscal-skills-logo.svg" alt="NexFiscal Skills" width="340">
+
 # NexFiscal Skills
 
 Skills fiscales, laborales y legales para contadores en México, para usar dentro de Claude (claude.ai). Los valores fiscales vigentes (UMA, tablas ISR, cuotas IMSS, INPC…) y todos los cálculos se obtienen en línea del backend NexFiscal a través del connector incluido — con una suscripción activa, tus resultados siempre usan los valores del día, sin descargar ni actualizar nada.

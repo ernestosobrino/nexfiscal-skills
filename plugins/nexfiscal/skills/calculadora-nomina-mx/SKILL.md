@@ -35,6 +35,7 @@ resuelve el backend NexFiscal a través del connector `nexfiscal`.**
    vigencia y su fundamento legal: cítalos tal cual.
 3. Si el connector no está disponible, no está conectado o devuelve error,
    **dilo con claridad y no entregues números**. Jamás "aproximes".
+4. **La web no corrobora al connector.** Para los datos que el connector provee (valores, catálogos, listas), su respuesta es fuente suficiente y **final**: no la verifiques con búsquedas web. Busca en la web únicamente lo que el connector no cubre — y aun ahí cita solo fuentes oficiales (DOF, portal del SAT); nunca presentes un blog como fundamento.
 
 ## Al iniciar la conversación
 
