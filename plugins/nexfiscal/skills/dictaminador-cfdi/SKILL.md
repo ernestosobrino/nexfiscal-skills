@@ -2,16 +2,16 @@
 name: dictaminador-cfdi
 description: >
   Validador y dictaminador de CFDI (facturas electrónicas mexicanas) con
-  catálogos del SAT y listas 69/69-B verificadas en línea vía el connector
+  catálogos del SAT y listas 69/69-B/49 Bis verificadas en línea vía el connector
   NexFiscal (requiere suscripción activa). Usa este skill cuando el usuario
   suba archivos XML de CFDI, quiera validar facturas electrónicas contra los
   catálogos del Anexo 20, detectar inconsistencias (PUE/PPD, UsoCFDI vs
   régimen, complementos de pago), evaluar deducibilidad, o verificar si un
-  RFC está en las listas de los Arts. 69, 69-B o 69-B Bis del CFF (EFOS,
-  no localizados, créditos firmes, CSD sin efectos). También se activa con:
-  CFDI, factura electrónica, XML fiscal, complemento de pago, nota de
-  crédito, catálogos SAT, validar factura, 69-B, EFOS, EDOS, lista negra
-  SAT, deducibilidad. Actívate incluso si solo dicen "revisa este XML" o
+  RFC está en las listas de los Arts. 69, 69-B, 69-B Bis o 49 Bis del CFF
+  (EFOS, no localizados, créditos firmes, CSD sin efectos, CFDI falsos).
+  También se activa con: CFDI, factura electrónica, XML fiscal, complemento
+  de pago, nota de crédito, catálogos SAT, validar factura, 69-B, 49 Bis,
+  CFDI falsos, facturas falsas, EFOS, EDOS, lista negra SAT, deducibilidad. Actívate incluso si solo dicen "revisa este XML" o
   "¿este RFC está en el 69-B?".
 ---
 
@@ -27,7 +27,7 @@ connector `nexfiscal`** — nunca de tu memoria.
 
 1. **NUNCA valides contra catálogos, reglas o listas de tu memoria**: claves
    de catálogo se dan de baja, la matriz UsoCFDI↔régimen cambia con el
-   Anexo 20 y las listas 69/69-B cambian todo el tiempo. Un dictamen con
+   Anexo 20 y las listas 69/69-B/49 Bis cambian todo el tiempo. Un dictamen con
    datos viejos es un riesgo profesional para el contador.
 2. La **única fuente válida** son las herramientas del connector. Cada
    respuesta trae fundamento y (en las listas) la fecha de corte: cítalas.
@@ -81,8 +81,13 @@ por conversación) y síguelo en orden para cada comprobante:
    (las operaciones que ampara no producen efectos fiscales, Art. 69-B,
    párrafo cuarto CFF); **Presunto** es advertencia grave (verificar y
    documentar materialidad); "Sentencia Favorable" o "Desvirtuado" se
-   reporta como antecedente, no como impedimento. En lista 69 (créditos
-   firmes, no localizados, CSD sin efectos) advierte el riesgo operativo.
+   reporta como antecedente, no como impedimento. Un emisor en la lista
+   **49 Bis** ("No desvirtuado, fracc. X") es hallazgo crítico: sus CFDI
+   fueron declarados falsos con efectos generales (Art. 49 Bis CFF, vigente
+   desde 2026) y quien los recibió debe revertir sus efectos fiscales
+   mediante complementarias — la respuesta trae el oficio y la fecha del
+   DOF en `detalle`: cítalos. En lista 69 (créditos firmes, no localizados,
+   CSD sin efectos) advierte el riesgo operativo.
    **Cita siempre la fecha de corte de cada lista** y la advertencia del
    connector sobre la verificación definitiva en el portal del SAT.
 7. **Deducibilidad**: datos fiscales del receptor completos, UsoCFDI
@@ -109,7 +114,7 @@ PPD con FormaPago ≠ 99 · PUE con FormaPago 99 · G03 usado indiscriminadament
 · PPD sin complemento de pago · RFC genérico mal usado · régimen que no
 corresponde al tipo de persona · ClaveProdServ genérica · IVA 16% en
 conceptos de tasa 0%/exentos · TipoCambio faltante en moneda extranjera ·
-**emisor en 69-B que el contador no había detectado**.
+**emisor en 69-B o en 49 Bis que el contador no había detectado**.
 
 ## Manejo de múltiples CFDI
 
@@ -129,7 +134,7 @@ referencian ingresos) e inconsistencias cruzadas.
 
 ## Alcance y limitaciones (sé transparente)
 
-Con el connector **sí** verificas listas 69/69-B/69-B Bis al corte cargado
+Con el connector **sí** verificas listas 69/69-B/69-B Bis/49 Bis al corte cargado
 (cita la fecha). Sigues **sin** poder: verificar el estatus del CFDI en el
 SAT (vigente/cancelado), validar el sello digital ni la cadena original, ni
 confirmar la vigencia del certificado del emisor — para eso remite al
