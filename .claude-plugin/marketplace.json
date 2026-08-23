@@ -11,8 +11,8 @@
     {
       "name": "nexfiscal",
       "source": "./plugins/nexfiscal",
-      "description": "Suite NexFiscal completa: 8 skills fiscales, laborales y legales para contadores en México — Calculadora de Nómina MX, Actualización y Recargos, Régimen Fiscal Óptimo, Dictaminador CFDI (con listas 69/69-B y la nueva 49 Bis del SAT en vivo), Gestor Laboral, Contratos Mercantiles, Redactor de Actas y Compliance LFPDPPP (ley 2025). Los valores vigentes y los cálculos se obtienen del backend NexFiscal vía connector (requiere suscripción activa).",
-      "version": "0.8.1",
+      "description": "Suite NexFiscal: skills fiscales, laborales y legales para contadores en México — Calculadora de Nómina MX, Actualización y Recargos, Régimen Fiscal Óptimo, Dictaminador CFDI (con las listas 69, 69-B, 69-B Bis y 49 Bis del SAT en vivo), Conciliador IMSS/INFONAVIT (EMA y EBA contra el SUA), Gestor Laboral, Contratos Mercantiles, Redactor de Actas y Compliance LFPDPPP (ley 2025). Los valores vigentes y los cálculos se obtienen del backend NexFiscal vía connector (requiere suscripción activa).",
+      "version": "0.9.0",
       "author": {
         "name": "NexFiscal.app"
       },
@@ -22,7 +22,8 @@
         "mexico",
         "contadores",
         "sat",
-        "imss"
+        "imss",
+        "infonavit"
       ]
     }
   ]
