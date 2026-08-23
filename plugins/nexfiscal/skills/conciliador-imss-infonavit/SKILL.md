@@ -122,17 +122,60 @@ renglones del mismo trabajador** y envía un solo registro con los días y los
 importes totales. Si hubo modificación de salario en el periodo, dilo en el
 reporte: el salario diario no fue uno solo.
 
+## Los cuatro documentos, y por qué no son intercambiables
+
+| Documento | Qué es | Patrón/obrera |
+|---|---|---|
+| **EMA / EBA** (EMI-01, EMI-02) | Lo que el IMSS **propone** | Separados |
+| **Cédula del SUA** | Lo que el despacho **determina** | La mensual **combinada**; la bimestral separada |
+| **SIPARE** (SPR-05) | Lo que se **paga**, con línea de captura | Separados |
+| **Resumen de liquidación** | Totales del SUA por bloque | Solo totales |
+
+**La trampa está en la cédula mensual del SUA: combina patrón y obrera en una
+sola columna.** Donde la EMA imprime `47.23` patronal y `16.87` obrera, el SUA
+imprime `64.10`. No conviertas tú: manda cada documento como viene.
+
+- Si el documento **separa**, usa los campos `_patron` y `_obrero`.
+- Si **combina**, usa los campos `_total`: `excedente_total`,
+  `prestaciones_dinero_total`, `gastos_medicos_total`, `invalidez_vida_total`,
+  `ceav_total`.
+
+El backend compara sobre la base más gruesa que ambos lados expresen, y suma
+las mitades ya redondeadas, que es como lo hace el SUA. Si tú sumaras aplicando
+la tasa combinada, saldría un centavo de más en cada trabajador.
+
+## Cómo leer el SIPARE
+
+Es el mejor documento para conciliar cuando el usuario ya pagó: separa patrón y
+obrera igual que la EMA, y trae todo en una hoja.
+
+**Cuidado con los periodos: un solo SIPARE cubre dos.** El encabezado trae
+`PERÍODO QUE COMPRENDE EL PAGO DE SEGUROS IMSS` (mensual, p. ej. `12-2023`) y
+`BIMESTRE QUE COMPRENDE EL PAGO RCV E INFONAVIT` (p. ej. `06-2023`). Son **dos
+llamadas**: una `ema` con el mes y otra `eba` con el bimestre. No los mezcles.
+
+Los renglones `ACTUALIZACIÓN` y `RECARGOS` van en `actualizacion` y `recargos`.
+**No son cuotas**: el backend los reporta aparte y nunca los concilia. Si los
+mandaras como cuota, inventarían diferencia en toda cédula pagada tarde.
+
+Ignora `MULTA`, `OTROS INGRESOS`, `GASTOS DE EJECUCIÓN` y `DONATIVO FUNDEMEX`:
+quedan fuera de esta versión. La `LÍNEA DE CAPTURA` no se envía a ningún lado.
+
 ## Cómo leer la cédula del SUA
 
-Es el mismo documento, calculado por el despacho ya con las incidencias
-capturadas. Los conceptos son los mismos; van en `cuotas_sua`, y los días
-ajustados en `dias_sua`.
+Los conceptos van en `cuotas_sua` y los días ajustados en `dias_sua`.
 
-**Las incapacidades van en `incapacidades`**, con `folio`, `dias` y, si viene,
-`tipo`. El backend verifica que los días amparados expliquen la merma: si
-cuadran, confirma la causa y **te devuelve el folio en el hallazgo** para que lo
-cites en la aclaración. Si no cuadran, no afirma incapacidad — y eso es
-información útil, no una falla.
+**El SUA desglosa los días en tres columnas:** `Inc.` (incapacidades), `Aus.`
+(ausentismos) y `Lic.` (licencias). Mándalos en `dias_incapacidad`,
+`dias_ausentismo` y `dias_licencia`. Es mejor que deducirlo: el documento ya te
+dice cuál fue.
+
+**La cédula del SUA no trae folios de incapacidad**, solo días. El `Folio SUA`
+del resumen de liquidación es el folio del lote completo, no de una incapacidad.
+Si el usuario tiene los folios a la mano y quiere citarlos en su aclaración,
+captúralos en `incapacidades` con sus días; el backend verifica que cuadren con
+la merma antes de darlos por buenos. Si no los tiene, **no se los pidas**: la
+conciliación funciona igual con los días.
 
 ## Lo que distingue una incapacidad de un ausentismo
 
@@ -164,6 +207,14 @@ Pide solo lo que falte, y acepta que el usuario suba el PDF:
    sin SUA solo se verifica que la aritmética del Instituto cuadre consigo
    misma, que rara vez falla. La conciliación de verdad necesita las dos
    determinaciones.
+
+## Para qué sirve el resultado
+
+El flujo del despacho es: el IMSS propone (EMA/EBA), el despacho determina
+(SUA), y se paga (SIPARE). **Si la conciliación arroja diferencias, el usuario
+tiene que generar un SIPARE nuevo desde el portal.** Dilo cuando corresponda:
+es la acción concreta que sigue a tu reporte, y el importe que le das es el que
+va a necesitar.
 
 ## Cómo presentar el resultado
 
