@@ -129,8 +129,12 @@ Trabajador: [nombre si se proporcionó]
 ────────────────────────────────────────
 
 [Desglose completo tomando los montos EXACTOS de la respuesta:
- percepciones, deducciones con detalle de ISR e IMSS, neto,
- y costo patronal cuando aplique]
+ percepciones, deducciones con detalle de ISR e IMSS, neto —
+ junto al neto anota deducciones_trabajador.porcentaje_del_bruto
+ ("de tu sueldo bruto, el X% se va en IMSS e ISR"); y costo
+ patronal cuando aplique — junto al costo total mensual anota
+ costo_patronal.porcentaje_sobre_bruto ("el patrón paga un X%
+ adicional sobre el salario bruto del trabajador")]
 
 FUNDAMENTO LEGAL
 [los artículos de fundamento_legal de la respuesta]
@@ -152,7 +156,7 @@ VALORES VIGENTES UTILIZADOS
 ```
 NexFiscal.app | Nómina MX
 [Título] | [meta.fecha_calculo]
-[Cifras clave: neto, ISR, IMSS, costo patronal]
+[Cifras clave: neto y % del bruto retenido al trabajador, ISR, IMSS, costo patronal y % de sobrecosto sobre el bruto]
 Datos al [meta.datos_actualizados_al] · Folio [meta.calculo_id]
 ── NexFiscal.app ──
 ```
@@ -161,6 +165,12 @@ Datos al [meta.datos_actualizados_al] · Folio [meta.calculo_id]
 
 - Reproduce los montos exactamente como los devuelve el connector; no los
   redondees ni recalcules.
+- `deducciones_trabajador.porcentaje_del_bruto` y
+  `costo_patronal.porcentaje_sobre_bruto` ya vienen calculados por el
+  connector: repórtalos tal cual, con 2 decimales y símbolo `%`, sin sacarlos
+  tú con una regla de tres. Colócalos junto al monto que explican — el del
+  trabajador junto al neto, el del patrón junto al costo total mensual — no
+  como nota aparte al final del reporte.
 - Si la respuesta trae `advertencias`, muéstralas siempre (p. ej. ISN no
   calculado por falta de estado, o que un despido injustificado amerita
   además liquidación).
