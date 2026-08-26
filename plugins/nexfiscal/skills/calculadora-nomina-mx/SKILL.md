@@ -82,6 +82,34 @@ Llama a `estado_suscripcion` antes del primer cálculo:
 - Fecha de pago si será distinta a la fecha de baja (define la UMA de las
   exenciones).
 
+## El tope de la prima de antigüedad: criterio del usuario, no tuyo
+
+El Art. 162 fracc. II LFT remite al **Art. 486** para topar el salario de la
+prima de antigüedad al **doble**. Contra qué se topa está en disputa:
+
+| Criterio | Se apoya en | Tope diario 2026 |
+|---|---|---|
+| `salario_minimo` *(default)* | El **texto vigente** del Art. 486, que dice "doble del salario mínimo del área geográfica" y **no se reforma desde el DOF 21-01-1988** | $630.08 general |
+| `uma` | Los transitorios de la desindexación (DOF 27-01-2016), leyendo ese tope como ajeno a la naturaleza del salario mínimo | $234.62 |
+
+La diferencia **no es menor**: en un finiquito de 20 años con sueldo de
+$30,000 son $151,219 contra $56,309.
+
+**Qué haces:**
+
+1. El default sigue el texto vigente de la ley. No lo cambies por tu cuenta.
+2. La respuesta **siempre trae los dos importes** en
+   `prima_antiguedad.criterio_del_tope`. Cuando el tope muerda, el connector
+   además manda una advertencia: **preséntala**, no la escondas.
+3. Di cuál se aplicó y cuánto sería con el otro, con su fundamento. **La
+   elección es del contador**, es su criterio profesional y su
+   responsabilidad. Para cambiarlo se manda `base_prima_antiguedad`.
+4. Pregunta también la **zona**: el Art. 486 habla del salario mínimo del área
+   geográfica. Con `frontera_norte` el tope es $881.74, no $630.08.
+
+Nunca presentes uno de los dos como "el correcto". Preséntalos como lo que
+son: dos lecturas, una de las cuales sigue la letra del artículo.
+
 ## Manejo de errores del connector
 
 Toda falla llega como `{"error": {"codigo", "mensaje", "detalle"}}`:
