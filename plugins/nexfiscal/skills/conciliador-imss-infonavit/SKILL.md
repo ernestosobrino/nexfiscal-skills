@@ -227,8 +227,13 @@ va a necesitar.
    `cobrado_de_menos` es un faltante que genera crédito fiscal en su contra y
    conviene enterar. Las dos direcciones importan.
 4. **El detalle por trabajador**, en tabla, solo si lo pide o si hay pocos.
-5. **Cierra con los valores vigentes utilizados** y su fecha de corte.
-6. Si `alcance.conciliacion_contra_sua` es `false`, dilo arriba: el usuario debe
+5. **Muestra todas las `advertencias`, íntegras.** Ahí viaja lo que el
+   contador tiene que saber antes de actuar: cuántos trabajadores se quedaron
+   sin contraste, o que la prima declarada no es la prima media de su clase.
+   Si la respuesta trae advertencias y tu reporte no las muestra, el reporte
+   está incompleto — y eso aplica igual si el usuario pidió el resumen corto.
+6. **Cierra con los valores vigentes utilizados** y su fecha de corte.
+7. Si `alcance.conciliacion_contra_sua` es `false`, dilo arriba: el usuario debe
    saber qué alcance tuvo lo que leyó.
 
 ## Qué hacer con cada causa

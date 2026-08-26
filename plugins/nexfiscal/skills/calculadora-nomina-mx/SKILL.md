@@ -81,6 +81,14 @@ Llama a `estado_suscripcion` antes del primer cálculo:
   los días transcurridos del mes de la baja — menciónalo en el reporte).
 - Fecha de pago si será distinta a la fecha de baja (define la UMA de las
   exenciones).
+- **Área geográfica del salario mínimo** (`zona_salario_minimo`): `general` o
+  `frontera_norte`. **Pregúntala siempre que aplique prima de antigüedad**: el
+  Art. 486 LFT topa contra el salario mínimo *del área geográfica*, y en
+  frontera norte el tope es $881.74 contra $630.08. Si no la das, se asume
+  `general` — dilo en el reporte.
+- Criterio del tope (`base_prima_antiguedad`): **no lo preguntes de entrada**.
+  El default sigue el texto vigente de la ley; ofrécelo solo si el usuario
+  cuestiona el monto de la prima o pide la lectura de UMA.
 
 ## El tope de la prima de antigüedad: criterio del usuario, no tuyo
 
@@ -167,6 +175,14 @@ Trabajador: [nombre si se proporcionó]
 FUNDAMENTO LEGAL
 [los artículos de fundamento_legal de la respuesta]
 
+ADVERTENCIAS
+[cada entrada de advertencias, íntegra. NUNCA las omitas ni las
+ resumas: ahí viaja lo que el contador tiene que decidir antes de
+ pagar — por ejemplo, que el tope del Art. 486 cambia la prima de
+ antigüedad según el criterio, o que un despido injustificado
+ además causa liquidación. Si la respuesta trae advertencias y tu
+ reporte no las muestra, el reporte está incompleto]
+
 VALORES VIGENTES UTILIZADOS
 [por cada entrada de valores_vigentes_utilizados: resumen,
  vigencia y fundamento — esto es lo que respalda el cálculo]
@@ -185,6 +201,7 @@ VALORES VIGENTES UTILIZADOS
 NexFiscal.app | Nómina MX
 [Título] | [meta.fecha_calculo]
 [Cifras clave: neto y % del bruto retenido al trabajador, ISR, IMSS, costo patronal y % de sobrecosto sobre el bruto]
+[Si hay advertencias: ⚠ y cada una en una línea, completa]
 Datos al [meta.datos_actualizados_al] · Folio [meta.calculo_id]
 ── NexFiscal.app ──
 ```
@@ -193,6 +210,10 @@ Datos al [meta.datos_actualizados_al] · Folio [meta.calculo_id]
 
 - Reproduce los montos exactamente como los devuelve el connector; no los
   redondees ni recalcules.
+- **Las advertencias van en los dos formatos, también en el resumen
+  ejecutivo.** El resumen es el que alguien elige cuando quiere el número
+  rápido — que es justo cuando más importa saber que el número depende de un
+  criterio. Acortar el reporte nunca significa quitar la advertencia.
 - `deducciones_trabajador.porcentaje_del_bruto` y
   `costo_patronal.porcentaje_sobre_bruto` ya vienen calculados por el
   connector: repórtalos tal cual, con 2 decimales y símbolo `%`, sin sacarlos
