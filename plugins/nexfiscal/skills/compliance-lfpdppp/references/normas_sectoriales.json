@@ -1,98 +1,107 @@
 {
   "metadata": {
     "fuente": "Normativa sectorial mexicana aplicable a protección de datos personales",
-    "ultima_actualizacion": "2026-04",
+    "ultima_actualizacion": "2026-09",
     "alcance": "Sectores con normativa adicional o concurrente a la LFPDPPP",
-    "advertencia": "La normativa sectorial es complementaria, no excluyente. Aplica adicionalmente a LFPDPPP."
+    "verificacion": "Las citas de leyes, reglamentos, NOM, circulares y autoridades sectoriales distintas de la LFPDPPP y su Reglamento, y lo relativo a la LGPDPPSO, deben verificarse contra su texto vigente antes de citarse en un documento para el cliente.",
+    "advertencia": "La normativa sectorial es complementaria, no excluyente: para los particulares (sujetos regulados, Art. 2 fracc. XVI LFPDPPP) aplica además de la LFPDPPP. Excepción: las sociedades de información crediticia, en los supuestos de la LRSIC y demás disposiciones aplicables, quedan exceptuadas de la aplicación de la LFPDPPP (Art. 1, segundo párrafo, fracc. I LFPDPPP)."
   },
   "servicios_financieros": {
+    "nota_general": "Ninguna de estas cuatro leyes (LIC, LISF, LMV y LSAR) emplea la expresión 'datos personales': lo que establecen es confidencialidad frente a terceros y plazos de conservación, y las obligaciones de protección de datos provienen de la LFPDPPP. Para prevención de operaciones con recursos de procedencia ilícita, la información y documentación relativa a la identificación de los clientes y usuarios o quienes lo hayan sido, así como la de los actos, operaciones y servicios reportados, se conserva por al menos diez años (Art. 115 LIC, instituciones de crédito; Art. 212 LMV, casas de bolsa; Art. 492 LISF, instituciones de seguros y de fianzas, sociedades mutualistas y agentes). Ese plazo legal condiciona el plazo de conservación que fije la institución, porque los plazos de conservación deben atender las disposiciones aplicables a la materia de que se trate (Art. 37 del Reglamento LFPDPPP), y mientras corre el sujeto regulado no está obligado a cancelar esos datos, por deber ser tratados por disposición legal (Art. 25 fracc. II LFPDPPP).",
     "subsector_bancario": {
       "normativa_principal": [
         "Ley de Instituciones de Crédito (LIC)",
-        "Disposiciones de Carácter General Aplicables a las Instituciones de Crédito (CUB)",
-        "Circulares CNBV específicas"
+        "Disposiciones de carácter general que emite la Comisión Nacional Bancaria y de Valores conforme a la LIC (el último párrafo del Art. 142 LIC le ordena emitir las relativas a las solicitudes de información de autoridades); verifique cuáles rigen a su institución antes de citarlas"
       ],
       "obligaciones_clave": {
         "secreto_bancario": {
-          "fundamento": "Art. 142 LIC",
-          "contenido": "Las instituciones de crédito en ningún caso podrán dar noticias o información de los depósitos, operaciones o servicios, incluyendo los previstos en la fracción XV del artículo 46 de esta Ley, sino al depositante, deudor, titular, beneficiario, fideicomitente, fideicomisario, comitente o mandante, a sus representantes legales o a quienes tengan otorgado poder para disponer de la cuenta o para intervenir en la operación o servicio.",
+          "fundamento": "Art. 142, primer párrafo, LIC; alcanza también a las operaciones de fideicomiso, mandato y comisión por la remisión a la fracción XV del Art. 46 LIC",
+          "contenido": "La información y documentación relativa a las operaciones y servicios a que se refiere el artículo 46 de la presente Ley, tendrá carácter confidencial, por lo que las instituciones de crédito, en protección del derecho a la privacidad de sus clientes y usuarios que en este artículo se establece, en ningún caso podrán dar noticias o información de los depósitos, operaciones o servicios, incluyendo los previstos en la fracción XV del citado artículo 46, sino al depositante, deudor, titular, beneficiario, fideicomitente, fideicomisario, comitente o mandante, a sus representantes legales o a quienes tengan otorgado poder para disponer de la cuenta o para intervenir en la operación o servicio.",
           "excepciones": [
-            "Autoridad judicial en virtud de providencia dictada en juicio en el que el titular sea parte o acusado",
-            "Autoridades hacendarias federales para fines fiscales",
-            "PGR (FGR) en investigación de delitos",
-            "Tesorería de la Federación para verificar el cumplimiento de obligaciones",
-            "CNBV en ejercicio de sus facultades de supervisión",
-            "Otras autoridades expresamente facultadas por ley"
-          ]
+            "Autoridad judicial, en virtud de providencia dictada en juicio en el que el titular o, en su caso, el fideicomitente, fideicomisario, fiduciario, comitente, comisionista, mandante o mandatario sea parte o acusado (Art. 142, segundo párrafo)",
+            "Fiscal General de la República o el servidor público en quien delegue facultades para requerir información, para la comprobación del hecho que la ley señale como delito y de la probable responsabilidad del imputado (fracc. I)",
+            "Procuradores generales de justicia de los Estados de la Federación y del Distrito Federal o subprocuradores, para el mismo fin (fracc. II)",
+            "Procurador General de Justicia Militar, para el mismo fin (fracc. III)",
+            "Autoridades hacendarias federales, para fines fiscales (fracc. IV)",
+            "Secretaría de Hacienda y Crédito Público, para efectos de lo dispuesto por el artículo 115 de la LIC (fracc. V)",
+            "Tesorero de la Federación, cuando el acto de vigilancia lo amerite, para solicitar los estados de cuenta y cualquier otra información relativa a las cuentas personales de los servidores públicos, auxiliares y, en su caso, particulares relacionados con la investigación de que se trate (fracc. VI)",
+            "Auditoría Superior de la Federación, en ejercicio de sus facultades de revisión y fiscalización de la Cuenta Pública Federal y respecto a cuentas o contratos a través de los cuales se administren o ejerzan recursos públicos federales (fracc. VII)",
+            "Titular y subsecretarios de la Secretaría de la Función Pública, en ejercicio de sus facultades de investigación o auditoría para verificar la evolución del patrimonio de los servidores públicos federales (fracc. VIII; el Art. 142 LIC conserva esa denominación en su texto vigente)",
+            "Unidad de Fiscalización de los Recursos de los Partidos Políticos del Consejo General del Instituto Federal Electoral (fracc. IX; el Art. 142 LIC conserva esa denominación en su texto vigente)"
+          ],
+          "via_de_la_solicitud": "Las solicitudes de las autoridades de las fracciones I a IX se formulan con la debida fundamentación y motivación por conducto de la Comisión Nacional Bancaria y de Valores; los servidores públicos e instituciones de las fracciones I y VII y la unidad de fiscalización de la fracción IX pueden optar por solicitar a la autoridad judicial la orden correspondiente (Art. 142 LIC).",
+          "informacion_a_autoridades_financieras": "El secreto bancario no afecta la obligación de las instituciones de proporcionar a la Comisión Nacional Bancaria y de Valores toda clase de información y documentos que les solicite en ejercicio de sus funciones de inspección y vigilancia, ni la de proporcionar la información que les soliciten el Banco de México, el Instituto para la Protección al Ahorro Bancario y la Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros (Art. 142 LIC)."
         },
         "datos_personales": "Adicionalmente al secreto bancario, LFPDPPP aplica para tratamiento de datos personales de clientes y prospectos.",
-        "comisariado_de_datos": "Algunas circulares CNBV requieren designación específica de oficial de datos personales."
+        "persona_o_departamento_de_datos_personales": "La designación de una persona o departamento de datos personales que dé trámite a las solicitudes de las personas titulares es obligación de la LFPDPPP (Art. 29) y aplica a la institución como a cualquier sujeto regulado. Si busca una designación adicional exigida por regulación prudencial, verifique la regulación aplicable a su sector antes de afirmarla."
       }
     },
     "subsector_seguros_y_fianzas": {
       "normativa_principal": [
         "Ley de Instituciones de Seguros y de Fianzas (LISF)",
-        "Disposiciones de Carácter General Aplicables (CUSF)"
+        "Disposiciones de carácter general que emiten la Secretaría de Hacienda y Crédito Público y la Comisión Nacional de Seguros y Fianzas conforme a la LISF (p. ej. las previstas en los Arts. 268 y 492 LISF); verifique cuáles rigen a su institución antes de citarlas"
       ],
       "obligaciones_clave": {
-        "confidencialidad": "Art. 190 LISF establece confidencialidad similar a la bancaria.",
-        "datos_de_salud": "Información médica de asegurados es altamente sensible - requiere protección especial.",
-        "cesion_de_cartera": "Las cesiones requieren notificación a titulares y cumplimiento de transferencia conforme LFPDPPP."
+        "confidencialidad": "El Art. 190 LISF es acotado: los informes que las Instituciones obtengan respecto a los solicitantes de seguros de caución o de fianzas, o de quienes ofrezcan contragarantías, son estrictamente confidenciales. No es un secreto general equivalente al bancario del Art. 142 LIC; para el resto de la información de contratantes, asegurados y beneficiarios, las obligaciones de protección de datos son las de la LFPDPPP.",
+        "datos_de_salud": "Información médica de asegurados: datos de salud, sensibles (Art. 2 fracc. VI LFPDPPP); requieren consentimiento expreso y por escrito (Art. 8) y esfuerzos razonables para limitar su periodo de tratamiento al mínimo indispensable (Art. 12).",
+        "cesion_de_cartera": "La cesión de cartera requiere autorización previa de la Comisión Nacional de Seguros y Fianzas, avisos en oficina matriz, sucursales y oficinas de servicio y tres publicaciones en el Diario Oficial de la Federación y en dos periódicos; la última publicación surte efectos de notificación a los contratantes, asegurados o sus causahabientes y a los beneficiarios de las pólizas de fianzas, quienes cuentan con cuarenta y cinco días para manifestar lo que a su interés convenga (Art. 270 fracc. II LISF). Del lado de la LFPDPPP, al cesionario debe comunicársele el aviso de privacidad y las finalidades a las que la persona titular sujetó el tratamiento, y asume las mismas obligaciones que correspondían a quien transfirió los datos (Art. 35)."
       }
     },
     "subsector_intermediacion_bursatil": {
       "normativa_principal": [
         "Ley del Mercado de Valores (LMV)",
-        "Disposiciones de Carácter General Aplicables a las Casas de Bolsa (CUB)"
+        "Disposiciones de carácter general que emite la Comisión Nacional Bancaria y de Valores conforme a la LMV; verifique cuáles rigen a su intermediario antes de citarlas"
       ],
       "obligaciones_clave": {
-        "secreto_bursatil": "Art. 192 LMV - confidencialidad de operaciones e información de clientes."
+        "secreto_bursatil": "Art. 192, primer párrafo, LMV: las casas de bolsa en ningún caso podrán dar noticias o información de las operaciones que realicen o servicios que proporcionen, sino a los titulares, comitentes, mandantes, fideicomitentes, fideicomisarios, beneficiarios, representantes legales de los anteriores o quienes tengan otorgado poder para disponer de la cuenta o para intervenir en la operación o servicio.",
+        "excepciones_del_secreto_bursatil": "Solo la autoridad judicial en virtud de providencia dictada en juicio en el que el titular sea parte o acusado y las autoridades hacendarias federales, por conducto de la Comisión Nacional Bancaria y de Valores, para fines fiscales (Art. 192, primer párrafo, LMV). Ello no afecta la obligación de proporcionar a esa Comisión la información que solicite en ejercicio de sus funciones de supervisión, ni la de atender solicitudes de autoridades financieras del exterior conforme al Art. 358 LMV (Art. 192, tercer párrafo)."
       }
     },
-    "subsector_aforesys_iconsar": {
+    "subsector_afores_y_consar": {
       "normativa_principal": [
         "Ley de los Sistemas de Ahorro para el Retiro (LSAR)",
-        "Disposiciones de carácter general CONSAR"
+        "Disposiciones de carácter general que emite la Comisión Nacional del Sistema de Ahorro para el Retiro conforme a la LSAR (p. ej. las del traspaso de cuentas individuales, Art. 74 LSAR); verifique cuáles rigen el trámite antes de citarlas"
       ],
       "obligaciones_clave": {
-        "datos_de_cuenta_individual": "Especial protección de datos de afiliación, aportaciones y saldos.",
-        "transferencias_entre_afores": "Procedimientos específicos que involucran datos personales."
+        "datos_de_cuenta_individual": "La Base de Datos Nacional SAR es propiedad exclusiva del Gobierno Federal y contiene la información individual de cada trabajador y el registro de la administradora o institución de crédito en que está afiliado (Art. 57 LSAR). La LSAR impone un principio de confidencialidad y reserva de la información derivada de los sistemas de ahorro para el retiro: dejar de observarlo es causa de revocación de la concesión de las empresas operadoras (Art. 61 fracc. VI) y se sanciona con multa a los funcionarios de instituciones de crédito, administradoras, sociedades de inversión y empresas operadoras (Art. 100 fracc. XVIII).",
+        "transferencias_entre_afores": "La administradora es responsable de efectuar los trámites del traspaso de la cuenta individual una vez que el trabajador presentó la solicitud, y debe cerciorarse fehacientemente de que el trabajador lo solicitó (Art. 74 LSAR). Caso distinto: la unificación y el traspaso de cuentas duplicadas a la última cuenta individual abierta se realizan sin necesidad de solicitar previamente autorización del trabajador (Art. 58 fracc. VII LSAR)."
       }
     }
   },
   "salud": {
     "normativa_principal": [
       "Ley General de Salud (LGS)",
-      "NOM-004-SSA3-2012: Del expediente clínico",
-      "NOM-024-SSA3-2012: Sistemas de información de registro electrónico para la salud",
-      "NOM-025-SSA3-2013: Para la organización y funcionamiento de las unidades de cuidados intensivos",
+      "NOM-004-SSA3-2012: Del expediente clínico (DOF 15-10-2012)",
+      "NOM-024-SSA3-2012: Sistemas de información de registro electrónico para la salud. Intercambio de información en salud (DOF 30-11-2012)",
       "Reglamento de la LGS en materia de prestación de servicios de atención médica"
     ],
     "obligaciones_clave": {
       "secreto_medico": {
-        "fundamento": "Art. 36 LGS, Códigos Penales (en ciertos casos)",
-        "contenido": "Información del paciente es confidencial; solo se revela al paciente, sus representantes o autoridades expresamente facultadas."
+        "fundamento": "NOM-004-SSA3-2012, numerales 5.5, 5.5.1 y 5.7; Art. 20 LFPDPPP",
+        "contenido": "Los datos personales contenidos en el expediente clínico que posibiliten la identificación del paciente no deberán ser divulgados o dados a conocer (numeral 5.5 de la NOM-004-SSA3-2012); son motivo de confidencialidad en términos del secreto médico profesional y únicamente podrán proporcionarse a terceros cuando medie solicitud escrita del paciente, el tutor, el representante legal o un médico autorizado por ellos (numeral 5.5.1). La información contenida en el expediente sólo será dada a conocer a las autoridades judiciales, órganos de procuración de justicia y autoridades administrativas (numeral 5.7). Además, el responsable debe establecer controles para que quienes intervienen en cualquier fase del tratamiento guarden confidencialidad, obligación que subsiste aun después de terminar la relación (Art. 20 LFPDPPP)."
       },
       "expediente_clinico": {
         "fundamento": "NOM-004-SSA3-2012",
-        "propiedad": "El expediente es propiedad de la institución, pero la información es del paciente.",
-        "acceso": "Paciente o representante legal puede solicitar acceso (también via ARCO de LFPDPPP).",
-        "conservacion": "Mínimo 5 años desde último acto médico (puede ser mayor según patología o normativa)."
+        "propiedad": "Los expedientes clínicos son propiedad de la institución o del prestador de servicios médicos que los genera cuando éste no dependa de una institución; sin perjuicio de ello, el paciente, en tanto aportante de la información y beneficiario de la atención médica, tiene derechos de titularidad sobre la información para la protección de su salud y sobre la confidencialidad de sus datos (numeral 5.4 de la NOM-004-SSA3-2012).",
+        "acceso": "El resumen clínico u otras constancias del expediente deben solicitarse por escrito (numeral 5.6 de la NOM-004-SSA3-2012) y sólo pueden proporcionarse a terceros cuando medie solicitud escrita del paciente, el tutor, el representante legal o un médico autorizado por ellos (numeral 5.5.1); cuando el prestador es particular, el titular puede además ejercer sus derechos ARCO (Arts. 21 y 22 LFPDPPP).",
+        "conservacion": "Mínimo 5 años contados a partir de la fecha del último acto médico (numeral 5.4, segundo párrafo, de la NOM-004-SSA3-2012); es un plazo mínimo, por lo que otras disposiciones aplicables pueden exigir uno mayor.",
+        "cancelacion": "El responsable no está obligado a cancelar los datos cuando deban ser tratados por disposición legal o sean objeto de tratamiento para la prevención o para el diagnóstico médico o la gestión de servicios de salud, siempre que dicho tratamiento se realice por un profesional de la salud sujeto a un deber de secreto (Art. 25 fraccs. II y VII LFPDPPP)."
       },
       "expediente_clinico_electronico": {
         "fundamento": "NOM-024-SSA3-2012",
         "requisitos_tecnicos": [
-          "Interoperabilidad con catálogos oficiales (CIE-10, etc.)",
-          "Seguridad de la información",
-          "Firma electrónica",
-          "Bitácoras de acceso"
+          "Usar los catálogos fundamentales del Apéndice Normativo A en su versión vigente, entre ellos la Clasificación Estadística Internacional de Enfermedades y Problemas Relacionados con la Salud en su versión oficial vigente (numeral 6.4.2)",
+          "Implementar un Sistema de Gestión de Seguridad de la Información que asegure confidencialidad, integridad, disponibilidad, trazabilidad y no repudio de la información en salud (numeral 6.6.1)",
+          "Permitir la firma electrónica avanzada del profesional de la salud para la información que determine el prestador (numeral 6.6.2)",
+          "Autenticar a todos los usuarios, organizaciones y dispositivos al menos con nombre de usuario y contraseña (numeral 6.6.3) y aplicar autorización basada en roles (numeral 6.6.4)",
+          "Garantizar la confidencialidad de la identidad de los pacientes y establecer las medidas de seguridad pertinentes y adecuadas (numeral 5.3)"
         ]
       },
-      "datos_geneticos_y_biometricos": "Categorización como datos sensibles bajo LFPDPPP; tratamiento muy restrictivo.",
-      "consentimiento_informado": "Distinto del consentimiento de tratamiento de datos. Ambos deben cumplirse."
+      "datos_geneticos_y_biometricos": "Información genética: dato sensible por mención expresa del Art. 2 fracc. VI LFPDPPP; requiere consentimiento expreso y por escrito (Art. 8) y esfuerzos razonables para limitar su periodo de tratamiento al mínimo indispensable (Art. 12). Biométricos: la ley no los enumera entre los sensibles; tratarlos como sensibles es criterio prudencial.",
+      "consentimiento_informado": "Es la conformidad expresa de una persona, manifestada por escrito, para la realización de un diagnóstico o tratamiento de salud, y obliga a todos los prestadores de servicios de salud, públicos o privados (Art. 51 Bis 2 LGS); la NOM-004-SSA3-2012 fija el contenido mínimo de las cartas de consentimiento informado y los eventos que las requieren (numerales 10.1.1 y 10.1.2). Es distinto del consentimiento para el tratamiento de datos personales (Art. 8 LFPDPPP para los sensibles, con las excepciones del Art. 9, entre ellas la de su fracc. VI mientras la persona titular no esté en condiciones de otorgarlo): ambos deben cumplirse."
     },
     "aplicaciones_practicas": [
-      "Clínicas y hospitales: aviso integral robusto + documento de seguridad nivel ALTO",
+      "Clínicas y hospitales: aviso integral robusto + documento de seguridad con medidas de nivel alto (criterio práctico: ni la ley ni el Reglamento fijan niveles; las medidas se determinan con los factores del Art. 18 LFPDPPP y del Art. 60 del Reglamento)",
       "Consultorios: aviso integral, manejo cuidadoso de expediente",
       "Laboratorios: protección especial de datos genéticos y resultados",
       "Aseguradoras de gastos médicos: convergencia LFPDPPP + LISF + LGS"
@@ -100,95 +109,91 @@
   },
   "telecomunicaciones": {
     "normativa_principal": [
-      "Ley Federal de Telecomunicaciones y Radiodifusión (LFTR)",
-      "Lineamientos para la portabilidad numérica",
-      "Disposiciones IFT sobre privacidad de usuarios",
-      "Lineamientos de colaboración con la justicia"
+      "Ley en Materia de Telecomunicaciones y Radiodifusión (LMTR), Nueva Ley DOF 16-07-2025. Su Transitorio Sexto abroga la Ley Federal de Telecomunicaciones y Radiodifusión al día siguiente de que se integre el Pleno de la Comisión Reguladora de Telecomunicaciones; el Octavo extingue el Instituto Federal de Telecomunicaciones y el Quinto dispone que cualquier referencia al Instituto se entienda hecha a la Comisión Reguladora de Telecomunicaciones o a la Comisión Nacional Antimonopolio, según corresponda",
+      "Lineamientos que apruebe la Comisión Reguladora de Telecomunicaciones para la conservación de los números telefónicos por los abonados, es decir la portabilidad (Art. 201 LMTR)",
+      "Lineamientos de colaboración con las instancias de seguridad, procuración y administración de justicia que establezca la Comisión Reguladora de Telecomunicaciones (Art. 183 fracc. I, tercer párrafo, LMTR)",
+      "Derecho de los usuarios a la protección de sus datos personales en términos de las leyes aplicables (Art. 185 fracc. III LMTR); para las disposiciones administrativas del sector, verifique cuáles tiene vigentes la Comisión Reguladora de Telecomunicaciones"
     ],
     "obligaciones_clave": {
       "datos_de_trafico_y_localizacion": {
-        "regla": "Retención obligatoria por 24 meses para colaboración con autoridades de justicia.",
-        "fundamento": "Art. 190 LFTR",
+        "regla": "Conservar un registro y control de las comunicaciones durante los primeros doce meses en sistemas que permitan su consulta y entrega en tiempo real a las autoridades competentes y, concluido ese plazo, doce meses adicionales en sistemas de almacenamiento electrónico, en cuyo caso la entrega se realiza dentro de las cuarenta y ocho horas siguientes a la notificación de la solicitud.",
+        "fundamento": "Art. 183 fracc. II LMTR",
         "datos_retenidos": [
           "Nombre, denominación o razón social y domicilio del suscriptor",
-          "Tipo de comunicación",
-          "Datos necesarios para rastrear e identificar el origen y destino",
-          "Datos necesarios para determinar la fecha, hora y duración",
-          "Identificación de la cuenta de Internet",
-          "Identificación, características técnicas y ubicación geográfica de la línea telefónica"
-        ]
+          "Tipo de comunicación, servicios suplementarios y servicios de mensajería o multimedia empleados",
+          "Datos necesarios para rastrear e identificar el origen y destino de las comunicaciones de telefonía móvil",
+          "Datos necesarios para determinar la fecha, hora y duración de la comunicación",
+          "Fecha y hora de la primera activación del servicio y etiqueta de localización (identificador de celda) desde la que se activó",
+          "En su caso, identificación y características técnicas de los dispositivos",
+          "Ubicación digital del posicionamiento geográfico de las líneas telefónicas"
+        ],
+        "medidas_y_limites": "Deben tomarse las medidas técnicas que garanticen la conservación, cuidado, protección, no manipulación o acceso ilícito, destrucción, alteración o cancelación de los datos, así como definir al personal autorizado para su manejo y control; queda prohibido usar los datos conservados para fines distintos de los previstos en ese Capítulo (Art. 183 fraccs. II y III LMTR). Sin perjuicio de la LMTR, a los datos personales en posesión de concesionarios y autorizados les es aplicable la LFPDPPP (Art. 183 fracc. II, último párrafo, LMTR)."
       },
-      "geolocalizacion_en_tiempo_real": "Permitida solo con orden judicial o de autoridad ministerial.",
-      "publicidad_no_solicitada": "Aplicación de REPEP de PROFECO para llamadas comerciales."
+      "geolocalizacion_en_tiempo_real": "Los concesionarios y, en su caso, los autorizados que determine la Comisión Reguladora de Telecomunicaciones deben colaborar con las instancias de seguridad, procuración y administración de justicia en la localización geográfica, en tiempo real, de los equipos terminales, en los términos que establezcan las leyes (Art. 183 fracc. I LMTR); los requisitos y el control de cada requerimiento se rigen por la legislación procesal penal aplicable, que debe consultarse antes de atender uno.",
+      "publicidad_no_solicitada": "El consumidor puede exigir directamente a proveedores y a empresas que usen información con fines mercadotécnicos o publicitarios no ser molestado en su domicilio, lugar de trabajo, dirección electrónica o por cualquier otro medio para ofrecerle bienes, productos o servicios (Art. 17, segundo párrafo, LFPC). La Procuraduría Federal del Consumidor puede llevar un registro público de consumidores que no desean que su información se utilice con esos fines, de inscripción gratuita (Art. 18 LFPC; es el que se difunde como REPEP), y queda prohibido enviar publicidad a quien manifestó su voluntad de no recibirla o está inscrito en ese registro (Art. 18 Bis LFPC). El Reglamento de la LFPDPPP reconoce ese Registro Público de Consumidores y el Registro Público de Usuarios previsto en la Ley de Protección y Defensa al Usuario de Servicios Financieros (Art. 111 del Reglamento)."
     }
   },
   "credito_y_reporte_crediticio": {
     "normativa_principal": [
-      "Ley para Regular las Sociedades de Información Crediticia (LRSIC)",
-      "Circulares de Banco de México sobre SIC"
+      "Ley para Regular las Sociedades de Información Crediticia (LRSIC), a la que remite el Art. 1, segundo párrafo, fracc. I LFPDPPP",
+      "Disposiciones que emitan las autoridades financieras competentes en la materia; verifique cuáles están vigentes antes de citarlas"
     ],
+    "relacion_con_lfpdppp": "Las sociedades de información crediticia, en los supuestos de la LRSIC y demás disposiciones aplicables, quedan exceptuadas de la aplicación de la LFPDPPP (Art. 1, segundo párrafo, fracc. I LFPDPPP): en esos supuestos no les son aplicables los derechos ARCO ni los procedimientos de la LFPDPPP. Quienes consultan o reportan a una sociedad de información crediticia sí son sujetos regulados por la LFPDPPP en su propio tratamiento cuando son personas de carácter privado (Art. 2 fracc. XVI LFPDPPP), p. ej. bancos, financieras y tiendas; entre otras obligaciones, deben eliminar los datos relativos al incumplimiento de obligaciones contractuales una vez que transcurran 72 meses contados a partir de la fecha calendario del incumplimiento (Art. 10, tercer párrafo LFPDPPP).",
     "obligaciones_clave": {
       "consentimiento_consulta_sic": {
-        "regla": "Para consultar reporte crediticio, se requiere autorización expresa del cliente.",
-        "fundamento": "Art. 28 LRSIC",
-        "vigencia_autorizacion": "Hasta por 3 años o por todo el tiempo que dure la relación jurídica con el otorgante."
+        "regla": "La consulta del reporte de crédito está sujeta a la autorización de la persona y a los requisitos que fija la LRSIC: verifique en su texto vigente el artículo, la forma de la autorización y su vigencia antes de citarlos en un documento para el cliente.",
+        "lado_lfpdppp": "Quien consulta, cuando es persona física o moral de carácter privado, es sujeto regulado por la LFPDPPP en su propio tratamiento (Art. 2 fracc. XVI): esa finalidad y los datos que trata deben quedar informados en el aviso de privacidad (Art. 15 fraccs. II y III)."
       },
       "reporte_a_sic": {
-        "regla": "Las entidades financieras y comerciales reportan información de cumplimiento e incumplimiento crediticio.",
-        "consentimiento": "Forma parte del contrato y debe estar claramente comunicado al titular."
+        "regla": "El envío de información de cumplimiento e incumplimiento crediticio a una sociedad de información crediticia se rige por la LRSIC: verifique en su texto vigente quiénes reportan, qué se reporta y qué autorización se exige, antes de afirmarlo en un documento para el cliente.",
+        "lado_lfpdppp": "Para el otorgante de crédito que es sujeto regulado, comunicar datos a una sociedad de información crediticia es una transferencia: debe informarse en el aviso de privacidad y limitarse a la finalidad que la justifique (Art. 68 del Reglamento), y no requiere consentimiento cuando está prevista en una Ley (Art. 36 fracc. I LFPDPPP)."
       },
       "plazo_conservacion_informacion_negativa": {
-        "regla_general": "72 meses (Art. 23 LRSIC)",
-        "supuestos_eliminacion_anticipada": [
-          "Pago menor a UDIs 1,000: 12 meses",
-          "Pago entre UDIs 1,000 y 2,000: 24 meses",
-          "Pago entre UDIs 2,000 y 4,000: 48 meses",
-          "Operaciones fraudulentas: no se eliminan"
-        ]
+        "regla_lfpdppp": "El sujeto regulado está obligado a eliminar los datos relativos al incumplimiento de obligaciones contractuales una vez que transcurra un plazo de setenta y dos meses, contado a partir de la fecha calendario en que se presente el mencionado incumplimiento (Art. 10, tercer párrafo, LFPDPPP).",
+        "regla_lrsic": "Los plazos de conservación y los supuestos de eliminación anticipada que rigen a las sociedades de información crediticia están en la LRSIC: verifique en su texto vigente montos, plazos y excepciones antes de citarlos en un documento para el cliente."
       },
-      "derecho_de_acceso_al_reporte": "Gratuito una vez al año (Art. 41 LRSIC) directamente con la SIC."
+      "derecho_de_acceso_al_reporte": "El acceso de la persona a su reporte de crédito se solicita a la sociedad de información crediticia y se rige por la LRSIC: verifique en su texto vigente la periodicidad, el costo y el procedimiento antes de citarlos. En los supuestos de la LRSIC no proceden frente a esa sociedad los derechos ARCO de la LFPDPPP (Art. 1, segundo párrafo, fracc. I LFPDPPP)."
     }
   },
   "comercio_electronico": {
     "normativa_complementaria": [
       "Ley Federal de Protección al Consumidor (LFPC)",
-      "Código de Comercio (Cap. VII - Comercio Electrónico)",
-      "NOM-151-SCFI-2016: Prácticas comerciales-Requisitos que deben observarse para la conservación de mensajes de datos y digitalización de documentos"
+      "Código de Comercio, Libro Segundo, Título Segundo 'Del Comercio Electrónico' (Arts. 89 a 114)",
+      "NOM-151-SCFI-2016: Requisitos que deben observarse para la conservación de mensajes de datos y digitalización de documentos (DOF 30-03-2017; cancela la NOM-151-SCFI-2002)"
     ],
     "obligaciones_clave": {
-      "consentimiento_para_publicidad": "Marketing por correo electrónico requiere consentimiento previo y mecanismo de baja.",
-      "cookies": "Aviso de uso de cookies, idealmente con mecanismo de aceptación granular.",
-      "datos_de_pago": "Cumplir adicionalmente con PCI-DSS si se procesan tarjetas."
+      "consentimiento_para_publicidad": "Marketing por correo electrónico: la finalidad publicitaria debe informarse en el aviso (Art. 15 fracc. III LFPDPPP; Art. 30 del Reglamento) y el consentimiento debe ser previo al tratamiento; por regla general basta el tácito si el aviso ofrece un mecanismo para negarse, salvo que otra disposición exija el expreso (Art. 7 LFPDPPP; Arts. 11 y 14 del Reglamento). Ofrecer mecanismo de baja o revocación (Art. 7). En transacciones por medios electrónicos, el proveedor debe además respetar la decisión del consumidor de no recibir avisos comerciales (Art. 76 Bis fracc. VI LFPC) y tiene prohibido enviar publicidad a quien manifestó su voluntad de no recibirla o está inscrito en el registro del Art. 18 LFPC (Art. 18 Bis LFPC).",
+      "confidencialidad_frente_al_consumidor": "En transacciones por medios electrónicos, el proveedor debe utilizar la información proporcionada por el consumidor en forma confidencial y no puede difundirla ni transmitirla a otros proveedores ajenos a la transacción, salvo autorización expresa del propio consumidor o requerimiento de autoridad competente; también debe emplear elementos técnicos que brinden seguridad y confidencialidad a esa información e informar al consumidor sus características generales antes de la transacción (Art. 76 Bis fraccs. I y II LFPC).",
+      "cookies": "Al recabar datos personales con cookies u otras tecnologías que los obtienen de manera automática, informar en ese momento su uso, que por ellas se obtienen datos personales y la forma de deshabilitarlas (Art. 14, último párrafo, del Reglamento LFPDPPP); proporcionar el aviso en su modalidad simplificada (Art. 16 fracc. II LFPDPPP), y ofrecer un mecanismo para negarse al tratamiento para finalidades distintas de las necesarias (Art. 14, primer párrafo, del Reglamento); que el mecanismo sea granular es buena práctica.",
+      "datos_de_pago": "Los datos de tarjeta son datos financieros: requieren consentimiento expreso, salvo las excepciones de los Arts. 9 y 36 (Art. 7 LFPDPPP), p. ej. cuando se requieren para cumplir obligaciones derivadas de la relación jurídica con el titular (Art. 9 fracc. IV). Si se procesan tarjetas, cumplir además PCI DSS (estándar de la industria de tarjetas de pago; no lo prevén la LFPDPPP ni su Reglamento)."
     }
   },
   "rh_y_relaciones_laborales": {
     "normativa_complementaria": [
       "Ley Federal del Trabajo (LFT)",
-      "NOM-035-STPS-2018: Factores de riesgo psicosocial en el trabajo (datos sensibles)",
-      "NOM-037-STPS-2023: Teletrabajo (datos de localización, monitoreo)"
+      "NOM-035-STPS-2018: Factores de riesgo psicosocial en el trabajo-Identificación, análisis y prevención (DOF 23-10-2018). En centros de trabajo de dieciséis trabajadores o más obliga a practicar exámenes médicos y evaluaciones psicológicas en los supuestos del numeral 5.6 y a llevar registro de los nombres de los trabajadores a quienes se les practicaron y a quienes se comprobó la exposición (numeral 5.8, inciso c; alcance en el numeral 2, incisos b y c), lo que implica datos de salud: sensibles conforme al Art. 2 fracc. VI LFPDPPP",
+      "NOM-037-STPS-2023: Teletrabajo-Condiciones de seguridad y salud en el trabajo (DOF 08-06-2023). Aplica a todos los centros de trabajo que cuenten con personas trabajadoras bajo esa modalidad (numeral 2): el patrón debe contar con un listado actualizado de esas personas con sus datos personales, y la confidencialidad de ese listado es su responsabilidad (numeral 5.1 y su Nota)"
     ],
     "consideraciones_clave": {
-      "examenes_medicos_y_psicometricos": "Datos sensibles - requieren consentimiento expreso y por escrito.",
-      "videovigilancia_y_monitoreo": "Requiere aviso específico y proporcionalidad.",
-      "biometricos": "Reloj checador por huella o rostro - dato sensible, consentimiento expreso.",
-      "gps_en_vehiculos_laborales": "Información de localización - requiere transparencia y limitación a fines laborales."
+      "examenes_medicos_y_psicometricos": "Exámenes médicos: datos de salud, sensibles (Art. 2 fracc. VI LFPDPPP), requieren consentimiento expreso y por escrito (Art. 8). Psicométricos: la ley no los enumera, pero son sensibles cuando afectan a la esfera más íntima del titular, su utilización indebida puede dar origen a discriminación o conllevar un riesgo grave, o pueden revelar aspectos como su estado de salud (definición abierta del Art. 2 fracc. VI); tratarlos siempre como sensibles es criterio prudencial.",
+      "videovigilancia_y_monitoreo": "Informar el tratamiento en el aviso de privacidad y limitarlo a lo necesario. En teletrabajo, los mecanismos, sistemas operativos y cualquier tecnología utilizada para supervisar deben ser proporcionales a su objetivo, garantizar el derecho a la intimidad de la persona trabajadora y respetar el marco jurídico de protección de datos personales; las cámaras de video y los micrófonos sólo pueden usarse de manera extraordinaria o cuando la naturaleza de las funciones lo requiera (Art. 330-I LFT).",
+      "biometricos": "Reloj checador por huella o rostro - la LFPDPPP no enumera los biométricos entre los datos sensibles (Art. 2 fracc. VI); tratarlos como sensibles y recabar consentimiento expreso y por escrito (Art. 8) es criterio prudencial, porque su uso indebido puede conllevar un riesgo grave para el titular.",
+      "gps_en_vehiculos_laborales": "Información de localización - requiere transparencia y limitación a fines laborales.",
+      "plataformas_digitales": "Quien administre o gestione servicios a través de plataformas digitales, en su carácter de patrón, debe implementar mecanismos que garanticen la seguridad de la información y los datos personales de las personas trabajadoras utilizados desde la plataforma, así como el ejercicio de sus derechos de acceso, rectificación, cancelación, oposición y portabilidad, en términos de la legislación aplicable (Art. 291-K fracc. IV LFT)."
     }
   },
   "lgpdppso_breve_diferencia": {
-    "comentario": "Cuando el cliente sea sujeto obligado del sector público o asimilado, aplica LGPDPPSO y no LFPDPPP.",
+    "comentario": "Cuando el cliente sea sujeto obligado, aplica la LGPDPPSO (Nueva Ley DOF 20-03-2025, que sustituyó a la de 2017) y no la LFPDPPP, que rige a las personas físicas o morales de carácter privado que llevan a cabo el tratamiento (Art. 2 fracc. XVI LFPDPPP).",
     "sujetos_obligados": [
-      "Cualquier autoridad, entidad, órgano y organismo de los Poderes Ejecutivo, Legislativo y Judicial",
-      "Órganos autónomos",
-      "Partidos políticos",
-      "Fideicomisos y fondos públicos",
-      "Cualquier persona física, moral o sindicato que reciba y ejerza recursos públicos o realice actos de autoridad"
+      "Cualquier autoridad, entidad, órgano y organismo de los poderes ejecutivo, legislativo y judicial, órganos autónomos, partidos políticos, fideicomisos y fondos públicos, en el ámbito federal, estatal y municipal o de las demarcaciones territoriales de la Ciudad de México (Art. 3 fracc. XXVII LGPDPPSO)",
+      "La definición vigente ya no enumera a los sindicatos ni a las personas que reciben y ejercen recursos públicos o realizan actos de autoridad: quien no es sujeto obligado y es de carácter privado se rige por la LFPDPPP"
     ],
     "diferencias_principales": [
-      "Sistema de gestión obligatorio",
-      "Evaluación de impacto en privacidad obligatoria en ciertos casos",
-      "Aviso de privacidad con lineamientos específicos del sector público",
-      "Sanciones y procedimientos administrativos distintos",
-      "Competencia compartida entre la Secretaría Anticorrupción y Buen Gobierno y órganos garantes locales"
+      "Las acciones relacionadas con las medidas de seguridad deben estar documentadas y contenidas en un sistema de gestión (Art. 28 LGPDPPSO)",
+      "Evaluación de impacto en la protección de datos personales cuando se pretenda poner en operación o modificar políticas públicas, sistemas o plataformas informáticas, aplicaciones electrónicas o cualquier otra tecnología que implique tratamiento intensivo o relevante de datos personales, presentándola treinta días antes ante la autoridad competente (Arts. 68, 69 y 71 LGPDPPSO), salvo los supuestos del Art. 73",
+      "El aviso de privacidad debe incluir el fundamento legal que faculta al responsable para llevar a cabo el tratamiento y el domicilio de la Unidad de Transparencia (Art. 21 fraccs. III y VI LGPDPPSO)",
+      "Medidas de apremio, sanciones y procedimientos propios (Título Décimo Primero LGPDPPSO; causas de sanción en el Art. 132)",
+      "Competencia repartida entre la Secretaría Anticorrupción y Buen Gobierno (Art. 3 fracc. XXVI LGPDPPSO) y las Autoridades garantes que define el Art. 3 fracc. II de esa Ley: el órgano de control y disciplina del Poder Judicial, los órganos internos de control de los órganos constitucionales autónomos, las contralorías internas del Congreso de la Unión, el Instituto Nacional Electoral respecto de los partidos políticos y los órganos de contraloría interna u homólogos de los poderes y órganos constitucionales autónomos de las Entidades Federativas"
     ]
   }
 }

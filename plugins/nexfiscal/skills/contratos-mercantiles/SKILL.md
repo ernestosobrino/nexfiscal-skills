@@ -125,8 +125,8 @@ en Art. 20-21 LFT y reforma de subcontratación 2021.
 Si el contrato implica manejo de datos personales:
 - ¿Hay cláusula de confidencialidad de datos personales?
 - ¿Se menciona el aviso de privacidad?
-- ¿Se establece quién es responsable y quién encargado?
-- Fundamento: LFPDPPP Art. 20 (confidencialidad) y Arts. 35-36 (transferencias: comunicar el aviso de privacidad al tercero receptor, cláusula de aceptación y excepciones al consentimiento)
+- ¿Se establece qué parte es responsable y si la otra trata los datos por cuenta de ella (persona encargada) o los recibe para tratarlos en su carácter de responsable (tercero receptor)?
+- Fundamento: LFPDPPP Art. 20 (confidencialidad). Comunicar datos a la persona encargada no es transferencia (Art. 2 Fracc. XII y XX) sino remisión: la relación debe constar en cláusulas contractuales u otro instrumento jurídico que permita acreditar su existencia, alcance y contenido, y el encargado tiene obligaciones propias (Reglamento de 2011, Arts. 49 a 55, referencia en lo que no se oponga a la ley vigente). Solo si hay transferencia aplican los Arts. 35-36 (comunicar el aviso de privacidad y las finalidades al tercero receptor, que asume las obligaciones del responsable; cláusula de aceptación en el aviso y excepciones al consentimiento)
 
 ### Paso 7: Análisis de equilibrio contractual
 - ¿Las obligaciones son recíprocas y equilibradas?

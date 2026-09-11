@@ -1,6 +1,6 @@
 # Plantilla — Documento de Seguridad de Datos Personales
 
-> Cumple con el Art. 60 del Reglamento de la LFPDPPP. Contiene los 7 elementos obligatorios.
+> Estructurada conforme al Art. 61 del Reglamento de la LFPDPPP: las nueve acciones que el responsable deberá considerar para la seguridad de los datos (Fracc. I a IX) y la relación de las medidas de seguridad que exige su último párrafo. El Art. 60 del Reglamento fija los factores para determinar esas medidas. "Documento de seguridad" es el nombre práctico de este expediente: ni la ley ni el Reglamento usan esa expresión.
 
 ---
 
@@ -12,46 +12,67 @@
 **Fecha de elaboración:** [DD/MM/AAAA]
 **Fecha de última actualización:** [DD/MM/AAAA]
 **Versión:** [1.0]
-**Aprobado por:** [Nombre y cargo del responsable]
+**Aprobado por:** [Nombre y cargo de quien aprueba por el Responsable]
 
 ---
 
 ## 1. Introducción y alcance
 
-El presente Documento de Seguridad establece las medidas administrativas, físicas y técnicas que [Responsable] implementa para proteger los Datos Personales que trata, conforme al Art. 18 LFPDPPP y al Art. 60 de su Reglamento.
+El presente Documento de Seguridad establece las medidas administrativas, físicas y técnicas que [Responsable] implementa para proteger los Datos Personales que trata, conforme al Art. 18 LFPDPPP y a los Arts. 57 a 62 de su Reglamento.
 
-**Aplicación:** Este documento es de observancia obligatoria para todo el personal de [Responsable], así como para los Encargados y terceros que tengan acceso a Datos Personales por cuenta del Responsable.
+**Aplicación:** Este documento es de observancia obligatoria para todo el personal de [Responsable], así como para los Encargados, que tratan Datos Personales por cuenta del Responsable (Art. 2 Fracc. XII LFPDPPP), en los términos de las cláusulas contractuales u otro instrumento jurídico que los vincule (Art. 51 Reglamento).
 
 ---
 
 ## 2. Inventario de Datos Personales y Sistemas de Tratamiento
 
-*Elemento obligatorio (Art. 60 Fracc. I Reglamento)*
+*Elemento obligatorio (Art. 61 Fracc. I Reglamento)*
 
-A continuación se presenta el inventario de las bases de datos personales que trata el Responsable. (Ver detalle completo en el Anexo "Inventario de Datos Personales").
+A continuación se presenta el inventario de las bases de datos personales que trata el Responsable. (Ver detalle completo en el Anexo "Inventario de Datos Personales"). Las filas de la tabla son ejemplos: sustitúyalas por las bases reales del Responsable.
+
+**Cómo se lee la última columna.** "Nivel de riesgo" es el resultado de la matriz probabilidad × impacto de la sección 4.1 y sirve para priorizar el plan de trabajo; no es el nivel de medidas que corresponde a la base. Toda base que contenga datos sensibles —los de salud, incluidos los exámenes médicos de ingreso y el antidoping, y los psicométricos en lo que revelen datos sensibles (Art. 2 fracc. VI LFPDPPP); por criterio prudencial, también los biométricos— se protege con medidas de nivel alto (cifrado, control de acceso reforzado, bitácoras y segregación de funciones) aunque su celda de riesgo resulte Media o Baja, porque las medidas se determinan tomando en cuenta la sensibilidad de los datos y las posibles consecuencias para las personas titulares (Art. 18, segundo párrafo, LFPDPPP; Art. 60 del Reglamento). Al calificar el impacto de una base con datos sensibles, no lo fije por debajo de Alto.
 
 | Sistema/Base | Área responsable | Tipo de datos | Sensibles | Cantidad aprox. titulares | Ubicación | Nivel de riesgo |
 |--------------|------------------|---------------|-----------|---------------------------|-----------|-----------------|
-| [Sistema de Nómina] | [RH] | Identificación, contacto, laborales, financieros, biométricos | Sí (biométricos, salud) | [#] | [Servidor local + nube] | Alto |
-| [CRM Clientes] | [Ventas] | Identificación, contacto, comerciales | No | [#] | [Nube] | Medio |
-| [Expedientes Físicos RH] | [RH] | Identificación, laborales, contractuales | Sí (cuando aplique) | [#] | [Archivo físico] | Medio |
+| [Sistema de Nómina] | [RH] | Identificación, contacto, laborales, financieros, biométricos | Sí (biométricos, por criterio prudencial) | [#] | [Servidor local + nube] | Medio |
+| [CRM Clientes] | [Ventas] | Identificación, contacto, comerciales | No | [#] | [Nube] | Bajo |
+| [Expedientes Físicos RH] | [RH] | Identificación, laborales, contractuales | Sí (cuando aplique) | [#] | [Archivo físico] | Bajo |
 | [Sistema Contable] | [Contabilidad] | Identificación de clientes, datos fiscales y bancarios | No | [#] | [Servidor local] | Medio |
-| [Lista de Proveedores] | [Compras] | Identificación, contacto, fiscales | No | [#] | [Archivos compartidos] | Bajo |
+| [Lista de Proveedores] | [Compras] | Identificación, contacto, fiscales | No | [#] | [Archivos compartidos + carpeta física] | Bajo |
+| [Candidatos en proceso] | [RH] | Identificación, contacto, académicos, psicométricos | Sí (psicométricos) | [#] | [Nube] | Bajo |
+| [Cámaras de seguridad] | [Seguridad] | Imágenes de video | No por sí mismas (sin reconocimiento facial) | [#] | [NVR local] | Bajo |
+| [Lista de visitantes] | [Recepción] | Identificación, contacto | No | [#] | [Físico + digital] | Bajo |
+
+### 2.1 Registro de medios de almacenamiento
+
+*Elemento obligatorio (Art. 61 Fracc. IX Reglamento)*
+
+Soportes físicos y electrónicos (Art. 2 Fracc. X y XI Reglamento) en los que se guardan los Datos Personales del inventario:
+
+| Medio o soporte | Tipo | Bases que contiene | Ubicación | Custodio | ¿Cifrado? | Baja segura |
+|-----------------|------|--------------------|-----------|----------|-----------|-------------|
+| [Servidor local] | Electrónico | [Nómina, Sistema Contable, Lista de Proveedores (archivos compartidos), Lista de visitantes (Excel)] | [Oficina] | [TI] | [Sí/No] | [Borrado seguro] |
+| [Nube: proveedor y país] | Electrónico | [CRM Clientes, Nómina, Candidatos en proceso (ATS), respaldos en la nube] | [País] | [TI] | [Sí/No] | [Supresión certificada por el proveedor] |
+| [Archivero con llave] | Físico | [Expedientes Físicos RH] | [Oficina RH] | [RH] | No aplica | [Trituración] |
+| [Carpetas y cuadernos de trabajo] | Físico | [Lista de Proveedores (carpeta), Lista de visitantes (cuaderno)] | [Compras, Recepción] | [Compras, Recepción] | No aplica | [Trituración] |
+| [Grabador de video (NVR)] | Electrónico | [Cámaras de seguridad] | [Sala de monitoreo] | [Seguridad] | [Sí/No] | [Sobreescritura cíclica; destrucción física del disco al darlo de baja] |
+| [Discos o USB de respaldo] | Electrónico | [Respaldos] | [Resguardo] | [TI] | [Sí/No] | [Destrucción física] |
+| [Otros] | | | | | | |
 
 ---
 
 ## 3. Funciones y obligaciones de las personas que tratan Datos Personales
 
-*Elemento obligatorio (Art. 60 Fracc. II Reglamento)*
+*Elemento obligatorio (Art. 61 Fracc. II Reglamento)*
 
 ### 3.1 Estructura organizacional para protección de datos
 
-**Encargado / Departamento de Datos Personales:**
+**Persona o departamento de datos personales (Art. 29 LFPDPPP):**
 - Nombre: [nombre]
 - Cargo: [cargo]
 - Correo: [correo]
 - Funciones:
-  - Atender solicitudes ARCO
+  - Dar trámite a las solicitudes ARCO (función que le asigna el Art. 29 LFPDPPP; las demás de esta lista las asigna el Responsable)
   - Mantener actualizado este Documento de Seguridad
   - Coordinar la capacitación del personal
   - Servir de enlace con la Secretaría Anticorrupción y Buen Gobierno
@@ -66,9 +87,9 @@ A continuación se presenta el inventario de las bases de datos personales que t
 Todo el personal que tenga acceso a Datos Personales debe:
 
 a) Tratar los datos únicamente conforme a sus funciones autorizadas
-b) Guardar absoluta confidencialidad sobre los datos a los que tenga acceso
+b) Guardar absoluta confidencialidad sobre los datos a los que tenga acceso, aun después de terminar su relación con el Responsable (Art. 20 LFPDPPP)
 c) Aplicar las medidas de seguridad establecidas en este documento
-d) Reportar inmediatamente al Encargado cualquier incidente o vulneración
+d) Reportar inmediatamente a la persona o departamento de datos personales cualquier incidente o vulneración
 e) Participar en las capacitaciones obligatorias en materia de protección de datos
 f) Firmar y respetar el Convenio de Confidencialidad y Tratamiento de Datos Personales
 
@@ -87,7 +108,7 @@ f) Firmar y respetar el Convenio de Confidencialidad y Tratamiento de Datos Pers
 
 ## 4. Análisis de Riesgos
 
-*Elemento obligatorio (Art. 60 Fracc. III Reglamento)*
+*Elemento obligatorio (Art. 61 Fracc. III Reglamento)*
 
 ### 4.1 Metodología
 
@@ -96,6 +117,8 @@ Se aplica una matriz de probabilidad × impacto sobre los activos identificados 
 - **Probabilidad:** baja (1), media (2), alta (3)
 - **Impacto:** bajo (1), medio (2), alto (3)
 - **Riesgo:** producto de ambos (1-3 bajo, 4-6 medio, 7-9 alto)
+
+Con el resultado, las medidas de seguridad se determinan considerando los factores del Art. 18 LFPDPPP y del Art. 60 del Reglamento: riesgo inherente por tipo de dato, sensibilidad de los datos, desarrollo tecnológico y posibles consecuencias de una vulneración para los titulares; además, se procura tomar en cuenta el número de titulares, las vulnerabilidades previas en los sistemas de tratamiento, el valor de los datos para un tercero no autorizado y los demás factores que puedan incidir en el nivel de riesgo o que resulten de otras leyes o regulación aplicable al Responsable. Conforme al Art. 18 LFPDPPP, el Responsable no adoptará medidas de seguridad menores a aquellas que mantenga para el manejo de su información.
 
 ### 4.2 Riesgos identificados
 
@@ -116,11 +139,11 @@ Se aplica una matriz de probabilidad × impacto sobre los activos identificados 
 
 ---
 
-## 5. Análisis de Brecha
+## 5. Medidas de seguridad y análisis de brecha
 
-*Elemento obligatorio (Art. 60 Fracc. IV Reglamento)*
+*Elemento obligatorio (Art. 61 Fracc. IV y V Reglamento)*
 
-Comparación entre las medidas existentes y las recomendadas/requeridas:
+Estas tablas, mantenidas al día junto con las medidas por base del Anexo A, forman la relación de las medidas de seguridad que exige el último párrafo del Art. 61 del Reglamento y se actualizan en los supuestos de la sección 7.1. Por cada medida aplicable se indica si está implementada de manera efectiva (Fracc. IV) y la brecha entre las existentes y las faltantes necesarias (Fracc. V):
 
 ### Medidas administrativas
 
@@ -161,41 +184,42 @@ Comparación entre las medidas existentes y las recomendadas/requeridas:
 
 ## 6. Plan de trabajo
 
-*Elemento obligatorio (Art. 60 Fracc. V Reglamento)*
+*Elemento obligatorio (Art. 61 Fracc. VI Reglamento)*
 
 Para cubrir las brechas identificadas:
 
-| Acción | Responsable | Recursos | Fecha objetivo | Estatus |
+| Acción | A cargo de | Recursos | Fecha objetivo | Estatus |
 |--------|-------------|----------|----------------|---------|
 | [Implementar MFA en sistemas críticos] | TI | [Presupuesto] | [DD/MM/AAAA] | [Pendiente] |
 | [Adquirir trituradora industrial] | Administración | [$] | [DD/MM/AAAA] | [Pendiente] |
-| [Capacitar al personal en LFPDPPP] | Encargado | Interno | [DD/MM/AAAA] | [Pendiente] |
+| [Capacitar al personal en LFPDPPP] | Persona o departamento de datos personales | Interno | [DD/MM/AAAA] | [Pendiente] |
 | [Formalizar contratos con encargados] | Jurídico | Interno | [DD/MM/AAAA] | [Pendiente] |
 | [Cifrar respaldos de nómina] | TI | Interno | [DD/MM/AAAA] | [Pendiente] |
-| [Implementar bitácora ARCO digital] | Encargado | [$] | [DD/MM/AAAA] | [Pendiente] |
+| [Implementar bitácora ARCO digital] | Persona o departamento de datos personales | [$] | [DD/MM/AAAA] | [Pendiente] |
 | [Otras acciones] | | | | |
 
 ---
 
 ## 7. Mecanismos de monitoreo y revisión
 
-*Elemento obligatorio (Art. 60 Fracc. VI Reglamento)*
+*Elemento obligatorio (Art. 61 Fracc. VII Reglamento: revisiones o auditorías)*
 
 ### 7.1 Revisión periódica del Documento de Seguridad
 
 - **Frecuencia:** Anual y cuando ocurra alguno de los siguientes eventos:
-  - Modificación sustancial de procesos
+  - Cambios a las medidas o procesos de seguridad por mejora continua (Art. 62 Fracc. I Reglamento)
+  - Modificación sustancial de procesos o del tratamiento que cambie el nivel de riesgo (Art. 62 Fracc. II Reglamento)
   - Implementación de nuevos sistemas que traten datos personales
   - Reforma legal aplicable
-  - Vulneración de seguridad significativa
-- **Responsable de la revisión:** Encargado de Datos Personales
-- **Aprobación de la actualización:** [autoridad indicada]
+  - Cualquier vulneración de los sistemas de tratamiento u otra afectación a los datos personales, aunque no afecte de forma significativa al titular (Art. 62 Fracc. III y IV Reglamento)
+- **A cargo de la revisión:** Persona o departamento de datos personales
+- **Aprobación de la actualización:** [instancia interna que aprueba, p. ej., Dirección General]
 
 ### 7.2 Auditorías internas
 
 - **Frecuencia:** Anual
 - **Alcance:** Verificación del cumplimiento de las medidas establecidas
-- **Responsable:** [Área de auditoría / consultor externo / Encargado]
+- **A cargo de:** [Área de auditoría / consultor externo / persona o departamento de datos personales]
 - **Entregable:** Reporte de auditoría con hallazgos y recomendaciones
 
 ### 7.3 Indicadores de cumplimiento
@@ -209,7 +233,7 @@ Para cubrir las brechas identificadas:
 
 ## 8. Programa de Capacitación
 
-*Elemento obligatorio (Art. 60 Fracc. VII Reglamento)*
+*Elemento obligatorio (Art. 61 Fracc. VIII Reglamento)*
 
 ### 8.1 Capacitación inicial
 
@@ -248,6 +272,8 @@ Se llevará bitácora de:
 - Anexo E: Matriz de Roles y Accesos detallada
 - Anexo F: Listado de proveedores con tratamiento de datos
 
+*Nota para quien llena la plantilla (bórrela del documento final): de esta lista hay plantilla del Anexo A (inventario) y del Anexo D (protocolo de vulneraciones); el Anexo C se arma con el procedimiento ARCO y los formatos de solicitud y de respuesta. El Convenio de Confidencialidad (B), la matriz detallada de roles y accesos (E) y el listado de proveedores (F) los elabora el Responsable. Deje en la lista únicamente los anexos que acompañen al documento al momento de aprobarlo; quite los que falten y regístrelos como acción en el plan de trabajo de la sección 6, con persona a cargo y fecha. Si el Anexo B todavía no existe, revise también los incisos 3.2 f) y 8.1, que obligan al personal a firmarlo.*
+
 ---
 
 **Firma del Responsable:**
@@ -255,10 +281,10 @@ Se llevará bitácora de:
 ___________________________________________
 [Nombre y cargo del representante legal]
 
-**Firma del Encargado de Datos Personales:**
+**Firma de la persona o departamento de datos personales:**
 
 ___________________________________________
-[Nombre]
+[Nombre y cargo de quien firma por la persona o departamento de datos personales]
 
 **Fecha de aprobación:** [DD/MM/AAAA]
 

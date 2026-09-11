@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "fuente": "Elaboración propia con base en LFPDPPP, Reglamento, Lineamientos y mejores prácticas de la Secretaría Anticorrupción y Buen Gobierno",
+    "fuente": "Elaboración propia con base en la LFPDPPP vigente (DOF 20-03-2025), su Reglamento (DOF 21-12-2011, en lo que no se oponga a la ley vigente), los Lineamientos del Aviso de Privacidad (DOF 17-01-2013, como referencia en lo que no se opongan a la ley vigente) y buenas prácticas de la materia",
     "ultima_actualizacion": "2026-09",
     "uso": "Banco de preguntas para el módulo de diagnóstico. Cada pregunta vale 0-2 puntos."
   },
@@ -8,7 +8,7 @@
     "0": "No cumple",
     "1": "Cumple parcialmente",
     "2": "Cumple plenamente",
-    "NA": "No aplica al sector/tamaño del responsable"
+    "NA": "No aplica por la situación del responsable (p. ej., no recaba datos sensibles o no hace transferencias); la ley no exime a nadie por su tamaño"
   },
   "dimensiones": {
     "1_aviso_de_privacidad": {
@@ -24,7 +24,7 @@
           "id": "AP-02",
           "pregunta": "¿El aviso integral incluye las 6 fracciones del Art. 15 LFPDPPP?",
           "obligatorio": true,
-          "fundamento": "Art. 15 LFPDPPP, Lineamientos del Aviso"
+          "fundamento": "Art. 15 LFPDPPP"
         },
         {
           "id": "AP-03",
@@ -34,43 +34,51 @@
         },
         {
           "id": "AP-04",
-          "pregunta": "¿Las finalidades primarias están separadas de las secundarias?",
+          "pregunta": "¿El aviso distingue las finalidades que dieron origen y son necesarias para la relación jurídica (las llamadas primarias) de aquéllas que no lo son (secundarias), y señala cuáles requieren el consentimiento de la persona titular?",
           "obligatorio": true,
-          "fundamento": "Lineamientos del Aviso de Privacidad"
+          "fundamento": "Art. 15 fracc. III LFPDPPP ('distinguiendo aquéllas que requieren el consentimiento de la persona titular'); Art. 41 Reglamento ('identificará y distinguirá en el aviso de privacidad entre las finalidades que dieron origen y son necesarias para la relación jurídica entre el responsable y el titular, de aquéllas que no lo son'). 'Primarias' y 'secundarias' son etiquetas de uso común, no términos de la ley"
         },
         {
           "id": "AP-05",
           "pregunta": "¿Existe mecanismo claro y accesible para que el titular se oponga a finalidades secundarias?",
           "obligatorio_si": "Tiene finalidades secundarias",
-          "fundamento": "Art. 15 LFPDPPP"
+          "fundamento": "Art. 15 fracc. III y IV LFPDPPP; Arts. 14 y 42 Reglamento"
         },
         {
           "id": "AP-06",
-          "pregunta": "¿Cuando recaba datos por medios electrónicos, ópticos, sonoros o visuales (web, app, llamadas, CCTV), pone a disposición el aviso simplificado con las fracc. I a IV del Art. 15 y el sitio del aviso integral?",
+          "pregunta": "¿Cuando recaba datos por medios electrónicos, ópticos, sonoros, visuales o cualquier otra tecnología (web, app, llamadas, CCTV), pone a disposición el aviso simplificado con las fracc. I a IV del Art. 15 y el sitio del aviso integral?",
           "obligatorio_si": "Recaba datos por esos medios",
           "fundamento": "Art. 16 fracc. II LFPDPPP"
         },
         {
           "id": "AP-07",
-          "pregunta": "¿Existe aviso de privacidad para empleados, distinto del aviso a clientes?",
-          "obligatorio_si": "Tiene empleados",
-          "fundamento": "Practica recomendada por la Secretaría Anticorrupción y Buen Gobierno"
+          "pregunta": "¿Los empleados y candidatos tienen a su disposición un aviso de privacidad que cubra el tratamiento de sus datos (que sea un aviso propio, distinto del aviso a clientes, es buena práctica)?",
+          "obligatorio_si": "Tiene empleados o recluta personal",
+          "fundamento": "Arts. 14, 15 y 16 LFPDPPP (empleados y candidatos también son titulares); el aviso propio para empleados es buena práctica"
         },
         {
           "id": "AP-08",
-          "pregunta": "¿El aviso está a disposición del titular desde el momento en que se recaban sus datos?",
+          "pregunta": "¿El aviso está a disposición del titular desde el momento en que se recaban sus datos (si se obtienen de forma indirecta, por una transferencia consentida o de una fuente de acceso público, se da a conocer en el primer contacto con el titular y, ante un cambio de finalidad, antes de aprovecharlos)?",
           "obligatorio": true,
-          "fundamento": "Art. 16 LFPDPPP; Art. 2 fracc. I"
+          "fundamento": "Arts. 2 fracc. I, 16 y 17 LFPDPPP; Art. 29 Reglamento (obtención indirecta)"
         },
         {
           "id": "AP-09",
-          "pregunta": "¿Está fácilmente accesible en sitio web, oficinas y puntos de contacto?",
-          "obligatorio": true
+          "pregunta": "¿Está fácilmente accesible en los medios donde recaba datos (sitio web, oficinas, formularios y demás puntos de contacto que tenga)?",
+          "obligatorio": true,
+          "fundamento": "Art. 16 LFPDPPP; Arts. 24 y 25 Reglamento"
         },
         {
           "id": "AP-10",
-          "pregunta": "¿Se ha actualizado el aviso en los últimos 24 meses (o cuando hubo cambios sustantivos)?",
-          "obligatorio": false
+          "pregunta": "¿El aviso se actualiza cuando cambian los datos, las finalidades o las transferencias, y el cambio se comunica por el medio previsto en el propio aviso (para tratar los datos con una finalidad distinta a las del aviso hay que obtener nuevamente el consentimiento; revisar el aviso al menos cada 24 meses es buena práctica)?",
+          "obligatorio": true,
+          "fundamento": "Arts. 11 y 15 fracc. VI LFPDPPP; Art. 68 Reglamento (transferencias)"
+        },
+        {
+          "id": "AP-11",
+          "pregunta": "¿Si usa en medios de comunicación electrónica, óptica u otra tecnología mecanismos que recaban datos personales de manera automática y simultánea al contacto del titular (p. ej., cookies u otras tecnologías de rastreo en su sitio o app, cuando permiten obtener datos personales), le informa en ese momento del uso de esas tecnologías, de que a través de ellas se obtienen datos personales y de la forma en que puede deshabilitarlas?",
+          "obligatorio_si": "Usa mecanismos que recaban datos personales de forma automática en sus medios electrónicos",
+          "fundamento": "Art. 14 último párrafo Reglamento"
         }
       ]
     },
@@ -81,7 +89,7 @@
           "id": "CO-01",
           "pregunta": "¿Existe mecanismo para acreditar que el titular conoció el aviso de privacidad?",
           "obligatorio": true,
-          "fundamento": "Art. 7 LFPDPPP"
+          "fundamento": "Art. 7 LFPDPPP; Arts. 12 Fracc. III y 31 Reglamento (la carga de la prueba de la puesta a disposición del aviso recae en el responsable)"
         },
         {
           "id": "CO-02",
@@ -97,50 +105,68 @@
         },
         {
           "id": "CO-04",
-          "pregunta": "¿Existe mecanismo claro para que el titular revoque su consentimiento?",
+          "pregunta": "¿El aviso de privacidad establece mecanismos y procedimientos claros para que el titular revoque su consentimiento?",
           "obligatorio": true,
-          "fundamento": "Art. 7 último párrafo LFPDPPP"
+          "fundamento": "Art. 7 último párrafo LFPDPPP; Art. 21 Reglamento (mecanismos sencillos y gratuitos, al menos por el mismo medio por el que se otorgó)"
         },
         {
           "id": "CO-05",
           "pregunta": "¿Se conserva evidencia documental del consentimiento (firmas, registros electrónicos, grabaciones)?",
-          "obligatorio": true
+          "obligatorio": true,
+          "fundamento": "Art. 20 Reglamento (la carga de la prueba del consentimiento recae en el responsable)"
         },
         {
           "id": "CO-06",
           "pregunta": "¿Si trata datos de menores, recaba consentimiento de quien ejerce patria potestad o tutela?",
-          "obligatorio_si": "Trata datos de menores"
+          "obligatorio_si": "Trata datos de menores",
+          "fundamento": "Ni la LFPDPPP ni su Reglamento regulan el consentimiento de menores. El Art. 89, último párrafo, del Reglamento remite, para el ejercicio de los derechos ARCO de menores de edad o de personas en estado de interdicción o incapacidad, a 'las reglas de representación dispuestas en el Código Civil Federal'; y el Cuarto del Anexo de los Lineamientos del Aviso 2013 propone, como buena práctica, informar en el aviso integral los mecanismos para recabar el consentimiento de quien ejerce la patria potestad o, en su caso, del tutor o representante legal, conforme a esas mismas reglas. Confirme la legislación civil aplicable al caso"
+        },
+        {
+          "id": "CO-07",
+          "pregunta": "¿Las bases de datos con datos sensibles se justifican en finalidades legítimas, concretas y acordes con las actividades o fines explícitos del responsable, y se hacen esfuerzos razonables para limitar su periodo de tratamiento al mínimo indispensable?",
+          "obligatorio_si": "Recaba datos sensibles",
+          "fundamento": "Art. 8 segundo párrafo y Art. 12 LFPDPPP; Art. 56 Reglamento (crear bases de datos en contravención al Art. 8 segundo párrafo es infracción: Art. 58 fracc. XVIII LFPDPPP)"
+        },
+        {
+          "id": "CO-08",
+          "pregunta": "¿Para tratar datos financieros o patrimoniales se recaba el consentimiento expreso del titular, salvo que aplique alguna excepción de los Arts. 9 o 36?",
+          "obligatorio_si": "Trata datos financieros o patrimoniales",
+          "fundamento": "Art. 7 quinto párrafo LFPDPPP (recabar datos personales sin el consentimiento expreso, en los casos en que es exigible, es infracción: Art. 58 fracc. XIII LFPDPPP)"
         }
       ]
     },
-    "3_encargado_de_datos": {
+    "3_persona_o_departamento_de_datos_personales": {
       "peso_relativo": 10,
       "preguntas": [
         {
           "id": "ED-01",
-          "pregunta": "¿Se ha designado formalmente una persona o departamento responsable de la protección de datos?",
+          "pregunta": "¿Se ha designado una persona o departamento de datos personales que dé trámite a las solicitudes de los titulares (dejar constancia escrita de la designación es buena práctica)?",
           "obligatorio": true,
           "fundamento": "Art. 29 LFPDPPP"
         },
         {
           "id": "ED-02",
-          "pregunta": "¿Las funciones del Encargado/Departamento están documentadas y formalizadas?",
-          "obligatorio": true
+          "pregunta": "¿Las funciones de la persona o departamento de datos personales están documentadas?",
+          "obligatorio": false,
+          "fundamento": "El Art. 29 LFPDPPP exige designarla para dar trámite a las solicitudes, no una formalidad específica; documentar sus funciones es buena práctica y sirve como evidencia (las funciones y obligaciones de quienes tratan datos, como medida de seguridad, se evalúan en DS-03: Art. 61 Fracc. II Reglamento)"
         },
         {
           "id": "ED-03",
-          "pregunta": "¿Los datos de contacto del Encargado están incluidos en el aviso de privacidad?",
-          "obligatorio": true
+          "pregunta": "¿El aviso de privacidad señala los medios de contacto para ejercer los derechos ARCO (identificar ahí a la persona o departamento de datos personales es buena práctica)?",
+          "obligatorio": true,
+          "fundamento": "Art. 15 fracc. V LFPDPPP"
         },
         {
           "id": "ED-04",
-          "pregunta": "¿El Encargado tiene capacitación específica en LFPDPPP?",
-          "obligatorio": false
+          "pregunta": "¿La persona o departamento de datos personales tiene capacitación específica en LFPDPPP?",
+          "obligatorio": true,
+          "fundamento": "Art. 61 Fracc. VIII Reglamento; Arts. 2 Fracc. V y 57 Reglamento (la capacitación del personal en materia de protección de datos personales es medida de seguridad administrativa)"
         },
         {
           "id": "ED-05",
           "pregunta": "¿Existe presupuesto o recursos asignados para la función de protección de datos?",
-          "obligatorio": false
+          "obligatorio": false,
+          "fundamento": "Art. 48 Fracc. IV Reglamento (destinar recursos a los programas y políticas de privacidad es una de las medidas que el responsable podrá adoptar)"
         }
       ]
     },
@@ -151,34 +177,55 @@
           "id": "AR-01",
           "pregunta": "¿Existe procedimiento documentado para recibir y atender solicitudes ARCO?",
           "obligatorio": true,
-          "fundamento": "Art. 28 LFPDPPP"
+          "fundamento": "Arts. 15 fracc. V, 28, 29 y 31 LFPDPPP"
         },
         {
           "id": "AR-02",
           "pregunta": "¿Existe formato/plantilla para solicitudes ARCO?",
-          "obligatorio": false
+          "obligatorio": false,
+          "fundamento": "Art. 90 Reglamento (establecer formularios u otros métodos simplificados es optativo; si se establecen, debe informarse en el aviso de privacidad)"
         },
         {
           "id": "AR-03",
-          "pregunta": "¿El personal capacitado sabe identificar y derivar una solicitud ARCO?",
-          "obligatorio": true
+          "pregunta": "¿El personal sabe identificar una solicitud ARCO y turnarla sin demora a la persona o departamento de datos personales?",
+          "obligatorio": true,
+          "fundamento": "Art. 95 Reglamento (el plazo corre desde que el responsable recibe la solicitud); Art. 61 Fracc. VIII Reglamento"
         },
         {
           "id": "AR-04",
-          "pregunta": "¿Se cumplen los plazos legales (20 días respuesta + 15 días materialización)?",
+          "pregunta": "¿Se cumplen los plazos legales (20 días hábiles para comunicar la respuesta y, si procede, 15 días hábiles para hacerla efectiva; ampliables una sola vez por un periodo igual si se justifica)?",
           "obligatorio": true,
-          "fundamento": "Art. 31 LFPDPPP"
+          "fundamento": "Art. 31 LFPDPPP; Art. 2 fracc. VIII LFPDPPP (días hábiles); Art. 97 Reglamento (la ampliación se justifica y notifica dentro del mismo plazo)"
         },
         {
           "id": "AR-05",
-          "pregunta": "¿Se lleva bitácora de solicitudes ARCO recibidas, su tratamiento y resultado?",
-          "obligatorio": true
+          "pregunta": "¿Se entrega al titular acuse de recibo con la fecha de recepción de cada solicitud ARCO (llevar además una bitácora de las solicitudes recibidas, su trámite y resultado es buena práctica)?",
+          "obligatorio": true,
+          "fundamento": "Art. 95 Reglamento (el responsable anota la fecha de recepción en el acuse de recibo que entrega al titular; desde ese día corre el plazo)"
         },
         {
           "id": "AR-06",
           "pregunta": "¿Las respuestas a ARCO son gratuitas (salvo costos de reproducción, copias o envío)?",
           "obligatorio": true,
           "fundamento": "Art. 34 LFPDPPP"
+        },
+        {
+          "id": "AR-07",
+          "pregunta": "¿Existen procedimientos documentados de conservación y, en su caso, bloqueo y supresión de los datos, con sus plazos de conservación (al cancelarse, los datos pasan por un periodo de bloqueo antes de suprimirse)?",
+          "obligatorio": true,
+          "fundamento": "Arts. 10 y 24 LFPDPPP; Arts. 37 y 38 Reglamento (los datos relativos al incumplimiento de obligaciones contractuales se eliminan al transcurrir 72 meses desde el incumplimiento: Art. 10 tercer párrafo LFPDPPP)"
+        },
+        {
+          "id": "AR-08",
+          "pregunta": "¿Se responde toda solicitud ARCO, aun cuando no existan datos del titular, y cuando se niega (total o parcialmente) se informa el motivo, en los plazos legales y por el mismo medio por el que se presentó la solicitud, y se indica al titular su derecho a solicitar la protección de derechos ante la Secretaría Anticorrupción y Buen Gobierno?",
+          "obligatorio": true,
+          "fundamento": "Arts. 33 y 40 LFPDPPP; Arts. 98 y 100 Reglamento (el Art. 100 dice 'Instituto': por el Transitorio Cuarto del decreto DOF 20-03-2025 y el Art. 40 LFPDPPP, hoy es la Secretaría)"
+        },
+        {
+          "id": "AR-09",
+          "pregunta": "¿Cuando procede una rectificación o cancelación de datos que se transmitieron antes a terceros que siguen tratándolos, se les hace de su conocimiento para que también la efectúen?",
+          "obligatorio_si": "Comunica datos a terceros",
+          "fundamento": "Art. 24 último párrafo LFPDPPP"
         }
       ]
     },
@@ -187,64 +234,87 @@
       "preguntas": [
         {
           "id": "DS-01",
-          "pregunta": "¿Existe Documento de Seguridad formalmente elaborado y aprobado?",
+          "pregunta": "¿Existe la relación de las medidas de seguridad (suele reunirse en un documento de seguridad, expresión que no usan la ley ni el Reglamento; aprobarlo formalmente es buena práctica)?",
           "obligatorio": true,
-          "fundamento": "Art. 60 Reglamento LFPDPPP"
+          "fundamento": "Art. 18 LFPDPPP; Art. 61 Reglamento LFPDPPP (relación de las medidas de seguridad, último párrafo)"
         },
         {
           "id": "DS-02",
           "pregunta": "¿Incluye inventario de datos personales y sistemas?",
           "obligatorio": true,
-          "fundamento": "Art. 60 Fracc. I Reglamento"
+          "fundamento": "Art. 61 Fracc. I Reglamento"
         },
         {
           "id": "DS-03",
           "pregunta": "¿Incluye funciones y obligaciones del personal que trata datos?",
           "obligatorio": true,
-          "fundamento": "Art. 60 Fracc. II Reglamento"
+          "fundamento": "Art. 61 Fracc. II Reglamento"
         },
         {
           "id": "DS-04",
-          "pregunta": "¿Incluye análisis de riesgos y de brecha?",
+          "pregunta": "¿Incluye análisis de riesgos, las medidas de seguridad aplicables (identificando las implementadas de manera efectiva) y el análisis de brecha?",
           "obligatorio": true,
-          "fundamento": "Art. 60 Fracc. III y IV Reglamento"
+          "fundamento": "Art. 61 Fracc. III, IV y V Reglamento"
         },
         {
           "id": "DS-05",
-          "pregunta": "¿Incluye plan de trabajo y mecanismos de monitoreo?",
+          "pregunta": "¿Incluye plan de trabajo y revisiones o auditorías?",
           "obligatorio": true,
-          "fundamento": "Art. 60 Fracc. V y VI Reglamento"
+          "fundamento": "Art. 61 Fracc. VI y VII Reglamento"
         },
         {
           "id": "DS-06",
           "pregunta": "¿Incluye programa de capacitación al personal?",
           "obligatorio": true,
-          "fundamento": "Art. 60 Fracc. VII Reglamento"
+          "fundamento": "Art. 61 Fracc. VIII Reglamento"
         },
         {
           "id": "DS-07",
-          "pregunta": "¿Se ha implementado capacitación efectiva (con registros) en los últimos 12 meses?",
-          "obligatorio": false
+          "pregunta": "¿Se ha capacitado efectivamente al personal que trata datos personales (idealmente con registros y en los últimos 12 meses)?",
+          "obligatorio": true,
+          "fundamento": "Art. 61 Fracc. VIII Reglamento (la periodicidad anual y los registros son buena práctica)"
         },
         {
           "id": "DS-08",
           "pregunta": "¿Las medidas técnicas incluyen cifrado de datos sensibles?",
-          "obligatorio_si": "Maneja datos sensibles"
+          "obligatorio": false,
+          "fundamento": "Ni la ley ni el Reglamento exigen expresamente el cifrado; es buena práctica. Lo obligatorio es que las medidas tomen en cuenta la sensibilidad de los datos y no sean menores a las que el responsable mantenga para el manejo de su información (Art. 18 LFPDPPP; Art. 60 Reglamento). La normativa sectorial sí puede exigirlo: en salud, la NOM-024-SSA3-2012 (numeral 6.6.5) obliga a que los sistemas de registro electrónico para la salud implementen mecanismos de autenticación, de cifrado y de firma electrónica avanzada para el intercambio de información entre prestadores de servicios de salud. Verifique la regulación aplicable al sector del cliente"
         },
         {
           "id": "DS-09",
-          "pregunta": "¿Existen controles de acceso lógico (usuarios, contraseñas, MFA)?",
-          "obligatorio": true
+          "pregunta": "¿Existen controles de acceso lógico (usuarios identificados y autorizados, contraseñas; la autenticación multifactor es buena práctica)?",
+          "obligatorio": true,
+          "fundamento": "Art. 18 LFPDPPP; Art. 2 Fracc. VII, incisos a) y b) Reglamento"
         },
         {
           "id": "DS-10",
-          "pregunta": "¿Existen respaldos periódicos verificados?",
-          "obligatorio": true
+          "pregunta": "¿Existen medidas contra la pérdida o destrucción de los datos, como respaldos periódicos verificados?",
+          "obligatorio": true,
+          "fundamento": "Art. 18 LFPDPPP (proteger los datos contra daño, pérdida, alteración o destrucción); los respaldos son la medida usual, no una exigencia expresa"
         },
         {
           "id": "DS-11",
           "pregunta": "¿Hay control de acceso físico a áreas con datos personales?",
-          "obligatorio": true
+          "obligatorio": true,
+          "fundamento": "Art. 18 LFPDPPP; Art. 2 Fracc. VI, inciso a) Reglamento"
+        },
+        {
+          "id": "DS-12",
+          "pregunta": "¿Existe registro de los medios de almacenamiento (soportes físicos y electrónicos) de los datos personales?",
+          "obligatorio": true,
+          "fundamento": "Art. 61 Fracc. IX Reglamento"
+        },
+        {
+          "id": "DS-13",
+          "pregunta": "¿Se actualiza la relación de las medidas de seguridad cuando se modifican las medidas o procesos de seguridad por mejora continua, hay modificaciones sustanciales en el tratamiento que cambian el nivel de riesgo, se vulneran los sistemas de tratamiento o hay otra afectación a los datos?",
+          "obligatorio": true,
+          "fundamento": "Art. 62 Reglamento (con datos sensibles, procurar revisarla y, en su caso, actualizarla una vez al año)"
+        },
+        {
+          "id": "DS-14",
+          "pregunta": "¿Existen controles o mecanismos (p. ej., cláusulas o convenios de confidencialidad) para que todas las personas que intervienen en el tratamiento guarden confidencialidad, aun después de terminar su relación con el responsable?",
+          "obligatorio": true,
+          "fundamento": "Art. 20 LFPDPPP (incumplir el deber de confidencialidad es infracción: Art. 58 fracc. VIII LFPDPPP)"
         }
       ]
     },
@@ -253,8 +323,9 @@
       "preguntas": [
         {
           "id": "TR-01",
-          "pregunta": "¿Están identificadas todas las transferencias de datos a terceros?",
-          "obligatorio": true
+          "pregunta": "¿Están identificadas todas las transferencias de datos a terceros y el aviso de privacidad informa cada una, limitada a la finalidad que la justifica (identificar además a cada receptor por su nombre, denominación o razón social, o bien su tipo, categoría o sector de actividad, como piden los Lineamientos del Aviso 2013, es buena práctica)?",
+          "obligatorio": true,
+          "fundamento": "Art. 68 Reglamento LFPDPPP (toda transferencia debe informarse mediante el aviso de privacidad y limitarse a la finalidad que la justifique). Identificar al receptor por su nombre o indicar su tipo, categoría o sector de actividad no lo exige con esas palabras la ley vigente: lo pide el Vigésimo sexto fracc. I de los Lineamientos del Aviso 2013, en su cuerpo obligatorio y no en su Anexo de buenas prácticas, y aquí se sigue como referencia"
         },
         {
           "id": "TR-02",
@@ -264,20 +335,27 @@
         },
         {
           "id": "TR-03",
-          "pregunta": "¿Los proveedores que tratan datos por cuenta del responsable están vinculados por contrato con cláusulas de protección de datos?",
+          "pregunta": "¿Los proveedores que tratan datos por cuenta del responsable (encargados; comunicarles datos es remisión, no transferencia) están vinculados por cláusulas contractuales u otro instrumento jurídico con obligaciones de protección de datos?",
           "obligatorio": true,
-          "fundamento": "Arts. 50-56 Reglamento LFPDPPP"
+          "fundamento": "Art. 2 fracc. XII y XX LFPDPPP; Arts. 2 Fracc. IX y 49-55 Reglamento LFPDPPP"
         },
         {
           "id": "TR-04",
           "pregunta": "¿Las transferencias internacionales cumplen los Arts. 35 y 36 LFPDPPP?",
-          "obligatorio_si": "Hay transferencias internacionales"
+          "obligatorio_si": "Hay transferencias internacionales",
+          "fundamento": "Arts. 35 y 36 LFPDPPP; Arts. 74 y 75 Reglamento"
         },
         {
           "id": "TR-05",
-          "pregunta": "¿Se notifica al receptor el aviso de privacidad correspondiente?",
-          "obligatorio": true,
-          "fundamento": "Art. 35 LFPDPPP"
+          "pregunta": "¿Se comunica al tercero receptor el aviso de privacidad y las finalidades a las que el titular sujetó el tratamiento?",
+          "obligatorio_si": "Hay transferencias",
+          "fundamento": "Art. 35 LFPDPPP; Art. 73 Reglamento (la transferencia nacional se formaliza con un mecanismo que permita demostrarlo)"
+        },
+        {
+          "id": "TR-06",
+          "pregunta": "¿Si trata datos en servicios de cómputo en la nube a los que se adhiere mediante condiciones generales de contratación, verificó que el proveedor cumple lo que pide el Art. 52 del Reglamento (entre otros: políticas de protección de datos afines a los principios y deberes de la ley, transparentar subcontrataciones, no asumir la titularidad o propiedad de la información, confidencialidad, medidas de seguridad, supresión de los datos al concluir el servicio e impedir el acceso a personas sin privilegios de acceso)?",
+          "obligatorio_si": "Usa servicios de cómputo en la nube con condiciones generales de contratación",
+          "fundamento": "Art. 52 Reglamento (el responsable no podrá adherirse a servicios que no garanticen la debida protección de los datos personales)"
         }
       ]
     },
@@ -286,20 +364,21 @@
       "preguntas": [
         {
           "id": "VU-01",
-          "pregunta": "¿Existe protocolo de respuesta a vulneraciones de seguridad?",
-          "obligatorio": true,
-          "fundamento": "Art. 19 LFPDPPP, Arts. 63-66 Reglamento"
+          "pregunta": "¿Existe protocolo de respuesta a vulneraciones de seguridad (que conste por escrito es buena práctica; lo exigible es informar al titular y corregir)?",
+          "obligatorio": false,
+          "fundamento": "Art. 19 LFPDPPP, Arts. 63-66 Reglamento (exigen informar al titular y corregir; que el protocolo conste por escrito es buena práctica). Lo obligatorio se evalúa en VU-03 (informar al titular) y VU-05 (analizar causas y corregir)"
         },
         {
           "id": "VU-02",
           "pregunta": "¿El personal sabe identificar y reportar una vulneración?",
-          "obligatorio": true
+          "obligatorio": true,
+          "fundamento": "Art. 61 Fracc. VIII Reglamento (capacitar al personal que efectúe el tratamiento); necesario para informar de forma inmediata (Art. 19 LFPDPPP)"
         },
         {
           "id": "VU-03",
-          "pregunta": "¿Existe un procedimiento para notificar al titular sin dilación cuando hay afectación significativa?",
+          "pregunta": "¿Existe un procedimiento para informar al titular de forma inmediata las vulneraciones que afecten de forma significativa sus derechos patrimoniales o morales, con al menos la información del Art. 65 del Reglamento?",
           "obligatorio": true,
-          "fundamento": "Art. 19 LFPDPPP"
+          "fundamento": "Art. 19 LFPDPPP; Arts. 64 y 65 Reglamento"
         },
         {
           "id": "VU-04",
@@ -308,9 +387,9 @@
         },
         {
           "id": "VU-05",
-          "pregunta": "¿Se documentan las vulneraciones, su análisis de causa raíz y medidas correctivas?",
+          "pregunta": "¿Ante cada vulneración se analizan sus causas, se implementan acciones correctivas, preventivas y de mejora y se actualiza la relación de las medidas de seguridad (documentarlo en bitácora es buena práctica)?",
           "obligatorio": true,
-          "fundamento": "Arts. 64 y 65 Reglamento LFPDPPP"
+          "fundamento": "Art. 66 Reglamento LFPDPPP (analizar las causas e implementar acciones correctivas, preventivas y de mejora); Art. 62 Fracc. III Reglamento (actualizar la relación de las medidas de seguridad cuando se vulneren los sistemas de tratamiento); documentar el incidente en bitácora es buena práctica"
         }
       ]
     }
@@ -346,8 +425,9 @@
       "servicios_financieros",
       "salud",
       "telecomunicaciones",
-      "credito",
-      "comercio_electronico"
+      "credito_y_reporte_crediticio",
+      "comercio_electronico",
+      "rh_y_relaciones_laborales"
     ]
   }
 }

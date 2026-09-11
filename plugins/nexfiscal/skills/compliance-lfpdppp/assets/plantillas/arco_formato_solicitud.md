@@ -7,9 +7,9 @@
 # SOLICITUD PARA EL EJERCICIO DE DERECHOS ARCO
 
 **Dirigida a:** [DENOMINACIÓN DEL RESPONSABLE]
-**A la atención de:** Encargado de Datos Personales — [Nombre / Área]
+**A la atención de:** Persona o departamento de datos personales — [Nombre / Área]
 **Domicilio:** [Domicilio del Responsable]
-**Correo electrónico:** [Correo del Encargado]
+**Correo electrónico:** [Correo de la persona o departamento de datos personales]
 
 ---
 
@@ -24,7 +24,13 @@
 | Tipo de identificación oficial | [ ] INE  [ ] Pasaporte  [ ] Cédula  [ ] Otra: _______ |
 | Folio o número de identificación | _____________________________________________ |
 
-**Se acompaña copia simple de identificación oficial vigente.** (Obligatorio para acreditar identidad)
+**Para acreditar la identidad del Titular se acompaña copia de su identificación oficial vigente** (Art. 28 fracc. II LFPDPPP). Marque cómo la acredita:
+
+[ ] Entrego la copia y exhibo el original para su cotejo (presentación presencial).
+[ ] Firmo esta solicitud con firma electrónica avanzada, o con el instrumento electrónico que la sustituya; en ese caso no se requiere la copia de la identificación.
+[ ] Acompaño la copia por medio electrónico y me identifico con un instrumento electrónico que permita identificarme fehacientemente, o con el mecanismo de autenticación que el Responsable tenga establecido previamente: _______________.
+
+(Art. 89 fracc. I del Reglamento de la LFPDPPP.)
 
 ---
 
@@ -36,9 +42,9 @@
 |-------|-------------|
 | Nombre del representante | _____________________________________________ |
 | Domicilio del representante | _____________________________________________ |
-| Documento que acredita la personalidad | [ ] Carta poder simple  [ ] Poder notarial  [ ] Otro: ________ |
+| Forma de acreditar la representación | [ ] Instrumento público (p. ej., poder notarial)  [ ] Carta poder firmada ante dos testigos  [ ] Declaración del Titular en comparecencia personal  [ ] Titular menor de edad o en estado de interdicción o incapacidad establecida por ley (representación conforme al Código Civil Federal); documento: ________ |
 
-**Se acompaña documento que acredita la personalidad del representante.**
+**Se acompaña el documento que acredita la representación, salvo que el Titular la declare en comparecencia personal (Art. 28 fracc. II LFPDPPP; Art. 89 fracc. II y último párrafo del Reglamento de la LFPDPPP).**
 
 ---
 
@@ -48,11 +54,13 @@ Marque con una "X" el derecho que desea ejercer (puede ser más de uno):
 
 [ ] **ACCESO** — Conocer los datos personales que el Responsable tiene de mí y el aviso de privacidad al que están sujetos.
 
-[ ] **RECTIFICACIÓN** — Que se corrijan mis datos cuando sean inexactos o incompletos. *(Si marca esta opción, especifique los datos correctos en la Sección 5 y adjunte documentación que sustente la corrección.)*
+[ ] **RECTIFICACIÓN** — Que se corrijan mis datos cuando sean inexactos, incompletos o no estén actualizados. *(Si marca esta opción, especifique los datos correctos en la Sección 5 y adjunte documentación que sustente la corrección.)*
 
-[ ] **CANCELACIÓN** — Que se supriman mis datos del tratamiento del Responsable, salvo que existan obligaciones legales para conservarlos.
+[ ] **CANCELACIÓN** — Que mis datos se cancelen de los archivos, registros, expedientes y sistemas del Responsable, para que ya no estén en su posesión. La cancelación da lugar a un periodo de bloqueo previo a la supresión (Art. 24 LFPDPPP), y el Responsable no está obligado a cancelar en los supuestos del Art. 25 LFPDPPP (p. ej., datos necesarios para cumplir un contrato del que soy parte o que deban tratarse por disposición legal).
 
-[ ] **OPOSICIÓN** — Que se cese el tratamiento de mis datos para fines específicos por una causa legítima que expongo en la Sección 5.
+[ ] **OPOSICIÓN** — Oponerme al tratamiento de mis datos o exigir que cese, por causa legítima (Art. 26 LFPDPPP): porque mi situación específica lo requiere y la persistencia del tratamiento, aun siendo lícito, me causaría un daño o perjuicio, o porque mis datos son objeto de un tratamiento automatizado destinado a evaluar, analizar o predecir, sin intervención humana, aspectos personales míos, que me produce efectos jurídicos no deseados o afecta de manera significativa mis intereses, derechos o libertades. Expongo la causa en la Sección 5. No procede cuando el tratamiento es necesario para cumplir una obligación legal impuesta al Responsable.
+
+[ ] **REVOCACIÓN DEL CONSENTIMIENTO** — Revoco el consentimiento que otorgué para el tratamiento de mis datos respecto de las finalidades que señalo en la Sección 5; la revocación no tiene efectos retroactivos (Art. 7, último párrafo, LFPDPPP). Si son finalidades distintas de las necesarias para mi relación jurídica con el Responsable, ello no concluye el tratamiento para estas últimas (Art. 42 del Reglamento de la LFPDPPP).
 
 ---
 
@@ -68,7 +76,7 @@ Describa con la mayor precisión posible los datos sobre los que ejerce el derec
 
 ```
 
-**Información adicional para facilitar la localización** (opcional pero recomendable):
+**Información adicional para facilitar la localización** (Art. 28 fracc. V LFPDPPP; aporte la que tenga):
 
 - ¿Cuándo o cómo proporcionó sus datos al Responsable? _______________
 - ¿Hay un número de cliente, expediente, contrato o referencia? _______________
@@ -87,12 +95,17 @@ Describa con la mayor precisión posible los datos sobre los que ejerce el derec
 
 Documentación que sustenta la corrección: _______________________________
 
-**Si es Cancelación:** Motivo por el que considera que sus datos no se requieren para alguna de las finalidades del aviso:
+**Si es Cancelación:** Motivo de su solicitud (opcional; no es un requisito para ejercer este derecho, Arts. 24 y 28 LFPDPPP):
 ```
 [Texto libre]
 ```
 
-**Si es Oposición:** Causa legítima por la que se opone al tratamiento o finalidades a las que se opone:
+**Si es Oposición:** Causa legítima por la que se opone (su situación específica y el daño o perjuicio que le causaría que continúe el tratamiento, o el tratamiento automatizado que le afecta) y, en su caso, finalidades a las que se opone:
+```
+[Texto libre]
+```
+
+**Si es Revocación del consentimiento:** Finalidades respecto de las cuales revoca su consentimiento:
 ```
 [Texto libre]
 ```
@@ -123,13 +136,13 @@ Indique cómo desea recibir la respuesta del Responsable:
 ## 8. Declaraciones
 
 - Declaro bajo protesta de decir verdad que la información proporcionada en esta solicitud es veraz y exacta.
-- Manifiesto que conozco el plazo de respuesta de 20 días hábiles contados desde la fecha en que se recibió esta solicitud (Art. 31 LFPDPPP), así como el plazo adicional de 15 días hábiles para hacer efectivo el derecho una vez que se haya notificado la respuesta positiva.
-- Conozco que el ejercicio de derechos ARCO es gratuito, salvo gastos justificados de envío o reproducción.
-- En caso de no recibir respuesta dentro del plazo legal o si la respuesta es insatisfactoria, puedo presentar una Solicitud de Protección de Datos ante la Secretaría Anticorrupción y Buen Gobierno dentro de los 15 días hábiles siguientes (Art. 40 LFPDPPP), cuya resolución podrá impugnarse mediante juicio de amparo especializado.
+- Manifiesto que conozco el plazo de respuesta de 20 días hábiles contados desde la fecha en que se recibió esta solicitud (Art. 31 LFPDPPP), así como el plazo adicional de 15 días hábiles para hacer efectivo el derecho una vez que se haya notificado la respuesta positiva. Ambos plazos pueden ampliarse una sola vez por un periodo igual cuando lo justifiquen las circunstancias del caso (Art. 31, segundo párrafo, LFPDPPP); en ese caso, el Responsable debe notificarme las causas de la ampliación dentro del plazo que se amplía (Art. 97 del Reglamento de la LFPDPPP).
+- Conozco que el ejercicio de derechos ARCO es gratuito y que solo pueden cobrarse los costos de reproducción, copias o envío; si proporciono el medio para reproducir mis datos, se me entregan sin costo (Art. 34 LFPDPPP).
+- Si la respuesta es insatisfactoria, puedo presentar una Solicitud de Protección de Datos ante la Secretaría Anticorrupción y Buen Gobierno dentro de los 15 días hábiles siguientes a la fecha en que se me comunique; si no recibo respuesta dentro del plazo legal, puedo presentarla a partir de que dicho plazo venza, acompañando el acuse de recibo u otro documento que pruebe la fecha en que presenté esta solicitud (Art. 40 LFPDPPP). La resolución de la Secretaría podrá impugnarse mediante juicio de amparo ante jueces y tribunales especializados (Art. 51 LFPDPPP).
 
 ---
 
-**Nombre y firma del Titular:**
+**Nombre y firma del Titular o de su representante:**
 
 ___________________________________________
 

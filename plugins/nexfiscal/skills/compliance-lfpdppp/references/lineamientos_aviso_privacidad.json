@@ -1,15 +1,15 @@
 {
   "metadata": {
     "fuente_minimo_legal": "Art. 15 de la LFPDPPP (DOF 20/03/2025, texto vigente; última reforma DOF 14/11/2025), que abrogó la ley de 2010",
-    "fuente_buenas_practicas": "Lineamientos del Aviso de Privacidad (DOF 17/01/2013): hoy son buenas prácticas orientadoras, no norma vigente",
-    "emisor_lineamientos": "Secretaría de Economía con opinión del entonces IFAI (funciones que hoy corresponden a la Secretaría Anticorrupción y Buen Gobierno)",
+    "fuente_buenas_practicas": "Lineamientos del Aviso de Privacidad (DOF 17/01/2013), previstos en el Art. 43 fracc. III de la ley de 2010, ya abrogada; su Lineamiento Segundo los declaró de observancia obligatoria mientras esa ley rigió. La ley de 2025 no los menciona, el Transitorio Segundo de su decreto no los incluye entre lo que abroga y el Art. 26 del Reglamento de 2011 todavía remite a ellos: su vigencia no está resuelta en esos textos. Aquí se usan como referencia en lo que no se opongan a la ley vigente, y lo que no exigen expresamente la ley ni el Reglamento se rotula como buena práctica.",
+    "emisor_lineamientos": "Secretaría de Economía, en coadyuvancia con el entonces IFAI (Art. 43 fracc. III de la ley de 2010, abrogada). La ley de 2025 no reproduce esa atribución; la autoridad en la materia es hoy la Secretaría Anticorrupción y Buen Gobierno (Art. 2 fracc. XV).",
     "ultima_revision_doctrinaria": "2026-09",
-    "nota_criterio": "El contenido MÍNIMO obligatorio del aviso de privacidad lo fija el artículo 15 de la LFPDPPP vigente en SEIS fracciones (antes eran los elementos del artículo 16 de la ley abrogada). Fuera del artículo 15, la ley exige además la cláusula en la que se indique si la persona titular acepta o no la transferencia, cuando se pretenda transferir (Art. 35, segundo párrafo), y los mecanismos y procedimientos para revocar el consentimiento (Art. 7, último párrafo). El fundamento legal, los datos de la persona o departamento de datos personales y la fecha de actualización se conservan como buenas prácticas recomendadas."
+    "nota_criterio": "El contenido MÍNIMO obligatorio del aviso de privacidad lo fija el artículo 15 de la LFPDPPP vigente en SEIS fracciones (antes eran los elementos del artículo 16 de la ley abrogada). Fuera del artículo 15, la ley exige además la cláusula en la que se indique si la persona titular acepta o no la transferencia, cuando se pretenda transferir (Art. 35, segundo párrafo), y los mecanismos y procedimientos para revocar el consentimiento (Art. 7, último párrafo). El fundamento legal, la identidad de la persona o departamento de datos personales y la fecha de actualización se recomiendan como buenas prácticas; el medio de contacto para ejercer los derechos ARCO sí es parte del mínimo (Art. 15 fracc. V: mecanismos, medios y procedimientos)."
   },
   "modalidades_aviso": {
-    "nota_origen": "La clasificación en tres modalidades (integral, simplificado y corto) proviene de los Lineamientos del Aviso (DOF 17/01/2013), hoy buenas prácticas; sigue siendo útil para modular el aviso según el espacio disponible. Ojo: cuando los datos se obtienen por medios electrónicos, ópticos, sonoros, visuales o cualquier otra tecnología, el Art. 16 fracc. II de la LFPDPPP vigente exige al menos el aviso simplificado (fracc. I a IV del Art. 15 más el sitio del integral); en esos casos el aviso corto no basta.",
+    "nota_origen": "La clasificación en tres modalidades (integral, simplificado y corto) proviene de los Lineamientos del Aviso (DOF 17/01/2013), que aquí se usan como referencia en lo que no se opongan a la ley vigente; la ley de 2025 nombra el aviso integral y la modalidad simplificada (Art. 16 fracc. II), pero no el corto. Sigue siendo útil para modular el aviso según el espacio disponible. Ojo: cuando los datos se obtienen por medios electrónicos, ópticos, sonoros, visuales o cualquier otra tecnología, el Art. 16 fracc. II de la LFPDPPP vigente exige al menos el aviso simplificado (fracc. I a IV del Art. 15 más el sitio del integral); en esos casos el aviso corto no basta. Ojo también en sentido inverso: el aviso simplificado que describen los Lineamientos (Trigésimo cuarto y Trigésimo sexto) pide como mínimo identidad y domicilio, finalidades —distinguiendo las que no son necesarias para la relación jurídica, con su mecanismo de negativa— y los mecanismos para conocer el integral, pero no el listado de datos tratados ni la identificación de los sensibles; en ese punto se quedan cortos frente al Art. 16 fracc. II vigente, que remite a las fracc. I a IV del Art. 15, y no se siguen.",
     "integral": {
-      "definicion": "Aviso completo que se proporciona cuando el primer contacto físico o directo con el titular ocurre en un espacio que permita su lectura completa.",
+      "definicion": "Aviso que contiene la totalidad de los elementos informativos del tratamiento. El responsable siempre está obligado a contar con él, cualquiera que sea la modalidad que ponga a disposición, y los Lineamientos del Aviso 2013 (referencia) lo exigen cuando los datos se obtienen personalmente de la persona titular (Decimoctavo fracc. I; Decimonoveno fracc. I y último párrafo).",
       "casos_uso": [
         "Sitio web (página de privacidad accesible)",
         "Contrato suscrito con titular",
@@ -18,19 +18,19 @@
       ]
     },
     "simplificado": {
-      "definicion": "Aviso que se proporciona cuando el espacio sea limitado pero permita el desarrollo de un texto reducido y dirija al titular al aviso integral.",
+      "definicion": "Aviso con al menos la información de las fracc. I a IV del Art. 15 y el sitio donde se puede consultar el integral. Es la modalidad que exige el Art. 16 fracc. II cuando los datos se obtienen por cualquier medio electrónico, óptico, sonoro, visual o cualquier otra tecnología; fuera de esos casos, sirve cuando el espacio es limitado pero permite un texto reducido que dirija al integral.",
       "casos_uso": [
         "Formularios físicos breves",
         "Tickets, recibos, comprobantes",
         "Pantallas pequeñas de aplicación móvil al recabar",
-        "Llamadas telefónicas (versión hablada; no recabar datos sensibles por este medio: el Art. 8 exige consentimiento expreso y por escrito)",
-        "Banners de cookies en sitios web (Art. 16 fracc. II)",
+        "Llamadas telefónicas (versión hablada; no recabar por este medio datos sensibles sin el consentimiento expreso y por escrito que exige el Art. 8)",
+        "Banners de cookies en sitios web (Art. 16 fracc. II; además, informar el uso de esas tecnologías, que por ellas se obtienen datos personales y la forma en que se pueden deshabilitar: Art. 14, tercer párrafo, del Reglamento)",
         "Captura de imagen en CCTV, con letrero de videovigilancia (Art. 16 fracc. II)",
         "Encuesta por SMS o formulario web (Art. 16 fracc. II)"
       ]
     },
     "corto": {
-      "definicion": "Aviso que se proporciona cuando el espacio sea tan reducido que no permita el aviso simplificado. Solo identificación del responsable, finalidades, y mecanismo para acceder al integral.",
+      "definicion": "Aviso que puede utilizarse cuando el espacio empleado para obtener los datos sea mínimo y limitado, de forma tal que los datos personales recabados también sean mínimos (Art. 28 del Reglamento, referido a medios impresos; Lineamientos del Aviso 2013, Decimonoveno fracc. III, referencia). Solo identidad y domicilio del responsable, finalidades y mecanismos para conocer el aviso integral.",
       "casos_uso": [
         "Etiquetas o anuncios impresos pequeños, solo como remisión adicional al simplificado o al integral",
         "NO sustituye al simplificado cuando los datos se obtienen por medios electrónicos, ópticos, sonoros o visuales (cookies, CCTV, SMS, app, llamada): ahí el Art. 16 fracc. II exige el simplificado"
@@ -41,21 +41,21 @@
     "nota": "Contenido mínimo obligatorio del aviso de privacidad conforme al artículo 15 de la LFPDPPP vigente: seis fracciones (I a VI).",
     "fraccion_I_identidad_y_domicilio_del_responsable": {
       "minimo_legal": true,
-      "contenido": "Denominación o razón social completa, RFC si es persona moral, domicilio físico completo (calle, número, colonia, código postal, municipio, estado, país)",
+      "contenido": "Nombre completo (persona física) o denominación o razón social (persona moral) y domicilio completo (calle, número, colonia, código postal, municipio, estado, país). El RFC no lo exige el Art. 15; incluirlo si es persona moral es buena práctica",
       "ejemplo": "EJEMPLO S.A. de C.V., con RFC EJE123456ABC, con domicilio en Av. Ejemplo No. 123, Col. Centro, C.P. 77500, Cancún, Quintana Roo, México."
     },
     "fraccion_II_datos_tratados_identificando_sensibles": {
       "minimo_legal": true,
-      "contenido": "Lista clara y específica de los datos personales que serán sometidos a tratamiento. Separar visiblemente e identificar los datos sensibles si los hay.",
+      "contenido": "Lista clara y específica de los datos personales que serán sometidos a tratamiento. Identificar los datos sensibles si los hay (Art. 15 fracc. II); separarlos visiblemente es buena práctica.",
       "categorias_tipicas": [
         "Datos de identificación (nombre, fecha de nacimiento, RFC, CURP, identificación oficial)",
         "Datos de contacto (correo, teléfono, domicilio)",
         "Datos laborales (puesto, empresa, antigüedad)",
         "Datos académicos (escolaridad, certificaciones)",
-        "Datos patrimoniales o financieros (cuentas bancarias, ingresos)",
+        "Datos patrimoniales o financieros (cuentas bancarias, ingresos); requieren consentimiento expreso, salvo las excepciones de los Arts. 9 y 36 (Art. 7)",
         "Datos migratorios (cuando aplique)"
       ],
-      "advertencia_sensibles": "Si se recaban datos sensibles, indicarlo expresamente con la leyenda: 'Para el tratamiento de estos datos sensibles requerimos su consentimiento expreso y por escrito.' Este consentimiento reforzado se fundamenta en el Art. 8 de la LFPDPPP vigente."
+      "advertencia_sensibles": "Si se recaban datos sensibles, identificarlos como tales (Art. 15 fracc. II) y, como buena práctica, agregar la leyenda: 'Para el tratamiento de estos datos sensibles requerimos su consentimiento expreso y por escrito.' Este consentimiento reforzado se fundamenta en el Art. 8 de la LFPDPPP vigente."
     },
     "fraccion_III_finalidades_distinguiendo_las_que_requieren_consentimiento": {
       "minimo_legal": true,
@@ -80,7 +80,7 @@
           "Elaboración de perfiles de cliente",
           "Compartir información con socios comerciales"
         ],
-        "requisito": "Debe ofrecerse mecanismo de oposición claro y accesible (casilla de verificación, formulario, correo). Estas son las finalidades que deben distinguirse por requerir el consentimiento del titular."
+        "requisito": "Debe ofrecerse un mecanismo claro y accesible para manifestar la negativa al tratamiento para estas finalidades (casilla de verificación, formulario, correo), conforme al Art. 14 del Reglamento. Estas son las finalidades que deben distinguirse por requerir el consentimiento del titular."
       }
     },
     "fraccion_IV_opciones_y_medios_para_limitar_uso_o_divulgacion": {
@@ -93,17 +93,18 @@
         "Botón de baja en cada comunicación"
       ],
       "opciones_adicionales": [
-        "Inscripción en listas de exclusión",
-        "Inscripción en el Registro Público para Evitar Publicidad (REPEP) de la PROFECO"
+        "Inscripción en listados de exclusión propios del responsable, o en los comunes por sectores o generales (Art. 110 del Reglamento)",
+        "Inscripción en el Registro Público de Consumidores de la PROFECO, conocido comúnmente como REPEP: registro gratuito de los consumidores que no desean que su información se utilice con fines mercadotécnicos o publicitarios (Art. 18 de la Ley Federal de Protección al Consumidor; el Art. 111 del Reglamento lo da por vigente)",
+        "Si el cliente pertenece al sector financiero, el Art. 111 del Reglamento remite además al Registro Público de Usuarios previsto en la Ley de Protección y Defensa al Usuario de Servicios Financieros; verifique la regulación vigente de ese sector"
       ]
     },
     "fraccion_V_medios_para_ejercer_ARCO": {
       "minimo_legal": true,
-      "contenido": "Los medios y el procedimiento para que el titular ejerza sus derechos de Acceso, Rectificación, Cancelación y Oposición (ejercicio conforme al Art. 21 de la LFPDPPP vigente).",
+      "contenido": "Los mecanismos, medios y procedimientos para que el titular ejerza sus derechos de Acceso, Rectificación, Cancelación y Oposición, de conformidad con la LFPDPPP vigente (Arts. 21 y 27 a 34).",
       "elementos_minimos": [
-        "Datos de contacto de la persona o departamento de datos personales (Art. 29)",
-        "Requisitos de la solicitud conforme al Art. 28 (nombre del titular y medio para comunicarle la respuesta, documentos que acrediten identidad o representación, descripción clara y precisa de los datos, salvo en el derecho de acceso; descripción del derecho que se pretende ejercer o de lo que se solicita; y cualquier otro elemento que facilite la localización de los datos)",
-        "Plazos de respuesta: 20 días hábiles, ampliable una sola vez por un periodo igual, más 15 días para materializar (Art. 31)",
+        "Medio de contacto para presentar las solicitudes ARCO (correo electrónico, domicilio o formulario). Identificar a la persona o departamento de datos personales que les da trámite (Art. 29) es buena práctica, no parte del mínimo",
+        "Requisitos de la solicitud conforme al Art. 28 (nombre del titular y domicilio o cualquier otro medio para recibir notificaciones, documentos que acrediten identidad o representación, descripción clara y precisa de los datos, salvo en el derecho de acceso; descripción del derecho que se pretende ejercer o de lo que se solicita; y cualquier otro elemento que facilite la localización de los datos)",
+        "Plazos: 20 días hábiles para comunicar la respuesta y, si procede, 15 días hábiles para hacerla efectiva; ambos pueden ampliarse una sola vez por un periodo igual cuando lo justifiquen las circunstancias del caso (Art. 31)",
         "Medios disponibles (correo, presencial, formulario)",
         "Costos (gratuito; solo pueden cobrarse los costos de reproducción, copias o envío, Art. 34)"
       ]
@@ -122,15 +123,15 @@
     }
   },
   "buenas_practicas_recomendadas": {
-    "nota": "Elementos que no están en el mínimo del artículo 15 vigente. OJO: dos de ellos los exige la ley en otros artículos y NO son opcionales: la cláusula de transferencias cuando se pretenda transferir (Art. 35, segundo párrafo) y los mecanismos para revocar el consentimiento (Art. 7, último párrafo). Los demás son buena práctica (varios eran obligatorios bajo el artículo 16 de la ley abrogada). Incluirlos fortalece la transparencia y el cumplimiento.",
+    "nota": "Elementos que no están en el mínimo del artículo 15 vigente. OJO: dos de ellos los exige la ley en otros artículos y NO son opcionales: la cláusula de transferencias cuando se pretenda transferir (Art. 35, segundo párrafo) y los mecanismos para revocar el consentimiento (Art. 7, último párrafo). Los demás son buena práctica (tampoco figuraban en el artículo 16 de la ley abrogada). Incluirlos fortalece la transparencia y el cumplimiento.",
     "transferencias": {
       "obligatorio": true,
-      "fundamento": "Art. 35, segundo párrafo, LFPDPPP",
-      "contenido": "OBLIGATORIO cuando se pretenda transferir (Art. 35, segundo párrafo): cláusula en la que se indique si la persona titular acepta o no la transferencia de sus datos. Como buena práctica, para cada transferencia: nombre/categoría del receptor, finalidad de la transferencia, indicar si requiere consentimiento del titular.",
+      "fundamento": "Art. 35, segundo párrafo, LFPDPPP; Art. 68 del Reglamento",
+      "contenido": "OBLIGATORIO cuando se pretenda transferir (Art. 35, segundo párrafo): cláusula en la que se indique si la persona titular acepta o no la transferencia de sus datos. Además, toda transferencia debe informarse en el aviso y limitarse a la finalidad que la justifique (Art. 68 del Reglamento), así que para cada una se indica el receptor (nombre o categoría), la finalidad de la transferencia y si requiere consentimiento del titular; como buena práctica, también de qué tipo o en qué fracción del Art. 36 se ubica.",
       "formato_tabla_recomendado": {
         "destinatario": "Nombre o categoría",
         "finalidad": "Para qué",
-        "consentimiento_requerido": "Sí / No / Por ser obligación legal"
+        "consentimiento_requerido": "Sí, y de qué tipo (tácito; expreso si son datos financieros o patrimoniales, Art. 7; expreso y por escrito si son sensibles, Art. 8) / No, y la fracción del Art. 36 que aplica (p. ej. fracc. I, transferencia prevista en ley)"
       },
       "transferencias_que_no_requieren_consentimiento": "Listar conforme Art. 36 LFPDPPP cuando aplique."
     },
@@ -138,7 +139,7 @@
       "obligatorio": true,
       "fundamento": "Art. 7, último párrafo, LFPDPPP",
       "contenido": "OBLIGATORIO (Art. 7, último párrafo): mecanismos y procedimientos para que el titular pueda revocar su consentimiento al tratamiento.",
-      "nota": "Generalmente se sigue el mismo procedimiento que los derechos ARCO."
+      "nota": "Puede seguir el procedimiento de los derechos ARCO, siempre que el mecanismo sea sencillo y gratuito, permita revocar al menos por el mismo medio por el que se otorgó el consentimiento (salvo que lo impida una disposición legal) y no exceda los plazos de respuesta de los derechos ARCO (Art. 21 del Reglamento, que remite al Art. 32 de la ley de 2010, hoy Art. 31)."
     },
     "fundamento_legal_del_tratamiento": {
       "recomendado": true,
@@ -146,7 +147,7 @@
     },
     "designacion_departamento_de_datos_personales": {
       "recomendado": true,
-      "contenido": "Indicar la persona o departamento de datos personales que el responsable designa para atender las solicitudes ARCO y fomentar la protección de datos (Art. 29 de la LFPDPPP vigente)."
+      "contenido": "Indicar en el aviso la persona o departamento de datos personales que el responsable designa para dar trámite a las solicitudes ARCO. Designarla es obligatorio (Art. 29 de la LFPDPPP vigente); identificarla en el aviso es buena práctica. El medio de contacto para presentar las solicitudes sí es parte del mínimo (Art. 15 fracc. V)."
     },
     "fecha_de_ultima_actualizacion": {
       "recomendado": true,
@@ -161,25 +162,27 @@
     "Sitio donde se puede consultar el aviso integral (Art. 16 fracc. II)"
   ],
   "elementos_aviso_corto": [
-    "Identidad del responsable",
+    "Identidad y domicilio del responsable",
     "Finalidades del tratamiento",
     "Mecanismo para acceder al aviso integral (URL, código QR, dirección física)"
   ],
   "reglas_de_redaccion": {
-    "claridad": "El aviso debe ser comprensible y con lenguaje sencillo, evitando tecnicismos excesivos.",
-    "veracidad": "La información debe ser exacta y no engañosa.",
+    "nota": "Que el aviso sea sencillo, con la información necesaria, en lenguaje claro y comprensible, y con una estructura y diseño que faciliten su entendimiento lo pide el Art. 24 del Reglamento. Ese artículo no menciona el idioma: el español lo pide el Décimo de los Lineamientos del Aviso 2013, que aquí se usan como referencia. El formato accesible y el tamaño mínimo de letra no están en la ley, en el Reglamento ni en los Lineamientos: se proponen como buena práctica.",
+    "claridad": "El aviso debe ser comprensible y con lenguaje sencillo, evitando tecnicismos excesivos; su redacción debe tomar en cuenta el perfil de las personas titulares (Lineamientos 2013, Décimo fracc. II, referencia).",
+    "veracidad": "La información debe ser exacta y no engañosa: no usar frases inexactas, ambiguas o vagas (Lineamientos 2013, Décimo fracc. I, referencia).",
     "estructura": "Debe seguir un orden lógico que facilite la lectura.",
-    "accesibilidad": "Debe estar disponible en formatos accesibles cuando sea posible.",
-    "idioma": "En español. Si el público es multilingüe, también en los idiomas correspondientes.",
-    "tamaño_de_letra": "Legible. Para aviso simplificado en formato físico, evitar tamaños menores a 8 puntos.",
-    "no_oculto": "No puede estar dentro de términos y condiciones generales de difícil acceso; debe ser un documento identificable como aviso de privacidad."
+    "sin_induccion": "No incluir textos o formatos que induzcan a la persona titular a elegir una opción en específico y, si se incluyen casillas para que otorgue su consentimiento, no marcarlas previamente (Lineamientos 2013, Décimo fracc. III y IV, referencia).",
+    "accesibilidad": "Debe estar disponible en formatos accesibles cuando sea posible (buena práctica).",
+    "idioma": "En español (Lineamientos 2013, Décimo, referencia). Si el público es multilingüe, agregar los idiomas correspondientes es buena práctica.",
+    "tamaño_de_letra": "Legible (buena práctica). Para aviso simplificado en formato físico, evitar tamaños menores a 8 puntos.",
+    "no_oculto": "No puede estar dentro de términos y condiciones generales de difícil acceso; debe ser un documento identificable como aviso de privacidad, ubicado en un lugar visible y que facilite su consulta, y no debe remitir a textos o documentos que no estén disponibles para la persona titular (Lineamientos 2013, Decimoprimero último párrafo y Décimo fracc. V, referencia)."
   },
   "momento_de_proporcionar": {
     "regla_general": "A partir del momento en que se recaban los datos personales (Art. 2 fracc. I). El responsable debe poner el aviso a disposición del titular conforme al artículo 16 de la LFPDPPP vigente (deber de poner a disposición; antes artículo 17 de la ley abrogada).",
     "casos_especiales": {
-      "datos_obtenidos_directamente": "Al momento de recabar los datos.",
-      "datos_obtenidos_indirectamente": "Antes del primer uso o aprovechamiento, salvo las excepciones que prevé la ley.",
-      "redes_sociales_publicas": "El responsable está exceptuado de proporcionar el aviso cuando los datos figuren en fuentes de acceso público, pero conserva los demás deberes (calidad, seguridad, ARCO)."
+      "datos_obtenidos_directamente": "Al momento de recabar los datos: si se obtienen personalmente en formatos impresos, el aviso se da a conocer en ese momento, salvo que se haya facilitado con anterioridad (Art. 16 fracc. I). El Art. 14 del Reglamento y el Decimosegundo fracc. I de los Lineamientos 2013 (referencia) piden ponerlo a disposición previamente, que es la práctica segura.",
+      "datos_obtenidos_indirectamente": "Si se tratan para la finalidad prevista en una transferencia consentida o provienen de una fuente de acceso público, en el primer contacto con el titular; si se usarán para una finalidad distinta a la consentida, antes de aprovecharlos (Art. 29 del Reglamento). La regla del Art. 17 LFPDPPP para datos no obtenidos directamente del titular (primer párrafo) no aplica al tratamiento con fines históricos, estadísticos o científicos (segundo párrafo) y, si dar a conocer el aviso de manera directa resulta imposible o exige esfuerzos desproporcionados, el responsable puede instrumentar medidas compensatorias en términos del Reglamento (tercer párrafo).",
+      "redes_sociales_publicas": "Tomar los datos de una fuente de acceso público NO exime del aviso: solo exime del consentimiento (Art. 9 fracc. II). El aviso se da a conocer en el primer contacto con el titular (Art. 29 fracc. I del Reglamento) y se conservan los demás deberes (calidad, seguridad, ARCO). Ojo: no dé por hecho que una red social es fuente de acceso público; el Art. 2 fracc. X vigente se refiere a bases de datos, sistemas o archivos que por disposición de ley puedan consultarse públicamente, y excluye la información de procedencia ilícita (el Art. 7 del Reglamento, que incluye los sitios abiertos a la consulta general, desarrolla la definición de 2010, que no pedía la disposición de ley). Si no encuadra, se requiere consentimiento, salvo otra excepción del Art. 9."
     }
   }
 }

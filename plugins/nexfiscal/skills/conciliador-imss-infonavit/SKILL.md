@@ -66,11 +66,13 @@ sino de su cliente**. El cálculo no los necesita.
   una etiqueta: usa el consecutivo del renglón (`R-01`, `R-02`) o las últimas
   cuatro posiciones del NSS si el usuario lo prefiere.
 - En tu reporte al usuario **sí** puedes usar el nombre que él ve en su
-  documento, para que reconozca el renglón. Lo que no sale de su pantalla es lo
-  que viaja al servidor.
+  documento, para que reconozca el renglón. La restricción es sobre lo que
+  viaja al connector, no sobre lo que el usuario ve en su pantalla.
 - El **folio de incapacidad sí se envía**: es lo que necesita para la
-  aclaración, y por sí solo no identifica a nadie porque no va acompañado de
-  nombre ni NSS. Nunca pidas el diagnóstico ni nada clínico.
+  aclaración y viaja sin nombre ni NSS. Aun así trátalo como dato personal:
+  cruzado con los registros del patrón o del IMSS identifica al trabajador de
+  forma indirecta (Art. 2 fracc. V LFPDPPP). Nunca pidas el diagnóstico ni
+  nada clínico.
 
 ## Cómo leer la EMA (formato EMI-01)
 

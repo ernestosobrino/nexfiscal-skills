@@ -1,104 +1,107 @@
 {
   "metadata": {
-    "fuente": "LFPDPPP (DOF 20/03/2025, texto vigente; última reforma DOF 14/11/2025, que abrogó la ley de 2010), LGPDPPSO 2025",
+    "fuente": "LFPDPPP y LGPDPPSO, ambas publicadas en el DOF el 20/03/2025 por el mismo Decreto (texto vigente; última reforma DOF 14/11/2025 en las dos), que abrogó la LFPDPPP de 2010 y la LGPDPPSO de 2017 (Transitorio Segundo, fracc. I y IV)",
     "ultima_actualizacion": "2026-09",
     "uso": "Comparativo para casos en que el responsable sea o pudiera ser sujeto obligado del sector público."
   },
   "cuando_aplica_cada_una": {
     "lfpdppp_aplica_a": [
-      "Personas físicas con actividad empresarial o profesional",
-      "Personas morales privadas (S.A. de C.V., S.A.P.I., S. de R.L., S.C., A.C., A. en P., etc.)",
-      "Fideicomisos privados",
+      "Personas físicas de carácter privado que lleven a cabo el tratamiento de datos personales (Art. 2 fracc. XVI; la ley no lo condiciona a que tengan actividad empresarial o profesional), salvo la recolección y almacenamiento para uso exclusivamente personal, sin fines de divulgación o utilización comercial (Art. 1 fracc. II); el tratamiento que tenga como propósito cumplir con una obligación derivada de una relación jurídica no se considera para uso exclusivamente personal (Art. 6 del Reglamento)",
+      "Personas morales privadas (S.A. de C.V., S.A.P.I., S. de R.L., S.C., A.C., etc.), salvo las sociedades de información crediticia en los supuestos de la Ley para Regular las Sociedades de Información Crediticia y demás disposiciones aplicables (Art. 1 fracc. I)",
+      "Fideicomisos privados: no son los fideicomisos y fondos públicos que la LGPDPPSO enumera entre sus sujetos obligados (Art. 3 fracc. XXVII), así que el tratamiento de datos personales que se realice con motivo de uno queda en el ámbito de la LFPDPPP; identificar cuál es la persona física o moral de carácter privado que resulta responsable (Art. 2 fracc. XVI) exige revisar el contrato y la legislación que rige al fideicomiso",
+      "Integrantes de un grupo que actúe sin personalidad jurídica y trate datos personales para finalidades específicas o propias del grupo, que se consideran también responsables o encargados, según sea el caso (Art. 8 del Reglamento)",
       "Asociaciones civiles y religiosas privadas",
-      "Sindicatos en su carácter privado (no cuando reciban recursos públicos)"
+      "Sindicatos: la LGPDPPSO 2025 no los enumera entre sus sujetos obligados (Art. 3 fracc. XXVII), de modo que su tratamiento de datos personales queda en el ámbito de la LFPDPPP"
     ],
     "lgpdppso_aplica_a": [
-      "Cualquier autoridad, entidad, órgano y organismo de los Poderes Ejecutivo, Legislativo y Judicial",
-      "Órganos autónomos (CNDH, INE, etc.)",
+      "Cualquier autoridad, entidad, órgano y organismo de los poderes Ejecutivo, Legislativo y Judicial (definición de sujetos obligados: Art. 3 fracc. XXVII; objeto de la ley: Art. 2 fracc. V)",
+      "Órganos autónomos (la ley no enumera cuáles; en el Art. 3 fracc. II nombra al Instituto Nacional Electoral, pero para definirlo como Autoridad garante por cuanto hace al acceso a la protección de datos personales a cargo de los partidos políticos)",
       "Partidos políticos",
       "Fideicomisos y fondos públicos",
-      "Sindicatos y cualquier persona física o moral que reciba y ejerza recursos públicos o realice actos de autoridad federal, estatal o municipal"
+      "Todo lo anterior, en el ámbito federal, estatal y municipal o de las demarcaciones territoriales de la Ciudad de México (Art. 3 fracc. XXVII)",
+      "La ley no enumera entre sus sujetos obligados a los sindicatos ni a las personas físicas o morales que reciben y ejercen recursos públicos o realizan actos de autoridad: esa redacción venía de la LGPDPPSO de 2017, abrogada por el Transitorio Segundo, fracc. IV del Decreto de 2025"
     ],
-    "casos_grises": {
-      "concesionarios_publicos": "Cuando reciben recursos públicos o realizan actos de autoridad pueden quedar bajo LGPDPPSO en lo que respecta a esa función",
-      "sindicatos": "LGPDPPSO si reciben cuotas obligatorias o recursos públicos; LFPDPPP en lo privado",
-      "universidades_privadas": "LFPDPPP generalmente; LGPDPPSO si reciben subsidios y en lo concerniente al uso de esos recursos",
-      "instituciones_de_asistencia_privada": "Depende de si reciben recursos públicos"
+    "criterio_de_deslinde": "La LGPDPPSO 2025 delimita a sus sujetos obligados por la naturaleza del ente (Art. 3 fracc. XXVII), no por el origen de sus recursos ni por realizar actos de autoridad. Antes de concluir, leer el ordenamiento que crea o rige al responsable: si es autoridad, entidad, órgano u organismo de los poderes, órgano autónomo, partido político, fideicomiso o fondo público, es sujeto obligado; si no, es sujeto regulado de la LFPDPPP (Art. 2 fracc. XVI)",
+    "casos_frecuentes": {
+      "concesionarios_publicos": "Un concesionario de carácter privado no aparece en la lista del Art. 3 fracc. XXVII de la LGPDPPSO; su tratamiento de datos personales se rige por la LFPDPPP, sin perjuicio de la regulación sectorial que le resulte aplicable",
+      "sindicatos": "No aparecen en la lista del Art. 3 fracc. XXVII de la LGPDPPSO",
+      "universidades_privadas": "No aparecen en la lista del Art. 3 fracc. XXVII de la LGPDPPSO; para una universidad pública hay que revisar el ordenamiento que la crea, porque puede encuadrar en esa definición",
+      "instituciones_de_asistencia_privada": "No aparecen en la lista del Art. 3 fracc. XXVII de la LGPDPPSO"
     }
   },
   "diferencias_principales": [
     {
-      "aspecto": "Autoridad sancionadora",
-      "lfpdppp": "Secretaría Anticorrupción y Buen Gobierno (federal)",
-      "lgpdppso": "Secretaría Anticorrupción y Buen Gobierno (federal) + Órganos garantes locales según ámbito de competencia"
+      "aspecto": "Autoridad de vigilancia y sanción",
+      "lfpdppp": "Secretaría Anticorrupción y Buen Gobierno (Art. 2 fracc. XV), que vigila y verifica el cumplimiento e impone las sanciones (Art. 39 fracc. I y VI; infracciones en el Art. 58 y sanciones en el Art. 59)",
+      "lgpdppso": "La Secretaría Anticorrupción y Buen Gobierno (Art. 3 fracc. XXVI) y las Autoridades garantes, que la ley define como el órgano de control y disciplina del Poder Judicial, los órganos internos de control de los órganos constitucionales autónomos, las contralorías internas del Congreso de la Unión, el Instituto Nacional Electoral por cuanto hace a los partidos políticos y los órganos de contraloría interna u homólogos de los poderes y de los órganos constitucionales autónomos de las Entidades Federativas (Art. 3 fracc. II). Vigilan, verifican e imponen medidas de apremio (Arts. 81, 83, 115 y 122); las sanciones del Art. 132 las impone la autoridad competente a la que se da vista (Art. 133)"
     },
     {
       "aspecto": "Sistema de gestión de seguridad",
-      "lfpdppp": "Documento de Seguridad (Art. 60 Reglamento)",
-      "lgpdppso": "Sistema de gestión obligatorio con metodología más exigente; análisis y evaluación de impacto cuando aplique"
+      "lfpdppp": "Ni la ley ni el Reglamento usan la figura de 'sistema de gestión': la ley obliga a establecer y mantener medidas de seguridad administrativas, técnicas y físicas, no menores a las que el responsable mantenga para el manejo de su información (Art. 18); el Reglamento enumera las acciones que deberá considerar (Art. 61, fracc. I a IX) y exige una relación de las medidas de seguridad (Art. 61, último párrafo; actualización en el Art. 62). 'Documento de seguridad' es el nombre práctico de ese conjunto; ninguno de los dos textos usa el término",
+      "lgpdppso": "Las acciones relacionadas con las medidas de seguridad deben estar documentadas y contenidas en un sistema de gestión, que la propia ley define como el conjunto de elementos y actividades interrelacionadas para establecer, implementar, operar, monitorear, revisar, mantener y mejorar el tratamiento y la seguridad de los datos personales (Art. 28); las actividades mínimas están en el Art. 27 (fracc. I a VIII, entre ellas el inventario, el análisis de riesgo y el análisis de brecha) y el documento de seguridad sí es figura expresa de esta ley (Art. 3 fracc. XIV), con contenido en el Art. 29 y supuestos de actualización en el Art. 30"
     },
     {
-      "aspecto": "Evaluación de impacto en privacidad",
-      "lfpdppp": "Recomendada, no obligatoria",
-      "lgpdppso": "Obligatoria cuando el tratamiento conlleve riesgo elevado"
+      "aspecto": "Evaluación de impacto en la protección de datos personales",
+      "lfpdppp": "Ni la ley ni el Reglamento la exigen al responsable; entre las medidas que el responsable podrá adoptar, el Reglamento incluye un procedimiento para atender y mitigar el riesgo para la protección de datos personales por la implementación de nuevos productos, servicios, tecnologías y modelos de negocios (Art. 48 fracc. V). Los estudios de impacto sobre la privacidad del Art. 39 fracc. IX de la ley son atribución de la Secretaría",
+      "lgpdppso": "Obligatoria cuando el responsable pretenda poner en operación o modificar políticas públicas, sistemas o plataformas informáticas, aplicaciones electrónicas o cualquier otra tecnología que, a su juicio y de conformidad con esa ley, impliquen tratamiento intensivo o relevante de datos personales (Art. 68; definición del documento en el Art. 3 fracc. XV). Hay tratamiento intensivo o relevante cuando existan riesgos inherentes a los datos, se traten datos sensibles o se efectúen o pretendan efectuar transferencias (Art. 69). Se presenta ante la Secretaría o la Autoridad garante treinta días antes (Art. 71), que emiten recomendaciones no vinculantes dentro de los treinta días siguientes (Art. 72); no se requiere cuando, a juicio del sujeto obligado, se comprometan los efectos que se pretenden lograr o se trate de situaciones de emergencia o urgencia (Art. 73)"
     },
     {
       "aspecto": "Notificación de vulneraciones de seguridad",
-      "lfpdppp": "Se informa al titular cuando la vulneración afecte significativamente sus derechos patrimoniales o morales (Art. 19); en particulares NO existe obligación de notificar a la autoridad",
-      "lgpdppso": "Además de informar al titular, existe obligación de notificar la vulneración al órgano garante o autoridad conforme a la LGPDPPSO"
+      "lfpdppp": "Se informa a la persona titular, de forma inmediata, cuando la vulneración afecte de forma significativa sus derechos patrimoniales o morales (Art. 19; información mínima en el Art. 65 del Reglamento); ni la ley ni el Reglamento prevén notificarla a la Secretaría (revisar si la regulación sectorial aplicable exige avisar a otra autoridad)",
+      "lgpdppso": "Se informa sin dilación alguna a la persona titular y, según corresponda, a la Secretaría y a las Autoridades garantes, las vulneraciones que afecten de forma significativa los derechos patrimoniales o morales (Art. 34); la ley no fija un plazo en días. Información mínima a la persona titular en el Art. 35, bitácora de vulneraciones en el Art. 33 y acciones preventivas y correctivas en el Art. 31"
     },
     {
       "aspecto": "Aviso de privacidad",
-      "lfpdppp": "Contenido mínimo en el Art. 15 de la LFPDPPP vigente (seis fracciones). Los Lineamientos del Aviso (DOF 17/01/2013) son hoy buenas prácticas, no norma vigente - 3 modalidades: integral, simplificado, corto",
-      "lgpdppso": "Lineamientos generales para la elaboración del aviso (sector público) - reglas adicionales sobre formalidades"
+      "lfpdppp": "Contenido mínimo en el Art. 15 de la LFPDPPP vigente (seis fracciones), más la cláusula en la que se indique si la persona titular acepta o no la transferencia, cuando se pretenda transferir (Art. 35), y los mecanismos y procedimientos para revocar el consentimiento (Art. 7). Si los datos se obtienen por medios electrónicos, ópticos, sonoros, visuales o cualquier otra tecnología, es obligatorio al menos el aviso simplificado (fracc. I a IV del Art. 15 y el sitio del integral: Art. 16 fracc. II); en esos casos el corto no basta. Los Lineamientos del Aviso (DOF 17/01/2013) se emitieron con fundamento en el Art. 43 fracc. III de la ley de 2010, hoy abrogada, y ningún transitorio del Decreto de 2025 los abroga expresamente (Transitorio Segundo); se usan aquí como referencia de buena práctica en lo que no se oponga a la ley vigente - 3 modalidades: integral, simplificado y corto (Lineamiento Decimoctavo)",
+      "lgpdppso": "Contenido mínimo en el Art. 21 (nueve fracciones; incluye el fundamento legal que faculta el tratamiento y el domicilio de la Unidad de Transparencia); modalidad simplificada con las fracciones I, IV, VII y VIII más el sitio donde se consulta el integral (Art. 22); debe difundirse por los medios electrónicos y físicos con que cuente el responsable y ponerse a disposición en su modalidad simplificada, con medidas compensatorias conforme a los criterios que emita la Secretaría cuando darlo a conocer de manera directa resulte imposible o exija esfuerzos desproporcionados (Art. 20). La ley no prevé lineamientos del aviso para el sector público; la Secretaría puede emitir lineamientos generales para el debido tratamiento (Art. 81 fracc. XXIV)"
     },
     {
-      "aspecto": "Encargado/Responsable interno",
+      "aspecto": "Figura interna de datos personales",
       "lfpdppp": "Persona o departamento de datos personales (Art. 29)",
-      "lgpdppso": "Unidad de Transparencia y Comité de Transparencia con funciones específicas"
+      "lgpdppso": "Comité de Transparencia, autoridad máxima en materia de protección de datos personales, con las funciones del Art. 78 (Arts. 3 fracc. VI y 77), y Unidad de Transparencia, que gestiona las solicitudes ARCO, con las funciones del Art. 79 (Art. 3 fracc. XXXII); quien lleve a cabo tratamientos relevantes o intensivos podrá designar además a un oficial de protección de datos personales, que formará parte de la Unidad de Transparencia (Art. 79)"
     },
     {
       "aspecto": "Plazos ARCO",
-      "lfpdppp": "20 días respuesta (ampliable una sola vez por un periodo igual) + 15 materialización (Art. 31)",
-      "lgpdppso": "20 días respuesta + 15 materialización (igual)"
+      "lfpdppp": "20 días hábiles para comunicar la respuesta + 15 días hábiles para hacerla efectiva (Art. 31; días hábiles: Art. 2 fracc. VIII); ambos plazos pueden ampliarse una sola vez por un periodo igual cuando lo justifiquen las circunstancias del caso (Art. 31, segundo párrafo)",
+      "lgpdppso": "20 días para responder, contados a partir del día siguiente a la recepción de la solicitud, y 15 días para hacer efectivo el derecho, contados a partir del día siguiente a la notificación de la respuesta (Art. 45; días hábiles: Art. 3 fracc. XII). La ampliación no coincide con la de la LFPDPPP: aquí es por una sola vez hasta por diez días y solo del plazo de respuesta, no de ambos plazos por un periodo igual"
     },
     {
       "aspecto": "Medio de defensa del titular inconforme",
-      "lfpdppp": "Procedimiento de protección de derechos ante la Secretaría Anticorrupción y Buen Gobierno, 15 días para promover (Art. 40); impugnación mediante juicio de amparo especializado",
-      "lgpdppso": "Recurso de revisión ante el órgano garante competente"
+      "lfpdppp": "Procedimiento de protección de derechos ante la Secretaría Anticorrupción y Buen Gobierno, 15 días hábiles para promover desde que se comunica la respuesta; si no la hubo, puede promoverse a partir de que venza el plazo de respuesta, sin plazo final en la ley (Art. 40); las resoluciones de la Secretaría se impugnan mediante juicio de amparo ante jueces y tribunales especializados (Art. 51); el juicio de nulidad que menciona el Art. 126 del Reglamento es el que preveía el Art. 56 de la ley de 2010, abrogada",
+      "lgpdppso": "Recurso de revisión ante la Secretaría o las Autoridades garantes, o ante la Unidad de Transparencia que conoció de la solicitud, dentro de los 15 días siguientes a la notificación de la respuesta (Art. 86) o al vencimiento del plazo de respuesta cuando no la hubo (Art. 95); supuestos de procedencia en el Art. 96 y resolución en 40 días, ampliables por una sola vez hasta por 20 (Art. 100). Las resoluciones son vinculantes, definitivas e inatacables para los responsables; las personas titulares pueden impugnarlas mediante juicio de amparo ante los jueces y tribunales especializados (Art. 107)"
     },
     {
-      "aspecto": "Sanciones a particulares",
-      "lfpdppp": "Multas en UMA (infracciones en Art. 58; multas en Art. 59): de 100 a 160,000 UMA y de 200 a 320,000 UMA según la conducta; de 100 a 320,000 UMA adicionales en caso de reincidencia; hasta el doble cuando se trate de datos sensibles. Además, delitos en materia de tratamiento indebido de datos personales previstos en la ley",
-      "lgpdppso": "Las sanciones operan a través de procedimiento administrativo y responsabilidades de servidores públicos; en el caso de personas físicas o morales que reciben recursos públicos, sanciones administrativas conforme la ley"
+      "aspecto": "Régimen sancionador",
+      "lfpdppp": "Apercibimiento cuando no se cumple una solicitud ARCO sin razón fundada (Art. 58 fracc. I; Art. 59 fracc. I); multas en UMA (infracciones en Art. 58; multas en Art. 59): de 100 a 160,000 UMA y de 200 a 320,000 UMA según la conducta; multa adicional de 100 a 320,000 UMA cuando las infracciones persistan de manera reiterada (Art. 59 fracc. IV; la reincidencia es otra figura: un factor que la Secretaría considera al fundar y motivar, Art. 60 fracc. V); en infracciones cometidas en el tratamiento de datos sensibles, las sanciones podrán incrementarse hasta por dos veces los montos establecidos (Art. 59 fracc. IV). Además, delitos en materia de tratamiento indebido de datos personales previstos en la ley",
+      "lgpdppso": "La Secretaría y las Autoridades garantes imponen medidas de apremio: amonestación pública o multa de 150 a 1,500 veces el valor diario de la UMA (Art. 122), hasta el doble en caso de reincidencia (Art. 127). Las conductas sancionables están en el Art. 132 y, para sancionarlas, se da vista a la autoridad competente (Art. 133): al órgano interno de control cuando la persona presunta infractora sea servidora pública (Art. 136) y al Instituto Nacional Electoral o a los organismos públicos locales electorales tratándose de partidos políticos (Art. 135). Las sanciones y las medidas de apremio de carácter económico no pueden cubrirse con recursos públicos (Arts. 122 y 132)"
     },
     {
       "aspecto": "Transferencias internacionales",
-      "lfpdppp": "Arts. 35 y 36 - el aviso debe contener una cláusula en la que se indique si la persona titular acepta o no la transferencia (Art. 35); excepciones al consentimiento en el Art. 36",
-      "lgpdppso": "Cláusulas tipo, dictamen de la Secretaría Anticorrupción y Buen Gobierno cuando aplique, mayores requisitos"
+      "lfpdppp": "Arts. 35 y 36 - el aviso debe contener una cláusula en la que se indique si la persona titular acepta o no la transferencia (Art. 35); excepciones al consentimiento en el Art. 36; el tercero receptor asume las mismas obligaciones que el responsable que transfirió (Art. 35), lo que en transferencias internacionales puede formalizarse con cláusulas contractuales u otros instrumentos jurídicos (Arts. 74 y 75 del Reglamento)",
+      "lgpdppso": "Toda transferencia, nacional o internacional, está sujeta al consentimiento de la persona titular salvo las excepciones de los Arts. 16, 60 y 64 (Art. 59), y debe formalizarse mediante cláusulas contractuales, convenios de colaboración o cualquier otro instrumento jurídico, con las dos salvedades del Art. 60. Fuera del territorio nacional, el tercero receptor o la persona encargada debe obligarse a proteger los datos conforme a los principios y deberes de esa ley (Art. 62) y en toda transferencia se comunica al receptor el aviso de privacidad (Art. 63). La ley no prevé cláusulas tipo ni dictamen de la Secretaría"
     },
     {
       "aspecto": "Datos de seguridad nacional",
-      "lfpdppp": "No aplica este supuesto",
-      "lgpdppso": "Régimen específico de excepción para datos de seguridad nacional"
+      "lfpdppp": "Sin régimen específico, pero la protección de la seguridad nacional, el orden, la seguridad y la salud públicos y los derechos de terceros son límite a la observancia de los principios y al ejercicio de los derechos de la ley (Art. 3; restricción de los derechos ARCO en el Art. 88 del Reglamento)",
+      "lgpdppso": "El derecho a la protección de datos personales se limita por razones de seguridad nacional, disposiciones de orden público, seguridad y salud públicas o para proteger derechos de terceros (Art. 6); las bases de datos de las instancias de seguridad, procuración y administración de justicia tienen capítulo propio y medidas de seguridad de nivel alto (Arts. 74 a 76); la transferencia por razones de seguridad nacional no requiere consentimiento (Art. 64 fracc. IX), y la Consejería Jurídica del Ejecutivo Federal puede interponer recurso de revisión en materia de seguridad nacional ante la Suprema Corte de Justicia de la Nación (Arts. 108 a 112)"
     },
     {
       "aspecto": "Catálogo de bases de datos",
-      "lfpdppp": "No obligatorio",
-      "lgpdppso": "Obligación de mantener catálogo de bases (registro)"
+      "lfpdppp": "La ley no prevé catálogo ni registro de bases de datos. No confundir con el inventario de datos personales y de los sistemas de tratamiento, primera de las acciones que el responsable deberá considerar para la seguridad (Art. 61 fracc. I del Reglamento)",
+      "lgpdppso": "La ley tampoco prevé catálogo ni registro de bases de datos: lo que exige es un inventario de datos personales y de los sistemas de tratamiento (Art. 27 fracc. III), que forma parte del documento de seguridad (Art. 29 fracc. I). El registro que sí prevé es el de esquemas de mejores prácticas validados o reconocidos, que administra la Secretaría (Arts. 67 y 81 fracc. XIV)"
     }
   ],
   "elementos_comunes": [
-    "Derechos ARCO (idénticos)",
-    "Principios rectores (similares, con matices)",
-    "Definiciones de datos personales y sensibles",
-    "Deberes de seguridad y confidencialidad",
-    "Obligación de tener aviso de privacidad",
-    "La Secretaría Anticorrupción y Buen Gobierno como autoridad de control federal"
+    "Derechos ARCO en las dos leyes, incluida la oposición frente al tratamiento automatizado con efectos jurídicos no deseados (Arts. 21 a 26 LFPDPPP; Arts. 37 a 41 LGPDPPSO). No son idénticos: solo la LGPDPPSO reconoce la portabilidad de los datos (Art. 51)",
+    "Los mismos ocho principios: licitud, finalidad, lealtad, consentimiento, calidad, proporcionalidad, información y responsabilidad (Art. 5 LFPDPPP; Art. 10 LGPDPPSO)",
+    "Definiciones equivalentes de datos personales y de datos personales sensibles, con la misma lista enunciativa (Art. 2 fracc. V y VI LFPDPPP; Art. 3 fracc. IX y X LGPDPPSO); ninguna de las dos menciona datos biométricos ni la afiliación sindical",
+    "Deberes de seguridad y de confidencialidad (Arts. 18 y 20 LFPDPPP; Arts. 25 a 27 y 36 LGPDPPSO)",
+    "Obligación de tener aviso de privacidad (Arts. 14 a 16 LFPDPPP; Arts. 20 a 22 LGPDPPSO)",
+    "La Secretaría Anticorrupción y Buen Gobierno interviene en las dos (Art. 2 fracc. XV LFPDPPP; Art. 3 fracc. XXVI LGPDPPSO); en el sector público no es la única autoridad federal, comparte la función con las Autoridades garantes del Art. 3 fracc. II"
   ],
   "recomendaciones_practicas": {
-    "para_consultas_dudosas": "Si hay duda sobre cuál ley aplica, analizar: (a) la naturaleza del responsable, (b) la fuente de sus recursos, (c) si realiza actos de autoridad. En caso de duda, consultar a la Secretaría Anticorrupción y Buen Gobierno o a un asesor especialista.",
-    "convergencia_normativa": "Muchas organizaciones privadas adoptan prácticas de LGPDPPSO como buena gobernanza (evaluación de impacto, catálogo de bases), aunque no sean obligatorias bajo LFPDPPP.",
+    "para_consultas_dudosas": "Si hay duda sobre cuál ley aplica, revisar si el responsable encuadra en la definición de sujeto obligado del Art. 3 fracc. XXVII de la LGPDPPSO (autoridad, entidad, órgano y organismo de los poderes Ejecutivo, Legislativo y Judicial, órganos autónomos, partidos políticos, fideicomisos y fondos públicos); si no encuadra, es sujeto regulado de la LFPDPPP (Art. 2 fracc. XVI). En caso de duda, consultar a la Secretaría Anticorrupción y Buen Gobierno o a un asesor especialista.",
+    "convergencia_normativa": "Una organización privada puede adoptar prácticas de la LGPDPPSO como buena gobernanza (la evaluación de impacto de sus Arts. 68 a 73 o el documento de seguridad de su Art. 29), aunque la LFPDPPP no las exija; el inventario del Art. 61 fracc. I del Reglamento es otra figura y sí forma parte de las acciones de seguridad.",
     "documentar_la_aplicacion": "Documentar formalmente por escrito cuál régimen aplica al responsable, con fundamento, evita confusiones internas y ante autoridades."
   }
 }

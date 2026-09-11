@@ -20,7 +20,7 @@
       {"nombre": "Terminación anticipada", "riesgo_omision": "Quedar atrapado en contrato no deseado"},
       {"nombre": "Caso fortuito y fuerza mayor", "riesgo_omision": "Responsabilidad por eventos fuera de control"},
       {"nombre": "Notificaciones", "riesgo_omision": "Notificaciones informales sin valor legal"},
-      {"nombre": "Protección de datos personales", "riesgo_omision": "Incumplimiento LFPDPPP, sanciones de la Secretaría Anticorrupción y Buen Gobierno"},
+      {"nombre": "Protección de datos personales", "riesgo_omision": "Incumplimiento LFPDPPP, sanciones de la Secretaría Anticorrupción y Buen Gobierno. Si una de las partes trata datos personales por cuenta de la otra (persona encargada), no es opcional: la relación debe constar en cláusulas contractuales u otro instrumento jurídico (Art. 51 del Reglamento de la LFPDPPP, referencia en lo que no se oponga a la ley vigente)"},
       {"nombre": "Totalidad del acuerdo", "riesgo_omision": "Acuerdos verbales previos invocados como válidos"},
       {"nombre": "Modificaciones por escrito", "riesgo_omision": "Modificaciones verbales generan controversia"},
       {"nombre": "No cesión sin consentimiento", "riesgo_omision": "Contraparte cede derechos a tercero desconocido"}

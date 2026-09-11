@@ -1,6 +1,6 @@
 # Plantilla — Inventario de Datos Personales
 
-> Componente del Documento de Seguridad (Art. 60 Fracc. I Reglamento LFPDPPP). Inventario completo de todas las bases de datos personales que trata el Responsable.
+> Componente del Documento de Seguridad (Art. 61 Fracc. I Reglamento LFPDPPP; la sección Almacenamiento alimenta el registro de medios de almacenamiento, Art. 61 Fracc. IX Reglamento). Inventario completo de todas las bases de datos personales que trata el Responsable.
 
 ---
 
@@ -9,7 +9,7 @@
 **Responsable:** [DENOMINACIÓN]
 **Fecha de elaboración:** [DD/MM/AAAA]
 **Fecha de última actualización:** [DD/MM/AAAA]
-**Responsable del inventario:** [Encargado de Datos Personales]
+**A cargo del inventario:** [Persona o departamento de datos personales]
 
 ---
 
@@ -27,7 +27,7 @@ Por cada **base de datos, sistema o conjunto de información** que trate datos p
 |-------|---------|
 | **Nombre de la base/sistema** | [Ej. "Sistema de Nómina ContPAQi"] |
 | **Área responsable** | [Recursos Humanos] |
-| **Persona responsable (nombre y cargo)** | [Nombre, cargo] |
+| **Persona a cargo (nombre y cargo)** | [Nombre, cargo] |
 | **Fecha de creación** | [DD/MM/AAAA] |
 | **¿Activa?** | [Sí / Suspendida / Histórica] |
 
@@ -39,7 +39,7 @@ Por cada **base de datos, sistema o conjunto de información** que trate datos p
 | **Lista específica de datos** | [Nombre, RFC, CURP, NSS, salario, fecha ingreso, etc.] |
 | **¿Incluye datos sensibles?** | [Sí / No - especificar cuáles] |
 | **Origen de los datos** | [Recabados directamente del titular / De terceros / Fuente de acceso público] |
-| **¿Cómo se obtuvo el consentimiento?** | [Firma del aviso / Casilla digital / Tácito / No aplica por excepción legal] |
+| **¿Cómo se obtuvo el consentimiento?** | [Firma del aviso / Casilla digital / Tácito / No aplica por excepción legal (Art. 9 LFPDPPP)]. El tácito no basta para datos financieros o patrimoniales (expreso, Art. 7 LFPDPPP) ni para sensibles (expreso y por escrito, con firma autógrafa, firma electrónica o mecanismo de autenticación, Art. 8 LFPDPPP) |
 
 ### Características operativas
 
@@ -68,13 +68,13 @@ Por cada **base de datos, sistema o conjunto de información** que trate datos p
 | | | |
 | | | |
 
-### Transferencias
+### Transferencias (a terceros distintos del encargado; Art. 2 Fracc. XX LFPDPPP)
 
 | Destinatario | Finalidad | ¿Requiere consentimiento? | Documento que respalda |
 |--------------|-----------|---------------------------|------------------------|
 | | | | |
 
-### Encargados (proveedores que tratan los datos)
+### Encargados (proveedores que tratan los datos por cuenta del Responsable: remisión, no transferencia)
 
 | Proveedor | Servicio | ¿Contrato con cláusulas? | Vigencia |
 |-----------|----------|--------------------------|----------|
@@ -94,7 +94,7 @@ Por cada **base de datos, sistema o conjunto de información** que trate datos p
 |-------|---------|
 | **Probabilidad de incidente** | [Baja / Media / Alta] |
 | **Impacto si ocurre** | [Bajo / Medio / Alto] |
-| **Nivel de riesgo** | [Producto de los dos] |
+| **Nivel de riesgo** | [Producto de los dos, con la escala de la sección 4.1 del Documento de Seguridad] |
 | **Tratamiento de riesgo** | [Mitigar / Aceptar / Transferir / Evitar] |
 
 ### Observaciones / notas
@@ -107,13 +107,13 @@ Por cada **base de datos, sistema o conjunto de información** que trate datos p
 
 | ID | Nombre base | Área | Tipo datos | Sensibles | # titulares | Almacenamiento | Riesgo |
 |----|-------------|------|-----------|-----------|-------------|----------------|--------|
-| BD-01 | Sistema de Nómina | RH | Identif., laborales, financieros, biométricos | Sí | [#] | Servidor local + nube | Alto |
-| BD-02 | CRM Clientes | Ventas | Identif., contacto, comercial | No | [#] | Nube | Medio |
-| BD-03 | Expedientes Físicos RH | RH | Identif., laborales, contractuales | Sí (cuando aplique) | [#] | Archivo físico | Medio |
+| BD-01 | Sistema de Nómina | RH | Identif., laborales, financieros, biométricos | Sí (biométricos, por criterio prudencial) | [#] | Servidor local + nube | Medio |
+| BD-02 | CRM Clientes | Ventas | Identif., contacto, comercial | No | [#] | Nube | Bajo |
+| BD-03 | Expedientes Físicos RH | RH | Identif., laborales, contractuales | Sí (cuando aplique) | [#] | Archivo físico | Bajo |
 | BD-04 | Sistema Contable | Contab. | Identif., fiscales, bancarios | No | [#] | Servidor local | Medio |
-| BD-05 | Proveedores | Compras | Identif., contacto, fiscales | No | [#] | Archivos compartidos | Bajo |
-| BD-06 | Candidatos en proceso | RH | Identif., contacto, académicos, psicométricos | Sí (psicométricos) | [#] | Nube | Medio |
-| BD-07 | Cámaras de seguridad | Seguridad | Imágenes | Imagen biométrica facial | [#] | NVR local | Medio |
+| BD-05 | Proveedores | Compras | Identif., contacto, fiscales | No | [#] | Archivos compartidos + carpeta física | Bajo |
+| BD-06 | Candidatos en proceso | RH | Identif., contacto, académicos, psicométricos | Sí (psicométricos) | [#] | Nube | Bajo |
+| BD-07 | Cámaras de seguridad | Seguridad | Imágenes de video | No por sí mismas (sin reconocimiento facial) | [#] | NVR local | Bajo |
 | BD-08 | Lista de visitantes | Recepción | Identif., contacto | No | [#] | Físico + digital | Bajo |
 | [BD-XX] | [otros] | | | | | | |
 
@@ -129,4 +129,4 @@ Por cada **base de datos, sistema o conjunto de información** que trate datos p
 ---
 
 *Generado con apoyo de NexFiscal.app — Compliance LFPDPPP v1.0*
-*Este inventario es interno y debe mantenerse en custodia controlada por el Encargado de Datos Personales.*
+*Este inventario es interno y debe mantenerse en custodia controlada por la persona o departamento de datos personales.*
