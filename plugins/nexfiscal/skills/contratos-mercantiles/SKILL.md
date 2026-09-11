@@ -126,7 +126,7 @@ Si el contrato implica manejo de datos personales:
 - ¿Hay cláusula de confidencialidad de datos personales?
 - ¿Se menciona el aviso de privacidad?
 - ¿Se establece quién es responsable y quién encargado?
-- Fundamento: LFPDPPP Arts. 36-37
+- Fundamento: LFPDPPP Art. 20 (confidencialidad) y Arts. 35-36 (transferencias: comunicar el aviso de privacidad al tercero receptor, cláusula de aceptación y excepciones al consentimiento)
 
 ### Paso 7: Análisis de equilibrio contractual
 - ¿Las obligaciones son recíprocas y equilibradas?

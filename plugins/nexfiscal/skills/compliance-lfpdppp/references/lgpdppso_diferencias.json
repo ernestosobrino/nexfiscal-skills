@@ -1,7 +1,7 @@
 {
   "metadata": {
     "fuente": "LFPDPPP (DOF 20/03/2025, texto vigente; última reforma DOF 14/11/2025, que abrogó la ley de 2010), LGPDPPSO 2025",
-    "ultima_actualizacion": "2026-04",
+    "ultima_actualizacion": "2026-09",
     "uso": "Comparativo para casos en que el responsable sea o pudiera ser sujeto obligado del sector público."
   },
   "cuando_aplica_cada_una": {
@@ -54,7 +54,7 @@
     },
     {
       "aspecto": "Encargado/Responsable interno",
-      "lfpdppp": "Encargado o área de datos personales (Art. 29)",
+      "lfpdppp": "Persona o departamento de datos personales (Art. 29)",
       "lgpdppso": "Unidad de Transparencia y Comité de Transparencia con funciones específicas"
     },
     {

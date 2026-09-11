@@ -3,7 +3,7 @@
     "fuente_minimo_legal": "Art. 15 de la LFPDPPP (DOF 20/03/2025, texto vigente; última reforma DOF 14/11/2025), que abrogó la ley de 2010",
     "fuente_buenas_practicas": "Lineamientos del Aviso de Privacidad (DOF 17/01/2013): hoy son buenas prácticas orientadoras, no norma vigente",
     "emisor_lineamientos": "Secretaría de Economía con opinión del entonces IFAI (funciones que hoy corresponden a la Secretaría Anticorrupción y Buen Gobierno)",
-    "ultima_revision_doctrinaria": "2026-04",
+    "ultima_revision_doctrinaria": "2026-09",
     "nota_criterio": "El contenido MÍNIMO obligatorio del aviso de privacidad lo fija el artículo 15 de la LFPDPPP vigente en SEIS fracciones (antes eran los elementos del artículo 16 de la ley abrogada). Los demás elementos (transferencias, revocación del consentimiento, fundamento legal, datos del encargado, fecha de actualización) se conservan como buenas prácticas recomendadas más allá del mínimo legal."
   },
   "modalidades_aviso": {
@@ -104,7 +104,7 @@
         "Requisitos de la solicitud conforme al Art. 28 (nombre del titular y medio para comunicarle la respuesta, documentos que acrediten identidad o representación, descripción clara de los datos o del derecho que se ejerce)",
         "Plazos de respuesta: 20 días hábiles, ampliable una sola vez por un periodo igual, más 15 días para materializar (Art. 31)",
         "Medios disponibles (correo, presencial, formulario)",
-        "Costos (debe ser gratuito, salvo gastos justificados de envío)"
+        "Costos (gratuito; solo pueden cobrarse los costos de reproducción, copias o envío, Art. 34)"
       ]
     },
     "fraccion_VI_procedimiento_para_comunicar_cambios": {
@@ -130,7 +130,7 @@
         "finalidad": "Para qué",
         "consentimiento_requerido": "Sí / No / Por ser obligación legal"
       },
-      "transferencias_que_no_requieren_consentimiento": "Listar conforme Art. 37 LFPDPPP cuando aplique."
+      "transferencias_que_no_requieren_consentimiento": "Listar conforme Art. 36 LFPDPPP cuando aplique."
     },
     "revocacion_del_consentimiento": {
       "recomendado": true,
@@ -171,7 +171,7 @@
     "no_oculto": "No puede estar dentro de términos y condiciones generales de difícil acceso; debe ser un documento identificable como aviso de privacidad."
   },
   "momento_de_proporcionar": {
-    "regla_general": "Antes del tratamiento de los datos personales. El responsable debe poner el aviso a disposición del titular conforme al artículo 16 de la LFPDPPP vigente (deber de poner a disposición; antes artículo 17 de la ley abrogada).",
+    "regla_general": "A partir del momento en que se recaban los datos personales (Art. 2 fracc. I). El responsable debe poner el aviso a disposición del titular conforme al artículo 16 de la LFPDPPP vigente (deber de poner a disposición; antes artículo 17 de la ley abrogada).",
     "casos_especiales": {
       "datos_obtenidos_directamente": "Al momento de recabar los datos.",
       "datos_obtenidos_indirectamente": "Antes del primer uso o aprovechamiento, salvo las excepciones que prevé la ley.",

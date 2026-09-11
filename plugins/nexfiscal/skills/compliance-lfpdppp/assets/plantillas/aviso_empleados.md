@@ -110,7 +110,7 @@ Sus datos personales podrán ser transferidos a:
 | AFORE | Aportaciones al SAR | No, obligación legal |
 | Banco [nombre] | Dispersión de nómina | No, indispensable para la relación |
 | Aseguradora [nombre] | Gastos médicos / vida [si aplica] | Por participar en el beneficio |
-| Empresas del grupo | Procesos compartidos del grupo | No, conforme Art. 37 LFPDPPP |
+| Empresas del grupo | Procesos compartidos del grupo | No, conforme Art. 36 LFPDPPP |
 | Despacho contable / jurídico externo | Servicios profesionales para el Responsable | No, son encargados |
 | Autoridades laborales (STPS, Tribunales) | Defensa de derechos en procesos | No, obligación legal |
 

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "fuente": "Elaboración propia con base en LFPDPPP, Reglamento, Lineamientos y mejores prácticas de la Secretaría Anticorrupción y Buen Gobierno",
-    "ultima_actualizacion": "2026-04",
+    "ultima_actualizacion": "2026-09",
     "uso": "Banco de preguntas para el módulo de diagnóstico. Cada pregunta vale 0-2 puntos."
   },
   "escala_calificacion": {
@@ -30,7 +30,7 @@
           "id": "AP-03",
           "pregunta": "¿El aviso identifica claramente cuáles datos son sensibles, cuando los hay?",
           "obligatorio_si": "Recaba datos sensibles",
-          "fundamento": "Art. 8 LFPDPPP"
+          "fundamento": "Art. 15 fracc. II LFPDPPP"
         },
         {
           "id": "AP-04",
@@ -57,9 +57,9 @@
         },
         {
           "id": "AP-08",
-          "pregunta": "¿El aviso se proporciona ANTES del tratamiento de los datos?",
+          "pregunta": "¿El aviso está a disposición del titular desde el momento en que se recaban sus datos?",
           "obligatorio": true,
-          "fundamento": "Art. 17 LFPDPPP"
+          "fundamento": "Art. 16 LFPDPPP; Art. 2 fracc. I"
         },
         {
           "id": "AP-09",
@@ -119,7 +119,7 @@
           "id": "ED-01",
           "pregunta": "¿Se ha designado formalmente una persona o departamento responsable de la protección de datos?",
           "obligatorio": true,
-          "fundamento": "Art. 30 LFPDPPP"
+          "fundamento": "Art. 29 LFPDPPP"
         },
         {
           "id": "ED-02",
@@ -175,9 +175,9 @@
         },
         {
           "id": "AR-06",
-          "pregunta": "¿Las respuestas a ARCO son gratuitas (salvo gastos justificados de envío)?",
+          "pregunta": "¿Las respuestas a ARCO son gratuitas (salvo costos de reproducción, copias o envío)?",
           "obligatorio": true,
-          "fundamento": "Art. 35 LFPDPPP"
+          "fundamento": "Art. 34 LFPDPPP"
         }
       ]
     },
@@ -259,7 +259,7 @@
           "id": "TR-02",
           "pregunta": "¿Para cada transferencia se ha analizado si requiere consentimiento del titular?",
           "obligatorio": true,
-          "fundamento": "Art. 36 y 37 LFPDPPP"
+          "fundamento": "Arts. 35 y 36 LFPDPPP"
         },
         {
           "id": "TR-03",
@@ -269,14 +269,14 @@
         },
         {
           "id": "TR-04",
-          "pregunta": "¿Las transferencias internacionales cumplen Art. 36 LFPDPPP?",
+          "pregunta": "¿Las transferencias internacionales cumplen los Arts. 35 y 36 LFPDPPP?",
           "obligatorio_si": "Hay transferencias internacionales"
         },
         {
           "id": "TR-05",
           "pregunta": "¿Se notifica al receptor el aviso de privacidad correspondiente?",
           "obligatorio": true,
-          "fundamento": "Art. 36 LFPDPPP"
+          "fundamento": "Art. 35 LFPDPPP"
         }
       ]
     },

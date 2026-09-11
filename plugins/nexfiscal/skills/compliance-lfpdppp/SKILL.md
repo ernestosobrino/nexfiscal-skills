@@ -238,7 +238,7 @@ Aplica un cuestionario en 7 dimensiones. Lee
 **Dimensión 1: Aviso de Privacidad**
 - ¿Existe?
 - ¿Cumple con las 6 fracciones mínimas del Art. 15 LFPDPPP?
-- ¿Está disponible para los titulares antes del tratamiento?
+- ¿Está a disposición de los titulares desde el momento en que se recaban sus datos (Art. 16)?
 - ¿Existe versión integral, simplificada, corta según los puntos de contacto?
 - ¿Aviso específico para empleados?
 
@@ -269,7 +269,7 @@ Aplica un cuestionario en 7 dimensiones. Lee
 - ¿Están identificadas?
 - ¿Cuáles requieren consentimiento expreso?
 - ¿Existen cláusulas o convenios con los receptores?
-- ¿Hay transferencias internacionales? ¿Cumplen Art. 36 LFPDPPP?
+- ¿Hay transferencias internacionales? ¿Cumplen los Arts. 35 y 36 LFPDPPP?
 
 **Dimensión 7: Vulneraciones**
 - ¿Existe protocolo?
@@ -303,8 +303,10 @@ y aplica preguntas adicionales según el giro:
 ### Contenido mínimo legal — 6 fracciones del Art. 15 LFPDPPP (2025):
 
 Lee `references/lineamientos_aviso_privacidad.json` para la estructura
-detallada y casos especiales. La ley vigente reduce el mínimo obligatorio a
-**seis fracciones** (antes eran 11 en el Art. 16 de la ley abrogada):
+detallada y casos especiales. El Art. 15 vigente fija **seis fracciones**, igual
+que el Art. 16 de la ley abrogada, pero no las mismas: añade la de datos tratados
+identificando los sensibles (fracc. II) y saca las transferencias, cuya cláusula
+pasa al Art. 35, segundo párrafo:
 
 1. **Identidad y domicilio del Responsable** (fracc. I)
 2. **Datos personales que se tratan, identificando los sensibles** (fracc. II)
@@ -492,8 +494,8 @@ Plantilla completa en `assets/plantillas/documento_seguridad.md`.
 
 **Análisis**:
 - Verificar que los datos existan
-- Verificar que no haya excepción para negar el derecho (supuestos del capítulo
-  de derechos ARCO de la LFPDPPP 2025)
+- Verificar que no haya excepción para negar el derecho (supuestos del Art. 33
+  LFPDPPP)
 
 **Respuesta** (plazo: 20 días hábiles desde la recepción, Art. 31; ampliable
 una sola vez por un periodo igual):
@@ -514,10 +516,10 @@ respuesta del Responsable (o a que venza el plazo sin respuesta) — **Art. 40
 LFPDPPP**. Ya no es un recurso ante el INAI. Las resoluciones se impugnan por
 **juicio de amparo** ante juzgados y tribunales especializados.
 
-### Excepciones para negar ARCO (criterio, sigue vigente):
+### Excepciones para negar ARCO (Art. 33 LFPDPPP):
 
-- Cuando el solicitante no sea el titular o su representante acreditado
-- Cuando los datos no obren en la base del Responsable
+- Cuando la persona titular o su representante no estén debidamente acreditados
+- Cuando los datos personales no se encuentren en posesión del Responsable
 - Cuando se lesionen los derechos de un tercero
 - Cuando exista un impedimento legal o resolución de autoridad competente
 - Cuando la rectificación, cancelación u oposición ya se hayan realizado

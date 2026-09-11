@@ -43,7 +43,7 @@ Se ha procedido al cese del tratamiento de sus datos personales para la(s) sigui
 
 ### Materialización del derecho
 
-El derecho ejercido se hará efectivo en un plazo no mayor a **15 días hábiles** contados a partir de la notificación de la presente respuesta, conforme al Art. 31 párrafo segundo de la LFPDPPP.
+El derecho ejercido se hará efectivo en un plazo no mayor a **15 días hábiles** contados a partir de la notificación de la presente respuesta, conforme al Art. 31, primer párrafo, de la LFPDPPP.
 
 ### Costos
 
@@ -87,9 +87,9 @@ En atención a su solicitud para el ejercicio de derechos ARCO recibida el día 
 
 *[Seleccionar la causa aplicable:]*
 
-[ ] **Fracción I.** El solicitante no es el titular de los datos personales, o el representante legal no se encuentra debidamente acreditado.
+[ ] **Fracción I.** La persona titular o el representante legal no están debidamente acreditados para ello.
 
-[ ] **Fracción II.** En la base de datos del Responsable no se encuentran los datos personales del solicitante.
+[ ] **Fracción II.** Los datos personales no se encuentran en posesión del Responsable.
 
 [ ] **Fracción III.** Se lesionan derechos de un tercero.
 

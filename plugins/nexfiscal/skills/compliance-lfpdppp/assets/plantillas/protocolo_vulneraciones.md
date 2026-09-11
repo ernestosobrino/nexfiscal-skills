@@ -113,7 +113,7 @@ Se considerará afectación significativa cuando concurra al menos uno de los si
 - Alta probabilidad de uso indebido por terceros
 - Cantidad relevante de titulares afectados
 
-### Fase 4 — Notificación al titular (sin dilación, ideal 72 horas tras confirmación)
+### Fase 4 — Notificación al titular (de forma inmediata, Art. 19 LFPDPPP)
 
 **Si hay afectación significativa**, el Responsable notificará a los titulares afectados, conforme al Art. 19 LFPDPPP, mediante un medio idóneo (correo electrónico, comunicación postal, llamada, etc.).
 

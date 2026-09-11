@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "ultima_actualizacion": "2026-03-28",
+  "ultima_actualizacion": "2026-09-11",
   "fuente": "Código de Comercio, CC Federal, LGSM, LFT, LFPDPPP, Ley de Propiedad Industrial",
 
   "clausulas_universales": {
@@ -20,7 +20,7 @@
       {"nombre": "Terminación anticipada", "riesgo_omision": "Quedar atrapado en contrato no deseado"},
       {"nombre": "Caso fortuito y fuerza mayor", "riesgo_omision": "Responsabilidad por eventos fuera de control"},
       {"nombre": "Notificaciones", "riesgo_omision": "Notificaciones informales sin valor legal"},
-      {"nombre": "Protección de datos personales", "riesgo_omision": "Incumplimiento LFPDPPP, sanciones INAI"},
+      {"nombre": "Protección de datos personales", "riesgo_omision": "Incumplimiento LFPDPPP, sanciones de la Secretaría Anticorrupción y Buen Gobierno"},
       {"nombre": "Totalidad del acuerdo", "riesgo_omision": "Acuerdos verbales previos invocados como válidos"},
       {"nombre": "Modificaciones por escrito", "riesgo_omision": "Modificaciones verbales generan controversia"},
       {"nombre": "No cesión sin consentimiento", "riesgo_omision": "Contraparte cede derechos a tercero desconocido"}

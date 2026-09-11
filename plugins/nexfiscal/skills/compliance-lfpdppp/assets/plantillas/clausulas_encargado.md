@@ -113,7 +113,7 @@ d) El Responsable conserve el derecho de objetar el subcontratista por causas ju
 El Encargado almacenará/procesará los Datos Personales en [país/jurisdicción]. El Encargado declara y garantiza:
 
 a) Que el país receptor cuenta con un nivel adecuado de protección comparable al de México, **o**
-b) Que asume contractualmente las mismas obligaciones que corresponden al Responsable conforme a la LFPDPPP (Art. 36).
+b) Que asume contractualmente las mismas obligaciones que corresponden al Responsable conforme a la LFPDPPP.
 c) Que notificará al Responsable de cualquier cambio en la ubicación del tratamiento.
 
 ---

@@ -86,7 +86,7 @@ Sus datos personales podrán ser transferidos a:
 |--------------|-----------|--------------------------|
 | [Autoridades fiscales (SAT)] | Cumplimiento de obligaciones fiscales | No, por obligación legal |
 | [Autoridades de seguridad social (IMSS, INFONAVIT)] | Cumplimiento de obligaciones laborales | No, por obligación legal |
-| [Empresas del grupo / matriz] | [Finalidad común del grupo] | No, conforme Art. 37 LFPDPPP |
+| [Empresas del grupo / matriz] | [Finalidad común del grupo] | No, conforme Art. 36 LFPDPPP |
 | [Proveedores de servicios] | [Prestación de servicios al Responsable] | No, son encargados (no transferencia) |
 | [Socios comerciales] | [Finalidad específica] | **Sí, requiere su consentimiento** |
 | [Otros: especificar] | [Específica] | [Sí / No] |
@@ -97,7 +97,7 @@ Sus datos personales podrán ser transferidos a:
 
 *Sección opcional, eliminar si no aplica.*
 
-Sus datos podrán ser transferidos a [país/jurisdicción] con la finalidad de [especificar]. El receptor extranjero asume las mismas obligaciones que corresponden al Responsable conforme al Art. 36 de la LFPDPPP.
+Sus datos podrán ser transferidos a [país/jurisdicción] con la finalidad de [especificar]. El receptor extranjero asume las mismas obligaciones que corresponden al Responsable conforme al Art. 35 de la LFPDPPP.
 
 ---
 
