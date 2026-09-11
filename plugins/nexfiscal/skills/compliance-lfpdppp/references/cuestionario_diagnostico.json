@@ -46,8 +46,9 @@
         },
         {
           "id": "AP-06",
-          "pregunta": "¿Existe aviso de privacidad simplificado para puntos de contacto con espacio limitado (formularios, tickets, etc.)?",
-          "obligatorio_si": "Tiene formularios o puntos físicos breves"
+          "pregunta": "¿Cuando recaba datos por medios electrónicos, ópticos, sonoros o visuales (web, app, llamadas, CCTV), pone a disposición el aviso simplificado con las fracc. I a IV del Art. 15 y el sitio del aviso integral?",
+          "obligatorio_si": "Recaba datos por esos medios",
+          "fundamento": "Art. 16 fracc. II LFPDPPP"
         },
         {
           "id": "AP-07",
@@ -90,9 +91,9 @@
         },
         {
           "id": "CO-03",
-          "pregunta": "¿Para transferencias que requieren consentimiento, se obtiene de forma expresa?",
+          "pregunta": "¿Para transferencias que requieren consentimiento, se obtiene en la forma que exige la ley: cláusula de aceptación en el aviso y, si se transfieren datos financieros o patrimoniales, consentimiento expreso (expreso y por escrito si son sensibles)?",
           "obligatorio_si": "Hay transferencias que requieren consentimiento",
-          "fundamento": "Art. 36 LFPDPPP"
+          "fundamento": "Arts. 7, 8 y 35 LFPDPPP"
         },
         {
           "id": "CO-04",

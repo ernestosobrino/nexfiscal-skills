@@ -91,7 +91,7 @@ Sus datos personales podrán ser transferidos a:
 | [Socios comerciales] | [Finalidad específica] | **Sí, requiere su consentimiento** |
 | [Otros: especificar] | [Específica] | [Sí / No] |
 
-**Las transferencias que requieren su consentimiento se considerarán autorizadas con la firma de este Aviso, salvo que manifieste su oposición** mediante los mecanismos descritos en este documento.
+**Las transferencias que requieren su consentimiento se considerarán autorizadas si, habiendo tenido a su disposición este Aviso, no manifiesta su negativa** mediante la casilla correspondiente o los mecanismos descritos en este documento (Arts. 7 y 35 LFPDPPP). **Si la transferencia incluye datos financieros o patrimoniales, requerimos su consentimiento expreso (Art. 7); si incluye datos sensibles, expreso y por escrito (Art. 8). Sin ese consentimiento, esa transferencia no se realizará.**
 
 ### Transferencias internacionales
 
@@ -120,9 +120,10 @@ La solicitud deberá contener al menos:
 
 1. Su nombre completo y un medio para recibir respuesta
 2. Documento que acredite su identidad (copia de identificación oficial vigente) o, en su caso, la personalidad de su representante legal
-3. Descripción clara y precisa de los datos personales sobre los que busca ejercer el derecho
-4. Cualquier otro elemento que facilite la localización de los datos
-5. Para rectificación, además, los datos correctos y la documentación que sustente la corrección
+3. Descripción clara y precisa de los datos personales sobre los que busca ejercer el derecho (salvo en el derecho de acceso)
+4. Descripción del derecho que desea ejercer, o de lo que solicita
+5. Cualquier otro elemento que facilite la localización de los datos
+6. Para rectificación, además, los datos correctos y la documentación que sustente la corrección
 
 **Plazo de respuesta:** 20 días hábiles desde la recepción de su solicitud.
 **Plazo para hacer efectivo el derecho:** 15 días hábiles adicionales, contados a partir de la notificación de la respuesta.
@@ -186,13 +187,19 @@ Para cualquier consulta o aclaración relacionada con sus datos personales:
 
 ### Manifestación de consentimiento
 
-*Esta sección se incluye cuando el aviso forma parte de un documento físico que se firma.*
+*Esta sección se incluye cuando el aviso forma parte de un documento físico que se firma, o como casillas del formulario electrónico con que se recaban los datos (el consentimiento expreso puede darse por medios electrónicos, Art. 7).*
 
 Manifiesto que he leído, entendido y acepto el presente Aviso de Privacidad Integral, así como el tratamiento de mis datos personales para las finalidades aquí descritas.
 
 [☐ ] **NO autorizo** el tratamiento de mis datos para finalidades secundarias.
 
-[☐ ] **NO autorizo** la transferencia de mis datos a [destinatarios marcados con asterisco].
+[☐ ] **NO autorizo** la transferencia de mis datos a los destinatarios de la tabla de transferencias que requieren consentimiento: [listar destinatarios, salvo los de datos financieros, patrimoniales o sensibles, que requieren autorización expresa abajo].
+
+[Solo si se transfieren datos financieros o patrimoniales:]
+[☐ ] **AUTORIZO EXPRESAMENTE** la transferencia de mis datos financieros o patrimoniales a [destinatario] para [finalidad].
+
+[Solo si se transfieren datos sensibles:]
+[☐ ] **AUTORIZO EXPRESAMENTE Y POR ESCRITO** la transferencia de mis datos personales sensibles a [destinatario] para [finalidad].
 
 [Si recaba datos sensibles:]
 

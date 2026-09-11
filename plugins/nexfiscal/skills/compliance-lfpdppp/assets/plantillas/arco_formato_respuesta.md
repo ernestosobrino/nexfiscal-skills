@@ -127,7 +127,9 @@ ___________________________________________
 
 ## MODELO 3 — REQUERIMIENTO DE INFORMACIÓN ADICIONAL
 
-> Cuando la solicitud está incompleta y se requiere subsanación. Art. 29 LFPDPPP.
+> Cuando la solicitud está incompleta y se requiere información adicional. El requerimiento se hace por
+> una sola vez y dentro de los cinco días siguientes a la recepción de la solicitud (Art. 96 del
+> Reglamento de la LFPDPPP; los requisitos de la solicitud están en el Art. 28 de la Ley).
 
 **[Membrete del Responsable]**
 
@@ -144,11 +146,12 @@ En atención a su solicitud para el ejercicio de derechos ARCO recibida el día 
 
 - [ ] Copia legible de su identificación oficial vigente
 - [ ] Documento que acredite la personalidad del representante
-- [ ] Descripción más clara y precisa de los datos sobre los que ejerce el derecho
+- [ ] Descripción más clara y precisa de los datos sobre los que ejerce el derecho (no puede requerirse si solo ejerce el derecho de acceso, Art. 28 fracc. III)
+- [ ] Descripción del derecho que pretende ejercer, o de lo que solicita (Art. 28 fracc. IV)
 - [ ] Documentación que sustente la rectificación solicitada
 - [ ] [Otro requerimiento específico]
 
-Conforme al Art. 29 LFPDPPP, usted cuenta con **5 días hábiles** contados a partir de la recepción de la presente para subsanar las omisiones. **De no atender este requerimiento dentro del plazo, su solicitud se tendrá por no presentada.**
+Conforme al Art. 96 del Reglamento de la LFPDPPP, usted cuenta con **10 días hábiles** contados a partir del día siguiente a aquel en que reciba el presente requerimiento para atenderlo. **De no atender este requerimiento dentro del plazo, su solicitud se tendrá por no presentada.** Una vez que lo atienda, el plazo para responder su solicitud empezará a correr al día siguiente (Art. 96, segundo párrafo, del Reglamento).
 
 Puede remitir la documentación al correo **[correo del Encargado]** o presentarla en **[domicilio]**.
 

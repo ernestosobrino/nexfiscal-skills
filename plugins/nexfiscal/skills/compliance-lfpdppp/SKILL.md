@@ -150,7 +150,7 @@ Antes de generar cualquier entregable, confirma según el caso.
 - ¿Manejan datos sensibles? (salud, biométricos, orientación, religión, etc.)
 - ¿Hay transferencias a terceros? (proveedores, matriz extranjera, nube)
 - ¿Tienen aviso de privacidad? ¿Documento de seguridad?
-- ¿Han designado Encargado/Departamento de Datos Personales?
+- ¿Han designado a la persona o departamento de datos personales (Art. 29)?
 
 ### Para Aviso de Privacidad:
 - Datos completos del Responsable (denominación, domicilio, contacto)
@@ -188,7 +188,7 @@ Antes de generar cualquier entregable, confirma según el caso.
 
 ### Para Procedimiento ARCO:
 - Estructura organizacional
-- ¿Quién será el Encargado/Departamento de Datos Personales?
+- ¿Quién será la persona o departamento de datos personales (Art. 29)?
 - Canales para recibir solicitudes (correo, formulario web, oficina física)
 - ¿Tienen sistema para gestionar solicitudes o se hace manual?
 
@@ -219,14 +219,14 @@ fundamentos a usar:
 
 ## Conceptos clave (definidos en Art. 2 LFPDPPP)
 
-- **Responsable**: persona física o moral de carácter privado que decide sobre el tratamiento de datos personales.
-- **Encargado**: persona física o moral que sola o conjuntamente con otras trata datos personales por cuenta del Responsable.
-- **Titular**: persona física a quien corresponden los datos personales.
-- **Datos personales**: cualquier información concerniente a una persona física identificada o identificable.
-- **Datos personales sensibles**: aquellos que afecten la esfera más íntima del titular, o cuya utilización indebida pueda dar origen a discriminación o conlleve un riesgo grave. Incluyen: origen racial o étnico, estado de salud presente y futuro, información genética, creencias religiosas, filosóficas y morales, afiliación sindical, opiniones políticas, preferencia sexual.
-- **Tratamiento**: obtención, uso, divulgación o almacenamiento de datos personales, por cualquier medio.
-- **Transferencia**: toda comunicación de datos realizada a persona distinta del responsable o encargado del tratamiento.
-- **Consentimiento**: manifestación de voluntad del titular para el tratamiento (puede ser tácito, expreso, o expreso y por escrito).
+- **Responsable**: sujeto regulado; persona física o moral de carácter privado que lleva a cabo el tratamiento de datos personales (Art. 2 fracc. XIV y XVI).
+- **Encargado**: persona física o jurídica que sola o conjuntamente con otras trata datos personales **por cuenta del Responsable**. No confundir con la persona o departamento de datos personales del Art. 29, que es del propio Responsable.
+- **Titular**: persona a quien corresponden los datos personales.
+- **Datos personales**: cualquier información concerniente a una persona identificada o identificable. Es identificable cuando su identidad pueda determinarse directa o indirectamente a través de cualquier información.
+- **Datos personales sensibles**: aquellos que afecten la esfera más íntima del titular, o cuya utilización indebida pueda dar origen a discriminación o conlleve un riesgo grave. En particular, los que puedan revelar origen racial o étnico, estado de salud presente o futuro, información genética, creencias religiosas, filosóficas y morales, opiniones políticas y preferencia sexual (lista enunciativa, no limitativa). La afiliación sindical ya no está en la lista de 2025; tratarla como sensible es criterio conservador.
+- **Tratamiento**: cualquier operación o conjunto de operaciones, manuales o automatizadas, aplicadas a datos personales: obtención, uso, registro, organización, conservación, elaboración, utilización, comunicación, difusión, almacenamiento, posesión, acceso, manejo, aprovechamiento, divulgación, transferencia o disposición.
+- **Transferencia**: toda comunicación de datos personales, dentro o fuera del territorio mexicano, realizada a persona distinta del titular, del responsable o del encargado.
+- **Consentimiento**: manifestación de la voluntad libre, específica e informada del titular mediante la cual se efectúa el tratamiento (puede ser tácito, expreso, o expreso y por escrito).
 
 ## Módulo 1: Diagnóstico de Cumplimiento
 
@@ -239,16 +239,20 @@ Aplica un cuestionario en 7 dimensiones. Lee
 - ¿Existe?
 - ¿Cumple con las 6 fracciones mínimas del Art. 15 LFPDPPP?
 - ¿Está a disposición de los titulares desde el momento en que se recaban sus datos (Art. 16)?
-- ¿Existe versión integral, simplificada, corta según los puntos de contacto?
+- ¿Existe versión integral y, cuando los datos se recaban por medios electrónicos, ópticos,
+  sonoros o visuales, el simplificado con las fracc. I a IV del Art. 15 (Art. 16 fracc. II)?
+  El aviso corto solo sirve como remisión adicional.
 - ¿Aviso específico para empleados?
 
 **Dimensión 2: Consentimiento**
 - ¿Cómo se obtiene?
 - Para datos sensibles, ¿es expreso y por escrito?
-- Para transferencias que lo requieren, ¿hay consentimiento expreso?
+- Para transferencias que lo requieren, ¿el aviso trae la cláusula de aceptación (Art. 35) y, si se
+  transfieren datos financieros, patrimoniales o sensibles, se recabó el consentimiento expreso (o
+  expreso y por escrito, en sensibles)?
 - ¿Existe mecanismo para revocar el consentimiento?
 
-**Dimensión 3: Encargado de Datos Personales / Departamento**
+**Dimensión 3: Persona o departamento de datos personales (Art. 29)**
 - ¿Está designada una persona o área?
 - ¿Tiene funciones formalizadas?
 - ¿Es contactable por los titulares (datos en el aviso)?
@@ -267,7 +271,10 @@ Aplica un cuestionario en 7 dimensiones. Lee
 
 **Dimensión 6: Transferencias**
 - ¿Están identificadas?
-- ¿Cuáles requieren consentimiento expreso?
+- ¿Cuáles requieren consentimiento y de qué tipo? (tácito por regla general, mediante la cláusula del
+  Art. 35; expreso si hay datos financieros o patrimoniales, Art. 7, quinto párrafo, o cuando otra
+  disposición lo exija, Art. 7, cuarto párrafo; expreso y por escrito si hay sensibles, Art. 8;
+  ninguno en los supuestos del Art. 36)
 - ¿Existen cláusulas o convenios con los receptores?
 - ¿Hay transferencias internacionales? ¿Cumplen los Arts. 35 y 36 LFPDPPP?
 
@@ -305,8 +312,9 @@ y aplica preguntas adicionales según el giro:
 Lee `references/lineamientos_aviso_privacidad.json` para la estructura
 detallada y casos especiales. El Art. 15 vigente fija **seis fracciones**, igual
 que el Art. 16 de la ley abrogada, pero no las mismas: añade la de datos tratados
-identificando los sensibles (fracc. II) y saca las transferencias, cuya cláusula
-pasa al Art. 35, segundo párrafo:
+identificando los sensibles (fracc. II) y deja fuera la de transferencias (Art. 16
+fracc. V de 2010). La cláusula de aceptación de la transferencia, que estaba en el
+Art. 36 de 2010, sigue en el Art. 35 vigente, segundo párrafo:
 
 1. **Identidad y domicilio del Responsable** (fracc. I)
 2. **Datos personales que se tratan, identificando los sensibles** (fracc. II)
@@ -316,19 +324,26 @@ pasa al Art. 35, segundo párrafo:
 5. **Medios para ejercer los derechos ARCO** (fracc. V)
 6. **Procedimiento para comunicar cambios** al aviso de privacidad (fracc. VI)
 
+### Obligatorios fuera del Art. 15:
+
+- **Cláusula de transferencias**: cuando el Responsable pretenda transferir, el
+  aviso debe contener una cláusula en la que se indique si la persona titular
+  acepta o no la transferencia (Art. 35, segundo párrafo); las transferencias
+  que no requieren consentimiento son las del Art. 36.
+- **Mecanismos y procedimientos para revocar el consentimiento** (Art. 7,
+  último párrafo).
+
 ### Buenas prácticas recomendadas (más allá del mínimo legal):
 
 El aviso puede —y conviene que— siga siendo tan completo como antes. Estos
-elementos ya no son mínimo legal del Art. 15, pero se recomienda conservarlos:
+elementos no están en el Art. 15, pero se recomienda conservarlos:
 
-- **Transferencias** (a quién, para qué, cuáles requieren consentimiento) — su
-  régimen sigue vigente en el Art. 36; documentarlas es buena práctica.
+- **Tabla de transferencias** (a quién, para qué, cuáles requieren consentimiento).
 - **Fundamento legal** que faculta al Responsable.
-- **Datos del encargado/área de datos personales** y **procedimiento para
-  revocar el consentimiento**.
+- **Datos de la persona o departamento de datos personales** (Art. 29).
 
-Genera avisos completos, pero cita correctamente qué es mínimo legal (Art. 15)
-y qué es buena práctica.
+Genera avisos completos, pero cita correctamente qué es mínimo legal (Art. 15),
+qué exige la ley en otros artículos (Arts. 7 y 35) y qué es buena práctica.
 
 ### Plantilla estructurada:
 
@@ -363,20 +378,23 @@ Para el tratamiento de estos datos requerimos su consentimiento
 expreso y por escrito.
 
 TRANSFERENCIAS DE DATOS PERSONALES
-[Si aplica, listar transferencias indicando si requieren consentimiento]
+[Si aplica, listar transferencias indicando si requieren consentimiento, e
+incluir la cláusula en la que la persona titular indique si acepta o no la
+transferencia (Art. 35)]
 
 MECANISMOS PARA EJERCER DERECHOS ARCO
 Usted tiene derecho a conocer (Acceso), corregir (Rectificación),
 cancelar (Cancelación) u oponerse (Oposición) al tratamiento de sus
 datos personales. Para ejercer estos derechos, deberá presentar
-solicitud al correo: [correo del encargado], o en el domicilio
+solicitud al correo: [correo de la persona o departamento de datos personales], o en el domicilio
 señalado, dirigida a [área/persona].
 
 La solicitud deberá contener:
 - Nombre del titular y domicilio o medio para recibir respuesta
 - Documentos que acrediten su identidad o personalidad
 - Descripción clara y precisa de los datos sobre los que solicita
-  ejercer el derecho
+  ejercer el derecho (salvo en el derecho de acceso)
+- Descripción del derecho que se pretende ejercer, o de lo que solicita el titular
 - Cualquier otro elemento que facilite la localización de los datos
 
 Plazo de respuesta: 20 días hábiles desde la recepción.
@@ -395,18 +413,22 @@ Fecha de última actualización: [fecha]
 
 ### Casos especiales:
 - **Datos de menores de edad**: requieren consentimiento de quien ejerza patria potestad o tutela.
-- **Datos sensibles**: siempre consentimiento expreso y por escrito.
-- **Transferencias internacionales**: cumplir Art. 36 LFPDPPP (consentimiento expreso, excepciones tasadas).
+- **Datos sensibles**: consentimiento expreso y por escrito (Art. 8), salvo los supuestos de los Arts. 9 y 36.
+- **Transferencias internacionales**: cumplir los Arts. 35 y 36 LFPDPPP (cláusula de aceptación de la transferencia en el aviso; excepciones tasadas en el Art. 36; consentimiento expreso si se transfieren datos financieros o patrimoniales (Art. 7) y expreso y por escrito si son sensibles (Art. 8)).
 
 ## Módulo 3: Aviso de Privacidad Simplificado
 
 Aplica cuando hay restricciones de espacio (formulario web, ticket, contrato
-breve). Contiene mínimamente:
+breve). Cuando los datos se obtienen por medios electrónicos, ópticos, sonoros,
+visuales o cualquier otra tecnología, el Art. 16 fracc. II exige esta modalidad
+con, al menos, las fracc. I a IV del Art. 15 y el sitio del aviso integral:
 
-1. Identidad del Responsable
-2. Finalidades del tratamiento
-3. Mecanismo para conocer aviso integral (URL, código QR)
-4. Mecanismo para manifestar negativa a finalidades secundarias
+1. Identidad y domicilio del Responsable (fracc. I)
+2. Datos personales que se tratan, identificando los sensibles (fracc. II)
+3. Finalidades del tratamiento, distinguiendo las que requieren consentimiento (fracc. III)
+4. Opciones y medios para limitar el uso o divulgación, incluido el mecanismo
+   para manifestar negativa a finalidades secundarias (fracc. IV)
+5. Sitio donde se puede consultar el aviso integral (URL, código QR)
 
 Plantilla en `assets/plantillas/aviso_simplificado_y_corto.md`.
 
@@ -484,8 +506,10 @@ Plantilla completa en `assets/plantillas/documento_seguridad.md`.
 ### Procedimiento estándar:
 
 **Recepción de solicitud**:
-- Canal: correo electrónico del encargado, formato físico en oficina, formulario web
-- Datos mínimos: identificación del titular, datos a los que se refiere, derecho que se ejerce
+- Canal: correo electrónico de la persona o departamento de datos personales, formato físico en oficina, formulario web
+- Requisitos (Art. 28): nombre y medio para recibir notificaciones, documentos de identidad o
+  representación, descripción de los datos (salvo en el derecho de acceso), derecho que se
+  ejerce o lo que se solicita, y cualquier elemento que facilite localizarlos
 
 **Validación**:
 - Identidad del titular (copia de identificación)

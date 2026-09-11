@@ -17,9 +17,9 @@
 Para efectos del presente Anexo, los términos siguientes tendrán el significado que se les atribuye:
 
 - **LFPDPPP:** Ley Federal de Protección de Datos Personales en Posesión de los Particulares (DOF 20/03/2025; texto vigente, última reforma DOF 14/11/2025) y su Reglamento.
-- **Responsable:** [DENOMINACIÓN del Responsable], que decide sobre el tratamiento de los datos personales.
+- **Responsable:** [DENOMINACIÓN del Responsable], persona física o moral de carácter privado que lleva a cabo el tratamiento de los datos personales (Art. 2 fracc. XIV y XVI LFPDPPP).
 - **Encargado:** [DENOMINACIÓN del Encargado], que trata los datos personales por cuenta del Responsable.
-- **Datos Personales:** Cualquier información concerniente a personas físicas identificadas o identificables, incluyendo en su caso datos personales sensibles.
+- **Datos Personales:** Cualquier información concerniente a una persona identificada o identificable (Art. 2 fracc. V LFPDPPP), incluyendo en su caso datos personales sensibles.
 - **Tratamiento:** Cualquier operación o conjunto de operaciones realizadas sobre Datos Personales (obtención, uso, divulgación, almacenamiento, modificación, supresión, etc.).
 - **Vulneración:** Cualquier evento de pérdida, destrucción, robo, extravío, copia, uso, acceso, daño, alteración o modificación no autorizada de Datos Personales.
 

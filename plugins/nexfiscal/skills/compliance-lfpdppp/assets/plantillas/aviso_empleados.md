@@ -124,7 +124,7 @@ Usted tiene derecho a **A**cceder, **R**ectificar, **C**ancelar u **O**ponerse a
 - **Presencial:** Departamento de Recursos Humanos / [oficina específica]
 - **Formato:** Solicite el formato a Recursos Humanos o descárguelo de [URL]
 
-Su solicitud deberá contener: nombre completo, identificación, descripción clara de los datos y derecho que ejerce.
+Su solicitud deberá contener (Art. 28 LFPDPPP): su nombre y un medio para recibir notificaciones; los documentos que acrediten su identidad o, en su caso, la personalidad e identidad de su representante; la descripción clara y precisa de los datos sobre los que ejerce el derecho (salvo en el derecho de acceso); el derecho que desea ejercer o lo que solicita; y cualquier otro elemento que facilite localizar los datos.
 
 **Plazo de respuesta:** 20 días hábiles
 **Plazo para hacer efectivo el derecho:** 15 días hábiles adicionales

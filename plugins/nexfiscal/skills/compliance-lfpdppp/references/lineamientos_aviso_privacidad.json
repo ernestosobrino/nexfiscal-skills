@@ -4,10 +4,10 @@
     "fuente_buenas_practicas": "Lineamientos del Aviso de Privacidad (DOF 17/01/2013): hoy son buenas prácticas orientadoras, no norma vigente",
     "emisor_lineamientos": "Secretaría de Economía con opinión del entonces IFAI (funciones que hoy corresponden a la Secretaría Anticorrupción y Buen Gobierno)",
     "ultima_revision_doctrinaria": "2026-09",
-    "nota_criterio": "El contenido MÍNIMO obligatorio del aviso de privacidad lo fija el artículo 15 de la LFPDPPP vigente en SEIS fracciones (antes eran los elementos del artículo 16 de la ley abrogada). Los demás elementos (transferencias, revocación del consentimiento, fundamento legal, datos del encargado, fecha de actualización) se conservan como buenas prácticas recomendadas más allá del mínimo legal."
+    "nota_criterio": "El contenido MÍNIMO obligatorio del aviso de privacidad lo fija el artículo 15 de la LFPDPPP vigente en SEIS fracciones (antes eran los elementos del artículo 16 de la ley abrogada). Fuera del artículo 15, la ley exige además la cláusula en la que se indique si la persona titular acepta o no la transferencia, cuando se pretenda transferir (Art. 35, segundo párrafo), y los mecanismos y procedimientos para revocar el consentimiento (Art. 7, último párrafo). El fundamento legal, los datos de la persona o departamento de datos personales y la fecha de actualización se conservan como buenas prácticas recomendadas."
   },
   "modalidades_aviso": {
-    "nota_origen": "La clasificación en tres modalidades (integral, simplificado y corto) proviene de los Lineamientos del Aviso (DOF 17/01/2013), hoy buenas prácticas; sigue siendo útil para modular el aviso según el espacio disponible.",
+    "nota_origen": "La clasificación en tres modalidades (integral, simplificado y corto) proviene de los Lineamientos del Aviso (DOF 17/01/2013), hoy buenas prácticas; sigue siendo útil para modular el aviso según el espacio disponible. Ojo: cuando los datos se obtienen por medios electrónicos, ópticos, sonoros, visuales o cualquier otra tecnología, el Art. 16 fracc. II de la LFPDPPP vigente exige al menos el aviso simplificado (fracc. I a IV del Art. 15 más el sitio del integral); en esos casos el aviso corto no basta.",
     "integral": {
       "definicion": "Aviso completo que se proporciona cuando el primer contacto físico o directo con el titular ocurre en un espacio que permita su lectura completa.",
       "casos_uso": [
@@ -23,16 +23,17 @@
         "Formularios físicos breves",
         "Tickets, recibos, comprobantes",
         "Pantallas pequeñas de aplicación móvil al recabar",
-        "Llamadas telefónicas (versión hablada)"
+        "Llamadas telefónicas (versión hablada; no recabar datos sensibles por este medio: el Art. 8 exige consentimiento expreso y por escrito)",
+        "Banners de cookies en sitios web (Art. 16 fracc. II)",
+        "Captura de imagen en CCTV, con letrero de videovigilancia (Art. 16 fracc. II)",
+        "Encuesta por SMS o formulario web (Art. 16 fracc. II)"
       ]
     },
     "corto": {
       "definicion": "Aviso que se proporciona cuando el espacio sea tan reducido que no permita el aviso simplificado. Solo identificación del responsable, finalidades, y mecanismo para acceder al integral.",
       "casos_uso": [
-        "Cookies en sitios web (banner)",
-        "Captura de imagen en CCTV (aviso de videovigilancia)",
-        "Encuesta por SMS",
-        "Etiquetas o anuncios pequeños"
+        "Etiquetas o anuncios impresos pequeños, solo como remisión adicional al simplificado o al integral",
+        "NO sustituye al simplificado cuando los datos se obtienen por medios electrónicos, ópticos, sonoros o visuales (cookies, CCTV, SMS, app, llamada): ahí el Art. 16 fracc. II exige el simplificado"
       ]
     }
   },
@@ -101,7 +102,7 @@
       "contenido": "Los medios y el procedimiento para que el titular ejerza sus derechos de Acceso, Rectificación, Cancelación y Oposición (ejercicio conforme al Art. 21 de la LFPDPPP vigente).",
       "elementos_minimos": [
         "Datos de contacto de la persona o departamento de datos personales (Art. 29)",
-        "Requisitos de la solicitud conforme al Art. 28 (nombre del titular y medio para comunicarle la respuesta, documentos que acrediten identidad o representación, descripción clara de los datos o del derecho que se ejerce)",
+        "Requisitos de la solicitud conforme al Art. 28 (nombre del titular y medio para comunicarle la respuesta, documentos que acrediten identidad o representación, descripción clara y precisa de los datos, salvo en el derecho de acceso; descripción del derecho que se pretende ejercer o de lo que se solicita; y cualquier otro elemento que facilite la localización de los datos)",
         "Plazos de respuesta: 20 días hábiles, ampliable una sola vez por un periodo igual, más 15 días para materializar (Art. 31)",
         "Medios disponibles (correo, presencial, formulario)",
         "Costos (gratuito; solo pueden cobrarse los costos de reproducción, copias o envío, Art. 34)"
@@ -121,10 +122,11 @@
     }
   },
   "buenas_practicas_recomendadas": {
-    "nota": "Elementos NO exigidos por el mínimo legal del artículo 15 vigente, pero recomendados como buena práctica (varios eran obligatorios bajo el artículo 16 de la ley abrogada). Incluirlos fortalece la transparencia y el cumplimiento.",
+    "nota": "Elementos que no están en el mínimo del artículo 15 vigente. OJO: dos de ellos los exige la ley en otros artículos y NO son opcionales: la cláusula de transferencias cuando se pretenda transferir (Art. 35, segundo párrafo) y los mecanismos para revocar el consentimiento (Art. 7, último párrafo). Los demás son buena práctica (varios eran obligatorios bajo el artículo 16 de la ley abrogada). Incluirlos fortalece la transparencia y el cumplimiento.",
     "transferencias": {
-      "recomendado": true,
-      "contenido": "Para cada transferencia: nombre/categoría del receptor, finalidad de la transferencia, indicar si requiere consentimiento del titular.",
+      "obligatorio": true,
+      "fundamento": "Art. 35, segundo párrafo, LFPDPPP",
+      "contenido": "OBLIGATORIO cuando se pretenda transferir (Art. 35, segundo párrafo): cláusula en la que se indique si la persona titular acepta o no la transferencia de sus datos. Como buena práctica, para cada transferencia: nombre/categoría del receptor, finalidad de la transferencia, indicar si requiere consentimiento del titular.",
       "formato_tabla_recomendado": {
         "destinatario": "Nombre o categoría",
         "finalidad": "Para qué",
@@ -133,8 +135,9 @@
       "transferencias_que_no_requieren_consentimiento": "Listar conforme Art. 36 LFPDPPP cuando aplique."
     },
     "revocacion_del_consentimiento": {
-      "recomendado": true,
-      "contenido": "Procedimiento para que el titular pueda revocar su consentimiento al tratamiento.",
+      "obligatorio": true,
+      "fundamento": "Art. 7, último párrafo, LFPDPPP",
+      "contenido": "OBLIGATORIO (Art. 7, último párrafo): mecanismos y procedimientos para que el titular pueda revocar su consentimiento al tratamiento.",
       "nota": "Generalmente se sigue el mismo procedimiento que los derechos ARCO."
     },
     "fundamento_legal_del_tratamiento": {
@@ -151,10 +154,11 @@
     }
   },
   "elementos_aviso_simplificado": [
-    "Identidad y domicilio del responsable",
-    "Finalidades del tratamiento (al menos las primarias)",
-    "Mecanismo para manifestar negativa a finalidades secundarias",
-    "Medios para acceder al aviso integral"
+    "Identidad y domicilio del responsable (Art. 15 fracc. I)",
+    "Datos personales que serán sometidos a tratamiento, identificando los sensibles (Art. 15 fracc. II)",
+    "Finalidades del tratamiento, distinguiendo las que requieren el consentimiento del titular (Art. 15 fracc. III)",
+    "Opciones y medios para limitar el uso o divulgación de los datos, incluido el mecanismo para manifestar negativa a finalidades secundarias (Art. 15 fracc. IV)",
+    "Sitio donde se puede consultar el aviso integral (Art. 16 fracc. II)"
   ],
   "elementos_aviso_corto": [
     "Identidad del responsable",

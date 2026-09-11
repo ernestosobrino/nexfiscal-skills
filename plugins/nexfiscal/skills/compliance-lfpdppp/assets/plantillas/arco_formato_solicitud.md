@@ -58,7 +58,7 @@ Marque con una "X" el derecho que desea ejercer (puede ser más de uno):
 
 ## 4. Identificación de los datos personales
 
-Describa con la mayor precisión posible los datos sobre los que ejerce el derecho:
+Describa con la mayor precisión posible los datos sobre los que ejerce el derecho (no es obligatorio si solo ejerce el derecho de acceso):
 
 ```
 [Espacio para descripción libre]
